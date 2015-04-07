@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=hmg_weapons_st
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '02B591A2FCE21AA8F7294AADF5204061C345ED52'
+//////</HEADER>//////
