@@ -1,0 +1,1 @@
+call compile preprocessFile "\cw_nineliner_and_notepad\Data\CW_Mort82_252mm\Functions\functions.sqf";
