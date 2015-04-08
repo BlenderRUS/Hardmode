@@ -1,0 +1,407 @@
+﻿#include "script_component.hpp"
+#include "script_macros.hpp"
+#include "script_config.hpp"
+
+#include "cfgFunctions.hpp"
+#include "cfgFactions.hpp"
+
+
+class CfgPatches
+{
+	class hmg_ru_groups
+	{
+		units[]=
+		{
+			// отсюда мотострелки на флоре
+			hmg_infantry_msv_base,
+			hmg_msv_rifleman,
+			hmg_msv_ar,
+			hmg_msv_efreitor,
+			hmg_msv_gp,
+			hmg_msv_machinegunner,
+			hmg_msv_machinegunner_assistant,
+			hmg_msv_at,
+			hmg_msv_aa,
+			hmg_msv_strelok_rpg_assist,
+			hmg_msv_marksman,
+			hmg_msv_officer_armored,
+			hmg_msv_officer,
+			hmg_msv_politruk,
+			hmg_msv_st_tech,
+			hmg_msv_strsh,
+			hmg_msv_ko_r,
+			hmg_msv_ko_gv,
+			hmg_msv_sergeant,
+			hmg_msv_sergeant_zkv,
+			hmg_msv_sergeant_pto,
+			hmg_msv_sergeant_kmb,
+			hmg_msv_sergeant_go,
+			hmg_msv_kmsv,
+			hmg_msv_engineer_st,
+			hmg_msv_engineer,
+			hmg_msv_driver,
+			hmg_msv_driver_st,
+			hmg_msv_gunner,
+			hmg_msv_gunner_zkmb,
+			hmg_msv_st_tech,
+			hmg_msv_rifleman_radist,
+			hmg_msv_rifleman_sbr,		
+			hmg_msv_ags_s,
+			hmg_msv_ags_n,
+			hmg_msv_metis_s,
+			hmg_msv_metis_n,
+			//танковая рота
+			hmg_msv_tank_driver,
+			hmg_msv_tank_gunner,
+			hmg_msv_tank_kommander,
+			hmg_msv_tank_pltkommander,
+			hmg_msv_tank_compkommander,
+			hmg_msv_tank_st_tech,
+			// минометная батарея
+			hmg_msv_voditel,
+			hmg_msv_nomer_rascheta,
+			hmg_msv_master_nomer_rascheta,
+			hmg_msv_starshii_navod4ik,
+			hmg_msv_komandir_minometa,
+			hmg_msv_zkv_komandir_minometa,
+			hmg_msv_voditel_rpg,
+			hmg_msv_komvzvoda_ognevogo,
+			hmg_msv_radist,
+			hmg_msv_st_radist,
+			hmg_msv_dalnomershik,
+			hmg_msv_razved4ik,
+			hmg_msv_komot_art_recon_squad,
+			hmg_msv_komot_podvoza,
+			hmg_msv_starshii_vi4islitel,
+			hmg_msv_komvzvoda_upravlenia,
+			hmg_msv_komandir_minbatr,
+			// медицинский пункт батальона 
+			hmg_msv_medic,
+			hmg_msv_medic_st,
+			hmg_msv_san_instruktor,
+			hmg_msv_voditel_sanitar,
+			hmg_msv_med_leader,
+			// мотострелки на цифре
+			hmg_infantry_msv_s_base,
+			hmg_msv_s_rifleman,
+			hmg_msv_s_efreitor,
+			hmg_msv_s_gp,
+			hmg_msv_s_ar,
+			hmg_msv_s_machinegunner,
+			hmg_msv_s_machinegunner_assistant,
+			hmg_msv_s_at,
+			hmg_msv_s_aa,
+			hmg_msv_s_strelok_rpg_assist,
+			hmg_msv_s_marksman,
+			hmg_msv_s_officer_armored,
+			hmg_msv_s_officer,
+			hmg_msv_s_st_tech,
+			hmg_msv_s_strsh,
+			hmg_msv_s_ko_r,
+			hmg_msv_s_sergeant,
+			hmg_msv_sergeant_zkvo,
+			hmg_msv_s_sergeant_kmb,
+			hmg_msv_s_engineer_st,
+			hmg_msv_s_engineer,
+			hmg_msv_s_driver_msv,
+			hmg_msv_s_driver_st,
+			hmg_msv_s_gunner,
+			hmg_msv_s_medic,
+			hmg_msv_s_medic_dr,
+			hmg_msv_s_medic_st,
+			hmg_msv_s_st_tech,
+			hmg_msv_s_rifleman_radist,
+			hmg_msv_s_gp,
+			hmg_msv_s_gunner_zkmb,
+			hmg_msv_s_sergeant_kmb,
+			hmg_msv_s_ags_s,
+			hmg_msv_s_ags_n,
+			hmg_msv_s_sergeant_pto,
+			hmg_msv_s_kmsv,
+			hmg_msv_s_engineer_st, 
+			hmg_msv_s_engineer,
+			hmg_msv_s_driver,
+			hmg_msv_s_driver_st,
+			hmg_msv_s_gunner,
+			hmg_msv_s_gunner_zkmb,
+			hmg_msv_s_rifleman_radist,
+			hmg_msv_s_rifleman_sbr,
+			hmg_msv_s_ags_s,
+			hmg_msv_s_ags_n,
+			hmg_msv_s_metis_s,
+			hmg_msv_s_metis_n,
+			// танковая рота
+			hmg_msv_s_tank_driver,
+			hmg_msv_s_tank_gunner,
+			hmg_msv_s_tank_kommander,
+			hmg_msv_s_tank_pltkommander,
+			hmg_msv_s_tank_compkommander,
+			hmg_msv_s_tank_tech,
+			// ГСАБатр мотострелкового батальона
+			hmg_msv_s_komvzvoda_sob,
+			hmg_msv_s_radist,
+			hmg_msv_s_st_radist,
+			hmg_msv_s_voditel_radist,
+			hmg_msv_s_razved4ik_dalnomershik,
+			hmg_msv_s_operator_topo,
+			hmg_msv_s_kom_vi4islitel,
+			hmg_msv_s_komandir_gsabatr,
+			hmg_msv_s_sau_kommander,
+			//минометная батарея мотострелкового батальона
+			hmg_msv_s_voditel,
+			hmg_msv_s_nomer_rascheta,
+			hmg_msv_s_master_nomer_rascheta,
+			hmg_msv_s_starshii_navod4ik,
+			hmg_msv_s_komandir_minometa,
+			hmg_msv_s_zkv_komandir_minometa,
+			hmg_msv_s_voditel_rpg,
+			hmg_msv_s_komvzvoda_ognevogo,
+			hmg_msv_s_dalnomershik,
+			hmg_msv_s_razved4ik,
+			hmg_msv_s_komot_art_recon_squad,
+			hmg_msv_s_komot_podvoza,
+			hmg_msv_s_starshii_vi4islitel,
+			hmg_msv_s_komvzvoda_upravlenia,
+			hmg_msv_s_komandir_minbatr,
+			// медицинский взвод батальона 
+			hmg_msv_s_medic,
+			hmg_msv_s_medic_dr,
+			hmg_msv_s_medic_st,
+			hmg_msv_s_san_instruktor,
+			hmg_msv_s_zkv_san_instruktor,
+			hmg_msv_s_voditel_sanitar,
+			hmg_msv_s_felsher,
+			hmg_msv_s_med_leader,
+			// танковая бригада
+			hmg_infantry_tank_base,
+			hmg_tank_rifleman,
+			hmg_tank_ar,
+			hmg_tank_efreitor,
+			hmg_tank_gp,
+			hmg_tank_machinegunner,
+			hmg_tank_machinegunner_assistant,
+			hmg_tank_at,
+			hmg_tank_aa,
+			hmg_tank_strelok_rpg_assist,
+			hmg_tank_marksman,
+			hmg_tank_officer_armored,
+			hmg_tank_officer,
+			hmg_tank_politruk,
+			hmg_tank_strsh,
+			hmg_tank_st_tech_msr,
+			hmg_tank_ko_r,
+			hmg_tank_sergeant,
+			hmg_tank_sergeant_zkv,
+			hmg_tank_sergeant_pto,
+			hmg_tank_sergeant_kmb,
+			hmg_tank_ktank,
+			hmg_tank_engineer_st,
+			hmg_tank_engineer,
+			hmg_tank_driver_msr,
+			hmg_tank_driver_st,
+			hmg_tank_gunner_zkmb,
+			hmg_tank_st_tech,
+			hmg_tank_rifleman_radist,
+			hmg_tank_gp,
+			hmg_tank_gunner_zkmb,
+			hmg_tank_sergeant_kmb,
+			hmg_tank_ags_s,
+			hmg_tank_ags_n,
+			hmg_tank_metis_s,
+			hmg_tank_metis_n,
+			//танковая рота танкового полка
+			hmg_tank_driver,
+			hmg_tank_gunner,
+			hmg_tank_kommander,
+			hmg_tank_pltkommander,
+			hmg_tank_st_tech,
+			hmg_tank_compkommander,
+			// медицинский пункт батальона 
+			hmg_tank_medic,
+			hmg_tank_medic_st,
+			hmg_tank_san_instruktor,
+			hmg_tank_voditel_sanitar,
+			hmg_tank_med_leader,
+			//минометная батарея мотострелкового батальона
+			hmg_tank_voditel,
+			hmg_tank_nomer_rascheta,
+			hmg_tank_master_nomer_rascheta,
+			hmg_tank_starshii_navod4ik,
+			hmg_tank_komandir_minometa,
+			hmg_tank_zkv_komandir_minometa,
+			hmg_tank_voditel_rpg,
+			hmg_tank_komvzvoda_ognevogo,
+			hmg_tank_radist,
+			hmg_tank_st_radist,
+			hmg_tank_dalnomershik,
+			hmg_tank_razved4ik,
+			hmg_tank_komot_art_recon_squad,
+			hmg_tank_komot_podvoza,
+			hmg_tank_starshii_vi4islitel,
+			hmg_tank_komvzvoda_upravlenia,
+			hmg_tank_komandir_minbatr,
+			// мотострелки танковой бригады
+			hmg_infantry_tank_s_base,
+			hmg_tank_s_rifleman,
+			hmg_tank_s_efreitor,
+			hmg_tank_s_gp,
+			hmg_tank_s_ar,
+			hmg_tank_s_machinegunner,
+			hmg_tank_s_machinegunner_assistant,
+			hmg_tank_s_at,
+			hmg_tank_s_aa,
+			hmg_tank_s_strelok_rpg_assist,
+			hmg_tank_s_marksman,
+			hmg_tank_s_officer_armored,
+			hmg_tank_s_officer,
+			hmg_tank_s_strsh,
+			hmg_tank_s_st_tech_msr,
+			hmg_tank_s_ko_r,
+			hmg_tank_s_sergeant,
+			hmg_tank_sergeant_zkvo,
+			hmg_tank_s_sergeant_kmb,
+			hmg_tank_s_sergeant_pto,
+			hmg_tank_s_ktank,
+			hmg_tank_s_engineer_st,
+			hmg_tank_s_engineer,
+			hmg_tank_s_driver_msr,
+			hmg_tank_s_driver_st,
+			hmg_tank_s_gunner_zkmb,
+			hmg_tank_s_rifleman_radist,
+			hmg_tank_s_rifleman_sbr,
+			hmg_tank_s_ags_s,
+			hmg_tank_s_ags_n,
+			hmg_tank_s_metis_s,
+			hmg_tank_s_metis_n,
+			// танковая рота танковой бригады
+			hmg_msv_s_driver,
+			hmg_msv_s_gunner,
+			hmg_msv_s_kommander,
+			hmg_msv_s_pltkommander,
+			hmg_msv_s_st_tech,
+			hmg_msv_s_compkommander,
+			// ГСАБатар мотострелкового батальона танковой бригады
+			hmg_tank_s_voditel,
+			hmg_tank_s_nomer_rascheta,
+			hmg_tank_s_master_nomer_rascheta,
+			hmg_tank_s_starshii_navod4ik,
+			hmg_tank_s_komandir_minometa,
+			hmg_tank_s_zkv_komandir_minometa,
+			hmg_tank_s_voditel_rpg,
+			hmg_tank_s_komvzvoda_sob,
+			hmg_tank_s_radist,
+			hmg_tank_s_st_radist,
+			hmg_tank_s_voditel_radist,
+			hmg_tank_s_dalnomershik,
+			hmg_tank_s_komot_art_recon_squad,
+			hmg_tank_s_komot_podvoza,
+			hmg_tank_s_starshii_vi4islitel,
+			hmg_tank_s_komvzvoda_upravlenia,
+			hmg_tank_s_komandir_minbatr,
+			hmg_tank_s_sau_kommander,
+			// медицинский взвод батальона 
+			hmg_tank_s_medic,
+			hmg_tank_s_medic_dr,
+			hmg_tank_s_medic_st,
+			hmg_tank_s_san_instruktor,
+			hmg_tank_s_zkv_san_instruktor,
+			hmg_tank_s_voditel_sanitar,
+			hmg_tank_s_felsher,
+			hmg_tank_s_med_leader,
+			// вдвшные
+			hmg_vdv_rifleman,
+			hmg_vdv_srifleman,
+			hmg_vdv_gprifleman,
+			hmg_vdv_machinegunner,
+			hmg_vdv_machinegunner_assistant,
+			hmg_vdv_rpg,
+			hmg_vdv_aa,
+			hmg_vdv_rpg_assist,
+			hmg_vdv_sniper_s,
+			hmg_vdv_sniper_n,
+			hmg_vdv_leader,
+			hmg_vdv_cl,
+			hmg_vdv_s_tech,
+			hmg_vdv_strsh,
+			hmg_vdv_pl,
+			hmg_vdv_sl,
+			hmg_vdv_s2_zkvo,
+			hmg_vdv_zkro,
+			hmg_vdv_pdpl,
+			hmg_vdv_driver,
+			hmg_vdv_driver_st,
+			hmg_vdv_gunner,
+			hmg_vdv_medic,
+			hmg_vdv_medic_dr,
+			hmg_vdv_medic_st,
+			hmg_vdv_rifleman_radist,
+			hmg_vdv_tmg,
+			hmg_vdv_tmg_as,
+			
+			hmg_vdv_rifleman_2005,
+			hmg_vdv_srifleman_2005,
+			hmg_vdv_ar_2005,
+			hmg_vdv_rpg_2005,
+			hmg_vdv_rpg_assist_2005,
+			hmg_vdv_leader_2005,
+			hmg_vdv_cl_2005,
+			hmg_vdv_s_tech_2005,
+			hmg_vdv_strsh_2005,
+			hmg_vdv_pl_2005,
+			hmg_vdv_sl_2005,
+			hmg_vdv_zkvo_2005,
+			hmg_vdv_zkro_2005,
+			hmg_vdv_driver_2005,
+			hmg_vdv_driver_st_2005,
+			hmg_vdv_gunner_2005,
+			hmg_vdv_medic_2005,
+			hmg_vdv_medic_dr_2005,
+			hmg_vdv_medic_st_2005,
+			hmg_vdv_rifleman_radist
+			
+		};
+		weapons[]={};
+		requiredVersion = REQUIRED_VERSION;
+		requiredAddons[] = 
+		{
+			"rhs_main","rhs_c_weapons",
+			"A3_Characters_F"
+		};
+		version = VERSION;
+	};
+};
+
+#include "identities.hpp"
+
+#include "rhs_groups.hpp"
+
+class HitPoints;
+class HitHead;
+class HitBody;
+class HitHands;
+class HitLegs;
+
+class DefaultEventHandlers;
+
+class UniformSlotInfo;
+
+class CfgVehicles
+{
+	#include "rhs_backpacks.hpp"
+
+	class Land;
+ class Man: Land
+ {
+  class EventHandlers;
+ };
+ class CAManBase: Man {};
+
+ class SoldierEB;
+	
+	#include "hmg_msv.hpp"
+	#include "hmg_msv_s.hpp"
+	#include "hmg_tank.hpp"
+	#include "hmg_tank_s.hpp"
+	#include "hmg_vdv_pdr.hpp"
+	#include "hmg_mp.hpp"
+};

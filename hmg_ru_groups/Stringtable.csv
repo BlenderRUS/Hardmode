@@ -1,0 +1,158 @@
+﻿////////////////////////////////////////////////////////////////////////////////
+// Localization file (i18n).													//
+// Write only in UTF-8 charset!!!												//
+//																				//
+// $Id:: Stringtable.csv 121 2009-03-24 00:25:33Z ist						$:	//
+////////////////////////////////////////////////////////////////////////////////
+LANGUAGE,					English,				Russian,					German,											French
+// Object names: ///////////////////////////////////////////////////////////////
+STR_RHS_INF_CREW,				Crew,					Экипаж,						Besatzung,									Membre d'équipage
+STR_RHS_INF_CREW_COMMANDER,		Crew Commander,			Командир Экипажа,			Besatzung Kommandant,						Membre d'équipage Chef de bord
+STR_RHS_INF_CREW_ARMORED,		Crew (Armored),			Экипаж (Брон.),				Besatzung (Gepanzert),						Membre d'équipage (Pare éclat)
+STR_RHS_INF_CREW_COMBAT,		Crew (Combat),			Экипаж (Разгр.),			Besatzung (Kampf),							Membre d'équipage (Brelage)
+STR_RHS_INF_RIFLEMAN,			Rifleman,				Стрелок,					Schütze,									Fusilier
+STR_RHS_INF_EFREITOR,			Efreitor,				Eфрейтор,					Gefreiter,									Chef d'équipe
+STR_RHS_INF_GRENADIER,			Grenadier,				Гранатомётчик,				Grenadier,									Grenadier
+STR_RHS_INF_MACHINEGUNNER,		Machine Gunner,			Пулемётчик,					Maschinengewehrschütze,						Mitrailleur
+STR_RHS_INF_MACHINEGUNNER_ASSISTANT,	Machine Gunner Assistant,	Помощник Пулемётчика,	Maschinengewehrschütze Assistent,	Mitrailleur Assistant
+STR_RHS_INF_GRENADIER_RPG,		Grenadier (RPG-7V2),	Гранатомётчик (РПГ-7В2),	Grenadier (RPG-7V2),				Grenadier (RPG-7V2)
+STR_RHS_INF_GRENADIER_RPG_ASSISTANT,	Grenadier Assistant,	Помощник Гранатомётчика,	Grenadier Assistent,				Grenadier Assistant (RPG)
+STR_RHS_INF_MARKSMAN,			Marksman,				Снайпер,					Scharfschütze,								Tireur de précision
+STR_RHS_INF_OFFICER_ARMORED,	Officer (Armored),		Офицер(Брон.),				Offizier (Gepanzert),						Officier (Pare éclat)
+STR_RHS_INF_OFFICER,			Officer,				Офицер,						Offizier,									Officier
+STR_RHS_INF_JUNIOR_SERGEANT,	Junior Sergeant,		Младший Сержант,			Unteroffizier,								Chef de groupe
+STR_RHS_INF_SERGEANT,			Sergeant,				Сержант,					Stabsfeldwebel,								Sous-Officier
+STR_RHS_INF_ENGINEER,			Engineer,				Инженер,					Ingenieur,									Soldat du génie
+STR_RHS_INF_DRIVER,				Driver,					Водитель,					Fahrer,										Conducteur
+STR_RHS_INF_DRIVER_ARMORED,		Driver (Armored),		Водитель (Брон.),			Fahrer (Gepanzert),							Conducteur (Pare éclat)
+STR_RHS_INF_AA,					AA Specialist,			Специалист ПВО,				Luftabwehr Spezialist,						Spécialiste AA
+
+STR_RHS_INF_Medic,				Medic,					Санинструктор,				Sanitäter,									Infirmier
+STR_RHS_INF_LAT,				Rifleman (RPG-26),		Стрелок (РПГ-26),			Schütze (RPG-26),							Fusilier (RPG-26)
+STR_RHS_INF_RSHG2,				Rifleman (RShG-2),		Стрелок (РШГ-2),			Schütze (RShG-2),							Fusilier (RShG-2)
+STR_RHS_PILOT_NAME,		Pilot,		Пилот,		Pilot,         Pilot
+STR_RHS_PILOTCOMBATHELICOPTER_NAME,		Pilot (Combat Helicopter),		Пилот (Боевой Вертолётчик),		Pilot (Combat Helicopter),		Pilot (Combat Helicopter)
+STR_RHS_PILOTTRANSPORT_NAME,		Pilot (Transport),		Пилот (Транспорт),		Pilot (Transport),		Pilot (Transport)
+
+STR_RHS_GROUP_MSV_Infantry,		Infantry,	МСВ Пехота,	MSV (BMP-1),	MSV (BMP-1)
+STR_RHS_GROUP_MSV_MotInfantry,		Mot. Infantry,	МСВ Пехота,	MSV (BMP-1),	MSV (BMP-1)
+STR_RHS_GROUP_MSV_BMP1,		Mech. Inf. (BMP-1),	МСВ (БМП-1),	MSV (BMP-1),	MSV (BMP-1)
+STR_RHS_GROUP_MSV_BMP2,		Mech. Inf. (BMP-2),	МСВ (БМП-2),	MSV (BMP-2),	MSV (BMP-2)
+STR_RHS_GROUP_MSV_BMP3,		Mech. Inf. (BMP-3),	МСВ (БМП-3),	MSV (BMP-3),	MSV (BMP-3)
+STR_RHS_GROUP_MSV_Ural,		Mot. Inf. (URAL-4320),	МСВ (УРАЛ-4320),	MSV (URAL-4320),	MSV (URAL-4320)
+STR_RHS_GROUP_MSV_BTR70,		Mech. Inf. (BTR-70),	МСВ (БТР-70),	MSV (BTR-70),	MSV (BTR-70)
+STR_RHS_GROUP_MSV_BTR80,		Mech. Inf. (BTR-80),	МСВ (БТР-80),	MSV (BTR-80),	MSV (BTR-80)
+STR_RHS_GROUP_MSV_BTR80A,		Mech. Inf. (BTR-80A),	МСВ (БТР-80A),	MSV (BTR-80A),	MSV (BTR-80A)
+
+STR_RHS_GROUP_VDV_Infantry,		Infantry,	ВДВ Пехота,	VDV (BMP-1),	VDV (BMP-1)
+STR_RHS_GROUP_VDV_MotInfantry,		Mot. Inf.,	ВДВ Пехота,	VDV (BMP-1),	VDV (BMP-1)
+STR_RHS_GROUP_VDV_Ural,		Mot. Inf. (URAL-4320),	ВДВ (УРАЛ-4320),	VDV (URAL-4320),	VDV (URAL-4320)
+STR_RHS_GROUP_VDV_GAZ66,		Mot. Inf. (GAZ-66),	ВДВ (ГАЗ-66),	VDV (GAZ-66),	VDV (GAZ-66)
+STR_RHS_GROUP_VDV_BMP1,			Mech. Inf. (BMP-1),	ВДВ (БМП-1),	VDV (BMP-1),	VDV (BMP-1)
+STR_RHS_GROUP_VDV_BMP2,			Mech. Inf. (BMP-2),	ВДВ (БМП-2),	VDV (BMP-2),	VDV (BMP-2)
+STR_RHS_GROUP_VDV_BMD1,			Mech. Inf. (BMD-1),	ВДВ (БМД-1),	VDV (BMD-1),	VDV (BMD-1)
+STR_RHS_GROUP_VDV_BMD2,			Mech. Inf. (BMD-2),	ВДВ (БМД-2),	VDV (BMD-2),	VDV (BMD-2)
+STR_RHS_GROUP_VDV_BMD4,			Mech. Inf. (BMD-4),	ВДВ (БМД-4),	VDV (BMD-4),	VDV (BMD-4)
+STR_RHS_GROUP_VDV_BMD4M,		Mech. Inf. (BMD-4M),	ВДВ (БМД-4М),	VDV (BMD-4M),	VDV (BMD-4M)
+STR_RHS_GROUP_VDV_BMD4MA,		Mech. Inf. (BMD-4M Arena),	ВДВ (БМД-4М Арена),	VDV (BMD-4M Arena),	VDV (BMD-4M Arena)
+
+STR_RHS_GROUP_VDV_Mi8,		Air Assault (Mi-8),	ВДВ (Ми-8),	VDV (Mi-8),	VDV (Mi-8)
+STR_RHS_GROUP_VDV_Mi24,		Air Recon (Mi-24),	ВДВ (Ми-24),	VDV (Mi-24),	VDV (Mi-24)
+
+STR_RHS_GROUP_VDV_BTR60,		Mech. Inf. (BTR-60),	ВДВ (БТР-60),	VDV (BTR-60),	VDV (BTR-60)
+STR_RHS_GROUP_VDV_BTR70,		Mech. Inf. (BTR-70),	ВДВ (БТР-70),	VDV (BTR-70),	VDV (BTR-70)
+
+// Groups: /////////////////////////////////////////////////////////////////////
+STR_RHS_GROUPS_COMPANY_HQ,	Company HQ, Группа Командира Роты, Company HQ, Company HQ
+STR_RHS_GROUPS_SQUAD,	Squad, Отряд, Squad, Squad
+STR_RHS_GROUPS_SQUAD_2MG,	Squad (2x GPMG), Отряд (2x ПКМ), Squad (2x GPMG), Squad (2x GPMG)
+STR_RHS_GROUPS_SQUAD_SNIPER,	Squad (Marksman), Отряд (Снайпер), Squad (Marksman), Squad (Marksman)
+STR_RHS_GROUPS_SQUAD_MG_SNIPER,	Squad (GPMG + Marksman), Отряд (Снайпер + ПКМ), Squad (GPMG + Marksman), Squad (GPMG + Marksman)
+STR_RHS_GROUPS_SQUAD_AA,	Squad (AA), Отряд (ПВО), Squad (AA), Squad (AA)
+
+STR_RHS_GROUPS_SECTION_MG,	Section MG, Отряд, Section MG, Section MG
+STR_RHS_GROUPS_SECTION_MARKSMAN,	Section Marksman, Отряд, Section Marksman, Section Marksman
+STR_RHS_GROUPS_SECTION_AT,	Section AT, Отряд, Section AT, Section AT
+STR_RHS_GROUPS_SECTION_AA,	Section AA, Отряд, Section AA, Section AA
+STR_RHS_GROUPS_RUS_FIRETEAM,	Fireteam, Огневая группа, Fireteam, Fireteam
+STR_RHS_GROUPS_RUS_MANEUVER,	Maneuver team, Маневрная группа, Maneuver team, Maneuver team
+
+// Gear: ///////////////////////////////////////////////////////////////////////
+STR_RHS_SCARF_NAME,		Scarf,		Шарф,		Scarf,		Scarf
+STR_RHS_BALACLAVA_NAME,		Balaclava,		Балаклава,		Balaclava,		Balaclava
+STR_RHS_FLORAMSV_NAME,		Flora (MSV),		Флора (МСВ),		Flora (MSV),		Flora (MSV)
+STR_RHS_DF152_NAME,		DF-15-2,		ДФ-15-2,		DF-15-2,		DF-15-2
+STR_RHS_EMRSUMMERVDV_NAME,		EMR-Summer (VDV),		ЕМР-Лето (ВДВ),		EMR-Summer (VDV),		EMR-Summer (VDV)
+STR_RHS_EMRSUMMERMSV_NAME,		EMR-Summer (MSV),		ЕМР-Лето (МСВ),		EMR-Summer (MSV),		EMR-Summer (MSV)
+STR_RHS_FLORAVDV_NAME,		Flora (VDV),		Флора (ВДВ),		Flora (VDV),		Flora (VDV)
+STR_RHS_MOUNTAINFLORAVDV_NAME,		Mountain Flora (VDV),		Горная Флора (ВДВ),		Mountain Flora (VDV),		Mountain Flora (VDV)
+STR_RHS_UMBTSBACKPACK_NAME,		UMBTS Backpack,		УМБТС Рюкзак,		UMBTS Backpack,		UMBTS Backpack
+STR_RHS_UMBTSBACKPACKENGINEER_NAME,		UMBTS Backpack (Engineer),		УМБТС Рюкзак (Инженер),		UMBTS Backpack (Engineer),		UMBTS Backpack (Engineer)
+STR_RHS_UMBTSBACKPACKMEDIC_NAME,		UMBTS Backpack (Medic),		УМБТС Рюкзак (Медик),		UMBTS Backpack (Medic),		UMBTS Backpack (Medic)
+STR_RHS_UMBTSBACKPACKDEMOLITIONS_NAME,		UMBTS Backpack (Demolitions),		УМБТС Рюкзак (Взрывчатка),		UMBTS Backpack (Demolitions),		UMBTS Backpack (Demolitions)
+STR_RHS_RPGCARRIER_NAME,		RPG Carrier,		Сумка РПГ,		RPG Carrier,		RPG Carrier
+STR_RHS_SIDOR_NAME,		Sidor,		Сидор,		Sidor,		Sidor
+STR_RHS_SIDORPKBOXES_NAME,		Sidor (PK Boxes),		Сидор (ПК),		Sidor (PK Boxes),		Sidor (PK Boxes)
+STR_RHS_FIELDCAP_NAME,		Field Cap,		Кепка,		Field Cap,		Field Cap
+STR_RHS_FIELDCAP6B27M_NAME,		Field Cap (6B27M),		Кепка (6Б27М),		Field Cap (6B27M),		Field Cap (6B27M)
+STR_RHS_FIELDCAP6B27MEMRSUMMER_NAME,		Field Cap (6B27M EMR-Summer),		Кепка (6Б27М ЕМР-Лето),		Field Cap (6B27M EMR-Summer),		Field Cap (6B27M EMR-Summer)
+STR_RHS_TSH4_NAME,		TSh-4,		ТШ-4,		TSh-4,		TSh-4
+STR_RHS_TSH4ESS_NAME,		TSh-4 (ESS),		ТШ-4 (ЕСС),		TSh-4 (ESS),		TSh-4 (ESS)
+STR_RHS_6B27MFLORA_NAME,		6B27M Flora,		6Б27М Флора,		6B27M Flora,		6B27M Flora
+STR_RHS_6B28EMRSUMMER_NAME,		6B28 EMR-Summer,		6Б28 ЕМР-Лето,		6B28 EMR-Summer,		6B28 EMR-Summer
+STR_RHS_6B28EMRSUMMERESS_NAME,		6B28 EMR-Summer (ESS),		6Б28 ЕМР-Лето (ЕСС),		6B28 EMR-Summer (ESS),		6B28 EMR-Summer (ESS)
+STR_RHS_6B28FLORA_NAME,		6B28 Flora,		6Б28 Флора,		6B28 Flora,		6B28 Flora
+STR_RHS_6B28FLORAESS_NAME,		6B28 Flora (ESS),		6Б28 Флора (ЕСС),		6B28 Flora (ESS),		6B28 Flora (ESS)
+STR_RHS_6B27MEMRSUMMER_NAME,		6B27M EMR-Summer,		6Б27М ЕМР-Лето,		6B27M EMR-Summer,		6B27M EMR-Summer
+STR_RHS_6B27M_NAME,		6B27M,		6Б27М,		6B27M,		6B27M
+STR_RHS_6B28_NAME,		6B28,		6Б28,		6B28,		6B28
+STR_RHS_6B28ESS_NAME,		6B28 (ESS),		6Б28 (ЕСС),		6B28 (ESS),		6B28 (ESS)
+STR_RHS_6B27MFLORAESS_NAME,		6B27M Flora (ESS),		6Б27М Флора (ЕСС),		6B27M Flora (ESS),		6B27M Flora (ESS)
+STR_RHS_6B27MESS_NAME,		6B27M (ESS),		6Б27М (ЕСС),		6B27M (ESS),		6B27M (ESS)
+STR_RHS_BOONIEHATEMRSUMMER_NAME,		Boonie Hat EMR-Summer,		Панама ЕМР-Суммер,		Boonie Hat EMR-Summer,		Boonie Hat EMR-Summer
+STR_RHS_FIELDCAPEMRSUMMER_NAME,		Field Cap EMR-Summer,		Кепка ЕМР-Лето,		Field Cap EMR-Summer,		Field Cap EMR-Summer
+STR_RHS_ZSH7AKM35_NAME,		ZSh-7A (KM-35),		ЗШ-7А (КМ-35),		ZSh-7A (KM-35),		ZSh-7A (KM-35)
+STR_RHS_ZSH7A_NAME,		ZSh-7A,		ЗШ-7А,		ZSh-7A,		ZSh-7A
+STR_RHS_TSH4BALACLAVA_NAME,		TSh-4 (Balaclava),		ТШ-4 (Балаклава),		TSh-4 (Balaclava),		TSh-4 (Balaclava)
+STR_RHS_TSH4ESSBALACLAVA_NAME,		TSh-4 (ESS/Balaclava),		ТШ-4 (ЕСС/Балаклава),		TSh-4 (ESS/Balaclava),		TSh-4 (ESS/Balaclava)
+STR_RHS_6B27MFLORABALACLAVA_NAME,		6B27M Flora (Balaclava),		6Б27М Флора (Балаклава),		6B27M Flora (Balaclava),		6B27M Flora (Balaclava)
+STR_RHS_6B28EMRSUMMERBALACLAVA_NAME,		6B28 EMR-Summer (Balaclava),		6Б28 ЕМР-Лето (Балаклава),		6B28 EMR-Summer (Balaclava),		6B28 EMR-Summer (Balaclava)
+STR_RHS_6B28EMRSUMMERESSBALACLAVA_NAME,		6B28 EMR-Summer (ESS/Balaclava),		6Б28 ЕМР-Лето (ЕСС/Балаклава),		6B28 EMR-Summer (ESS/Balaclava),		6B28 EMR-Summer (ESS/Balaclava)
+STR_RHS_6B28FLORABALACLAVA_NAME,		6B28 Flora (Balaclava),		6Б28 Флора (Балаклава),		6B28 Flora (Balaclava),		6B28 Flora (Balaclava)
+STR_RHS_6B28FLORAESSBALACLAVA_NAME,		6B28 Flora (ESS/Balaclava),		6Б28 Флора (ЕСС/Балаклава),		6B28 Flora (ESS/Balaclava),		6B28 Flora (ESS/Balaclava)
+STR_RHS_6B27MEMRSUMMERBALACLAVA_NAME,		6B27M EMR-Summer (Balaclava),		6Б27М ЕМР-Лето (Балаклава),		6B27M EMR-Summer (Balaclava),		6B27M EMR-Summer (Balaclava)
+STR_RHS_6B27MBALACLAVA_NAME,		6B27M (Balaclava),		6Б27М (Балаклава),		6B27M (Balaclava),		6B27M (Balaclava)
+STR_RHS_6B28BALACLAVA_NAME,		6B28 (Balaclava),		6Б28 (Балаклава),		6B28 (Balaclava),		6B28 (Balaclava)
+STR_RHS_6B28ESSBALACLAVA_NAME,		6B28 (ESS/Balaclava),		6Б28 (ЕСС/Балаклава),		6B28 (ESS/Balaclava),		6B28 (ESS/Balaclava)
+STR_RHS_6B27MFLORAESSBALACLAVA_NAME,		6B27M Flora (ESS/Balaclava),		6Б27М Флора (ЕСС/Балаклава),		6B27M Flora (ESS/Balaclava),		6B27M Flora (ESS/Balaclava)
+STR_RHS_6B27MESSBALACLAVA_NAME,		6B27M (ESS/Balaclava),		6Б27М (ЕСС/Балаклава),		6B27M (ESS/Balaclava),		6B27M (ESS/Balaclava)
+
+STR_RHS_6SH46_NAME,		6Sh46,		6Ш46,		6Sh46,		6Sh46
+STR_RHS_MAPCASEANDHOLSTER_NAME,		Mapcase and Holster,		Карта и Кобура,		Mapcase and Holster,		Mapcase and Holster
+STR_RHS_6B23_NAME,		6B23,		6Б23,		6B23,		6B23
+STR_RHS_6B23CREW_NAME,		6B23 (Crew),		6Б23 (Экипаж),		6B23 (Crew),		6B23 (Crew)
+STR_RHS_6B23ENGINEER_NAME,		6B23 (Engineer),		6Б23 (Инженер),		6B23 (Engineer),		6B23 (Engineer
+STR_RHS_6B23MEDIC_NAME,		6B23 (Medic),		6Б23 (Медик),		6B23 (Medic) ,		6B23 (Medic)
+STR_RHS_6B23RIFLEMAN_NAME,		6B23 (Rifleman),		6Б23 (Стрелок),		6B23 (Rifleman),		6B23 (Rifleman)
+STR_RHS_6B23CREWOFFICER_NAME,		6B23 (Crew Officer),		6Б23 (Оффицер Экипажа),		6B23 (Crew Officer),		6B23 (Crew Officer)
+STR_RHS_6B23SNIPER_NAME,		6B23 (Sniper),		6Б23 (Снайпер),		6B23 (Sniper),		6B23 (Sniper)
+STR_RHS_6B236SH92_NAME,		6B23 (6Sh92),		6Б23 (6Ш92),		6B23 (6Sh92),		6B23 (6Sh92)
+STR_RHS_6B236SH92VOG_NAME,		6B23 (6Sh92/VOG),		6Б23 (6Ш92/ВОГ),		6B23 (6Sh92/VOG),		6B23 (6Sh92/VOG)
+STR_RHS_6B236SH92VOGHEADSET_NAME,		6B23 (6Sh92/VOG/Headset),		6Б23 (6Ш92/ВОГ/Радио),		6B23 (6Sh92/VOG/Headset),		6B23 (6Sh92/VOG/Headset)
+STR_RHS_6B236SH92HEADSET_NAME,		6B23 (6Sh92/Headset),		6Б23 (6Ш92/Радио),		6B23 (6Sh92/Headset),		6B23 (6Sh92/Headset)
+STR_RHS_6B236SH92HEADSETMAPCASE_NAME,		6B23 (6Sh92/Headset/Mapcase),		6Б23 (6Ш92/Радио/Карта),		6B23 (6Sh92/Headset/Mapcase),		6B23 (6Sh92/Headset/Mapcase)
+STR_RHS_6B236SH92RADIO_NAME,		6B23 (6Sh92/Radio),		6Б23 (6Ш92/Радиостанция),		6B23 (6Sh92/Radio),		6B23 (6Sh92/Radio)
+STR_RHS_6B23EMRSUMMER_NAME,		6B23 EMR-Summer,		6Б23 ЕМР-Лето,		6B23 EMR-Summer,		6B23 EMR-Summer
+STR_RHS_6B23EMRSUMMERCREW_NAME,		6B23 EMR-Summer (Crew),		6Б23 ЕМР-Лето (Экипаж),		6B23 EMR-Summer (Crew),		6B23 EMR-Summer (Crew)
+STR_RHS_6B23EMRSUMMERENGINEER_NAME,		6B23 EMR-Summer (Engineer),		6Б23 ЕМР-Летo (Инженер),		6B23 EMR-Summer (Engineer),		6B23 EMR-Summer (Engineer)
+STR_RHS_6B23EMRSUMMERMEDIC_NAME,		6B23 EMR-Summer (Medic),		6Б23 ЕМР-Лето (Медик),		6B23 EMR-Summer (Medic),		6B23 EMR-Summer (Medic)
+STR_RHS_6B23EMRSUMMERRIFLEMAN_NAME,		6B23 EMR-Summer (Rifleman),		6Б23 ЕМР-Лето (Стрелок),		6B23 EMR-Summer (Rifleman),		6B23 EMR-Summer (Rifleman)
+STR_RHS_6B23EMRSUMMERCREWOFFICER_NAME,		6B23 EMR-Summer (Crew Officer),		6Б23 ЕМР-Лето(Оффицер Экипажа),		6B23 EMR-Summer (Crew Officer),		6B23 EMR-Summer (Crew Officer)
+STR_RHS_6B23EMRSUMMERSNIPER_NAME,		6B23 EMR-Summer (Sniper),		6Б23 ЕМР-Лето (Снайпер),		6B23 EMR-Summer (Sniper),		6B23 EMR-Summer (Sniper)
+STR_RHS_6B23EMRSUMMER6SH92_NAME,		6B23 EMR-Summer (6Sh92),		6Б23 ЕМР-Лето (6Ш92),		6B23 EMR-Summer (6Sh92),		6B23 EMR-Summer (6Sh92)
+STR_RHS_6B23EMRSUMMER6SH92VOG_NAME,		6B23 EMR-Summer (6Sh92/VOG),		6Б23 ЕМР-Лето (6Ш92/ВОГ),		6B23 EMR-Summer (6Sh92/VOG),		6B23 EMR-Summer (6Sh92/VOG)
+STR_RHS_6B23EMRSUMMER6SH92VOGHEADSET_NAME,		6B23 EMR-Summer (6Sh92/VOG/Headset),		6Б23 ЕМР-Летo (6Ш92/ВОГ/Радио),		6B23 EMR-Summer (6Sh92/VOG/Headset),		6B23 EMR-Summer (6Sh92/VOG/Headset)
+STR_RHS_6B23EMRSUMMER6SH92HEADSET_NAME,		6B23 EMR-Summer (6Sh92/Headset),		6Б23 ЕМР-Лето (6Ш92/Радио),		6B23 EMR-Summer (6Sh92/Headset),		6B23 EMR-Summer (6Sh92/Headset)
+STR_RHS_6B23EMRSUMMER6SH92HEADSETMAPCASE_NAME,		6B23 EMR-Summer (6Sh92/Headset/Mapcase),		6Б23 ЕМР-Лето (6Ш92/Радио/Карта),		6B23 EMR-Summer (6Sh92/Headset/Mapcase),		6B23 EMR-Summer (6Sh92/Headset/Mapcase)
+STR_RHS_6B23EMRSUMMER6SH92RADIO_NAME,		6B23 EMR-Summer (6Sh92/Radio),		6Б23 ЕМР-Лето (6Ш92/Радиостанция),		6B23 EMR-Summer (6Sh92/Radio),		6B23 EMR-Summer (6Sh92/Radio)
+STR_RHS_VYDRA3M_NAME,		Vydra-3M,		Выдра-3М,		Vydra-3M,		Vydra-3M

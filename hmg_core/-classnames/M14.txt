@@ -1,0 +1,76 @@
+[====================================================]
+|  HLC M14s
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a) add @hlcmods to your Arma3 launch -mods switch
+2b.i) start up Arma3
+2b.i) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+So the M14 is the big F-You to FN Herstal and the FAL. At it's core, it's more or less just an Auto-fire capable M1 Garand that feeds from external mags instead of en-block clips, for better or worse. of the "Big 3" .308 battle rifles of the era, the M14 is the most cumbersome, but like it's parent design, is a nail-driver. It was so good at it that it well outlived it's immediate successor (the orginal M16) in US Armed force usage. The latest iteration, the Mk14 EBR/M39 EMR platforms though, likely signal the end of it's life , as the adoption of those was primarily decided due to an abundance of mothballed M14s and a distinct lack of 7.62 NATO effectiveness in the current arid conflicts, and M110s and Mk11s were in short supply. 
+
+Classnames-
+hlc_rifle_M14		 - M14 (Infantry Rifle)
+hlc_rifle_M21		 - M21 Marksman Rifle ( Removal of select fire, Addition of Fibreglass stock and Harris Bipod)
+hlc_rifle_M14DMR		 - M14 DMR (USMC Designated Marksman Weapon. ArmA2 DMR)
+hlc_rifle_m14sopmod	 - Troy M14 SOPMOD (Precursor to the EBR. Modernised M14 Chasis)
+hlc_muzzle_snds_M14	-Sound Suppressor for the M14 Rifles 
+hlc_optic_artel_m14	-  Redfield AR-TEL Optic (3-9x Scope. Sadly, it's impossible in the engine to replicate the locked zoom:zero function)
+hlc_optic_LRT_m14	- Leupold LR/T (Effectively the same as the LRPS that's already ingame)
+hlc_20Rnd_762x51_B_M14	 - 20 Round magazine of 7.62x51mm Ball Rounds (i.e, standard bullets)
+hlc_20rnd_762x51_T_M14	 - 20 Round magazine of 7.62x51mm Tracer Rounds
+hlc_50rnd_762x51_M_M14	 - 50 Round magazine of 7.62x51mm Mixed at a ratio of 1 Tracer for every 5 Standard Ball rounds (X-systems drum mag, so you can have the SAW be interoperable with the rest of the squad.)
+
+Changelog
+============
+V1.4
+============
+-Corrected typo in Suppressor inheritance
+- Added Mk316 and Barrier ball magazines for M!4
+- Added Aim-over-the-top alternate optic mode
+V1.3
+============
+-Added support to Bipod support for AGM
+-Added Bipod Support for CSE
+-Added support for Advanced Ballistics mod  (by, and with values provided by, Ruthberg, BIG thanks to you for that, mate)
+-slight adjustments to overall AI accuracy (should no longer be able to use the M14/M14 SOPMOD with pinpoint accuracy in full auto)
+- Altered Inheritance of suppressors.
+- Altered AR-TEL Function - To change zoom/zero you now switch optic mode (default Keypad /). This is in an effort to replicate the real-life function of the scope, where Zoom and Zero move in linked fashion, Vertical marks represent 30 inches at 300m, horizontal are 60.
+V1.2
+============
+- M14 Suppressor No longer dampens ballistics or damage
+- Added: hlc_20Rnd_762x51_S_M14 Subsonic magazine
+- Most RVMATs specular value decresed slightly
+- Added New Icon for X-14 magazine
+- Added: AN/PVS4 4x Night Optic for M14s
+
+============
+V1.1- made compatible with the V1.24 Arma3 Update
+
+
+Credits-
+============
+Bohemia Interactive- Arma2 Sample resources(Meshes, Sounds, RVMATs, Textures), some script lines. (M14DMR,Bipod, LR/T)
+An_aggressive_napkin - M14 mesh
+Millenia - M14 Textures
+Millenia - AR-TEL Mesh and textures
+General Tso,Twinke Masta Johan Santana, Jihad - M14SOPMOD Mesh
+Twinke Masta Johan Santana,Pete, Thanez - M14SOPMOD textures, Suppressor Mesh
+Toadie- Scripting, configs, all LODs bar primary MLODs, Sounds, Material Ports, Texture Edits
+Vunsunta- Sounds
+Clifton Vlodhammer - Animation
+Additional Thanks-
+============
+
+The HLC/SHARBSE crew for being awesome, tolerant of oddities and allround rad blokes
+Kerc Kasha, for answering all my awkward hour config and scripting questions and basicly firing me up to work on Arma stuff. 
+Kiory , for working out the 3DS-Oxygen Pipeline. We may have FBX now, but I find .3ds somehow more comforting still. 
+SV98- Kudos for the testing. 

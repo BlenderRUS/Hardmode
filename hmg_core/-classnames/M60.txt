@@ -1,0 +1,65 @@
+[====================================================]
+|  HLC M60E4
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a) add @hlcmods to your Arma3 launch -mods switch
+2b.i) start up Arma3
+2b.i) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+M60E4, the second-to-last iteration the venerable, yet fundamentally flawed weapons system introduced in the 1950s to replace and supplement the M1918 Browning Automatic Rifle. 
+As set up within ,the M60 comes with one M1913 Rail on the Assembly cover, which makes it compatible with the use of any ASDG_JointRails-compatible optics mounts (even the DMS, though it looks DOPEY AS FUCK)
+
+
+Classnames-
+hlc_lmg_M60E4		 - M60E4
+hlc_lmg_m60		-  M60 (original variant, no rails, longer, heavier)
+hlc_100Rnd_762x51_B_M60E4	 - 100 Round magazine of 7.62x51mm Ball Rounds (i.e, standard bullets)
+hlc_100Rnd_762x51_T_M60E4	 - 100 Round magazine of 7.62x51mm Tracer Rounds
+hlc_100Rnd_762x51_M_M60E4	 - 100 Round magazine of 7.62x51mm Mixed at a ratio of 1 Tracer for every 2 Standard Ball rounds
+
+
+Changelog
+============
+V7b-
+-Added support to Bipod functionality and Overheating/Barrel Swapping support for AGM (For real this time)
+V7-
+-Added support to Bipod functionality and Overheating/Barrel Swapping support for AGM
+-Added Bipod Support for CSE
+-Added support for Advanced Ballistics mob  (by, and with values provided by, Ruthberg, BIG thanks to you for that, mate)
+
+V6- 
+ *hotfix*
+- Removed "10 round burst"
+V5-
+- All M60s now slightly less accurate in the hands of AI, treated like Mg (AI will fire bursts at distance)
+- M60s now classified as MG
+V4- 	Made compatible with config changes in the V1.24 Arma3 update. 
+	Fixed inheritancy issue on hlc_lmg_m60, no longer supports optical attachments
+V3 - Updated pack to make compatible with HLC_core v0.2
+- Added hlc_lmg_m60
+V2 - Removed dependance error re: sks_normalwood_co.paa
+V1 Hotfix - Removed hlc_optic_pso1 from compatibleitems list
+
+
+Credits-
+============
+Bohemia Interactive- Arma2 Sample resources(Meshes, Sounds, RVMATs, Textures), some script lines. 
+Toadie- Scripts, Sound Mixing, Material Ports, Animation
+Vunsunta- Sounds
+Anders- Reload Sound
+
+Additional Thanks-
+============
+
+The HLC/SHARBSE crew for being awesome, tolerant of oddities and allround rad blokes
+Kerc Kasha, for answering all my awkward hour config and scripting questions and basicly firing me up to work on Arma stuff. 
+Kiory , for working out the 3DS-Oxygen Pipeline. We may have FBX now, but I find .3ds somehow more comforting still. 

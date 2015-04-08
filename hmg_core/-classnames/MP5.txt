@@ -1,0 +1,75 @@
+[====================================================]
+|  HLC M60E4
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a) add @hlcmods to your Arma3 launch -mods switch
+2b.i) start up Arma3
+2b.i) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+When it comes to the 9mm Parabellum round, theres really only one weapon family that makes it work for it's keep- the MP5.
+Pistol-round SMG variant of the venerable G3 rifle- an SMG so good that it's been in the arms of police and SF unit for half a century now. Everything that the MP5 is can be attributed to it's parented design, but it's longstanding can only be attributed to just how much performance it squeezes out of a pistol round. The M4 may be the new contender for the position of door-banger's choice for it's ability to engage at ranges longer than 150m, but the MP5 more than holds it's own right up to the VERY margin of that line and slightly beyond withit's free-float barrel (only held back by the sheer limitations of the round).
+In short, the MP5 eats what you feed it, shoots where you point it, runs how you need it to and breaks down how you'd like it to.
+
+In this pack you get 10 variations of the venerable SMG, from it's most basic as the MP5a2 to the most extravegant as the  MP5/10 and everything in between. Additionally three suppressors are provided. No two of these weapons are identical in performance, weight, or inertia. Very similar, but not the same.
+
+Classnames
+============
+hlc_muzzle_Agendasix	- Suppressor for all 9x19mm Mp5s EXCEPT MP5k/MP5k-pdw (HK three-lug mount)
+hlc_muzzle_Tundra		- Suppressor for all 9x19mm Mp5s
+hlc_muzzle_Agendasix10mm	- Suppressor for MP5/10
+hlc_smg_mp5k_PDW	- MP5K-PDW (Primary Weapon Slot)
+hlc_smg_mp5k		- MP5K (Secondary weapon slot. Warning: Visual overstretch on left arm, nothing I can do about it without an overhaul to the way Arma handles pistol animations. This is why it's not in the ammo box)
+hlc_smg_mp5a2		- MP5A2 (Full-Stock, SEF Triggerpack)
+hlc_smg_mp5a3		- MP5A3 (Retractable Stock, SEF Triggerpack)
+
+====The above do NOT accept side-rail attachments. The below ACCEPT side-rail attachments====
+
+hlc_smg_mp5a4		- MP5A4 (Full Stock, "Navy" Triggerpack)
+hlc_smg_mp5n		- MP5N (Telescoping stock, "Navy" Triggerpack)
+hlc_smg_mp510		- MP5/10 (Full Stock, "Navy" Triggerpack,10mm Auto)
+hlc_smg_mp5sd5		- MP5SD5 (Full Stock, "Navy" Triggerpack, integrally suppressed)
+hlc_smg_mp5sd6		- MP5SD5 (Telescoping stock, "Navy" Triggerpack, integrally suppressed)
+hlc_smg_9mmar		- 'Navy' SMG (Homage to Half-life. MP5N with permenantly affixed KAC tri-rail and M203-PI. Now someone jsut needs to make the Grunts, a black-mesa-esque New Mexico map and we're golden.)
+hlc_30Rnd_9x19_B_MP5	 - 30 Round MP5 Magazine of 9x19mm M882 NATO Ball
+hlc_30Rnd_9x19_GD_MP5	 - 30 Round MP5 Magazine of 9x19mm LE Jacketed Hollowpoints
+hlc_30Rnd_9x19_SD_MP5	 - 30 Round MP5 Magazine of 9x19mm M882 Ball loaded to subsonic rates
+hlc_30Rnd_10mm_B_MP5	 - 30 Round MP5 Magazine of 10mm Auto FMJ
+hlc_30Rnd_10mm_JHP_MP5	 - 30 Round MP5 Magazine of 10mm Auto LE Jacketed Hollowpoints
+
+Changelog
+============
+V1.2
+===========
+- Corrected typo in suppressor inheritance
+V1.1
+===========
+- Added support to Advanced Ballistics mod
+- Altered Inheritance of suppressors.
+
+Credits-
+============
+Spartan0536 - 9x19mm Ballistics
+Twinke-masta (Johan Santana)  - MP5 Base Mesh/UV
+Geno - Mp5 Textures
+Christian Oelund - MP5K-PDW Stock, Rear rotary drum - FireArms Source (http://http://www.firearms-source.com/)
+Toadie - Animation,sound mixing,  MP5/10 Reciever Texture, MP5/10 Magazine texture, Agenda Six Suppressor
+r_populik - Gemtech Tundra mesh/textures
+Milo - MP5SD Suppressor Mesh
+El Maestro Del Graffiti - Mp5SD Suppressor texture
+zulmargera87- Mp5 low-profile clawmount mesh/textures
+Thanez- KAC MP5 Rail mount mesh/textures, MP5k Foregrip, reciever, endcap textures
+Tigg- M203 mesh/textures, Rail covers
+
+Sound samples from -
+Vunsunta, Chuck Russom, Frank Bry
+
+

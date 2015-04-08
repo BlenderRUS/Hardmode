@@ -1,0 +1,88 @@
+[====================================================]
+|  HLC G3s
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a) add @hlcmods to your Arma3 launch -mods switch
+2b.i) start up Arma3
+2b.i) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+The G3's got a long history, the original design concepts originating in the Mauser factories at the end of WW2. The designers moved to spain to work on the design, ultimately producing the CETME Modelo 5, and ultimately moving back to work with H&K once the bar on arms manufacturing in Gemany lifted. 
+
+Classnames-
+hlc_rifle_g3sg1		 - H&K G3SG1 (Designated marksman rifle)
+hlc_rifle_psg1		 - H&K PSG1 (Sniper Weapon System. So dedcated to the role that the tripod that it mounts to is not integral to the weapon)
+hlc_rifle_g3a3		 - H&K G3A3 (Infantry Rifle)
+hlc_rifle_g3ka4		 - H&K G3KA4 (Modernised,slightly shorter Infantry rifle)
+HLC_Rifle_g3ka4_GL		 - H&K G3KA4 + M203
+hlc_rifle_hk51		 - FR Ordnance MC51 (G3 rifle made as compact as an MP5. A Specfic request made by the SAS, apparently 50 made, but none saw combat)
+hlc_rifle_hk53		 - H&K HK53 (H&K's formalised solution to the SASR's dilemma, essentially an HK33 made to fit the same size package as the MP5)
+hlc_muzzle_snds_HK33	-  Sound Suppressor for the HK53 (and later, the HK33)
+hlc_muzzle_snds_G3		-Sound Suppressor for the G3 Rifles (PSG excluded)
+HLC_Optic_ZFSG1		- Zeiss Diavari 1.5-6x Rifle Optic in high-profile mount (Modern day as-equivelant to the ZFSG1. Altscope mode uses the Mount's peephole)
+hlc_optic_accupoint_g3	- Trijicon Accupoint TR20 Rifle optic in high-profile mount (3-9x, Illuminated post reticle.Altscope mode uses the Mount's peephole)
+hlc_20Rnd_762x51_B_G3	 - 20 Round magazine of 7.62x51mm Ball Rounds (i.e, standard bullets)
+hlc_20rnd_762x51_T_G3	 - 20 Round magazine of 7.62x51mm Tracer Rounds
+hlc_50rnd_762x51_M_G3	 - 50 Round magazine of 7.62x51mm Mixed at a ratio of 1 Tracer for every 5 Standard Ball rounds (X-systems drum mag, so you can have the SAW be interoperable with the rest of the squad.)
+
+Changelog
+============
+V1.4
+============
+- Added Aim-over-the-top back up sights mode to - AN/PVS4
+- Altered Inheritance of suppressors.
+- Added Mk.316 and Barrier Ball Magazines to G3 Rifles
+V1.3
+============
+-Added support to Bipod support for AGM
+-Added Bipod Support for CSE
+-Added support for Advanced Ballistics mod  (by, and with values provided by, Ruthberg, BIG thanks to you for that, mate)
+- Altered Inheritance of suppressors.
+- Hitboxes and related GeometryLOD materials updated on all weapons
+- Adjusted Mass and inertia values- all weapons should noew be closer to their approximate real-life weights.
+V1.2
+============
+- Added: AN-PVS4 4x Night Optic
+- Added: hlc_20rnd_762x51_S_G3 - 7.62x51mm Subonic magazine
+- Supressors no longer dampen round ballistics or damage
+- Added UI Icon for X-91 magazine
+- Altered G3A3/G3KA4 handanim[], shuld now properly grip the weapons
+- RVMAT Specular/gloss values altered
+- All G3 weapons now slightly less accurate in the hands of AI
+
+
+============
+V1.1-	Made compatible with V1.24 Arma3 Update
+	Fixed a flipped polygon in the G3ka4 Shadowlod
+
+
+Credits-
+============
+Bohemia Interactive- Arma2 Sample resources(Meshes, Sounds, RVMATs, Textures), some script lines.
+PAC - G3SG1 base MLOD
+Millennia - G3SG1 Textures
+Zulmargera87 - G3 Rail interface Mesh and textures
+Pete - G3A3 furniture mesh and textures, Suppressor Mesh
+Acid_snake- Suppressor Textures
+Soul_Slayer- HK53 Mesh
+HeNe - Textures
+Tigg - M203 Mesh and textures
+Toadie- Scripting, configs, all LODs bar primary MLODs, Sounds, Material Ports, Animation, Texture Edits
+Vunsunta- Sounds
+Blur- Accupoint mesh
+Tenoyl - Accupoint Textures
+Additional Thanks-
+============
+
+The HLC/SHARBSE crew for being awesome, tolerant of oddities and allround rad blokes
+Kerc Kasha, for answering all my awkward hour config and scripting questions and basicly firing me up to work on Arma stuff. 
+Kiory , for working out the 3DS-Oxygen Pipeline. We may have FBX now, but I find .3ds somehow more comforting still. 
+SV98- Kudos for the testing. 
