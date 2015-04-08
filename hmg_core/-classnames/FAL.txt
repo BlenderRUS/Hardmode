@@ -1,0 +1,85 @@
+[====================================================]
+|  HLC FAL
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a) add @hlcmods to your Arma3 launch -mods switch
+2b.i) start up Arma3
+2b.i) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+FN FAL, right arm of the free world, designed by the late Diuedonne Saive for Fabrique Nationale in the 1950s. The FAL largely was considered a hit, with the British Commonwealth adopting or manufacturing variants (generally known as the SLR), Brazil, Austria and adopting it as main infantry rifles, and swathes of small contract purchases thoughout it's lifetime. IMBEL continues production of the FAL to this day, effectively unchanged from it's original configuration alongside variants that modernise the platform, and in the civilian realm DS Arms produces FAL and SLR build for the shooter that range from the mundane SLR to Dedicated marksman platforms and the peculiar OSW. 
+
+The SLR in here was actually one of the first things I tried my hand at in Arma modding. No joke I have images from 2 weeks post launch of the Alpha with the SLR in. Kind of pleased with how far even a year brings all this along
+
+
+Classnames-
+hlc_rifle_l1a1slr		 - Enfield L1A1 SLR
+hlc_rifle_SLR		 - Lithgow SLR (Australian manufactured L1A1)
+hlc_rifle_STG58F		 - Steyr STG.58 
+hlc_rifle_FAL5061		 - FN FAL 'Para' 
+hlc_rifle_c1A1		 - FN C1A1 (Canadian SLR variant, manufactured by FN)
+hlc_rifle_LAR		 - FN LAR (Light infantry rifle contracted to Israel, Differs from the Support variant by the omission of bipod and standard width barrel)
+hlc_rifle_SLRchopmod	- Lithgow SLR Chopmod ( Litghow SLR with the selector group from an L2A1 , Barrel sawn down and flash suppressor omitted, additional pistol grip drilled to foregrip. SASR armorer improvised solution to recon egnagements in Vietnam.)
+hlc_rifle_falosw		- DSA Arms FAL OSW (Offensive Suppression Weapon. Or Offensively Short Weapon)
+hlc_rifle_osw_GL		-DSA Arms FAL OSW + M203 GL
+hlc_optic_PVS4FAL		- AN/PVS4 Night Optic (Exclusive to the FALs)
+hlc_optic_suit		- SUIT Optic (Single Unit, infantry, Trilux. Exclusive to the FALs)
+hlc_muzzle_snds_fal		- FAL Suppressor
+hlc_20Rnd_762x51_B_fal	 - 20 Round magazine of 7.62x51mm Ball Rounds (i.e, standard bullets)
+hlc_20Rnd_762x51_t_fal	 - 20 Round magazine of 7.62x51mm Tracer Rounds
+hlc_20Rnd_762x51_S_fal	 - 20 Round magazine of 7.62x51mm cold-loaded ball (subsonic, for use with suppressor)
+hlc_50rnd_762x51_M_FAL	 - 50 Round magazine of 7.62x51mm Mixed at a ratio of 1 Tracer for every 5 Standard Ball rounds (X-systems drum mag, so you can have the SAW be interoperable with the rest of the squad.)
+
+Changelog
+============
+V1.4
+============
+- Added Aim-over-the-top backup aiming mode to : AN/PVS4, SUIT
+- Added Mk.316, Barrier Ball magazines to FALs
+- Changed inheritance on suppressors. Now guaranteed to work and display correctly
+
+V1.3
+============
+
+- Added support for Advanced Ballistics mod  (by, and with values provided by, Ruthberg, BIG thanks to you for that, mate)
+- Altered Inheritance of suppressors.
+- Hitboxes and related GeometryLOD materials updated on all weapons
+V1.2
+============
+- FAL Suppressor No longer dampens ballistics or damage
+- hlc_20Rnd_762x51_S_fal now uses custom .308 Subsonic round
+- Most RVMATs specular value decresed slightly
+- Added New Icon for X-FAL magazine
+
+============
+V1.1 - Made compatible with V1.24 Arma3 Update
+
+
+Credits-
+============
+Bohemia Interactive- Arma2 Sample resources(Meshes, Sounds, RVMATs, Textures), some script lines.(FAL PARA, AN/PVS4, GL Quadrant)
+Pete - SLR MLODs
+Millennia - STG58 Textures
+Acid_snake - LAR Foregrip textures
+Enron - Textures
+Tigg - M203 Mesh and textures
+Toadie- Scripting, configs, all LODs bar primary MLODs, Sounds, Material Ports, Animation(OSW), Texture Edits
+Clifton Vlodhammer - Animation (main FAL animation)
+Vunsunta- Sounds
+
+Additional Thanks-
+============
+
+The HLC/SHARBSE crew for being awesome, tolerant of oddities and allround rad blokes
+Kerc Kasha, for answering all my awkward hour config and scripting questions and basicly firing me up to work on Arma stuff. 
+Kiory , for working out the 3DS-Oxygen Pipeline. We may have FBX now, but I find .3ds somehow more comforting still. 
+"CliffyV" - The FAL IS the best rifle. And you should totally do more Commonwealth shit for Arma man.
+SV98- Kudos for the testing. 

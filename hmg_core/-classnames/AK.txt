@@ -1,0 +1,130 @@
+[====================================================]
+|  HLC AK Pack
+[====================================================]
+Prerequisites-
+============
+HLC_Core
+ASDG_JointRails
+
+Installation-
+============
+1) Extract @HLCMods to your Arma3 directory or your My Documents/Arma3 directory.
+2a.i) add @hlcmods to your Arma3 launch -mods switch
+2b) start up Arma3
+2b.ii) Under Expansions, enable HLC MOD Set.
+
+About-
+============
+The Kalashnikov family of rifles have a long-standing legacy in firearms . What started in 1945 as an effort to supplant the Mosin-Nagant in soviet infantry service resulted in one of the most prolific bloodlines of semi-automatic rifles in history. Within this AK pack  you'll find a broad selection from the family history and role-defining variations, starting with the original milled receiver AK47 an going through to the coming of age in the AK12. To augment the suite, a selection of optical and muzzle attachments are at your disposal. This is not an exhaustive pack, but it should cover enough roles and variants to suit most needs from a practical standpoint. I'll leave
+
+Classnames-
+HLC_AK_ammobox		- Ammo box containing all this.
+hlc_rifle_ak74		 - AK74
+hlc_rifle_aks74		- AKS74
+hlc_rifle_aks74u		- AKS74U
+hlc_rifle_ak47		- AK47
+hlc_rifle_akm		-AKM
+hlc_rifle_rpk		-RPK
+hlc_rifle_ak12		-AK12
+hlc_rifle_akmgl		-AKM+GP25
+hlc_rifle_aks74_GL		-AKS74+GP30 (Export Variant)
+hlc_rifle_saiga12k		-Saiga12K Shotgun
+hlc_rifle_aek971		-ZID AEK971
+HLC_Optic_PSO1		- PSO1 Sniper Optic
+HLC_Optic_1p29		- 1P29 Rifle Combat Optic
+hlc_muzzle_545SUP_AK	- PBS4 Suppressor (5.45x39)
+hlc_muzzle_762SUP_AK	- PBS1 Suppressor (7.62x39)
+hlc_optic_kobra		- Kobra Collimator Sight
+hlc_optic_goshawk		- Goshawk Thermal Sight
+hlc_30Rnd_545x39_B_AK	 - 30 Round magazine of 5.45x39mm Ball Rounds (i.e, standard bullets)
+hlc_30Rnd_545x39_T_AK	 - 30 Round magazine of 5.45x39mm Tracer Rounds
+hlc_30Rnd_545x39_EP_AK	 - 30 Round magazine of 5.45x39mm Enhanced Performance Rounds 
+hlc_45Rnd_545x39_t_rpk	 - 45 Round magazine of 5.45x39mm Mixed at a ratio of 1 Tracer for every 2 Standard Ball rounds
+hlc_30Rnd_762x39_b_ak	 - 30 Round magazine of 7.62x39mm Ball Rounds (i.e, standard bullets)
+hlc_30Rnd_762x39_t_ak	 - 30 Round magazine of 7.62x39mm Tracer Rounds
+hlc_45Rnd_762x39_t_rpk	 - 45 Round magazine of 7.62x39mm Tracer Rounds
+hlc_45Rnd_762x39_m_rpk	 - 45 Round magazine of 7.62x39mm Mixed at a ratio of 1 Tracer for every 2 Standard Ball rounds
+hlc_75rnd_762x39_m_rpk	- 75 Round magazine of 7.62x39mm Mixed at a ratio of 1 Tracer for every 2 Standard Ball rounds
+hlc_10rnd_12g_buck_S12	- 10 Round magazine of 12 Gauge 00-Buckshot rounds (dev note- Due to the way BIS implemented shotguns, buckshot tends to be an absolute building destroyer.)
+hlc_10rnd_12g_slug_S12	- 10 Round magazine of 12 Gauge Solid Slug rounds
+hlc_VOG25_AK		- HE Round for the GP25 and GP30
+hlc_GRD_White		- Smoke Rounds for the GP25 and GP30
+hlc_GRD_red
+hlc_GRD_green
+hlc_GRD_blue
+hlc_GRD_orange
+hlc_GRD_purple
+
+
+Known Issues
+============
+GP25 and GP30 Rear ladder/notch don't match to front point. Use the top of the front post for now, that's the aiming point.
+Goshawk "turns off" when switching fire modes. Taking suggestions for solutions.
+
+Changelog
+============
+V1.6
+============
+- Added AK12+GP30 Rifle (does not accept side-munt attachments (flashlights, LAMs)
+- Changed magazine on RPK12 to RPK74 Bakelite (Visual LOD change only)
+
+V1.5
+============
+- Added support to Bipod support for AGM
+- Added Bipod Support for CSE
+- Added support for Advanced Ballistics mod  (by, and with values provided by, Ruthberg, BIG thanks to you for that, mate)
+- Altered Inheritance of suppressors.
+- Hitboxes and related GeometryLOD materials updated on all weapons
+- Adjusted Mass and inertia values- all weapons should now be closer to their approximate real-life weights.
+- Slight material adjustments 
+- Ambient Specular issues on AKS74 fixed
+- AKS74U Specular,Gloss and Diffuse Inverse Altered, should look better
+- AK12 Specular,Gloss and Diffuse Inverse Altered, should look better
+- Added - AKU12 , RPK12 (hlc_rifle_aku12, hlc_rifle_rpk12)repectively
+- modified proxies on AK12 family- All AK12s now should accept sidemount accessories (lasers, flashlights, etc)
+
+
+V1.4
+============
+- Fixed LOD-handling Glitch on optics (PSO1, 1p29,Kobra,Goshawk)
+- added "showToPlayer = 0;" to AI fire mode in RPK
+
+
+V1.3
+============
+- PBS1/PBS4 no longer dampen Ballistic arc, velocity, or damage
+- Added: hlc_30Rnd_545x39_S_AK (5.45x39mm Subsonic Magazine, low velocity)
+- Added: hlc_rifle_ak74_dirty (Worn AK74)
+- Specular values on most RVMATs lowered slightly
+- Small Smoothing tweak on AK47
+- All AK weapons now slightly less accurate in the hands of AI
+- RPK now classified as MG
+- AI will now fire the RPK more like an MG ( fire in bursts at distance)
+
+V1.2
+============
+- Corrected all weapons to conform to CfgWeapon changes made in the v1.24 Arma3 patch
+- Appended CfgPatches. All weapons,magazines and attachments should be visible in Zeus. 
+- Saiga12 Buckshot reverted to custom 12-gauge pellets found in HLCCore. BI's Buckshot was LITERALLY explosive. 
+
+Credits-
+============
+Bohemia Interactive- Arma2 Sample resources(Meshes, RVMATs, Textures to the PSO1, PBS4,Goshawk and GP25), some script lines. 
+MrRifleman- AKM,AK74 and AKS74 Meshes. AK74,AKS74 Textures
+Bull5hit - AKM Texture
+Milennia - AKS74U Mesh and Textures,AEK971 Textures.
+Maibatsu - AK12 Mesh and Textures.
+Booly - RPK Mesh and Textures.
+Twinke Masta/Johan Santana - AK47 Mesh.
+Marcius - AKM Textures.
+Tigg - GP30,Kobra Mesh and Textures.
+Jason9Jason - PBS1 Suppressor mesh and textures.
+Toadie- Scripts, Sound Mixing, Material Ports, Animation, Optic view meshes (except Goshawk).
+Arby26 - AEK971 Mesh and Bake.
+
+Additional Thanks-
+============
+
+The HLC/SHARBSE crew for being awesome, tolerant of oddities and allround rad blokes
+Kerc Kasha, for answering all my awkward hour config and scripting questions and basicly firing me up to work on Arma stuff. 
+Kiory , for working out the 3DS-Oxygen Pipeline. We may have FBX now, but I find .3ds somehow more comforting still. 

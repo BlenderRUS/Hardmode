@@ -1,0 +1,5 @@
+RH_acc_cfg
+======<HEADER>=======
+prefix=RH_acc_cfg
+Pbo Type is: Xbox Elite or Arma but missing checksum/sha (possibly a mission.pbo)
+======</HEADER>============
