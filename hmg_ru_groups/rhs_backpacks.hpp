@@ -419,3 +419,46 @@ class hmg_medic_rd: CUP_B_CivPack_Wdl
 		};
 	};
 };	
+// рюкзаки морской пехоты с черными беретиками
+
+class spg_pg : B_AssaultPack_Base
+{
+	scope = 2;
+	model = "\rhsafrf\addons\rhs_infantry\gear\backpacks\rhs_rpg";
+	picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_rpg_ca.paa";
+	Author_Macro
+	displayName = "Парплет заряжающего СПГ9";
+	hiddenSelectionsTextures[] = {};
+	maximumLoad = 410;
+	mass = 20;
+	
+	class TransportMagazines
+	{
+		class _xx_NLAW_F
+		{
+			magazine = "PG9_out";
+			count = 3;
+		};
+	};
+};
+
+class spg_og : B_AssaultPack_Base
+{
+	scope = 2;
+	model = "\rhsafrf\addons\rhs_infantry\gear\backpacks\rhs_rpg";
+	picture = "\rhsafrf\addons\rhs_infantry\Data\inventory\gear_icon_rpg_ca.paa";
+	Author_Macro
+	displayName = "Парплет подносчика СПГ9";
+	hiddenSelectionsTextures[] = {};
+	maximumLoad = 410;
+	mass = 20;
+	
+	class TransportMagazines
+	{
+		class _xx_NLAW_F
+		{
+			magazine = "OG9_out";
+			count = 3;
+		};
+	};
+};

@@ -8,6 +8,14 @@
 		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
 		backpack_tf_faction_radio_api = "tf_mr3000_rhs";
     };
+	class group_ru_mp
+    {
+        displayName = "Морская пехота 2005";
+        priority = -12;
+        side = 0;
+		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
+		backpack_tf_faction_radio_api = "tf_mr3000_rhs";
+    };
 	class group_ru_vdv_pdr
     {
         displayName = "ВДВ";
