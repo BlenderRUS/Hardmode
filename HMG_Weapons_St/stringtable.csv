@@ -26,3 +26,17 @@ STR_HMG_Static_Missile_9K115,Missile for 9K115-2,Выстрел для 9К115-2
 STR_HMG_Static_Ammobox,Ammobox for Static,Ящик для стационаров
 STR_HMG_Static_MetisBP_2rnd,Metis-M1 (2 missiles),ТПК Метис-М1 (2 выстрела)
 STR_HMG_Static_MetisBP_1rnd,Metis-M1 (1 missile),ТПК Метис-М1 (1 выстрел)
+STR_HMG_Static_Load_M119_HE,Load M1 AT Shell,Зарядить ОФ снаряд М1
+STR_HMG_Static_Loading_M119_HE,Loading M1 HE Shell,Заряжаем ОФ снаряд М1
+STR_HMG_Static_Load_M119_WP,Load WP Shell,Зарядить БФ снаряд
+STR_HMG_Static_Loading_M119_WP,Loading M1 HE Shell,Заряжаем БФ снаряд
+STR_HMG_Static_Load_M119_LG,Load Laser Guided Shell,Зарядить управляемый снаряд
+STR_HMG_Static_Loading_M119_LG,Loading Laser Guided Shell,Заряжаем управляемый снаряд
+STR_HMG_Static_Load_M119_SM,Load Smoke Shell,Зарядить дымовой снаряд
+STR_HMG_Static_Loading_M119_SM,Loading Smoke Shell,Заряжаем дымовой снаряд 
+STR_HMG_Static_Load_M119_IL,Load Illuminate Shell,Зарядить осветительный снаряд 
+STR_HMG_Static_Loading_M119_IL,Loading Illuminate Shell,Заряжаем осветительный снаряд 
+STR_HMG_Static_Load_D30_HE,Load HE Shell,Зарядить ОФ снаряд 
+STR_HMG_Static_Loading_D30_HE,Loading HE Shell,Заряжаем ОФ снаряд 
+STR_HMG_Static_Load_D30_AT,Load AT Shell,Зарядить кумулятивный снаряд 
+STR_HMG_Static_Loading_D30_AT,Loading AT Shell,Заряжаем кумулятивный снаряд 

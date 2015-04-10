@@ -1,3 +1,5 @@
+//@todo Брать имена оружия и БК из классов для упрощения stringable.csv
+//
 class CfgPatches {
 	class HMG_Weapons_St {
 		requiredaddons[] = {"A3_Data_F", "hlcweapons_aks", "rhs_c_weapons", "A3_Anims_F", "A3_Anims_F_Config_Sdr", "A3_Weapons_F", "asdg_jointrails", "hlcweapons_core","RDS_StaticWeapons_Core","AGM_Core","hmg_core"};
@@ -40,14 +42,70 @@ class cfgMagazines {
 		displayName = "TOW AT";
 		mass = 502;
 	};
-	class M119_out : CA_Magazine {
+	class D30_at_out: CA_Magazine
+	{
 		scope = 2;
-		icon = "HMG_Weapons_St\tow_static_ca.paa";
-		picture = "\HMG_Weapons_St\tow_static_ca";
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
 		model = "HMG_Weapons_St\m119_m1.p3d";
-		displayName = "M119 AT";
-		mass = 402;
+		displayName = "Кумулятивный снаряд Д-30";
+		mass = 502;
 	};
+	class D30_he_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "ОФ снаряд Д-30";
+		mass = 502;
+	};
+	class M119_at_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 M1 HE Shell";
+		mass = 502;
+	};
+	class M119_wp_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 WP Shell";
+		mass = 502;
+	};
+	class M119_laser_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Laser Guided Shell";
+		mass = 502;
+	};
+	class M119_smoke_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Smoke Shell";
+		mass = 502;
+	};
+	class M119_illum_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Illumination Shell";
+		mass = 502;
+	};
+
 	class metis_9m131 : CA_LauncherMagazine {
 		scope = 2;
 		count = 1;
@@ -259,7 +317,93 @@ class CfgVehicles {
 		class MainTurret;
 		class AGM_Actions;
 	};
-	class StaticGrenadeLauncher:StaticWeapon {};
+	class StaticGrenadeLauncher : StaticWeapon {};
+	class StaticCannon : StaticWeapon {};
+	class RDS_D30_base: StaticCannon {
+		class AGM_Actions : AGM_Actions {
+			class AGM_LoadStMagHE {
+				displayName = "$STR_HMG_Static_Load_D30_HE";
+				condition = "[_this select 0, 'D30_he_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'D30_he_out', 'RDS_30Rnd_122mmHE_D30', 20, 'STR_HMG_Static_Loading_D30_HE'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+			class AGM_LoadStMagAT {
+				displayName = "$STR_HMG_Static_Load_D30_AT";
+				condition = "[_this select 0, 'D30_at_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'D30_at_out', 'RDS_30Rnd_122mmAT_D30', 20, 'STR_HMG_Static_Loading_D30_AT'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+		};
+		class Turrets: Turrets	{
+			class MainTurret: MainTurret	{
+				magazines[]={};
+				};
+			};
+
+	};
+	class RDS_M119_base : RDS_D30_base {
+		class AGM_Actions : AGM_Actions {
+			class AGM_LoadStMagHE {
+				displayName = "$STR_HMG_Static_Load_M119_HE";
+				condition = "[_this select 0, 'M119_at_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'M119_at_out', 'RDS_30Rnd_105mmHE_M119', 20, 'STR_HMG_Static_Loading_M119_HE'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+			class AGM_LoadStMagWP {
+				displayName = "$STR_HMG_Static_Load_M119_WP";
+				condition = "[_this select 0, 'M119_wp_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'M119_wp_out', 'RDS_30Rnd_105mmWP_M119', 20, 'STR_HMG_Static_Loading_M119_WP'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+			class AGM_LoadStMagLG {
+				displayName = "$STR_HMG_Static_Load_M119_LG";
+				condition = "[_this select 0, 'M119_laser_out', 1 ] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'M119_laser_out', 'RDS_30Rnd_105mmLASER_M119', 20, 'STR_HMG_Static_Loading_M119_LG'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+			class AGM_LoadStMagSM {
+				displayName = "$STR_HMG_Static_Load_M119_SM";
+				condition = "[_this select 0, 'M119_smoke_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'M119_smoke_out', 'RDS_30Rnd_105mmSMOKE_M119', 20, 'STR_HMG_Static_Loading_M119_SM'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+			class AGM_LoadStMagIL {
+				displayName = "$STR_HMG_Static_Load_M119_IL";
+				condition = "[_this select 0, 'M119_illum_out', 1] call HMG_Static_fnc_CheckConditions";
+				statement = "[_this select 0, 'M119_illum_out', 'RDS_30Rnd_105mmILLUM_M119', 20, 'STR_HMG_Static_Loading_M119_IL'] call HMG_Static_fnc_LoadStatic";
+				showDisabled = 1;
+				priority = 2.5;
+				icon = "";  // @todo
+				enableInside = 1;
+				};
+
+			};
+			class Turrets: Turrets
+			{
+				class MainTurret: MainTurret
+				{
+					magazines[]={};
+				};
+			};
+	};
 	class RDS_AGS_base: StaticGrenadeLauncher {
 		class AGM_Actions : AGM_Actions {
 			class AGM_LoadStMag {
