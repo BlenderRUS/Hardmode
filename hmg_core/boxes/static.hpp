@@ -167,3 +167,119 @@
         		}; 
 
 		};
+
+		class hmg_ru_m119_he : hmg_ru_static {
+			displayName = "ОФ снаряды для М119";		
+			class TransportMagazines {			
+				class _xx_M119_at_out {
+					magazine = "M119_at_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+		class hmg_ru_m119_wp : hmg_ru_static {
+			displayName = "WP снаряды для М119";		
+			class TransportMagazines {			
+				class _xx_M119_wp_out {
+					magazine = "M119_wp_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+
+		class hmg_ru_m119_laser : hmg_ru_static {
+			displayName = "Управляемые снаряды для М119";		
+			class TransportMagazines {			
+				class _xx_M119_laser_out {
+					magazine = "M119_laser_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+		class hmg_ru_m119_illum : hmg_ru_static {
+			displayName = "Осветительные снаряды для М119";		
+			class TransportMagazines {			
+				class _xx_M119_illum_out {
+					magazine = "M119_illum_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+
+		class hmg_ru_m119_smoke : hmg_ru_static {
+			displayName = "Дымовые снаряды для М119";		
+			class TransportMagazines {			
+				class _xx_M119_smoke_out {
+					magazine = "M119_smoke_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+
+		class hmg_us_d30_he : hmg_ru_static {
+			displayName = "ОФ снаряды для Д-30";		
+			class TransportMagazines {			
+				class _xx_D30_he_out {
+					magazine = "D30_he_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
+		class hmg_us_d30_at : hmg_ru_static {
+			displayName = "Кумулятивные снаряды для Д-30";		
+			class TransportMagazines {			
+				class _xx_D30_at_out {
+					magazine = "D30_at_out";
+					count = 4;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+
+		};
