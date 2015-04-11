@@ -36,6 +36,7 @@ class CfgMovesBasic {
 		mas_Hilux_Driver = "mas_Hilux_Driver";
 		mas_Hilux_cargo01 = "mas_Hilux_cargo01";
 		mas_Hilux_Gunner = "mas_Hilux_Gunner";
+		mas_LR_gunner03_EP1 = "mas_LR_gunner03_EP1";
 	};
 };
 
@@ -78,6 +79,11 @@ class CfgMovesMaleSdr : CfgMovesBasic {
 		
 		class mas_Hilux_Gunner : Crew {
 			file = "\mas_cars\hilux\Data\Anim\gunner";
+			connectTo[] = {"mas_Stryker_Cargo01", 1};
+			speed = 1e+010;
+		};
+		class mas_LR_gunner03_EP1 : Crew {
+			file = "\mas_cars\lr\Data\Anim\LR_gunner03";
 			connectTo[] = {"mas_Stryker_Cargo01", 1};
 			speed = 1e+010;
 		};
@@ -1280,8 +1286,8 @@ class CfgVehicles {
 				weapons[] = {"mas_SPG9"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {"mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT"};
-				gunnerAction = "mas_SPG_Car_Gunner";
-				gunnerInAction = "mas_SPG_Car_Gunner";
+				gunnerAction = "mas_LR_gunner03_EP1";
+				gunnerInAction = "mas_LR_gunner03_EP1";
 				ejectDeadGunner = 1;
 				gunnerOpticsModel = "\mas_cars\UAZ\2Dscope_SPG_4";
 			};
