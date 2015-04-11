@@ -12,6 +12,7 @@ class CfgVehicles {
 	class StaticGrenadeLauncher:StaticWeapon {};
 	class StaticMGWeapon: StaticWeapon {};
 	class StaticATWeapon: StaticWeapon {};
+	class StaticCannon: StaticWeapon {};
 	class Bag_Base;
 	class Weapon_Bag_Base: Bag_Base
 	{
