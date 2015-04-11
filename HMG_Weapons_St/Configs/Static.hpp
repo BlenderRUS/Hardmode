@@ -25,7 +25,7 @@ class RDS_D30_base: StaticCannon {
 			displayName = "$STR_HMG_Static_Load_D30_HE";
 			condition = "[_this select 0, 'D30_he_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'D30_he_out', 'RDS_30Rnd_122mmHE_D30', 20, 'STR_HMG_Static_Loading_D30_HE'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -34,7 +34,7 @@ class RDS_D30_base: StaticCannon {
 			displayName = "$STR_HMG_Static_Load_D30_AT";
 			condition = "[_this select 0, 'D30_at_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'D30_at_out', 'RDS_30Rnd_122mmAT_D30', 20, 'STR_HMG_Static_Loading_D30_AT'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -53,7 +53,7 @@ class RDS_M119_base : RDS_D30_base {
 			displayName = "$STR_HMG_Static_Load_M119_HE";
 			condition = "[_this select 0, 'M119_at_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M119_at_out', 'RDS_30Rnd_105mmHE_M119', 20, 'STR_HMG_Static_Loading_M119_HE'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -62,7 +62,7 @@ class RDS_M119_base : RDS_D30_base {
 			displayName = "$STR_HMG_Static_Load_M119_WP";
 			condition = "[_this select 0, 'M119_wp_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M119_wp_out', 'RDS_30Rnd_105mmWP_M119', 20, 'STR_HMG_Static_Loading_M119_WP'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -71,7 +71,7 @@ class RDS_M119_base : RDS_D30_base {
 			displayName = "$STR_HMG_Static_Load_M119_LG";
 			condition = "[_this select 0, 'M119_laser_out', 1 ] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M119_laser_out', 'RDS_30Rnd_105mmLASER_M119', 20, 'STR_HMG_Static_Loading_M119_LG'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -80,7 +80,7 @@ class RDS_M119_base : RDS_D30_base {
 			displayName = "$STR_HMG_Static_Load_M119_SM";
 			condition = "[_this select 0, 'M119_smoke_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M119_smoke_out', 'RDS_30Rnd_105mmSMOKE_M119', 20, 'STR_HMG_Static_Loading_M119_SM'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -89,7 +89,7 @@ class RDS_M119_base : RDS_D30_base {
 			displayName = "$STR_HMG_Static_Load_M119_IL";
 			condition = "[_this select 0, 'M119_illum_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M119_illum_out', 'RDS_30Rnd_105mmILLUM_M119', 20, 'STR_HMG_Static_Loading_M119_IL'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -110,7 +110,7 @@ class RDS_AGS_base: StaticGrenadeLauncher {
 			displayName = "$STR_HMG_Static_Load";
 			condition = "[_this select 0, 'RDS_29Rnd_30mm_AGS30_out', 1, 'RDS_AGS30'] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'RDS_29Rnd_30mm_AGS30_out', 'RDS_29Rnd_30mm_AGS30', 15, 'STR_HMG_Static_LoadingAGS'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -130,7 +130,7 @@ class RDS_KORD_Base: StaticMGWeapon {
 			displayName = "$STR_HMG_Static_Load";
 			condition = "[_this select 0, 'RDS_KORD_out', 3] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'RDS_KORD_out', 'rhs_mag_127x108mm_50', 10, 'STR_HMG_Static_LoadingKORD'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -151,7 +151,7 @@ class RDS_DSHKM_base: StaticMGWeapon {
 			displayName = "$STR_HMG_Static_Load50x127";
 			condition = "[_this select 0, 'RDS_KORD_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'RDS_KORD_out', 'rhs_mag_127x108mm_50', 10, 'STR_HMG_Static_LoadingDSHKM'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -172,7 +172,7 @@ class rhs_nsv_tripod_base : StaticMGWeapon {
 			displayName = "$STR_HMG_Static_Load50x127";
 			condition = "[_this select 0, 'RDS_KORD_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'RDS_KORD_out', 'rhs_mag_127x108mm_50', 10, 'STR_HMG_Static_LoadingKORD'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -195,7 +195,7 @@ class RDS_2b14_82mm_Base: StaticMortar {
 			displayName = "$STR_HMG_Static_LoadHECharge";
 			condition = "[_this select 0, 'HMG_Mine_82_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'HMG_Mine_82_out', 'AGM_8Rnd_81mmShell_HE', 7, 'STR_HMG_Static_LoadingHECharge'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -215,7 +215,7 @@ class RDS_M252_base: StaticMortar {
 			displayName = "$STR_HMG_Static_LoadHECharge";
 			condition = "[_this select 0, 'HMG_Mine_81_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'HMG_Mine_81_out', 'AGM_8Rnd_81mmShell_252_HE', 7, 'STR_HMG_Static_LoadingHECharge'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -235,7 +235,7 @@ class RDS_TOW_TriPod_base: StaticATWeapon {
 			displayName = "$STR_HMG_Static_LoadTOW";
 			condition = "[_this select 0, 'TOW_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'TOW_out', 'rhs_mag_1Rnd_TOW', 20, 'STR_HMG_Static_LoadingTOW'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -256,7 +256,7 @@ class RDS_Metis_Base: StaticATWeapon {
 			displayName = "$STR_HMG_Static_LoadMetis";
 			condition = "[_this select 0, 'metis_9m131', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'metis_9m131', 'metis_9m131', 15, 'STR_HMG_Static_LoadingMetis'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -276,7 +276,7 @@ class rhs_m2staticmg_base : StaticMGWeapon {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M2_cass_out', 'rhs_mag_100rnd_127x99_mag_Tracer_Red', 10, 'STR_HMG_Static_LoadingM2'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -298,7 +298,7 @@ class RDS_M2StaticMG_base: StaticMGWeapon {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'M2_cass_out', 'rhs_mag_100rnd_127x99_mag_Tracer_Red', 10, 'STR_HMG_Static_LoadingM2'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -328,7 +328,7 @@ class RDS_SPG9_base: StaticATWeapon {
 			displayName = "$STR_HMG_Static_LoadOG9";
 			condition = "[_this select 0, 'OG9_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'OG9_out', 'RDS_OG9_HE', 10, 'STR_HMG_Static_LoadingOG9'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 1.5;
 			icon = "";  // @todo
 			enableInside = 1;
@@ -349,7 +349,7 @@ class RHS_MK19_TriPod_base: StaticGrenadeLauncher {
 			displayName = "$STR_HMG_Static_LoadMk19";
 			condition = "[_this select 0, 'Mk19_cass_out', 1] call HMG_Static_fnc_CheckConditions";
 			statement = "[_this select 0, 'Mk19_cass_out', 'RHS_48Rnd_40mm_MK19', 15, 'STR_HMG_Static_LoadingMk19'] call HMG_Static_fnc_LoadStatic";
-			showDisabled = 1;
+			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
 			enableInside = 1;
