@@ -14,6 +14,7 @@ class CfgFunctions {
 			file = "HMG_Weapons_St\Functions";
 			class CheckConditions;
 			class CheckConditionsGunner;
+			class CheckConditionsCommander;
 			class LoadStatic;
 			class LoadVehicle;
 			class MetisPackUnpack;
