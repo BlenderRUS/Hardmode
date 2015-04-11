@@ -1,0 +1,66 @@
+/*
+	Author: Cyrokrypto
+
+	Description:
+	- Called on each frame to draw icons and floating namesplates.
+
+	Parameter(s):
+	NONE
+
+	Returns:
+	NOTHING
+*/
+
+private ["_cam", "_fadeStart", "_fadeEnd", "_iconColour", "_nameText", "_iconSize", "_color", "_pos", "_distance", "_icon", "_show3D", "_dis", "_coef"];
+
+_cam = missionnamespace getvariable "CSSA3_mainCamera";
+
+if (CSSA3_visibleHUD) then {
+	//Define variables.
+	_fadeStart = 20;
+	_fadeEnd = 1500;
+	_iconColour = [0.251,0.251,0.251,1];
+	_nameText = "";
+	_iconSize = [0,0];
+
+	if (CSSA3_settings select 1 == 1) then {_iconSize = [0.4,0.4]};
+	{
+		if ((alive _x) && {_cam distance _x < _fadeEnd}) then {
+
+			_color = call {
+				if (side _x == east) exitWith {_iconColour = [1,0,0,0.6]};
+				if (side _x == west) exitWith {_iconColour = [0,0,1,0.6]};
+				if (side _x == civilian) exitWith {_iconColour = [0.373,0.016,0.706,0.6]};
+				if (side _x == resistance) exitWith {_iconColour= [0,1,0,0.6]};
+			};
+
+			if (CSSA3_settings select 0 == 1) then {_nameText = name _x};
+
+			_pos = visiblePositionASL _x;
+			_pos set [2, (_x modelToWorld [0,0,2.3]) select 2];
+			_distance = _pos distance _cam;
+			_textSize = 0;
+			switch (true) do {
+				case (_distance > 500): { _textSize = 0.02; };
+				case (_distance > 200): { _textSize = 0.04; };
+				case (_distance > 50): { _textSize = 0.05; };
+				case (_distance > 0): { _textSize = 0.08 };
+			};
+			
+			_icon = ["\A3\ui_f\data\IGUI\RscIngameUI\RscUnitInfoAirRTDFull\whitedot_ca.paa",_iconColour,_pos,_iconSize select 0,_iconSize select 1,0,_nameText,0, _textSize];
+			if (count _icon > 0) then {
+				_show3D = true;
+				if (_show3D) then {
+					_pos = _icon select 2;
+					_dis = _pos distance _cam;
+					if (_dis < _fadeEnd) then {
+						_coef = linearconversion [_fadeStart,_fadeEnd,_distance,1,0,true];
+						_icon set [3,(_icon select 3) * _coef];
+						_icon set [4,(_icon select 4) * _coef];
+						drawicon3d _icon;
+					};
+				};
+			};
+		};
+	} count CSSA3_spectatableUnits;
+};
