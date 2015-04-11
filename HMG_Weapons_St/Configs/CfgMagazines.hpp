@@ -21,13 +21,68 @@ class CfgMagazines {
 		displayName = "TOW AT";
 		mass = 502;
 	};
-	class M119_out : CA_Magazine {
+	class D30_at_out: CA_Magazine
+	{
 		scope = 2;
-		icon = "HMG_Weapons_St\tow_static_ca.paa";
-		picture = "\HMG_Weapons_St\tow_static_ca";
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
 		model = "HMG_Weapons_St\m119_m1.p3d";
-		displayName = "M119 AT";
-		mass = 402;
+		displayName = "Кумулятивный снаряд Д-30";
+		mass = 502;
+	};
+	class D30_he_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "ОФ снаряд Д-30";
+		mass = 502;
+	};
+	class M119_at_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 M1 HE Shell";
+		mass = 502;
+	};
+	class M119_wp_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 WP Shell";
+		mass = 502;
+	};
+	class M119_laser_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Laser Guided Shell";
+		mass = 502;
+	};
+	class M119_smoke_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Smoke Shell";
+		mass = 502;
+	};
+	class M119_illum_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\m119_ca.paa";
+		picture = "\HMG_Weapons_St\m119_ca";
+		model = "HMG_Weapons_St\m119_m1.p3d";
+		displayName = "M119 Illumination Shell";
+		mass = 502;
 	};
 	class metis_9m131 : CA_LauncherMagazine {
 		scope = 2;

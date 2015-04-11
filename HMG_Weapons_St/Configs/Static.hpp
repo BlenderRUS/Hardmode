@@ -18,6 +18,92 @@ class CAManBase : Man {
 		};
 	};
 };
+
+class RDS_D30_base: StaticCannon {
+	class AGM_Actions : AGM_Actions {
+		class AGM_LoadStMagHE {
+			displayName = "$STR_HMG_Static_Load_D30_HE";
+			condition = "[_this select 0, 'D30_he_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'D30_he_out', 'RDS_30Rnd_122mmHE_D30', 20, 'STR_HMG_Static_Loading_D30_HE'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+			};
+		class AGM_LoadStMagAT {
+			displayName = "$STR_HMG_Static_Load_D30_AT";
+			condition = "[_this select 0, 'D30_at_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'D30_at_out', 'RDS_30Rnd_122mmAT_D30', 20, 'STR_HMG_Static_Loading_D30_AT'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+			};
+	};
+	class Turrets: Turrets	{
+		class MainTurret: MainTurret {
+			magazines[]={};
+		};
+	};
+};
+
+class RDS_M119_base : RDS_D30_base {
+	class AGM_Actions : AGM_Actions {
+		class AGM_LoadStMagHE {
+			displayName = "$STR_HMG_Static_Load_M119_HE";
+			condition = "[_this select 0, 'M119_at_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'M119_at_out', 'RDS_30Rnd_105mmHE_M119', 20, 'STR_HMG_Static_Loading_M119_HE'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+		class AGM_LoadStMagWP {
+			displayName = "$STR_HMG_Static_Load_M119_WP";
+			condition = "[_this select 0, 'M119_wp_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'M119_wp_out', 'RDS_30Rnd_105mmWP_M119', 20, 'STR_HMG_Static_Loading_M119_WP'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+		class AGM_LoadStMagLG {
+			displayName = "$STR_HMG_Static_Load_M119_LG";
+			condition = "[_this select 0, 'M119_laser_out', 1 ] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'M119_laser_out', 'RDS_30Rnd_105mmLASER_M119', 20, 'STR_HMG_Static_Loading_M119_LG'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+		class AGM_LoadStMagSM {
+			displayName = "$STR_HMG_Static_Load_M119_SM";
+			condition = "[_this select 0, 'M119_smoke_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'M119_smoke_out', 'RDS_30Rnd_105mmSMOKE_M119', 20, 'STR_HMG_Static_Loading_M119_SM'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+		class AGM_LoadStMagIL {
+			displayName = "$STR_HMG_Static_Load_M119_IL";
+			condition = "[_this select 0, 'M119_illum_out', 1] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'M119_illum_out', 'RDS_30Rnd_105mmILLUM_M119', 20, 'STR_HMG_Static_Loading_M119_IL'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 1;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+
+	};
+	class Turrets: Turrets {
+		class MainTurret: MainTurret
+		{
+			magazines[]={};
+		};
+	};
+};
+
 class RDS_AGS_base: StaticGrenadeLauncher {
 	class AGM_Actions : AGM_Actions {
 		class AGM_LoadStMag {
