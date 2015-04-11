@@ -952,9 +952,9 @@ class CfgVehicles {
 				castGunnerShadow = 1;
 				viewGunnerInExternal = 1;
 				gunnerForceOptics = 0;
-				weapons[] = {"mas_DSHKM"};
+				weapons[] = {"RDS_DSHKM"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
-				magazines[] = {"mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM"};
+				magazines[] = {};
 				gunnerAction = "mas_Hilux_Gunner";
 				gunnerInAction = "mas_Hilux_Gunner";
 				gunnerRightHandAnimName = "OtocHlaven_shake";
@@ -1017,7 +1017,7 @@ class CfgVehicles {
 				gunnerForceOptics = 0;
 				weapons[] = {RHS_M2_HMG};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
-				magazines[] = {"100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow"};
+				magazines[] = {};
 				gunnerAction = "mas_Hilux_Gunner";
 				gunnerInAction = "mas_Hilux_Gunner";
 				gunnerRightHandAnimName = "OtocHlaven_shake";
@@ -1086,9 +1086,9 @@ class CfgVehicles {
 			class MainTurret : MainTurret {
 				gunnerForceOptics = 0;
 				gunnerOutOpticsShowCursor = 0;
-				weapons[] = {"mas_AGS30"};
+				weapons[] = {"RDS_AGS30"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
-				magazines[] = {"mas_29Rnd_30mm_AGS30", "mas_29Rnd_30mm_AGS30", "mas_29Rnd_30mm_AGS30", "mas_29Rnd_30mm_AGS30", "mas_29Rnd_30mm_AGS30", "mas_29Rnd_30mm_AGS30"};
+				magazines[] = {};
 				turretInfoType = "RscOptics_Offroad_01";
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
@@ -1283,9 +1283,9 @@ class CfgVehicles {
 			class MainTurret : MainTurret {
 				gunnerForceOptics = 0;
 				gunnerOutOpticsShowCursor = 0;
-				weapons[] = {"mas_SPG9"};
+				weapons[] = {"RDS_SPG9"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
-				magazines[] = {"mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_OG9_HE", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT", "mas_PG9_AT"};
+				magazines[] = {};
 				gunnerAction = "mas_LR_gunner03_EP1";
 				gunnerInAction = "mas_LR_gunner03_EP1";
 				ejectDeadGunner = 1;
