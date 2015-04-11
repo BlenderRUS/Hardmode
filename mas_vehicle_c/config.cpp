@@ -7,7 +7,7 @@ class CfgPatches {
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 1.34;
-		requiredAddons[] = {"A3_Static_F_Gamma", "A3_CargoPoses_F", "A3_Armor_F_Slammer", "A3_Weapons_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr"};
+		requiredAddons[] = {"A3_Static_F_Gamma", "A3_CargoPoses_F", "A3_Armor_F_Slammer", "A3_Weapons_F", "A3_Anims_F", "A3_Anims_F_Config_Sdr","HMG_Weapons_St"};
 	};
 };
 
