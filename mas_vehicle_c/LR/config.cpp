@@ -1154,8 +1154,8 @@ class CfgVehicles {
 				weapons[] = {"RHS_M2_HMG"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {};
-				gunnerAction = "mas_LR_gunner_EP1";
-				gunnerInAction = "mas_LR_gunner_EP1";
+				gunnerAction = "mas_HMMWV_Gunner03lr";
+				gunnerInAction = "mas_HMMWV_Gunner03lr";
 				gunnerRightHandAnimName = "OtocHlaven_shake";
 				gunnerLeftHandAnimName = "OtocHlaven_shake";
 				ejectDeadGunner = 1;
@@ -1254,8 +1254,8 @@ class CfgVehicles {
 				weapons[] = {"RHS_MK19_HMG"};
 				magazines[] = {};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
-				gunnerAction = "mas_LR_gunner_EP1";
-				gunnerInAction = "mas_LR_gunner_EP1";
+				gunnerAction = "mas_HMMWV_Gunner03lr";
+				gunnerInAction = "mas_HMMWV_Gunner03lr";
 				gunnerRightHandAnimName = "otochlaven";
 				gunnerLeftHandAnimName = "otochlaven";
 				ejectDeadGunner = 1;
