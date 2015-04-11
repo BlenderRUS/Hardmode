@@ -1,0 +1,5 @@
+///////<HEADER>///////
+prefix=AGM_Interaction
+Pbo Type is: Arma Addon
+Sha: '740CBC680FA1F5C38A419BBFC4129F405F2B1537'
+//////</HEADER>//////
