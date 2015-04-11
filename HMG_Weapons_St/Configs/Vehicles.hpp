@@ -208,3 +208,74 @@ class B_mas_cars_Hilux_SPG9 : B_mas_cars_Hilux_Base {
 		};
 	};
 };
+class Tank_F;
+class APC_Tracked_02_base_F : Tank_F {
+		class Turrets;
+		class MainTurret;
+		class AGM_Actions;
+	};
+	
+class rhsusf_m113tank_base : APC_Tracked_02_base_F {
+	class AGM_Actions : AGM_Actions {
+		class HMG_LoadAmmo1 {
+			displayName = "$STR_HMG_Static_Load";
+			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsCommander";
+			statement = "[_this select 0, 'M2_cass_out', 'rhs_mag_100rnd_127x99_mag_Tracer_Red', 10, 'STR_HMG_Static_LoadingM2'] call HMG_Static_fnc_LoadVehicle";
+			showDisabled = 0;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+	};
+	class Turrets: Turrets {
+		class MainTurret: MainTurret {
+			weapons[]={RHS_M2_HMG};
+			magazines[]={};
+		};
+	};
+
+};
+class rhsusf_m998_w_4dr_fulltop;
+class rhsusf_m1025_w: rhsusf_m998_w_4dr_fulltop {
+	class AGM_Actions; 
+	class Turrets;
+	class MainTurret;
+	};
+class rhsusf_m1025_w_m2: rhsusf_m1025_w {
+	class AGM_Actions : AGM_Actions {
+		class HMG_LoadAmmo1 {
+			displayName = "$STR_HMG_Static_LoadM2";
+			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
+			statement = "[_this select 0, 'M2_cass_out', 'rhs_mag_100rnd_127x99_mag_Tracer_Red', 10, 'STR_HMG_Static_LoadingM2'] call HMG_Static_fnc_LoadVehicle";
+			showDisabled = 0;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+	};
+	class Turrets: Turrets {
+		class M2_Turret: MainTurret {
+			weapons[] = {RHS_M2_HMG};
+			magazines[]={};
+		};
+	};
+};
+class rhsusf_m1025_w_mk19: rhsusf_m1025_w_m2 {
+	class AGM_Actions : AGM_Actions {
+		class HMG_LoadAmmo1 {
+			displayName = "$STR_HMG_Static_LoadMk19";
+			condition = "[_this select 0, 'Mk19_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
+			statement = "[_this select 0, 'Mk19_cass_out', 'RHS_48Rnd_40mm_MK19', 15, 'STR_HMG_Static_LoadingMk19'] call HMG_Static_fnc_LoadVehicle";
+			showDisabled = 0;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+	};
+	class Turrets: Turrets {
+		class M2_Turret: M2_Turret {
+			weapons[] = {RHS_MK19_HMG};
+			magazines[]={};
+		};
+	};
+};
