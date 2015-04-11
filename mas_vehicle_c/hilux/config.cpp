@@ -293,7 +293,7 @@ class CfgVehicles {
 				castGunnerShadow = 1;
 				viewGunnerInExternal = 1;
 				gunnerForceOptics = 0;
-				weapons[] = {"mas_DSHKM"};
+				weapons[] = {"RDS_DSHKM"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {"mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM", "mas_150Rnd_127x107_DSHKM"};
 				gunnerAction = "mas_Hilux_Gunner";
@@ -977,17 +977,17 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = "mas_DSHKM";
+				weapon = "RDS_DSHKM";
 			};
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = "mas_DSHKM";
+				weapon = "RDS_DSHKM";
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = "mas_DSHKM";
+				weapon = "RDS_DSHKM";
 			};
 		};
 		hiddenSelectionsTextures[] = {"\mas_cars\hilux\data\coyota_trup4_co.paa"};
@@ -1015,7 +1015,7 @@ class CfgVehicles {
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
 				gunnerForceOptics = 0;
-				weapons[] = {RHS_M2_HMG};
+				weapons[] = {"RHS_M2_HMG"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {};
 				gunnerAction = "mas_Hilux_Gunner";
@@ -1073,12 +1073,12 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = "mas_AGS30";
+				weapon = "RDS_AGS30";
 			};
 			
 			class belt_rotation {
 				source = "reload";
-				weapon = "mas_AGS30";
+				weapon = "RDS_AGS30";
 			};
 		};
 		

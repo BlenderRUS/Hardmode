@@ -1206,17 +1206,17 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = HMG_M2;
+				weapon = "RHS_M2_HMG";
 			};
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = HMG_M2;
+				weapon = "RHS_M2_HMG";
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = HMG_M2;
+				weapon = "RHS_M2_HMG";
 			};
 		};
 		hiddenSelections[] = {"Camo1"};
@@ -1306,17 +1306,17 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = "mas_AGS40";
+				weapon = "RHS_MK19_HMG";
 			};
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = "mas_AGS40";
+				weapon = "RHS_MK19_HMG";
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = "mas_AGS40";
+				weapon = "RHS_MK19_HMG";
 			};
 		};
 		hiddenSelections[] = {"Camo1"};
