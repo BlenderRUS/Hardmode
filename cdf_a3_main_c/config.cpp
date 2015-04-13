@@ -464,6 +464,1471 @@ class CfgVehicles {
 		linkedItems[] = {"H_CDF_A3_HelmetIA", "V_CDF_A3_6b23_engineer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA", "V_CDF_A3_6b23_engineer", "ItemMap", "ItemCompass", "ItemWatch", "ItemRadio"};
 	};
+	
+	class hmg_vdv_rifleman_CDF : B_CDF_A3_Soldier_Base
+	{
+		_generalMacro = "hmg_vdv_rifleman_CDF";
+		linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		scope = 2;
+		displayName = "Стрелок (Бутан)";
+	};
+	class hmg_vdv_srifleman_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_srifleman_CDF";
+		displayName= "Старший стрелок(Бутан)";
+		Items[] = {"FirstAidKit" };
+		RespawnItems[] = {"FirstAidKit" };
+		weapons[] = {"hlc_rifle_aks74_GL","launch_RPG18_F","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74_GL","launch_RPG18_F","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		backpack = "B_CDF_A3_Backpack";
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+
+	};
+	
+	class hmg_vdv_ar_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_ar_CDF";
+		displayName= "Пулеметчик (Бутан)";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_MG_s"};
+				speechPlural[] = {"veh_infantry_MG_p"};
+			};
+		};
+		textSingular = "machinegunner";
+		textPlural = "machinegunners";
+		nameSound = "veh_infantry_MG_s";
+		icon = "iconManMG";
+		threat[] = {1,0.1,0.3};
+
+		weapons[] = {"hmg_rpk74","launch_RPG18_F","Throw","Put"};
+		respawnWeapons[] = {"hmg_rpk74","launch_RPG18_F","Throw","Put"};
+		magazines[] =
+		{
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK_Green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK_Green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		backpack = "B_CDF_A3_Backpack";
+	};
+
+	class hmg_vdv_rpg_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_rpg_CDF";
+		displayName= "Гранатометчик (Бутан)";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_AT_s"};
+				speechPlural[] = {"veh_infantry_AT_p"};
+			};
+		};
+		textSingular = "AT soldier";
+		textPlural = "AT soldiers";
+		nameSound = "veh_infantry_AT_s";
+		threat[] = {1,1,0.8};
+		icon="iconManAT";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+			
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+			
+		};
+		backpack="rhs_rpg1";
+	};
+	
+	class hmg_vdv_rpg_assist_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_rpg_assist_CDF";
+		displayName= "Стрелок - пом. гранатометчика (Бутан)";
+		backpack = "rhs_rpg";
+	};
+
+	class hmg_vdv_leader_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_leader_CDF";
+		displayName= "Командир (Бутан)";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_officer_s"};
+				speechPlural[] = {"veh_infantry_officer_p"};
+			};
+		};
+		textSingular = "officer";
+		textPlural = "officers";
+		nameSound = "veh_infantry_officer_s";
+		icon = "iconManOfficer";
+		camouflage = 1.6;
+		sensitivity = 3;
+		
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		magazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+
+        linkedItems[] = {"LOP_H_Beret_blue","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"LOP_H_Beret_blue","V_CDF_A3_6b23_crewofficer","ItemGPS","ItemCompass","ItemWatch"};
+		backpack = "B_CDF_A3_Backpack";
+	};
+
+	class hmg_vdv_cl_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_cl_CDF";
+		displayName= "Командир ПД Роты ВДВ (Бутан)";
+		backpack = "tf_mr3000_rhs";
+	};
+	
+	class hmg_vdv_s_tech_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_s_tech_CDF";
+		displayName= "Старший техник роты (Бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put", "CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemMap"};
+		engineer = 1;
+		backpack = "rhs_assault_umbts_engineer";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+	};
+	
+	class hmg_vdv_strsh_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_strsh_CDF";
+		displayName= "Старшина роты (Бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemWatch","ItemMap","ItemCompass"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemWatch","ItemMap","ItemCompass"};
+	};	
+	
+	class hmg_vdv_pl_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_pl_CDF";
+		displayName= "Командир ПД взвода (Бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemCompass","ItemMap","ItemWatch","itemradio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemCompass","ItemMap","ItemWatch","itemradio"};
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+		backpack = "tf_mr3000_rhs";
+	};	
+		
+	class hmg_vdv_sl_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_sl_CDF";
+		displayName= "КБМ-Командир ПД отделения (Бутан)";
+
+		icon = "iconManLeader";
+		cost = 450000;
+		sensitivity = 3.2;
+
+		weapons[] = {"hlc_rifle_aks74","launch_RPG18_F","Throw","Put","Binocular"};
+		respawnWeapons[] = {"hlc_rifle_aks74","launch_RPG18_F","Throw","Put","Binocular"};
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch"};
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+		backpack = "tf_mr3000_rhs";
+	};
+	
+	class hmg_vdv_zkvo_CDF : hmg_vdv_sl_CDF
+	{
+		_generalMacro = "hmg_vdv_zkvo_CDF";
+		displayName= "ЗамКомаВзвода-КБМ-Командир ПД отделения (Бутан)";
+	};
+		
+	class hmg_vdv_zkro_CDF : hmg_vdv_leader_CDF
+	{
+		_generalMacro = "hmg_vdv_zkro_CDF";
+		displayName= "Заместитель командира ПД роты (Бутан)";
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch"};
+	};
+	
+	class hmg_vdv_driver_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_driver_CDF";
+		displayName= "Механик водитель (Бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemSMGR"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemSMGR"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		backpack = "B_CDF_A3_Backpack";
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+	};
+	
+	class hmg_vdv_driver_st_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_driver_st_CDF";
+		displayName= "Ст. механик водитель (Бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemWatch","ItemSMGR"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemWatch","ItemSMGR"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		engineer = 1;
+		backpack = "B_CDF_A3_Backpack";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+
+	};
+	
+	class hmg_vdv_gunner_CDF : hmg_vdv_driver_CDF
+	{
+		_generalMacro = "hmg_vdv_gunner_CDF";
+		displayName= "ЗКБМ-Наводчик оператор БМД (Бутан)";
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemSMGR"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","G_Combat","ItemSMGR"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"CUP_HandGrenade_RGO",
+			"rhs_mag_rdg2_black",
+			"SmokeShellOrange",
+			"rhs_mag_nspn_green",
+			"rhs_mag_nspn_red",
+			"rhs_mag_nspn_yellow"
+		};
+		backpack = "B_CDF_A3_Backpack";
+	};
+	
+	class hmg_vdv_medic_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_medic_CDF";
+		displayName= "Стрелок-санитар (Бутан)";
+		attendant =1;
+		icon="iconManMedic";
+		backpack = "rhs_assault_umbts_medic";
+		picture="pictureHeal";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_medic_s"};
+				speechPlural[] = {"veh_infantry_medic_p"};
+			};
+		};
+		textSingular = "medic";
+		textPlural = "medics";
+		nameSound = "veh_infantry_medic_s";
+
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+
+	};
+	class hmg_vdv_medic_dr_CDF : hmg_vdv_medic_CDF
+	{
+		_generalMacro = "hmg_vdv_medic_dr_CDF";
+		attendant =1;
+		backpack="hmg_medic_rd";
+		icon="iconManMedic";
+		displayName= "Санитар-водитель (Бутан)";
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};		
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+	};
+	
+	class hmg_vdv_medic_st_CDF : hmg_vdv_medic_CDF
+	{
+		_generalMacro = "hmg_vdv_medic_st_CDF";
+		attendant =1;
+		icon="iconManMedic";
+		displayName= "Санитарный инструктор (Бутан)";
+		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat","ItemSMGR"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat","ItemSMGR"};
+	};
+	class hmg_vdv_rifleman_radist_CDF : hmg_vdv_rifleman_CDF
+	{
+		_generalMacro = "hmg_vdv_rifleman_radist";
+		displayName= "Радиотелефонист (Бутан)";
+		backpack = "tf_mr3000_rhs";
+	};
+	// механизированный батальон
+	class hmg_cdf_rifleman : B_CDF_A3_Soldier_Base
+	{
+		_generalMacro = "hmg_cdf_rifleman";
+		scope = 2;
+		displayName = "Стрелок АКС-74 (бутан)";
+	};
+	
+	class hmg_cdf_ar : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_ar";
+		scope = 2;
+		displayName = "Старший стрелок РПК-74 (бутан)";
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_MG_s"};
+				speechPlural[] = {"veh_infantry_MG_p"};
+			};
+		};
+		textSingular = "machinegunner";
+		textPlural = "machinegunners";
+		nameSound = "veh_infantry_MG_s";
+		icon = "iconManMG";
+		threat[] = {1,0.1,0.3};
+
+		weapons[] = {"hmg_rpk74","Throw","Put"};
+		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		magazines[] =
+		{
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK_Green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK",
+			"rhs_45Rnd_545X39_AK_Green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		backpack = "B_CDF_A3_Backpack";
+	};
+	
+	class hmg_cdf_efreitor : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_efreitor";
+		displayName= "Стрелок АКС-74 ГП-25 (бутан)";
+		weapons[] = {"hlc_rifle_aks74_GL","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74_GL","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		backpack = "B_CDF_A3_Backpack";
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+			
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+	};
+	
+	class hmg_cdf_machinegunner : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_machinegunner";
+		displayName= "Пулеметчик (бутан)";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_MG_s"};
+				speechPlural[] = {"veh_infantry_MG_p"};
+			};
+		};
+		textSingular = "machinegunner";
+		textPlural = "machinegunners";
+		nameSound = "veh_infantry_MG_s";
+		icon = "iconManMG";
+		threat[] = {1,0.1,0.3};
+		linkedItems[] = {"V_CDF_A3_6b23_engineer_rifleman","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer_rifleman","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		Items[] = {"FirstAidKit","AGM_SpareBarrel"};
+		RespawnItems[] = {"FirstAidKit","AGM_SpareBarrel"};
+		weapons[] = {"rhs_weap_pkm","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_pkm","Throw","Put"};
+		magazines[] =
+		{
+			"rhs_100Rnd_762x54mmR_green",
+			"rhs_100Rnd_762x54mmR",
+			"rhs_mag_rgd5",
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_100Rnd_762x54mmR_green",
+			"rhs_100Rnd_762x54mmR",
+			"rhs_mag_rgd5",
+			"rhs_mag_rgd5"
+		};
+		backpack = "B_CDF_A3_Backpack";
+		secondaryAmmoCoef = 0.5;
+	};
+
+	class hmg_cdf_machinegunner_assistant : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_machinegunner_assistant";
+		displayName= "Номер расчета ПКМ (бутан)";
+		Items[] = {"FirstAidKit","AGM_SpareBarrel","AGM_SpareBarrel"};
+		respawnItems[] = {"FirstAidKit","AGM_SpareBarrel","AGM_SpareBarrel"};
+        linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		backpack = "B_CDF_A3_Backpack";
+	};
+
+	class hmg_cdf_at : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_at";
+		displayName= "Гранатометчик РПГ-7В2";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_AT_s"};
+				speechPlural[] = {"veh_infantry_AT_p"};
+			};
+		};
+		textSingular = "AT soldier";
+		textPlural = "AT soldiers";
+		nameSound = "veh_infantry_AT_s";
+		threat[] = {1,1,0.8};
+		icon="iconManAT";
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
+        linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+			
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+			
+		};
+		backpack="rhs_rpg1";
+
+	};
+	class hmg_cdf_aa : hmg_cdf_at
+	{
+		_generalMacro = "hmg_cdf_aa";
+		displayName= "Стрелок ПЗРК (бутан)";
+
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_igla"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","rhs_weap_igla"};
+
+		magazines[] = { "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK","rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_mag_9k38_rocket"};
+		respawnMagazines[] = { "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_30Rnd_545x39_AK", "rhs_mag_9k38_rocket"};
+
+		backpack="rhs_sidor";
+
+	};
+
+	class hmg_cdf_strelok_rpg_assist : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_strelok_rpg_assist";
+		displayName= "Стрелок - пом. гранатометчика (бутан)";
+		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		backpack="rhs_rpg";
+
+	};
+
+	class hmg_cdf_marksman : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_marksman";
+		displayName= "Снайпер СВД (бутан)";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_sniper_s"};
+				speechPlural[] = {"veh_infantry_sniper_p"};
+			};
+		};
+		textSingular = "sniper";
+		textPlural = "snipers";
+		nameSound = "veh_infantry_sniper_s";
+		cost = 150000;
+		sensitivity = 3.3;
+
+		Weapons[] = {"rhs_weap_svds","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_svds","Throw","Put"};
+		Items[] = {"FirstAidKit" ,"rhs_acc_pso1m2"};
+		RespawnItems[] = {"FirstAidKit" ,"rhs_acc_pso1m2"};
+		linkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_01","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		magazines[] = {"rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1","rhs_mag_rgd5","rhs_mag_rgd5", "rhs_mag_rdg2_black"};
+		respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_mag_rgd5", "rhs_mag_rgd5", "rhs_mag_rdg2_black"};
+
+	};
+
+	class hmg_cdf_officer_armored : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_officer_armored";
+		displayName= "Офицер (базовый)";
+
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_officer_s"};
+				speechPlural[] = {"veh_infantry_officer_p"};
+			};
+		};
+		textSingular = "officer";
+		textPlural = "officers";
+		nameSound = "veh_infantry_officer_s";
+		icon = "iconManOfficer";
+		camouflage = 1.6;
+		sensitivity = 3;
+		
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		magazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+
+        linkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_fieldcap","V_CDF_A3_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		backpack = "B_CDF_A3_Backpack";
+	};
+
+	class hmg_cdf_officer : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_officer";
+		displayName= "Командир роты (бутан)";
+	};
+	
+	class hmg_cdf_politruk : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_politruk";
+		displayName= "Заместитель командира по воспитательной работе (бутан)";
+	};
+	
+	class hmg_cdf_st_tech : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_st_tech";
+		displayName= "Старший техник роты (бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemMap"};
+		engineer = 1;
+		backpack="rhs_assault_umbts_engineer";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+	};
+	
+	class hmg_cdf_strsh : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_strsh";
+		displayName= "Старшина роты (бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+	};	
+	
+	class hmg_cdf_ko_r : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_ko_r";
+		displayName= "Командир Мех взвода (бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+	};	
+	
+	class hmg_cdf_ko_gv : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_ko_gv";
+		displayName= "Командир гранатометного взвода (бутан)";
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
+		backpack = "tf_mr3000_rhs";
+	};	
+		
+	class hmg_cdf_sergeant : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_sergeant";
+		displayName= "Командир отделения (бутан)";
+
+		icon = "iconManLeader";
+		cost = 450000;
+		sensitivity = 3.2;
+
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
+		magazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		backpack = "B_CDF_A3_Backpack";
+		Items[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+	
+	class hmg_cdf_sergeant_zkv : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_sergeant_zkv";
+		displayName= "Заместитель командира взвода (бутан)";
+	};
+	
+	class hmg_cdf_sergeant_pto : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_sergeant_pto";
+		displayName= "Командир противотанкового отделения (бутан)";
+	};
+	
+	class hmg_cdf_sergeant_kmb : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_sergeant_kmb";
+		displayName= "КБМ - Командир отделения (бутан)";
+	};
+	
+	class hmg_cdf_sergeant_go : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_sergeant_go";
+		displayName= "Командир гранатометного отделения (бутан)";
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+	};
+	
+	class hmg_cdf_kmsv : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_kmsv";
+		displayName= "Командир МХВ (бутан)";
+
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+	};
+
+	class hmg_cdf_engineer_st : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_engineer_st";
+		displayName= "Старшина ВМТО (бутан)";
+
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio"};
+
+		engineer=1;
+		backpack = "B_CDF_A3_Backpack";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+
+	};
+	
+	class hmg_cdf_engineer : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_engineer";
+		displayName= "Стрелок ВМТО (бутан)";
+
+
+        	linkedItems[] = {"H_CDF_A3_HelmetIA_green_ess","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA_green_ess","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio"};
+
+		engineer=1;
+		backpack = "B_CDF_A3_Backpack";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+
+	};
+	class hmg_cdf_driver : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_driver";
+		displayName= "Механик-водитель (бутан)";
+		
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		backpack = "B_CDF_A3_Backpack";
+
+	};
+	class hmg_cdf_driver_st : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_driver_st";
+		displayName= "Ст. механик водитель (бутан)";
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer_crew","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer_crew","ItemCompass","ItemWatch","ItemMap"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		engineer = 1;
+		backpack = "hmg_rif_sidorEng";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+
+	};
+	class hmg_cdf_gunner: hmg_cdf_rifleman
+
+	{
+		_generalMacro = "hmg_cdf_gunner";
+		displayName= "Наводчик оператор БТР (бутан)";
+		
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_mag_rgd5",
+			"rhs_mag_rgd5"
+		};
+		backpack = "B_CDF_A3_Backpack";
+	};
+	
+	class hmg_cdf_gunner_zkmb: hmg_cdf_gunner
+	{
+		_generalMacro = "hmg_cdf_gunner_zkmb";
+		displayName= "ЗКБМ-наводчик оператор БМП (бутан)";
+	};
+
+	class hmg_cdf_rifleman_radist : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_rifleman_radist";
+		displayName= "Радиотелефонист (бутан)";
+		backpack = "tf_mr3000_rhs";
+	};
+	class hmg_cdf_rifleman_sbr : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_rifleman_sbr";
+		displayName= "Оператор СБР (бутан)";
+	};
+	class hmg_cdf_ags_s : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_ags_s";
+		displayName= "Старший наводчик АГС-30 (бутан)";
+		Items[] = {"FirstAidKit","cw_item_tableags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_tableags"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		backpack="RDS_AGS30_Gun_Bag_CSAT";
+	};
+	class hmg_cdf_ags_n : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_ags_n";
+		displayName= "Номер расчета АГС-30 (бутан)";
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		backpack="RDS_AGS30_Tripod_Bag_CSAT";
+	};
+	/// отседова пошли танкисты, рации ублюдкам выданы пока не будет запилен интерком завязанный на шлем
+	class hmg_cdf_tank_driver : hmg_cdf_driver
+	{
+		_generalMacro = "hmg_cdf_tank_driver";
+		displayName= "Механик-водитель (бутан)";
+
+        linkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch" };
+		respawnLinkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch" };
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+		};
+		backpack = "B_CDF_A3_Backpack";
+	};
+	class hmg_cdf_tank_gunner: hmg_cdf_gunner
+	{
+		_generalMacro = "hmg_cdf_tank_gunner";
+		displayName= "Наводчик (бутан)";
+		
+        linkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch" };
+		respawnLinkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch" };
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK"
+		};
+		backpack="rhs_assault_umbts_empty";
+	};
+	class hmg_cdf_tank_kommander : hmg_cdf_driver
+	{
+		_generalMacro = "hmg_cdf_tank_kommander";
+		displayName= "Командир танка (бутан)";
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		weapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+
+        linkedItems[] = {"rhs_tsh4","rhs_vest_commander","ItemCompass","ItemWatch","ItemMap" };
+		respawnLinkedItems[] = {"rhs_tsh4","rhs_vest_commander","ItemCompass","ItemWatch","ItemMap" };
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M"
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"rhs_30Rnd_545x39_AK",
+			"CUP_8Rnd_9x18_Makarov_M",
+			"CUP_8Rnd_9x18_Makarov_M"
+		};
+		backpack="rhs_assault_umbts_empty";
+	};
+	class hmg_cdf_tank_pltkommander : hmg_cdf_tank_kommander
+	{
+		_generalMacro = "hmg_cdf_tank_pltkommander";
+		displayName= "Командир танка/Командир танкового взвода (бутан)";
+		
+		weapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Binocular","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		backpack="rhs_assault_umbts_empty";
+	};
+	class hmg_cdf_tank_compkommander : hmg_cdf_tank_pltkommander
+	{
+		_generalMacro = "hmg_tank_compkommander";
+		displayName= "Командир танка/Командир танковой роты (бутан)";
+		backpack="rhs_assault_umbts_empty";
+	};
+	class hmg_cdf_tank_st_tech : hmg_cdf_st_tech
+	{
+		_generalMacro = "hmg_cdf_tank_st_tech";
+		displayName= "Старший техник танковой роты (бутан)";
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch","ItemMap" };
+		respawnLinkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch","ItemMap" };
+		engineer = 1;
+		backpack="rhs_assault_umbts_engineer";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+	};
+		// отсюда пошла минометная батарея мотострелкового батальона, структура восстановленая 
+	// номенклатура:
+	// Командир батареи
+	// Командир взвода управления
+	// Старший вычислитель
+	// Командир отделения (подвоза б/пр)
+	// Командир отделения артиллерийской разведки
+	// Разведчик
+	// Дальномерщик
+	// Заместитель командира взвода - командир отделения связи
+	// Старший радиотелефонист
+	// Водитель (с рпг)
+	// Командир огневого взвода
+	// ЗамКомВзвода/Командир миномета
+	// Командир миномета
+	// Старший наводчик
+	// Мастер-Номер расчета
+	// Номер расчета
+	// Водитель
+	
+	// отсюда должности огневого взвода
+	class hmg_cdf_voditel : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_voditel";
+		scope = 2;
+		displayName = "Водитель (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		backpack = "B_CDF_A3_Backpack";
+	};
+	
+	class hmg_cdf_nomer_rascheta: hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_nomer_rascheta";
+		displayName= "Номер расчета (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
+	};	
+	
+	class hmg_cdf_master_nomer_rascheta: hmg_cdf_nomer_rascheta
+	{
+		_generalMacro = "hmg_cdf_master_nomer_rascheta";
+		displayName= "Мастер - Номер расчета (бутан)";
+		engineer = 1;
+		backpack="rhs_assault_umbts_engineer";
+		icon="iconManEngineer";
+		picture="pictureRepair";
+	};
+	
+	class hmg_cdf_starshii_navod4ik: hmg_cdf_nomer_rascheta
+	{
+		_generalMacro = "hmg_cdf_starshii_navod4ik";
+		displayName= "Старший наводчик (бутан)";
+		backpack="RDS_Podnos_Bipod_Bag_CSAT";
+	};	
+	
+	class hmg_cdf_komandir_minometa: hmg_cdf_strsh
+	{
+		_generalMacro = "hmg_cdf_komandir_minometa";
+		displayName= "Командир миномета (бутан)";
+		
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		weapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
+		backpack="RDS_Podnos_Gun_Bag_CSAT";
+	};	
+	
+	class hmg_cdf_zkv_komandir_minometa: hmg_cdf_komandir_minometa
+	{
+		_generalMacro = "hmg_cdf_zkv_komandir_minometa";
+		displayName= "ЗамКом взвода - Командир миномета (бутан)";
+	};	
+	
+	class hmg_cdf_voditel_rpg : hmg_cdf_at
+	{
+		_generalMacro = "hmg_cdf_voditel_rpg";
+		scope = 2;
+		displayName = "Водитель (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"}; //rhs_weap_ak74m_folded_dtk
+	};
+	
+	class hmg_cdf_komvzvoda_ognevogo : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_komvzvoda_ognevogo";
+		displayName= "Командир огневого взвода (бутан)";
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+	};
+	//отсюда должности отделения связи
+	class hmg_cdf_radist : hmg_cdf_rifleman_radist
+	{
+		_generalMacro = "hmg_cdf_radist";
+		displayName= "Радиотелефонист (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		backpack = "tf_mr3000_rhs";
+	};
+	class hmg_cdf_st_radist : hmg_cdf_rifleman_radist
+	{
+		_generalMacro = "hmg_cdf_st_radist";
+		displayName= "Старший радиотелефонист (бутан)";
+		backpack = "tf_mr3000_rhs";
+	};
+	// отсюда отделение артиллерийской разведки
+	class hmg_cdf_dalnomershik: hmg_cdf_efreitor
+	{
+		_generalMacro = "hmg_cdf_dalnomershik";
+		displayName= "Дальномерщик (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","Rangefinder"};
+	};	
+	
+	class hmg_cdf_razved4ik: hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_razved4ik";
+		displayName= "Разведчик (бутан)";
+		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+	};	
+	
+	class hmg_cdf_komot_art_recon_squad : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_komot_art_recon_squad";
+		displayName= "Командир отделения артиллерийской разведки (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+	};
+	
+	class hmg_cdf_komot_podvoza : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_komot_podvoza";
+		displayName= "Командир отделения подвоза боеприпасов (бутан)";
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+	};
+	
+	class hmg_cdf_starshii_vi4islitel : hmg_cdf_komot_art_recon_squad
+	{
+		_generalMacro = "hmg_cdf_starshii_vi4islitel";
+		displayName= "Старший вычислитель (бутан)";
+		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
+	};
+	
+	class hmg_cdf_komvzvoda_upravlenia : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_komvzvoda_upravlenia";
+		displayName= "Командир взвода управления (бутан)";
+	};
+	
+	class hmg_cdf_komandir_minbatr : hmg_cdf_officer
+	{
+		_generalMacro = "hmg_cdf_komandir_minbatr";
+		displayName= "Командир батареи (бутан)";
+	};
+	// медицинский пункт батальона 
+	// Командир медицинского пункта
+	// Старший водитель-санитар
+	// Санитарный инструктор
+	// Санитар
+	// Водитель - санитар
+	
+	class hmg_cdf_medic : hmg_cdf_rifleman
+	{
+		_generalMacro = "hmg_cdf_medic";
+		displayName= "Санитар (бутан)";
+		attendant =1;
+		icon="iconManMedic";
+		backpack="rhs_assault_umbts_medic";
+		picture="pictureHeal";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_medic_s"};
+				speechPlural[] = {"veh_infantry_medic_p"};
+			};
+		};
+		textSingular = "medic";
+		textPlural = "medics";
+		nameSound = "veh_infantry_medic_s";
+
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+	};
+	
+	class hmg_cdf_medic_st : hmg_cdf_sergeant
+	{
+		_generalMacro = "hmg_cdf_medic_st";
+		attendant =1;
+		icon="iconManMedic";
+		displayName= "Старший водитель-санитар (бутан)";
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		backpack="rhs_assault_umbts_medic";
+	};
+	
+	class hmg_cdf_san_instruktor : hmg_cdf_medic_st
+	{
+		_generalMacro = "hmg_cdf_san_instruktor";
+		attendant =1;
+		icon="iconManMedic";
+		displayName= "Сан. инструктор (бутан)";
+	};
+	
+	class hmg_cdf_voditel_sanitar : hmg_cdf_voditel
+	{
+		_generalMacro = "hmg_cdf_voditel_sanitar";
+		attendant =1;
+		backpack="rhs_assault_umbts_medic";
+		icon="iconManMedic";
+		displayName = "Водитель-санитар (бутан)";
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch"};
+	};
+	
+	class hmg_cdf_med_leader : hmg_cdf_officer_armored
+	{
+		_generalMacro = "hmg_cdf_med_leader";
+		attendant =1;
+		icon="iconManMedic";
+		displayName= "Командир медицинского пункта (бутан)";
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemMap","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_medic","ItemMap","ItemCompass","ItemWatch"};
+		backpack = "tf_mr3000_rhs";
+	};
+	
 	class RHS_Mi24_base;	// External class reference
 	class RHS_Mi24V_base;	// External class reference
 	
@@ -1352,7 +2817,867 @@ class CfgGroups {
 		
 		class CDF_A3 {
 			name = CDF;
-			
+			class group_CDF_bmp
+			{
+				name = "Механизированная рота на БМП ЧСР";
+				aliveCategory="Пехота ЧСО (бутан)";
+				class group_CDF_omsb_f_bmp_HQ
+				{
+					name = "Управление Мех. роты на БМП (бутан)";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_officer";
+						rank = "CAPTAIN";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_politruk";
+						rank = "LIEUTENANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_strsh";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_st_tech";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_driver_st";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_CDF_rifleman_radist";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+				};
+			class group_CDF_omsb_f_bmp_pl_HQ
+				{
+					name = "Управление Мех взвода на БМП (бутан)";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ko_r";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_sergeant_zkv";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_marksman";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+				};
+				class group_CDF_omsb_bmp_sq
+				{
+					name = "Механизированное отделение на БМП (бутан)";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_sergeant_kmb";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_efreitor";
+						rank = "PRIVATE";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ar";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_at";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_strelok_rpg_assist";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_cdf_machinegunner";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_CDF_driver";
+						rank = "PRIVATE";
+						position[] = {8,0,0};
+					};
+				};
+			};
+			class group_CDF_bmp_attach
+			{
+				name = "Управление и иные взвода Мех.Бат. на БМП";
+				aliveCategory="Управление и аттачи (бутан)";
+				class group_CDF_omsb_f_med
+				{
+					name = "Медицинский пункт батальона";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_med_leader";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic_st";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_san_instruktor";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel_sanitar";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel_sanitar";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "PRIVATE";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel_sanitar";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+				};
+				class group_CDF_omsb_gun_sq_hq_bmp
+				{
+					name = "Управление гранатометного взвода (бутан)";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ko_gv";
+						rank = "LIEUTENANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_sergeant_zkv";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_marksman";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+				};
+				class group_CDF_omsb_gun_sq_bmp
+				{
+					name = "Гранатометное отделение (бутан)";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_sergeant_go";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_driver";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ags_s";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ags_n";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ags_s";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_CDF_ags_n";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+				};
+			};
+			class group_CDF_minbatr_flora
+			{
+				name = "Минометная батарея Мехбата на БМП";
+				aliveCategory="Минометчики";
+				class group_CDF_minbatr_msb_HQ
+				{
+					name = "Управление минометной батареи";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komandir_minbatr";
+						rank = "CAPTAIN";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_politruk";
+						rank = "LIEUTENANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_strsh";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_medic";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+				};
+				class group_CDF_minbatr_msb_HQ_platton
+				{
+					name = "Управление взвода управления";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komvzvoda_upravlenia";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_starshii_vi4islitel";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komot_podvoza";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+				};
+				class group_CDF_minbatr_msb_art_recon
+				{
+					name = "Отделение артиллерийской разведки";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komot_art_recon_squad";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_razved4ik";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_dalnomershik";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+				};
+				class group_CDF_minbatr_msb_ratelo_squad
+				{
+					name = "Отделение связи";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_sergeant";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_st_radist";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_radist";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_radist";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_radist";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel_rpg";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
+				class group_CDF_minbatr_msb_fire_platoon
+				{
+					name = "Минометный взвод";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komvzvoda_ognevogo";
+						rank = "LIEUTENANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_zkv_komandir_minometa";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_starshii_navod4ik";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_CDF_master_nomer_rascheta";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_CDF_nomer_rascheta";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel_rpg";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komandir_minometa";
+						rank = "SERGEANT";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_CDF_starshii_navod4ik";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_CDF_nomer_rascheta";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_CDF_nomer_rascheta";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel";
+						rank = "PRIVATE";
+						position[] = {11,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_CDF_komandir_minometa";
+						rank = "SERGEANT";
+						position[] = {12,0,0};
+					};
+					class Unit12
+					{
+						side = 1;
+						vehicle = "hmg_CDF_starshii_navod4ik";
+						rank = "CORPORAL";
+						position[] = {13,0,0};
+					};
+					class Unit13
+					{
+						side = 1;
+						vehicle = "hmg_CDF_nomer_rascheta";
+						rank = "PRIVATE";
+						position[] = {14,0,0};
+					};
+					class Unit14
+					{
+						side = 1;
+						vehicle = "hmg_CDF_nomer_rascheta";
+						rank = "PRIVATE";
+						position[] = {15,0,0};
+					};
+					class Unit15
+					{
+						side = 1;
+						vehicle = "hmg_CDF_voditel";
+						rank = "PRIVATE";
+						position[] = {16,0,0};
+					};
+				};
+			};
+class group_CDF_tank_company_bmp
+			{
+				name = "Танковая рота Мех.бат.";
+				aliveCategory="Танковая рота (бутан)";
+				class group_CDF_tank_omsb_f_HQ
+				{
+					name = "Управление танковой роты";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_compkommander";
+						rank = "CAPTAIN";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_st_tech";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_driver";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+				};
+			class group_CDF_tank_omsb_f_pl_HQ
+				{
+					name = "Упревление танкового взвода";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_pltkommander";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_gunner";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_driver";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+				};
+				class group_CDF_tank_omsb_sq1
+				{
+					name = "Экипаж танка";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_kommander";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_gunner";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_CDF_tank_driver";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+				};
+			};				
+			class CDF_vdv_pdr
+			{
+				name = "ПДР ВДВ ЧСО";
+				aliveCategory="Парашютно-десантная рота ВДВ ЧСО";
+				class group_ru_vdv_pdr_CDF_HQ
+				{
+					name = "Управление ПД роты";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_vdv_cl_CDF";
+						rank = "CAPTAIN";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_vdv_zkro_CDF";
+						rank = "LIEUTENANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_vdv_strsh_CDF";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_vdv_medic_CDF";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_vdv_s_tech_CDF";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_vdv_sl_CDF";
+						rank = "SERGEANT";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_vdv_driver_st_CDF";
+						rank = "SERGEANT";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_vdv_gunner_CDF";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_vdv_gunner_CDF";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_vdv_driver_CDF";
+						rank = "PRIVATE";
+						position[] = {10,0,0};
+					};
+				};
+			class group_ru_vdv_pdr_pl_CDF_HQ
+				{
+					name = "Управление ПД взвода";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_vdv_pl_CDF";
+						rank = "LIEUTENANT";
+						position[] = {0,0,0};
+					};
+				};
+								class group_ru_vdv_pdr_sq1
+				{
+					name = "ПД отделение";
+					faction = CDF_A3;
+					side = 1;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 1;
+						vehicle = "hmg_vdv_sl_CDF";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 1;
+						vehicle = "hmg_vdv_srifleman_CDF";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_vdv_ar_CDF";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 1;
+						vehicle = "hmg_vdv_rpg_CDF";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 1;
+						vehicle = "hmg_vdv_rpg_assist_CDF";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_vdv_driver_CDF";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_vdv_gunner_CDF";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+				};
+			};
 			class Infantry {
 				name = "$STR_A3_CfgGroups_West_BLU_F_Infantry0";
 				
