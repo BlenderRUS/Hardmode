@@ -1734,8 +1734,8 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "Trixie_Cyclone_Camo", "RH_anpvs10", "RH_m3lr", "rhsusf_acc_anpeq15A" };
 		weapons[] = {"Trixie_M110_NG","Throw","Put"};
 		respawnWeapons[] = {"Trixie_M110_NG","Throw","Put"};
-		magazines[] = {"Trixie_20x762_M118LR_Mag",  "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag","Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag"};
-		respawnMagazines[] = {"Trixie_20x762_M118LR_Mag",  "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag","Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag"};
+		magazines[] = {"Trixie_20x762_Mag",  "Trixie_20x762_Mag", "Trixie_20x762_Mag","Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag"};
+		respawnMagazines[] = {"Trixie_20x762_Mag",  "Trixie_20x762_Mag", "Trixie_20x762_Mag","Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag"};
 	};
 	
 	class hmg_usmc_w_2015_assar : hmg_usmc_w_2015_rifleman
@@ -1968,8 +1968,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "RH_m3lr", "rhsusf_acc_anpeq15A" };
 		weapons[] = {"Trixie_M110_NG_Black","Throw","Put"};
 		respawnWeapons[] = {"Trixie_M110_NG_Black","Throw","Put"};
-		magazines[] = {"Trixie_20x762_M118LR_Mag",  "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag","Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag"};
-		respawnMagazines[] = {"Trixie_20x762_M118LR_Mag",  "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag","Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag", "Trixie_20x762_M118LR_Mag"};
+		magazines[] = {"Trixie_20x762_Mag",  "Trixie_20x762_Mag", "Trixie_20x762_Mag","Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag"};
+		respawnMagazines[] = {"Trixie_20x762_Mag",  "Trixie_20x762_Mag", "Trixie_20x762_Mag","Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag", "Trixie_20x762_Mag"};
 	};
 	
 	class hmg_usmc_d_2015_assar : hmg_usmc_d_2015_rifleman
@@ -2143,6 +2143,7 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		displayName= "Assault section team leader / Gunner (MarpatDesert)";
 		weapons[] = {"rhs_weap_m4","Throw","Put", "Trixie_SMAW"};
 		respawnWeapons[] = {"rhs_weap_m4","Throw","Put", "Trixie_SMAW"};
+		backpack = "MEF_Des_Tactical_SMAW";
 	};
 	class hmg_usmc_d_2015_assAssGun : hmg_usmc_d_2015_rifleman
 	{
