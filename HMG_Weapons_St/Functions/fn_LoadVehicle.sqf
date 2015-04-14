@@ -19,7 +19,7 @@ HMG_Static_fnc_Load_Start = {
 	_mag = _this select 1;
 	_vehMag = _this select 2;
 	if (_mag in (magazines AGM_Player)) then { // Check if player still have required magazine
-		if (!isNull _veh && (AGM_Player distance _veh <= 2)) then { // Check object existence and distance
+		if (!isNull _veh && (AGM_Player distance _veh <= 4)) then { // Check object existence and distance
 			AGM_Player removeMagazine _mag;
 			_veh addMagazineGlobal _vehMag;
 		};
