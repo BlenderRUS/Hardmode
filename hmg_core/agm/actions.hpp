@@ -40,8 +40,8 @@ class reammobox_F : ThingX {
 	class AGM_Actions {
 			class AGM_LockBoxes {
 				displayName = "Запереть ящик";
-				condition = "player getvariable 'HMG_can_lock_box'";
-				statement = "(cursortarget) setVariable ['AGM_LockedInventory', true, true]";
+				condition = "player getVariable ['HMG_can_lock_box', false]";
+				statement = "_target setVariable ['AGM_LockedInventory', true, true]";
 				showDisabled = 0;
 				priority = 2.5;
 				icon = "";  // @todo
@@ -49,8 +49,8 @@ class reammobox_F : ThingX {
 				};
 			class AGM_UnlockBoxes {
 				displayName = "Отпереть ящик";
-				condition = "player getvariable 'HMG_can_lock_box'";
-				statement = "(cursortarget) setVariable ['AGM_LockedInventory', false, true]";
+				condition = "player getVariable ['HMG_can_lock_box', false]";
+				statement = "_target setVariable ['AGM_LockedInventory', false, true]";
 				showDisabled = 0;
 				priority = 2.5;
 				icon = "";  // @todo

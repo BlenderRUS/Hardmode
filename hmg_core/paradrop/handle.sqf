@@ -12,12 +12,13 @@ while {getPos _iniVeh select 2 > 1} do
 {
 	sleep 0.1;
 };
+
+_vehDamage = damage _iniVeh;
+_oldPos = getPos _iniVeh;
 detach _iniVeh;
 sleep 0.1;
 deleteVehicle _para;
-_oldPos = getPos _iniVeh;
-_vehdammage = getdammage _iniVeh;
 deleteVehicle _iniVeh;
 sleep 0.1;
 _veh = createVehicle[_type, _oldPos, [], 0, "NONE"];
-_veh setDammage _vehdammage;
+_veh setDamage _vehDamage;

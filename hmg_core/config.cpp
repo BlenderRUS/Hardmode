@@ -42,9 +42,9 @@ class cfgFunctions {
 	};
 };
 class Extended_PostInit_EventHandlers {
-		class HMG_Check {
+	class HMG_Check {
 		serverInit = "HMG_Check_Post_Init_Var = [] execVM ""\hmg_core\check\init.sqf""";
-		};
+	};
 };
 class Mode_FullAuto;
 
@@ -55,9 +55,7 @@ class cfgAmmo {
 	#include "blastfrag\ammo.hpp"
 };
 class cfgMagazines {
-//	#include "ammo\ammo_m249.hpp"
 	#include "blastcore\blastcore_m.hpp"
-	#include "ammo\ammo_m249.hpp"	
 };
 class cfgWeapons {
 	class WeaponSlotsInfo;

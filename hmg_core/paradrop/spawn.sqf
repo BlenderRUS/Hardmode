@@ -9,4 +9,4 @@ _para = "B_Parachute_02_F" createVehicle [0, 0, 10000];
 _iniVeh attachTo [_para,[0,0,-1]];
 _para setPos [_pos select 0, _pos select 1, _height];
 [_iniVeh, _para, _type] spawn TGM_vd_fnc_handle;
-_iniVeh;
+_iniVeh

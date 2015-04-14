@@ -5,7 +5,6 @@
 		function = "HMG_Core_fnc_HMGVehPara";
 		scope = 2;
 		isGlobal = 1;
-//		isDisposable = 1;
 		icon = "\hmg_core\pic\para_m.paa";
 		class Arguments : ArgumentsBaseUnits {
 			class Para_Veh_Type {
