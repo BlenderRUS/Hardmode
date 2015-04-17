@@ -1115,8 +1115,8 @@ class CfgVehicles {
 		nameSound = "veh_infantry_MG_s";
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
-		linkedItems[] = {"V_CDF_A3_6b23_engineer_rifleman","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer_rifleman","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		linkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"V_CDF_A3_6b23_engineer","H_CDF_A3_HelmetIA","ItemCompass","ItemWatch"};
 		Items[] = {"FirstAidKit","AGM_SpareBarrel"};
 		RespawnItems[] = {"FirstAidKit","AGM_SpareBarrel"};
 		weapons[] = {"rhs_weap_pkm","Throw","Put"};
@@ -1346,8 +1346,8 @@ class CfgVehicles {
 		displayName= "Командир Мех взвода (бутан)";
 		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
 		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
-		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
-		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
 	};	
 	
 	class hmg_cdf_ko_gv : hmg_cdf_officer_armored
@@ -1393,8 +1393,8 @@ class CfgVehicles {
 		backpack = "B_CDF_A3_Backpack";
 		Items[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 		RespawnItems[] = {"FirstAidKit" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 	
 	class hmg_cdf_sergeant_zkv : hmg_cdf_sergeant
@@ -1428,8 +1428,8 @@ class CfgVehicles {
 		_generalMacro = "hmg_cdf_kmsv";
 		displayName= "Командир МХВ (бутан)";
 
-        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer_headset_mapcase","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+        linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crew","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 	};
 
 	class hmg_cdf_engineer_st : hmg_cdf_rifleman
@@ -1501,8 +1501,8 @@ class CfgVehicles {
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 
-        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer_crew","ItemCompass","ItemWatch","ItemMap"};
-		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_engineer_crew","ItemCompass","ItemWatch","ItemMap"};
+        linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_crew","ItemCompass","ItemWatch","ItemMap"};
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_AK",
 			"rhs_30Rnd_545x39_AK",
