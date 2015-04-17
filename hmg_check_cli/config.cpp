@@ -5,7 +5,7 @@ class CfgPatches {
 		requiredVersion = 0.6;
 		requiredAddons[] = {"AGM_Core"};
 		version = "";
-		versionStr = "0.550.0";
+		versionStr = "0.600.0";
 	};
 };
 class Extended_PostInit_EventHandlers {
