@@ -532,8 +532,8 @@ class CfgVehicles {
 	class LOP_IA_Special_TL : I_Soldier_TL_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_m4a1_m320_mrco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_m4a1_m320_mrco", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m4_m320", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m4_m320", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_black", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -544,8 +544,8 @@ class CfgVehicles {
 	class LOP_IA_Special_SL : I_Soldier_SL_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m4a1_grip2_acog", "Throw", "Put", "AGM_Vector"};
-		respawnWeapons[] = {"lop_rhs_weap_m4a1_grip2_acog", "Throw", "Put", "AGM_Vector"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "AGM_Vector"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put", "AGM_Vector"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_sand", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -556,8 +556,8 @@ class CfgVehicles {
 	class LOP_IA_Special_Medic : I_medic_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m4a1_grip2_cco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_weap_m4a1_grip2_cco", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierLite_KHK", "H_HelmetB_light_black", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -568,8 +568,8 @@ class CfgVehicles {
 	class LOP_IA_Special_AR : I_Soldier_AR_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m249_pip_aco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_weap_m249_pip_aco", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m249_pip", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip", "Throw", "Put"};
 		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierLite_KHK", "H_HelmetB_light_sand", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -580,8 +580,8 @@ class CfgVehicles {
 	class LOP_IA_Special_AT : I_Soldier_AT_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m4a1_eot", "rhs_weap_rpg7", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_weap_m4a1_eot", "rhs_weap_rpg7", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "rhs_weap_rpg7", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_pmag", "rhs_weap_rpg7", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_rpg7_PG7VL_mag", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_rpg7_PG7VL_mag", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierLite_KHK", "H_HelmetB_light_black", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -590,10 +590,10 @@ class CfgVehicles {
 	};
 	
 	class LOP_IA_Special_Marksman : I_Soldier_F {
-		Items[] = {"FirstAidKit"};
-		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_srifle_EBR_F_sos", "Throw", "Put"};
-		respawnWeapons[] = {"lop_srifle_EBR_F_sos", "Throw", "Put"};
+		Items[] = {"FirstAidKit", "RH_m3lr", "rhsusf_acc_anpeq15A"};
+		RespawnItems[] = {"FirstAidKit", "RH_m3lr", "rhsusf_acc_anpeq15A"};
+		weapons[] = {"RH_SAMR", "Throw", "Put"};
+		respawnWeapons[] = {"RH_SAMR", "Throw", "Put"};
 		magazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "20Rnd_762x51_Mag", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierLite_KHK", "H_HelmetB_light_sand", "G_Bandanna_oli","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -604,8 +604,8 @@ class CfgVehicles {
 	class LOP_IA_Special_Engineer : I_engineer_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m4a1_grip_arco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_weap_m4a1_grip_arco", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_sand", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -616,8 +616,8 @@ class CfgVehicles {
 	class LOP_IA_Special : I_Soldier_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_weap_m4a1_grip2_cco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_weap_m4a1_grip2_cco", "Throw", "Put"};
+		weapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "30Rnd_556x45_Stanag_Tracer_Red", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_black", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
@@ -628,8 +628,8 @@ class CfgVehicles {
 	class LOP_IA_Special_GL : I_Soldier_GL_F {
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
-		weapons[] = {"lop_rhs_m4a1_m320_cco", "Throw", "Put"};
-		respawnWeapons[] = {"lop_rhs_m4a1_m320_cco", "Throw", "Put"};
+		weapons[] = {"RH_M4_ris_M203", "Throw", "Put"};
+		respawnWeapons[] = {"RH_M4_ris_M203", "Throw", "Put"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		respawnMagazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "rhs_mag_M441_HE", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierRig_KHK", "H_HelmetB_light_black", "G_Balaclava_blk","ItemCompass", "ItemWatch", "rhsusf_ANPVS_14","ItemRadio","ItemSMGR","ItemMap"};
