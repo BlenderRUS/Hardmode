@@ -602,7 +602,7 @@ class CfgVehicles {
 	};
 	
 	class LOP_IA_Special_Engineer : I_engineer_F {
-		Items[] = {"FirstAidKit"};
+		Items[] = {"FirstAidKit" };
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4", "Throw", "Put"};
