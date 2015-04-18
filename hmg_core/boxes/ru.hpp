@@ -95,7 +95,37 @@
 
 				};
 			};  
-
+			
+			class hmg_ru_box_rpg_vr : hmg_ru_box_lau_base {
+				displayName = "ПГ-7ВР Резюме 6 шт.  (РФ)";
+				class TransportMagazines {
+						class _xx_rhs_rpg7_PG7VR_mag {
+							magazine = "rhs_rpg7_PG7VR_mag";
+							count =6;
+						};
+				};
+			};  
+			
+			class hmg_ru_box_rpg_og : hmg_ru_box_lau_base {
+				displayName = "ОГ-7В Осколок 6 шт. (РФ)";
+				class TransportMagazines {
+						class _xx_rhs_rpg7_OG7V_mag {
+							magazine = "rhs_rpg7_OG7V_mag";
+							count = 6;
+						};
+				};
+			};  
+			
+			class hmg_ru_box_rpg_vl : hmg_ru_box_lau_base {
+				displayName = "ПГ-7ВЛ Луч 6 шт. (РФ)";
+				class TransportMagazines {
+						class _xx_rhs_rpg7_PG7VL_mag {
+							magazine = "rhs_rpg7_PG7VL_mag";
+							count = 6;
+						};
+				};
+			};  
+			
 			class hmg_ru_box_rpg26 : hmg_ru_box_lau_base {
 				displayName = "Ящик РПГ/РШГ 6 шт. (РФ)";
 				class TransportWeapons {
@@ -132,14 +162,6 @@
 						class _xx_rhs_VOG25P {
 							magazine = "rhs_VOG25P";
 							count = 10;
-						};
-						class _xx_rhs_VG40TB {
-							magazine = "rhs_VG40TB";
-							count = 10;
-						};
-						class _xx_rhs_VG40SZ {
-							magazine = "rhs_VG40SZ";
-							count = 3;
 						};
 						class _xx_rhs_VG40OP_white {
 							magazine = "rhs_VG40OP_white";
