@@ -56,6 +56,9 @@
 			class hmg_box_ins_stuff : hmg_box_ins_base {
 				displayName = "Независимые: навигация (рандом)";
 			};
+			class hmg_box_ins_maps : hmg_box_ins_base {
+				displayName = "Независимые: карты и бинколи (рандом)";
+			};
 			class hmg_box_ins_snip : hmg_box_ins_weap_base {
 				displayName = "Независимые: снайперские винтовки (рандом)";
 			};
@@ -176,38 +179,38 @@
 			class hmg_box_ins_rifles_ak : hmg_box_ins_weap_base {
 				displayName = "Независимые: патроны, ГП и аксессуары к АК";
 				class transportMagazines {
-					class _xx_hlc_30Rnd_762x39_b_ak	 {
-						magazine ="hlc_30Rnd_762x39_b_ak";
+					class _xx_rhs_30Rnd_762x39mm	 {
+						magazine ="rhs_30Rnd_762x39mm";
 						count = 20;
 					};
-					class _xx_hlc_30Rnd_762x39_t_ak	 {
-						magazine ="hlc_30Rnd_762x39_t_ak";
+					class _xx_rhs_30Rnd_545x39_AK	 {
+						magazine ="rhs_30Rnd_545x39_AK";
 						count = 20;
 					};
-					class _xx_hlc_45Rnd_762x39_t_rpk	 {
-						magazine = "hlc_45Rnd_762x39_t_rpk";
+					class _xx_rhs_30Rnd_545x39_AK_green	 {
+						magazine = "rhs_30Rnd_545x39_AK_green";
 						count = 10;
 					};
-					class _xx_hlc_75rnd_762x39_m_rpk	 {
-						magazine ="hlc_75rnd_762x39_m_rpk";
+					class _xx_rhs_30Rnd_762x39mm_tracer	 {
+						magazine ="rhs_30Rnd_762x39mm_tracer";
 						count = 10;
 					};
-					class _xx_hlc_VOG25_AK	 {
-						magazine ="hlc_VOG25_AK";
+					class _xx_rhs_VOG25	 {
+						magazine ="rhs_VOG25";
 						count = 40;
 					};
-					class _xx_hlc_GRD_red	 {
-						magazine = "hlc_GRD_red";
+					class _xx_rhs_GRD40_White	 {
+						magazine = "rhs_GRD40_White";
 						count = 20;
 					};
 				};
 				class transportItems {
-					class _xx_hlc_optic_kobra		{
-						name = "hlc_optic_kobra";
+					class _xx_rhs_acc_ekp1		{
+						name = "rhs_acc_ekp1";
 						count = 4;
 					};
-					class _xx_hlc_optic_PVS4FAL		{
-						name = "HLC_Optic_1p29";
+					class _xx_rhs_acc_pso1m2		{
+						name = "rhs_acc_pso1m2";
 						count = 4;
 					};
 				};
@@ -296,8 +299,8 @@
 						weapon = "hlc_lmg_m60";
 						count = 1;
 					};
-					class _xx_CUP_lmg_PKM {
-						weapon = "CUP_lmg_PKM";
+					class _xx_rhs_weap_pkm {
+						weapon = "rhs_weap_pkm";
 						count = 1;
 					};
 					class _xx_rhs_weap_m240B {

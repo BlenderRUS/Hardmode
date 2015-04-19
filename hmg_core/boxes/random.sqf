@@ -51,7 +51,7 @@ switch (_hmgtypeofbox) do {
 		_hmgbox addweaponcargoglobal ["hlc_lmg_m60", _hmgcount];
 		_hmgbox addmagazinecargoglobal ["hlc_100Rnd_762x51_B_M60E4", _hmgcount*8];
 		_hmgcount = (floor (random 2));		
-		_hmgbox addweaponcargoglobal ["CUP_lmg_PKM", _hmgcount]; 
+		_hmgbox addweaponcargoglobal ["rhs_weap_pkm", _hmgcount]; 
 		_hmgbox addmagazinecargoglobal ["rhs_100Rnd_762x54mmR", _hmgcount*4];
 		_hmgbox addmagazinecargoglobal ["rhs_100Rnd_762x54mmR_green", _hmgcount*4];
 		_hmgcount = (floor (random 2));
@@ -68,6 +68,12 @@ switch (_hmgtypeofbox) do {
 		_hmgcount = (floor (random 2));
 		_hmgbox additemcargoglobal ["AGM_Vector", _hmgcount]; 
 		_hmgcount = (floor (random 5));
+		_hmgbox addweaponcargoglobal ["Binocular", _hmgcount]; 
+		};
+	case "maps": {
+		_hmgcount = (floor (random 10));
+		_hmgbox additemcargoglobal ["ItemMap", _hmgcount]; 
+		_hmgcount = (floor (random 10));
 		_hmgbox addweaponcargoglobal ["Binocular", _hmgcount]; 
 		};
 	case "radio": {
