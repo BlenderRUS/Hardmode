@@ -261,30 +261,30 @@
 			class hmg_box_ins_rifles_lmg : hmg_box_ins_weap_base {
 				displayName = "Независимые: LMG - 3 шт.";
 				class TransportWeapons {
-					class _xx_rhs_weap_m249_pip {
-						weapon = "rhs_weap_m249_pip";
-						count = 1;
-					};
-					class _xx_hlc_rifle_M14DMR {
-						weapon = "hlc_rifle_M14DMR";
-						count = 1;
-					};
 					class _xx_hlc_rifle_rpk {
 						weapon = "hlc_rifle_rpk";
 						count = 1;
 					};
+					class _xx_rhs_weap_m249_pip {
+						weapon = "rhs_weap_m249_pip";
+						count = 1;
+					};
+					class _xx_hlc_rifle_aughbar_t {
+						weapon = "hlc_rifle_aughbar_t";
+						count = 1;
+					};
 				};
 				class transportMagazines {
-					class _xx_hlc_75rnd_762x39_m_rpk	 {
-						magazine ="hlc_75rnd_762x39_m_rpk";
+					class _xx_rhs_30Rnd_762x39mm	 {
+						magazine ="rhs_30Rnd_762x39mm";
 						count = 10;
 					};
 					class _xx_rhsusf_100Rnd_556x45_soft_pouch	 {
 						magazine ="rhsusf_100Rnd_556x45_soft_pouch";
 						count = 8;
 					};
-					class _xx_hlc_50rnd_762x51_M_FAL	 {
-						magazine = "hlc_50rnd_762x51_M_FAL";
+					class _xx_hlc_40Rnd_556x45_B_AUG	 {
+						magazine = "hlc_40Rnd_556x45_B_AUG";
 						count = 16;
 					};
 				};

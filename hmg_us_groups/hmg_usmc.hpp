@@ -143,8 +143,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2005_PltL : hmg_usmc_w_2005_SL
 	{
 		displayName= "Platoon commander (Marpat)";
-		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap"};
+		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap","Binocular"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap","Binocular"};
 	};
 	
 	class hmg_usmc_w_2005_firsrg : hmg_usmc_w_2005
@@ -692,8 +692,8 @@ class hmg_usmc_d_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2005_PltL : hmg_usmc_d_2005_SL
 	{
 		displayName= "Platoon commander (MarpatDesert)";
-		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap"};
+		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap","Binocular"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "itemradio", "Binocular","ItemMap","Binocular"};
 	};
 	
 	class hmg_usmc_d_2005_firsrg : hmg_usmc_d_2005
@@ -1805,10 +1805,10 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 	class hmg_usmc_w_2015_firsrg : hmg_usmc_w_2015_rifleman
 	{
 		displayName= "First sergeant (Marpat)";
-		weapons[] = {"rhs_weap_m4","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put","Binocular"};		
-        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools"};
+		weapons[] = {"rhs_weap_m4","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4","Throw","Put"};		
+        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools","Binocular"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools","Binocular"};
 	};
 	
 	class hmg_usmc_w_2015_gunsrg : hmg_usmc_w_2015_firsrg
@@ -1855,8 +1855,8 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_ta648","Trixie_ANPASM", "rhsusf_acc_anpeq15A" };
 		weapons[] = {"CUP_hgun_M9","Throw","Put","rhs_weap_m240B"};
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put","rhs_weap_m240B"};		
-        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14"};
+        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		magazines[] = 
 			{
 				"rhsusf_100Rnd_762x51_m80a1epr",
@@ -1940,7 +1940,7 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 //отсюда пошлb КМПшники в Марпате Дезерт обр. 2015 года
 class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	{
-		displayName= "Rifleman/scout";
+		displayName= "Rifleman/scout (MarpatDesert)";
 		uniformClass = "rhs_uniform_FROG01_d";
 		weapons[] = {"rhs_weap_m16a4","Throw","Put"}; 
 		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put"}; 
@@ -2036,10 +2036,10 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_d_2015_firsrg : hmg_usmc_d_2015_rifleman
 	{
 		displayName= "First sergeant (MarpatDesert)";
-		weapons[] = {"rhs_weap_m4","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put","Binocular"};		
-        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools"};
+		weapons[] = {"rhs_weap_m4","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4","Throw","Put"};		
+        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools","Binocular"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemMap","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "itemradio","AGM_MapTools","Binocular"};
 	};
 	
 	class hmg_usmc_d_2015_gunsrg : hmg_usmc_d_2015_firsrg
@@ -2089,8 +2089,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_ta648","Trixie_ANPASM", "rhsusf_acc_anpeq15A" };
 		weapons[] = {"CUP_hgun_M9","Throw","Put","rhs_weap_m240B"};
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put","rhs_weap_m240B"};		
-        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14"};
+        linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
+		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_desert","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		magazines[] = 
 			{
 				"rhsusf_100Rnd_762x51_m80a1epr",
@@ -2268,8 +2268,8 @@ class hmg_usmc_w_1995_rifleman : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_1995_PltL : hmg_usmc_w_1995_SL
 	{
 		displayName= "Platoon commander (Woodland)";
-		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"  , "Binocular","ItemMap"};
-		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"  , "Binocular","ItemMap"};
+		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"  , "Binocular","ItemMap","Binocular"};
+		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"  , "Binocular","ItemMap","Binocular"};
 	};
 	
 	class hmg_usmc_w_1995_firsrg : hmg_usmc_w_1995_SL
@@ -2797,8 +2797,8 @@ class hmg_usmc_w_1985_rifleman : hmg_usmc_w_1995_rifleman
 	class hmg_usmc_w_1985_PltL : hmg_usmc_w_1985_SL
 	{
 		displayName= "Platoon commander (Woodland)";
-		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"  , "Binocular","ItemMap"};
-		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"  , "Binocular","ItemMap"};
+		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"  , "Binocular","ItemMap","Binocular"};
+		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"  , "Binocular","ItemMap","Binocular"};
 	};
 	
 	class hmg_usmc_w_1985_firsrg : hmg_usmc_w_1985_SL
