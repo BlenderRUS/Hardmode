@@ -306,8 +306,8 @@ class CfgVehicles {
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"hlc_rifle_rpk", "Throw", "Put"};
 		respawnWeapons[] = {"hlc_rifle_rpk", "Throw", "Put"};
-		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_545x39_7N22_AK", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
-		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_545x39_7N22_AK", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
+		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
+		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_Chestrig_kamysh","ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"LOP_V_Chestrig_kamysh","ItemCompass", "ItemWatch"};
 		backpack = "CUP_B_AlicePack_Khaki";
