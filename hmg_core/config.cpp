@@ -121,6 +121,10 @@ class Extended_InitPost_EventHandlers
 		class LandVehicle {
 		HMG_veh_init = "[_this] call compile preprocessFileLineNumbers 'hmg_core\vehicle\clear.sqf'";
 		};
+		class hmg_box_ins_maps
+		{
+		HMG_box_init_ins_maps = "[_this,'maps'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
+		};
 //		class StaticMortar {
 //		HMG_veh_init_mort = "[_this] call compile preprocessFileLineNumbers 'hmg_core\vehicle\mortars.sqf'";
 //		};

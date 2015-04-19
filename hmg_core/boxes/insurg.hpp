@@ -57,7 +57,7 @@
 				displayName = "Независимые: навигация (рандом)";
 			};
 			class hmg_box_ins_maps : hmg_box_ins_base {
-				displayName = "Независимые: карты и бинколи (рандом)";
+				displayName = "Независимые: карты и бинокли (рандом)";
 			};
 			class hmg_box_ins_snip : hmg_box_ins_weap_base {
 				displayName = "Независимые: снайперские винтовки (рандом)";
