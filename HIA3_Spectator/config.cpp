@@ -20,6 +20,19 @@ class CfgPatches
 	};
 };
 
+class CfgRespawnTemplates
+{
+	class Seagull
+	{
+		onPlayerRespawn = "HIA3_spectator_fnc_respawnSeagull";
+	};
+	class Spectator
+	{
+		onPlayerKilled = "";
+		onPlayerRespawn = "HIA3_spectator_fnc_respawnSpecator";
+	};
+};
+
 class CfgFactionClasses
 {
 

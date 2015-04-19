@@ -17,6 +17,19 @@ class CfgPatches
 #include "\CSSA3\dialogs\CSSA3_defines.hpp"
 #include "\CSSA3\dialogs\CSSA3_dialogs.hpp"
 
+class CfgRespawnTemplates
+{
+	class Spectator
+	{
+		onPlayerKilled = "";
+		onPlayerRespawn = "CSSA3_fnc_init";
+	};
+	class Seagull
+	{
+		onPlayerRespawn = "CSSA3_fnc_init";
+	};
+};
+
 class Extended_PostInit_EventHandlers {
 	CSSA3_postinit = "[] execVM '\CSSA3\KeysSetup.sqf';";
 };
