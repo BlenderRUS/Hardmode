@@ -19,7 +19,7 @@ class group_ru_msv_minbatr_surp
 					class Unit1
 					{
 						side = 0;
-						vehicle = "hmg_msv_s_strsh";
+						vehicle = "hmg_msv_s_strsh_batr";
 						rank = "SERGEANT";
 						position[] = {2,0,0};
 					};

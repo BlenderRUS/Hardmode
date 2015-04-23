@@ -175,9 +175,10 @@
 		nameSound = "veh_infantry_MG_s";
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
-
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_7N10_AK",
@@ -405,8 +406,8 @@
 		cost = 150000;
 		sensitivity = 3.3;
 
-		Weapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
+		Weapons[] = {"rhs_weap_svd","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_svd","Throw","Put","Binocular"};
 		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		linkedItems[] = {"rhs_6b23_sniper","rhs_6b26","ItemCompass","ItemWatch"};
@@ -509,6 +510,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		linkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		backpack="FARA_PV_RUCK";
 	};	
 	
 	class hmg_tank_ko_r : hmg_tank_officer_armored
@@ -729,6 +731,9 @@
 		_generalMacro = "hmg_tank_rifleman_sbr";
 		Author_Macro
 		displayName= "Оператор СБР (ВСР-98)";
+		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		backpack = "FARA_PV_PULT_RUCK";
 	};
 	
 	class hmg_tank_ags_s : hmg_tank_rifleman
@@ -942,6 +947,7 @@
 	// отсюда пошла минометная батарея мотострелкового батальона, структура восстановленая 
 	// номенклатура:
 	// Командир батареи
+	// старшина минбата
 	// Командир взвода управления
 	// Старший вычислитель
 	// Командир отделения (подвоза б/пр)
@@ -1126,3 +1132,15 @@
 		Author_Macro
 		displayName= "Командир батареи (ВСР-98)";
 	};
+	
+	class hmg_tank_strsh_minbatr : hmg_tank_officer_armored
+	{
+		_generalMacro = "hmg_tank_strsh_minbatr";
+		Author_Macro
+		displayName= "Старшина батареи (ВСР-98)";
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		backpack="FARA_PV_RUCK";
+	};	

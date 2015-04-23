@@ -26,7 +26,7 @@ class group_ru_msv_minbatr_flora
 					class Unit2
 					{
 						side = 0;
-						vehicle = "hmg_msv_strsh";
+						vehicle = "hmg_msv_strsh_batr";
 						rank = "SERGEANT";
 						position[] = {3,0,0};
 					};

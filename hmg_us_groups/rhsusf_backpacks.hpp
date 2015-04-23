@@ -4,7 +4,7 @@ class rhsusf_assault_eagleaiii_ucp;
 class rhsusf_assault_eagleaiii_ocp;
 class MEF_Des_Tactical;
 class B_Kitbag_Base;
-class B_Respawn_TentDome_F;
+class B_Carryall_oli;
 class MEF_Wood_Carryall;
 class MEF_Des_Carryall;
 
@@ -529,6 +529,11 @@ class MEF_Wood_Kitbag_SMAW: B_Kitbag_Base
 			magazine = "Trixie_SMAW_HEDP";
 			count = 1;
 		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
+		};
 	};
 	class TransportItems
 	{
@@ -718,6 +723,11 @@ class MEF_Des_Tactical_SMAW: B_Kitbag_Base
 			magazine = "Trixie_SMAW_HEDP";
 			count = 1;
 		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
+		};
 	};
 	class TransportItems
 	{
@@ -752,7 +762,7 @@ class m252_ammo_marpatDesert: MEF_Des_Carryall
 	};
 };	
 //тут пойдут КМП до 2000ого
-class CUP_B_CivPack_Wdl_medic: B_Respawn_TentDome_F
+class CUP_B_CivPack_Wdl_medic: B_Carryall_oli
 {
 	displayName = "Coprsman backpack";
 	maximumLoad = 1000;
@@ -770,7 +780,7 @@ class CUP_B_CivPack_Wdl_medic: B_Respawn_TentDome_F
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_AR: B_Respawn_TentDome_F
+class CUP_B_CivPack_Wdl_AR: B_Carryall_oli
 {
 	displayName = "AR backpack ";
 	maximumLoad = 1000;
@@ -783,7 +793,7 @@ class CUP_B_CivPack_Wdl_AR: B_Respawn_TentDome_F
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_MG: B_Respawn_TentDome_F
+class CUP_B_CivPack_Wdl_MG: B_Carryall_oli
 {
 	displayName = "MG backpack";
 	maximumLoad = 1000;
@@ -796,7 +806,7 @@ class CUP_B_CivPack_Wdl_MG: B_Respawn_TentDome_F
 		};
 	};
 };
-class CUP_B_CivPack_Wdl_TL: B_Respawn_TentDome_F
+class CUP_B_CivPack_Wdl_TL: B_Carryall_oli
 {
 	displayName = "TL backpack ";
 	maximumLoad = 1000;
@@ -824,7 +834,7 @@ class CUP_B_CivPack_Wdl_TL: B_Respawn_TentDome_F
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_SMAW: B_Respawn_TentDome_F
+class CUP_B_CivPack_Wdl_SMAW: B_Carryall_oli
 {
 	displayName = "SMAW backpack";
 	maximumLoad = 1000;
@@ -839,6 +849,11 @@ class CUP_B_CivPack_Wdl_SMAW: B_Respawn_TentDome_F
 		{
 			magazine = "Trixie_SMAW_HEDP";
 			count = 1;
+		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
 		};
 	};
 	class TransportItems
@@ -860,7 +875,7 @@ class CUP_B_CivPack_Wdl_SMAW: B_Respawn_TentDome_F
 		};
 	};
 };	
-class m252_ammo_woodland: B_Respawn_TentDome_F
+class m252_ammo_woodland: B_Carryall_oli
 {
 	displayName = "m252_ammo";
 	maximumLoad = 1000;

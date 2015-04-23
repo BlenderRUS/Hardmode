@@ -174,9 +174,11 @@
 		nameSound = "veh_infantry_MG_s";
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
 
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_7N10_AK",
@@ -314,7 +316,7 @@
 	{
 		_generalMacro = "hmg_mp_at";
 		Author_Macro
-		displayName= "Гранатометчик РПГ-7В2";
+		displayName= "Гранатометчик РПГ-7В2 (ВСР-98)";
 
 		class SpeechVariants
 		{
@@ -404,8 +406,8 @@
 		cost = 150000;
 		sensitivity = 3.3;
 
-		Weapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
+		Weapons[] = {"rhs_weap_svd","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_svd","Throw","Put"};
 		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		linkedItems[] = {"rhs_6b23_sniper","rhs_6b26_green","ItemCompass","ItemWatch"};

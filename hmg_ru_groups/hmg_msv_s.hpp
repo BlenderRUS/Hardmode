@@ -230,10 +230,12 @@
 		nameSound = "veh_infantry_MG_s";
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
 		linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_7N10_AK",
@@ -489,11 +491,12 @@
 	{
 		_generalMacro = "hmg_msv_s_strsh";
 		Author_Macro
-		displayName= "Старшина (ЕМР)";
+		displayName= "Старшина роты (ЕМР)";
 		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
 		linkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
 		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+		backpack="FARA_PV_RUCK";
 	};	
 	
 	class hmg_msv_s_ko_r : hmg_msv_s_officer_armored
@@ -774,6 +777,9 @@
 		displayName= "Оператор СБР (ЕМР)";
 		linkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
+		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		backpack = "FARA_PV_PULT_RUCK";
 	};
 	class hmg_msv_s_ags_s : hmg_msv_s_rifleman
 	{
@@ -917,6 +923,7 @@
 	// отсюда пошел ГСАБатр мотострелкового батальона, за основу взят штат № 5/060
 	// номенклатура:
 	// Командир батареи
+	// старшина батареи
 	// Командир взвода управления
 	// Командир отделения / оператор-топогеодезист
 	// Разведчик-дальномерщик
@@ -928,6 +935,16 @@
 	// Командир САУ
 	
 	// отсюда должности огневого взвода
+	class hmg_msv_s_strsh_batr : hmg_msv_s_officer_armored
+	{
+		_generalMacro = "hmg_msv_s_strsh_batr";
+		Author_Macro
+		displayName= "Старшина батареи (ЕМР)";
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
+		linkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+	};	
 	class hmg_msv_s_komvzvoda_sob : hmg_msv_s_officer_armored
 	{
 		_generalMacro = "hmg_msv_s_komvzvoda_sob";
