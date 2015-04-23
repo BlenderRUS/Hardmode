@@ -94,7 +94,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_Carrier_OLV", "LOP_H_PASGTHelmet_OLV","ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_Carrier_OLV", "LOP_H_PASGTHelmet_OLV","ItemCompass", "ItemWatch", "ItemRadio"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_AA_Soldier_A_AR : I_Soldier_A_F {
@@ -430,7 +430,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_CarrierLite_TRI", "LOP_H_PASGTHelmet_cover_TRI","ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_CarrierLite_TRI", "LOP_H_PASGTHelmet_cover_TRI","ItemCompass", "ItemWatch", "ItemRadio"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_IA_Soldier_A_AR : I_Soldier_A_F {
@@ -694,7 +694,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_Carrier_TAN", "H_ShemagOpen_khk","ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"LOP_V_Carrier_TAN", "H_ShemagOpen_khk","ItemCompass", "ItemWatch"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_ISIS_Soldier_AT : I_Soldier_A_F {
@@ -982,7 +982,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_Chestrig_vsr", "rhs_6b28_green", "G_Bandanna_oli","ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr", "rhs_6b28_green", "G_Bandanna_oli","ItemCompass", "ItemWatch"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_UA_Soldier_A_AR : I_Soldier_A_F {
@@ -1558,7 +1558,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "rhs_100Rnd_762x54mmR", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"V_TacVest_blk", "H_Cap_blk", "G_Bandanna_oli","ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"V_TacVest_blk", "H_Cap_blk", "G_Bandanna_oli","ItemCompass", "ItemWatch"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_US_Soldier_AT : I_Soldier_AT_F {
@@ -1859,7 +1859,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "rhs_100Rnd_762x54mmR_green", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"LOP_V_Carrier_OLV", "LOP_H_SSh68Helmet_OLV","ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_Carrier_OLV", "LOP_H_SSh68Helmet_OLV","ItemCompass", "ItemWatch","ItemRadio"};
-		backpack = "CUP_B_AlicePack_Khaki";
+		backpack = "hmg_rif_sidorMG";
 	};
 	
 	class LOP_SLA_Soldier_A_AR : I_Soldier_A_F {

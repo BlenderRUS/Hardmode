@@ -175,9 +175,10 @@
 		nameSound = "veh_infantry_MG_s";
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
-
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_1"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_7N10_AK",
@@ -315,7 +316,7 @@
 	{
 		_generalMacro = "hmg_msv_at";
 		Author_Macro
-		displayName= "Гранатометчик РПГ-7В2";
+		displayName= "Гранатометчик РПГ-7В2 (ВСР-98)";
 
 		class SpeechVariants
 		{
@@ -405,8 +406,8 @@
 		cost = 150000;
 		sensitivity = 3.3;
 
-		Weapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
+		Weapons[] = {"rhs_weap_svd","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_svd","Throw","Put"};
 		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		linkedItems[] = {"rhs_6b23_sniper","rhs_6b26","ItemCompass","ItemWatch"};
@@ -509,6 +510,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		linkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		backpack="FARA_PV_RUCK";
 	};	
 	
 	class hmg_msv_ko_r : hmg_msv_officer_armored
@@ -752,6 +754,9 @@
 		_generalMacro = "hmg_msv_rifleman_sbr";
 		Author_Macro
 		displayName= "Оператор СБР (ВСР-98)";
+		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		backpack = "FARA_PV_PULT_RUCK";
 	};
 	class hmg_msv_ags_s : hmg_msv_rifleman
 	{
@@ -1077,6 +1082,18 @@
 		Author_Macro
 		displayName= "Командир батареи (ВСР-98)";
 	};
+	
+	class hmg_msv_strsh_batr : hmg_msv_officer_armored
+	{
+		_generalMacro = "hmg_msv_strsh_batr";
+		Author_Macro
+		displayName= "Старшина батареи (ВСР-98)";
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		linkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
+		backpack="FARA_PV_RUCK";
+	};	
 	// медицинский пункт батальона 
 	// Командир медицинского пункта
 	// Старший водитель-санитар

@@ -534,7 +534,7 @@ class group_ru_tank_minbatr_flora
 					class Unit2
 					{
 						side = 0;
-						vehicle = "hmg_tank_strsh";
+						vehicle = "hmg_tank_strsh_minbatr";
 						rank = "SERGEANT";
 						position[] = {3,0,0};
 					};

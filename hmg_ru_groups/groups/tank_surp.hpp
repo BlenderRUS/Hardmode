@@ -445,7 +445,7 @@ class group_ru_tank_gsabatr_surp
 					class Unit1
 					{
 						side = 0;
-						vehicle = "hmg_tank_s_strsh";
+						vehicle = "hmg_tank_s_strsh_gau";
 						rank = "SERGEANT";
 						position[] = {2,0,0};
 					};

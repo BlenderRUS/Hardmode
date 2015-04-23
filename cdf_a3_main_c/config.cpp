@@ -309,9 +309,9 @@ class CfgVehicles {
 		threat[] = {1, 0.1, 0.3};
 		cost = 80000;
 		backpack = "B_CDF_A3_Backpack";
-		weapons[] = {"hmg_rpk74", "Throw", "Put"};
+		weapons[] = {"hlc_rifle_rpk74n", "Throw", "Put"};
 		magazines[] = {"rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
-		respawnWeapons[] = {"hmg_rpk74", "Throw", "Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n", "Throw", "Put"};
 		respawnMagazines[] = {"rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "rhs_45Rnd_545X39_AK", "HandGrenade", "HandGrenade", "SmokeShell", "SmokeShell"};
 		icon = "iconManMG";
 	};
@@ -559,8 +559,8 @@ class CfgVehicles {
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
 
-		weapons[] = {"hmg_rpk74","launch_RPG18_F","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","launch_RPG18_F","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74n","launch_RPG18_F","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","launch_RPG18_F","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_AK",
@@ -1025,8 +1025,8 @@ class CfgVehicles {
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
 
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_AK",

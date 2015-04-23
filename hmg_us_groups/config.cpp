@@ -1427,10 +1427,12 @@ class us_army_des_ucp_aarspas : us_army_des_ucp_base_m4{
 };
 class us_army_wood_ocp_mort_g : us_army_wood_ocp_base_m4{
 		displayName = "M252 Gunner (wood)";
+		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage","cw_item_table82mm_252"};
 		backpack = "RDS_M252_Gun_Bag_FIA";
 };
 class us_army_des_ucp_mort_g : us_army_des_ucp_base_m4{
 		displayName = "M252 Gunner (ucp)";
+		items[] = {"G_Combat","AGM_Bandage", "AGM_Bandage","cw_item_table82mm_252"};
 		backpack = "RDS_M252_Gun_Bag_FIA";
 };
 class us_army_wood_ocp_mort_gas : us_army_wood_ocp_base_m4{

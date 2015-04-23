@@ -234,8 +234,8 @@
 		icon = "iconManMG";
 		threat[] = {1,0.1,0.3};
 
-		weapons[] = {"hmg_rpk74","Throw","Put"};
-		respawnWeapons[] = {"hmg_rpk74","Throw","Put"};
+		weapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
+		respawnWeapons[] = {"hlc_rifle_rpk74n","Throw","Put"};
 		magazines[] =
 		{
 			"rhs_45Rnd_545X39_7N10_AK",
@@ -499,6 +499,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
 		linkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
 		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+		backpack="FARA_PV_RUCK";
 	};	
 	
 	class hmg_tank_s_ko_r : hmg_tank_s_officer_armored
@@ -719,6 +720,9 @@
 		_generalMacro = "hmg_tank_s_rifleman_sbr";
 		Author_Macro
 		displayName= "Оператор СБР (ЕМР)";
+		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		backpack = "FARA_PV_PULT_RUCK";
 	};
 	class hmg_tank_s_ags_s : hmg_tank_s_rifleman
 	{
@@ -844,6 +848,7 @@
 	// отсюда пошел ГСАБатр мотострелкового батальона, за основу взят штат № 5/060
 	// номенклатура:
 	// Командир батареи
+	// старшина батарей
 	// Командир взвода управления
 	// Командир отделения / оператор-топогеодезист
 	// Разведчик-дальномерщик
@@ -855,6 +860,17 @@
 	// Командир САУ
 	
 	// отсюда должности огневого взвода
+	
+	class hmg_tank_s_strsh_gau : hmg_tank_s_officer_armored
+	{
+		_generalMacro = "hmg_tank_s_strsh_gau";
+		Author_Macro
+		displayName= "Старшина ГСАБатр (ЕМР)";
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_pya"};
+		linkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_headset_mapcase","ItemCompass","ItemWatch","G_Combat","ItemMap","tf_pnr1000a", "tf_microdagr"};
+	};	
 	class hmg_tank_s_voditel : hmg_tank_s_rifleman
 	{
 		_generalMacro = "hmg_tank_s_voditel";

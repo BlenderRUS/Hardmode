@@ -495,7 +495,7 @@ class group_ru_mp_bmp_attach
 			};
 class group_ru_mp_minbatr_flora
 			{
-				name = "Минометная батарея МСБ на БТР/БМП";
+				name = "Минометная батарея батальона МП";
 				aliveCategory="Минометчики";
 				class group_ru_mp_minbatr_msb_HQ
 				{
