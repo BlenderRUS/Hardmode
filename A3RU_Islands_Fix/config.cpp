@@ -6,9 +6,9 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"A3_Map_Panthera3", "AiA_Worlds_Grid", "Bootcamp_ACR", "Caribou", "Chernarus", "Desert", "Emita", "FDF_Isle1_a", "Gorgona", "hellskitchen", "hellskitchens", "mbg_celle2", "ProvingGrounds_PMC", "Sara", "SaraLite", "Sara_dbe1", "Shapur_BAF", "Takistan", "Thirsk", "ThirskW", "torabora", "Utes", "zargabad", "IsolaDiCapraia"};
-		version = "1.0";
-		versionStr = "1.0";
-		versionAr[] = { 1, 0 };
+		version = "1.1";
+		versionStr = "1.1";
+		versionAr[] = { 1, 1 };
 		author[] = { "Blender" };
 	};
 };
