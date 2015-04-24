@@ -1,0 +1,5 @@
+pomi_pmc_config
+=======HEADER=======
+prefix=pomi_pmc_config
+Pbo Type is: Arma Unknown Addon (no config).
+==================
