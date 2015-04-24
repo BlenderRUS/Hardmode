@@ -151,7 +151,7 @@ class CfgMagazines {
 		icon = "HMG_Weapons_St\dshkm_co.paa";
 		picture = "\HMG_Weapons_St\dshkm_mg_ca";
 		model = "HMG_Weapons_St\ace_kord_mag.p3d";
-		displayName = "KORD MAG";
+		displayName = "Magazine B-30";
 		mass = 20;
 	};
 	class PG9_out: CA_Magazine

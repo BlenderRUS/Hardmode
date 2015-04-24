@@ -1,9 +1,9 @@
 Language,English,Russian
 STR_HMG_Static_Load,Load,Зарядить
-STR_HMG_Static_Load50x127,Load 50 х 12.7,Зарядить 50 х 12.7
+STR_HMG_Static_Load50x127,Load magazine B-30,Зарядить короб Б-30
 STR_HMG_Static_LoadingAGS,Loading AGS magazine,Заряжаем кассету АГС
-STR_HMG_Static_LoadingKORD,Loading KORD magazine (50 x 12.7),Заряжаем кассету КОРД (50 x 12.7)
-STR_HMG_Static_LoadingDSHKM,Loading DSHKM magazine (50 x 12.7),Заряжаем кассету ДШКМ (50 x 12.7)
+STR_HMG_Static_LoadingKORD,Loading magazine B-30,Заряжаем короб Б-30
+STR_HMG_Static_LoadingDSHKM,Loading magazine B-30,Заряжаем короб Б-30
 STR_HMG_Static_LoadHECharge,Load HE charge,Зарядить ОФ мину
 STR_HMG_Static_LoadingHECharge,Loading HE charge,Заряжаем ОФ мину
 STR_HMG_Static_LoadTOW,Load TOW missile,Зарядить TOW снаряд
