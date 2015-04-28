@@ -1086,8 +1086,8 @@ class CfgVehicles {
 		_generalMacro = "B_Soldier_SL_F";
 		icon = "iconManLeader";
 		displayName = "Team Coordinator (M4А1)";
-		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools", "RH_qdss_nt4","rhsusf_acc_harris_bipod"};
-		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_qdss_nt4","rhsusf_acc_harris_bipod"};
+		Items[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools", "RH_m145","rhsusf_acc_harris_bipod"};
+		RespawnItems[] = {"FirstAidKit", "cw_item_notepad","AGM_CableTie","AGM_MapTools","RH_m145","rhsusf_acc_harris_bipod"};
 		nakedUniform = "U_PMC_RGR_BasicBody";
 		uniformClass = "U_PMC_GTShirt_DJeans";
 		hiddenSelectionsTextures[] = {"\PG_Services_PMC\textures\Underwear\basicbody_PMC_RGR_co.paa", "\PG_Services_PMC\textures\Uniforms\c_cloth_PMC_denim_co.paa"};
