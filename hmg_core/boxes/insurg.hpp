@@ -167,7 +167,7 @@
 				};
 				class transportItems {
 					class _xx_hlc_optic_suit		{
-						name = "hlc_20Rnd_762x51_B_G3";
+						name = "hlc_optic_suit";
 						count = 2;
 					};
 					class _xx_hlc_optic_PVS4FAL		{
