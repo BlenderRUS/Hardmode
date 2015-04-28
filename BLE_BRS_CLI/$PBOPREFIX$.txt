@@ -1,0 +1,6 @@
+///////<HEADER>///////
+prefix=BLE_BRS_CLI
+Mikero=DePbo.dll
+Pbo Type is: Arma Addon
+Sha: '72FE395CAEC98C042773EFFE8EE4781F85DF0057'
+//////</HEADER>//////
