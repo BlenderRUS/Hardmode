@@ -19,7 +19,7 @@ enum {
 	DESTRUCTBUILDING = 1,
 };
 
-class DefaultEventhandlers;	// External class reference  
+class DefaultEventhandlers;	// External class reference
 
 class CfgPatches {
 	class PG_Services_PMC_UNITS {
