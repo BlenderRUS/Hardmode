@@ -23,8 +23,8 @@ class CfgPatches {
 	
 		};
 		version = "";
-		versionStr = "0.602.0";
-		versionAr[] = {0, 602, 0};
+		versionStr = "0.603.0";
+		versionAr[] = {0, 603, 0};
 	};
 };
 class cfgFunctions {
