@@ -117,9 +117,6 @@ class CfgPatches
 			us_army_wood_ocp_mort_g,
 			us_army_wood_ocp_mort_gas,
 			us_army_wood_ocp_amb_aide,
-			us_army_wood_ocp_snip_sqld,
-			us_army_wood_ocp_snip_sniper1,
-			us_army_wood_ocp_snip_sniper2,
 			us_army_wood_ocp_cp_ratelo,
 			us_army_wood_ocp_cp_fs_comm,
 			us_army_wood_ocp_cp_fs_dr,
@@ -183,6 +180,34 @@ class CfgPatches
 			hmg_usmc_d_2005_sniper,
 			hmg_usmc_d_2005_corp,
 			hmg_usmc_d_2005_scorp,
+			hmg_usmc_w_2005_rifleman,
+			hmg_usmc_w_2005_firstaid,
+			hmg_usmc_w_2005_marksman,
+			hmg_usmc_w_2005_assar,
+			hmg_usmc_w_2005_AR,
+			hmg_usmc_w_2005_TL,
+			hmg_usmc_w_2005_SL,
+			hmg_usmc_w_2005_messenger,
+			hmg_usmc_w_2005_guide,
+			hmg_usmc_w_2005_pltsrg,
+			hmg_usmc_w_2005_PltL,
+			hmg_usmc_w_2005_gunsrg,
+			hmg_usmc_w_2005_firsrg,
+			hmg_usmc_w_2005_execoff,
+			hmg_usmc_w_2005_cl,
+			hmg_usmc_w_2005_MGSL,
+			hmg_usmc_w_2005_mortSL,
+			hmg_usmc_w_2005_mg_tl,
+			hmg_usmc_w_2005_mg,
+			hmg_usmc_w_2005_assMG,
+			hmg_usmc_w_2005_mortL,
+			hmg_usmc_w_2005_mortas,
+			hmg_usmc_w_2005_assSL,
+			hmg_usmc_w_2005_assGun,
+			hmg_usmc_w_2005_scout,
+			hmg_usmc_w_2005_sniper,
+			hmg_usmc_w_2005_corp,
+			hmg_usmc_w_2005_scorp,
 			//usmc rifle company 2015
 			hmg_usmc_w_2015_rifleman,
 			hmg_usmc_w_2015_firstaid,
@@ -249,6 +274,38 @@ class CfgPatches
 			hmg_usmc_d_2015_sniperH,
 			hmg_usmc_d_2015_sniperS,
 			hmg_usmc_d_2015_sniper,
+			hmg_usmc_w_2015_rifleman,
+			hmg_usmc_w_2015_firstaid,
+			hmg_usmc_w_2015_marksman,
+			hmg_usmc_w_2015_assar,
+			hmg_usmc_w_2015_AR,
+			hmg_usmc_w_2015_TL,
+			hmg_usmc_w_2015_SL,
+			hmg_usmc_w_2015_messenger,
+			hmg_usmc_w_2015_guide,
+			hmg_usmc_w_2015_pltsrg,
+			hmg_usmc_w_2015_PltL,
+			hmg_usmc_w_2015_gunsrg,
+			hmg_usmc_w_2015_firsrg,
+			hmg_usmc_w_2015_execoff,
+			hmg_usmc_w_2015_cl,
+			hmg_usmc_w_2015_MGSL,
+			hmg_usmc_w_2015_mortSL,
+			hmg_usmc_w_2015_mg_tl,
+			hmg_usmc_w_2015_mg,
+			hmg_usmc_w_2015_assMG,
+			hmg_usmc_w_2015_mortL,
+			hmg_usmc_w_2015_mortas,
+			hmg_usmc_w_2015_assSL,
+			hmg_usmc_w_2015_assGun,
+			hmg_usmc_w_2015_assAssGun,
+			hmg_usmc_w_2015_corp,
+			hmg_usmc_w_2015_scorp,
+			hmg_usmc_w_2015_scout,
+			hmg_usmc_w_2015_scout_mk12,
+			hmg_usmc_w_2015_sniperH,
+			hmg_usmc_w_2015_sniperS,
+			hmg_usmc_w_2015_sniper,
 			//отсюда пошил КМПшники в вудланде обр. 1995 года
 			hmg_usmc_w_1995_rifleman,
 			hmg_usmc_w_1995_assar,
@@ -357,6 +414,7 @@ class CfgVehicles
 {
 #include "rhsusf_backpacks.hpp"
 class rhsusf_army_ocp_rifleman; //вызываем базовый класс
+class rhsusf_army_ocp_rifleman_1stcav; //вызываем базовый класс
 class rhsusf_army_ocp_combatcrewman; //вызываем базовый класс
 class LOP_AFR_Soldier_GL; //вызываем дух покойного нигрилы
 //создаем свои базовые классы DESERT 
@@ -1546,57 +1604,10 @@ class us_army_wood_ocp_apc1130_g : us_army_wood_ocp_ifv_g {
 class us_army_wood_ocp_apc1130_dr : us_army_wood_ocp_ifv_dr {
 		displayName = "IAV M1130 driver (wood)";
 };
-class us_army_des_ucp_snip_sqld : rhsusf_army_ocp_rifleman {
-			faction = "rhs_faction_usarmy_d_hmg";
-			displayName = "SR Sniper (wood)";
-			uniformClass = "Trixie_Ghillie_Uniform_03";
-			icon = "iconManLeader";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Maptools","Kestrel4500","ATragMX","rhsusf_acc_ACOG3"};
-        	linkedItems[] = {"rhsusf_ach_helmet_ESS_ucp","rhsusf_iotv_ucp_Squadleader","ItemCompass","ItemWatch","ItemRadio","ItemGPS","ItemMap"};
-			respawnLinkedItems[] = {"rhsusf_ach_helmet_ESS_ucp","rhsusf_iotv_ucp_squadleader","ItemCompass","ItemWatch","ItemRadio","ItemGPS","ItemMap"};
-			weapons[] = {"rhs_m4a1_m320","Throw","Put","AGM_Vector"};
-			respawnWeapons[] = {"rhs_m4a1_m320","Throw","Put","AGM_Vector"};
-			magazines[] = 		{
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-				"HandGrenade",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell"
-			};
-			respawnMagazines[] = 
-			{
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-				"rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red",
-				"HandGrenade",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"rhs_mag_M441_HE",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell"
-			};
-			backpack = "tf_rt1523g_rhs";
-};
 class us_army_des_ucp_snip_sniper1 : us_army_des_ucp_base_m4 {
 			displayName = "Sniper SP M107 (ucp)";
 			icon = "IconMan";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","Trixie_ANPASL_Net","ATragMX"};
+			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_pas13cl","ATragMX"};
 			weapons[] = {"Trixie_M107","Throw","Put","Binocular"};
 			respawnWeapons[] = {"Trixie_M107","Throw","Put","Binocular"};
 			magazines[] = 		{
@@ -1624,118 +1635,7 @@ class us_army_des_ucp_snip_sniper1 : us_army_des_ucp_base_m4 {
 			};
 			backpack="";
 };
-class us_army_des_ucp_snip_sniper2 : us_army_des_ucp_snip_sqld {
-			displayName = "Sniper M110 (ucp)";
-			icon = "IconMan";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Maptools","Kestrel4500","RH_m3lr","Trixie_Cyclone_Camo","AGM_M26_Clacker"};
-			weapons[] = {"Trixie_M110","Throw","Put","AGM_Vector"};
-			respawnWeapons[] = {"Trixie_M110","Throw","Put","AGM_Vector"};
-			magazines[] = 		{
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell",
-				"ClaymoreDirectionalMine_remote_mag",
-				"ClaymoreDirectionalMine_remote_mag",
-				"DemoCharge_remote_mag"
-			};
-			respawnMagazines[] = 
-			{
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell",
-				"ClaymoreDirectionalMine_remote_mag",
-				"ClaymoreDirectionalMine_remote_mag",
-				"DemoCharge_remote_mag"
-			};
-			backpack = "rhsusf_assault_eagleaiii_ocp_gp";
-};
-class us_army_wood_ocp_snip_sqld : us_army_des_ucp_snip_sqld {
-			faction = "rhs_faction_usarmy_w_hmg";
-			displayName = "SR Sniper (wood)";
-			icon = "iconManLeader";
-			uniformClass="Trixie_Ghillie_Uniform_01";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Maptools","Kestrel4500","rhsusf_acc_ACOG3"};
-        	linkedItems[] = {"rhsusf_ach_helmet_ESS_ocp","rhsusf_iotv_ocp_Squadleader","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-			respawnLinkedItems[] = {"rhsusf_ach_helmet_ESS_ocp","rhsusf_iotv_ocp_squadleader","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-};
-class us_army_wood_ocp_snip_sniper1 : us_army_wood_ocp_snip_sqld {
-			displayName = "Sniper SP M107 (wood)";
-			uniformClass="Trixie_Ghillie_Uniform_01";
-			icon = "IconMan";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","Trixie_ANPASL_Net","ATragMX"};
-			weapons[] = {"Trixie_M107","Throw","Put","Binocular"};
-			respawnWeapons[] = {"Trixie_M107","Throw","Put","Binocular"};
-			backpack="";
-			magazines[] = 		{
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_HE_Mag",
-				"Trixie_10x127_HEIAP_Mag",
-				"Trixie_10x127_HEIAP_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell"
-			};
-			respawnMagazines[] = 
-			{
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_Mag",
-				"Trixie_10x127_HE_Mag",
-				"Trixie_10x127_HEIAP_Mag",
-				"Trixie_10x127_HEIAP_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell"
-			};
-};
-class us_army_wood_ocp_snip_sniper2 : us_army_wood_ocp_snip_sqld {
-			displayName = "Sniper M110 (wood)";
-			icon = "IconMan";
-			uniformClass="Trixie_Ghillie_Uniform_01";
-			Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_Maptools","Kestrel4500","RH_m3lr","Trixie_Cyclone_Camo","AGM_M26_Clacker"};
-			weapons[] = {"Trixie_M110","Throw","Put","AGM_Vector"};
-			respawnWeapons[] = {"Trixie_M110","Throw","Put","AGM_Vector"};
-			magazines[] = 		{
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell",
-				"ClaymoreDirectionalMine_remote_mag",
-				"ClaymoreDirectionalMine_remote_mag",
-				"DemoCharge_remote_mag"
-			};
-			respawnMagazines[] = 
-			{
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"Trixie_20x762_Mag",
-				"HandGrenade",
-				"SmokeShell",
-				"SmokeShell",
-				"ClaymoreDirectionalMine_remote_mag",
-				"ClaymoreDirectionalMine_remote_mag",
-				"DemoCharge_remote_mag"
-			};
-			backpack = "rhsusf_assault_eagleaiii_ocp_gp";			
-};
+
 #include "hmg_usmc.hpp"
 #include "hmg_us_army_ABCT.hpp"
 };

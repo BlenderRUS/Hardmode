@@ -587,6 +587,144 @@
 						};
 				};
 		};
+		
+		class hmg_us_box_Abct_rif_squad : hmg_us_box_big_base {
+				displayName = "Ящик  доп. БК ABCT Rifle Squad (US)";
+				class TransportMagazines {
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+							count = 35;
+						};
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+							count = 15;
+						};
+						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
+							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
+							count = 12;
+						};
+						class _xx_rhs_mag_M441_HE {
+							magazine = "rhs_mag_M441_HE";
+							count = 42;
+						};
+						class _xx_rhs_fgm148_magazine_AT {
+							magazine = "rhs_fgm148_magazine_AT";
+							count = 1;
+						};
+
+				};
+		};
+		
+		class hmg_us_box_Abct_rif_squad_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество ABCT Rifle Squad 2015 (US)";
+				class TransportWeapons {
+						class _xx_rhs_weap_m240b_elcan {
+							weapon = "rhs_weap_m240b_elcan";
+							count = 1;
+						};
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
+						};
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_100Rnd_762x51 {
+							magazine = "rhsusf_100Rnd_762x51";
+							count = 8;
+						};
+			
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
+				};
+				class TransportItems {
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 1;
+						};
+				};
+		};
+		
+		class hmg_us_box_Abct_rif_comp_hq_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество ABCT Rifle Company 2015 (US)";
+				class TransportItems {
+						class _xx_RH_pas13ch {
+							name = "RH_pas13ch";
+							count = 1;
+						};
+				};
+				class TransportBackpacks {
+						class _xx_RHS_Mk19_Gun_Bag {
+							backpack = "RHS_Mk19_Gun_Bag";
+							count = 1;
+						};
+						class _xx_RHS_Mk19_Tripod_Bag {
+							backpack = "RHS_Mk19_Tripod_Bag";
+							count = 1;
+						};
+						class _xx_tf_rt1523g_black {
+							backpack = "tf_rt1523g_black";
+							count = 6;
+						};
+						class _xx_B_rhsusf_B_BACKPACK {
+							backpack = "B_rhsusf_B_BACKPACK";
+							count = 2;
+						};
+				};
+		};
+		class hmg_us_box_Abct_tank_comp_hq : hmg_us_box_big_base {
+				displayName = "Ящик доп.бк ABCT tank Company 2015 (US)";
+				class TransportMagazines {
+						class _xx_CUP_15Rnd_9x19_M9 {
+							magazine = "CUP_15Rnd_9x19_M9";
+							count = 18;
+						};
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+							count = 40;
+						};
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+							count = 16;
+						};
+						class _xx_rhs_mag_M441_HE {
+							magazine = "rhs_mag_M441_HE";
+							count = 16;
+						};
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
+							count = 24;
+						};
+						class _xx_rhs_mag_m714_White {
+							magazine = "rhs_mag_m714_White";
+							count = 24;
+						};
+						class _xx_DemoCharge_Remote_Mag {
+							magazine = "DemoCharge_Remote_Mag";
+							count = 3;
+						};
+				};
+		};
+		class hmg_us_box_hbct_tank_platoon : hmg_us_box_big_base {
+				displayName = "Ящик  доп. БК ABCT Tank platoon (US)";
+				
+				class TransportMagazines {
+						class _xx_CUP_15Rnd_9x19_M9 {
+							magazine = "CUP_15Rnd_9x19_M9";
+							count = 24;
+						};
+			
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+							count = 30;
+						};
+						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
+							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+							count = 16;
+						};
+				};
+		};
 //--------------------------------------------------------------------КМП 2015
 		class hmg_us_box_usmc_comp_hq2015 : hmg_us_box_big_base {
 				displayName = "Ящик имущество USMC Company HQ 2015 (US)";

@@ -240,7 +240,6 @@ class rhsusf_assault_eagleaiii_ucp_scoutL: rhsusf_assault_eagleaiii_ucp
 			count = 1;
 		};
 	};
-
 };
 class rhsusf_assault_eagleaiii_ocp_gp: rhsusf_assault_eagleaiii_ocp
 {
@@ -489,22 +488,22 @@ class MEF_Wood_Kitbag_TL: B_Kitbag_Base
 		class _xx_rhs_mag_M441_HE
 		{
 			magazine ="rhs_mag_M441_HE";
-			count = 4;
+			count = 2;
 		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 8;
+			count = 6;
 		};
 		class _xx_rhs_mag_m714_White
 		{
 			magazine = "rhs_mag_m714_White";
-			count = 4;
+			count = 2;
 		};
 		class _xx_rhs_mag_m576
 		{
 			magazine = "rhs_mag_m576";
-			count = 4;
+			count = 2;
 		};
 	};
 };	
@@ -688,7 +687,7 @@ class MEF_Des_Tactical_TL: B_Kitbag_Base
 		class _xx_rhs_mag_M433_HEDP1
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 2;
+			count = 6;
 		};
 		class _xx_rhs_mag_M585_white
 		{
@@ -820,7 +819,7 @@ class CUP_B_CivPack_Wdl_TL: B_Carryall_oli
 		class _xx_rhs_mag_M433_HEDP1
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 2;
+			count = 6;
 		};
 		class _xx_rhs_mag_M585_white
 		{

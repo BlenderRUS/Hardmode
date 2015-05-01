@@ -8,9 +8,25 @@ class CfgFactionClasses
 		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
 		backpack_tf_faction_radio_api = "tf_rt1523g_rhs";
     };
-    class rhs_faction_usarmy_w_hmg
+	class rhs_faction_usarmy_w_hmg
     {
-        displayName = "US ARMY (woodland) HMG";
+        displayName = "US ARMY (desert) HMG";
+        priority = -5;
+        side = 1;
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		backpack_tf_faction_radio_api = "tf_rt1523g_rhs";
+    };
+    class rhs_faction_usarmy_2015_Abct
+    {
+        displayName = "HMG US ARMY 2015_Armoded BCT";
+        priority = -5;
+        side = 1;
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		backpack_tf_faction_radio_api = "tf_rt1523g_rhs";
+    };
+	class rhs_faction_usarmy_2015
+    {
+        displayName = "HMG US ARMY 2015";
         priority = -5;
         side = 1;
 		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
