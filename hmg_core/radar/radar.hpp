@@ -6,7 +6,7 @@ class RHS_M2A3_BUSKIII;
 class RHS_M3A3_BUSKIII: RHS_M2A3_BUSKIII
 	{
 		displayName = "M3A3 (BUSK III)";
-		radartype = 1;
+		radartype = 8;
 		commanderCanSee = 1+16+8+32;
 		gunnerCanSee = 1+16+8+32;
 		transportSoldier = 3;
@@ -18,7 +18,7 @@ class RHS_M3A3_BUSKIII_wd: RHS_M3A3_BUSKIII
 	{
 		faction = "rhs_faction_usarmy_wd";
 		displayName = "M3A3 (BUSK III)";
-		radartype = 1;
+		radartype = 8;
 		transportSoldier = 3;
 		weapons[] = {"RHS_weap_M242BC","rhs_weap_m240veh","Rhs_weap_TOW_Launcher"};
 		magazines[] = {"rhs_mag_1100Rnd_762x51_M240","rhs_mag_1100Rnd_762x51_M240","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOW","rhs_mag_2Rnd_TOW","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_230Rnd_25mm_M242_HEI","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_70Rnd_25mm_M242_APFSDS","rhs_mag_230Rnd_25mm_M242_HEI","rhs_mag_230Rnd_25mm_M242_HEI"};		

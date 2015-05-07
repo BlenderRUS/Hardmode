@@ -23,8 +23,8 @@ class CfgPatches {
 	
 		};
 		version = "";
-		versionStr = "0.603.0";
-		versionAr[] = {0, 603, 0};
+		versionStr = "0.604.0";
+		versionAr[] = {0, 604, 0};
 	};
 };
 class cfgFunctions {
@@ -74,6 +74,7 @@ class cfgVehicles {
 			class AnyBrain;
 		};
 	};
+	#include "backpacks\backpacks.hpp"
 	#include "c130\c130j.hpp"
 	#include "modules\para.hpp"
 	#include "modules\lockBox.hpp"
