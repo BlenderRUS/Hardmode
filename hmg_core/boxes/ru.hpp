@@ -193,8 +193,8 @@
 			class hmg_ru_box_metis : hmg_ru_box_small_base {
 				displayName = "Ящик c ТПК Метис 2 шт. (РФ)";
 				class TransportBackpacks {
-						class _xx_hmg_metis_ruck2 {
-							backpack = "hmg_metis_ruck2";
+						class _xx_hmg_metis_ruck {
+							backpack = "hmg_metis_ruck";
 							count = 1;
 						};
 				};

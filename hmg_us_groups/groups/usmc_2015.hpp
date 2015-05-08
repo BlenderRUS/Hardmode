@@ -368,43 +368,94 @@
 						side = 1;
 						vehicle = "hmg_usmc_w_2015_assSL";
 						rank = "SERGEANT";
-						position[] = {1,0,0};
-					};
-				};
-				class group_nato_usmc_w_2015_as_squad
-				{
-					name = "ASSAULT SQUAD";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "hmg_usmc_w_2015_assGun";
-						rank = "CORPORAL";
 						position[] = {0,1,0};
 					};
 					class Unit1
 					{
 						side = 1;
-						vehicle = "hmg_usmc_w_2015_assassGun";
+						vehicle = "hmg_usmc_w_2015_assGun";
 						rank = "CORPORAL";
+						position[] = {1,0,0};
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assassGun";
+						rank = "PRIVATE";
 						position[] = {2,0,0 };
 					};
 
-					class Unit2
+					class Unit3
 					{
 						side = 1;
 						vehicle = "hmg_usmc_w_2015_assGun";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
-					class Unit3
+					class Unit4
 					{
 						side = 1;
 						vehicle = "hmg_usmc_w_2015_assassGun";
-						rank = "CORPORAL";
+						rank = "PRIVATE";
 						position[] = {4,0,0};
+					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assassGun";
+						rank = "PRIVATE";
+						position[] = {6,0,0 };
+					};
+
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assassGun";
+						rank = "PRIVATE";
+						position[] = {8,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assassGun";
+						rank = "PRIVATE";
+						position[] = {10,0,0 };
+					};
+
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit12
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_assassGun";
+						rank = "PRIVATE";
+						position[] = {12,0,0};
 					};
 				};
 			};

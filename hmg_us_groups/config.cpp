@@ -415,6 +415,7 @@ class CfgVehicles
 #include "rhsusf_backpacks.hpp"
 class rhsusf_army_ocp_rifleman; //вызываем базовый класс
 class rhsusf_army_ocp_rifleman_1stcav; //вызываем базовый класс
+class rhsusf_army_ucp_rifleman_1stcav ; //вызываем базовый класс
 class rhsusf_army_ocp_combatcrewman; //вызываем базовый класс
 class LOP_AFR_Soldier_GL; //вызываем дух покойного нигрилы
 //создаем свои базовые классы DESERT 
@@ -1638,6 +1639,7 @@ class us_army_des_ucp_snip_sniper1 : us_army_des_ucp_base_m4 {
 
 #include "hmg_usmc.hpp"
 #include "hmg_us_army_ABCT.hpp"
+#include "hmg_us_army_IBCT.hpp"
 };
 
 	

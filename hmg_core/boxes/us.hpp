@@ -673,6 +673,205 @@
 						};
 				};
 		};
+		//недопилено
+		class hmg_us_box_Abct_sniper_section_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество ABCT sniper section 2015 (US)";
+				class TransportWeapons {
+						class _xx_Trixie_M107_Black {
+							weapon = "Trixie_M107_Black";
+							count = 1;
+						};
+						class _xx_rhs_weap_XM2010 {
+							weapon = "rhs_weap_XM2010";
+							count = 1;
+						};
+						class _xx_RH_m110 {
+							weapon = "RH_m110";
+							count = 1;
+						};
+						class _xx_rhs_weap_M320 {
+							weapon = "rhs_weap_M320";
+							count = 1;
+						};
+						
+				};
+				class TransportMagazines {
+						class _xx_Trixie_10x127_Mag {
+							magazine = "Trixie_10x127_Mag";
+							count = 3;
+						};
+						class _xx_Trixie_10x127_HE_Mag {
+							magazine = "Trixie_10x127_HE_Mag";
+							count = 3;
+						};
+						class _xx_Trixie_10x127_HEIAP_Mag {
+							magazine = "Trixie_10x127_HEIAP_Mag";
+							count = 3;
+						};
+						class _xx_rhsusf_5Rnd_300winmag_xm2010 {
+							magazine = "rhsusf_5Rnd_300winmag_xm2010";
+							count = 20;
+						};
+						class _xx_rhsusf_20Rnd_762x51_m993_Mag {
+							magazine = "rhsusf_20Rnd_762x51_m993_Mag";
+							count = 2;
+						};
+						class _xx_RH_20Rnd_762x51_Mk316LR {
+							magazine = "RH_20Rnd_762x51_Mk316LR";
+							count = 1;
+						};
+						class _xx_rhsusf_20Rnd_762x51_m118_special_Mag {
+							magazine = "rhsusf_20Rnd_762x51_m118_special_Mag";
+							count = 2;
+						};
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
+							count = 10;
+						};
+						class _xx_rhs_mag_M441_HE {
+							magazine = "rhs_mag_M441_HE";
+							count = 10;
+						};
+				};
+				class TransportItems {
+						class _xx_rhsusf_acc_LEUPOLDMK4_2 {
+							name = "rhsusf_acc_LEUPOLDMK4_2";
+							count = 2;
+						};
+						class _xx_rhsusf_acc_LEUPOLDMK4 {
+							name = "rhsusf_acc_LEUPOLDMK4";
+							count = 1;
+						};
+						class _xx_rhsusf_acc_M2010S {
+							name = "rhsusf_acc_M2010S";
+							count = 1;
+						};
+						class _xx_rhsusf_acc_harris_bipod {
+							name = "rhsusf_acc_harris_bipod";
+							count = 1;
+						};
+						class _xx_RH_m110sd_t {
+							name = "RH_m110sd_t";
+							count = 1;
+						};
+						class _xx_RH_HBLM {
+							name = "RH_HBLM";
+							count = 1;
+						};
+						class _xx_RH_pas13cl {
+							name = "RH_pas13cl";
+							count = 1;
+						};
+						class _xx_RH_pas13ch {
+							name = "RH_pas13ch";
+							count = 1;
+						};
+						class _xx_RH_anpvs10 {
+							name = "RH_anpvs10";
+							count = 1;
+						};
+				};
+		};
+		
+		class hmg_us_box_Abct_scout_platoon_section_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество ABCT Scout section 2015 (US)";
+				class TransportWeapons {
+						class _xx_rhs_weap_m240b_elcan {
+							weapon = "rhs_weap_m240b_elcan";
+							count = 2;
+						};
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
+						};
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_100Rnd_762x51 {
+							magazine = "rhsusf_100Rnd_762x51";
+							count = 8;
+						};
+			
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
+						class _xx_DemoCharge_remote_mag {
+							magazine = "DemoCharge_remote_mag";
+							count = 3;
+						};
+						class _xx_SatchelCharge_Remote_Mag {
+							magazine = "SatchelCharge_Remote_Mag";
+							count = 3;
+						};
+				};
+				class TransportItems {
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 2;
+						};
+						class _xx_AGM_M26_Clacker {
+							name = "AGM_M26_Clacker";
+							count = 1;
+						};
+						class _xx_MineDetector {
+							name = "MineDetector";
+							count = 2;
+						};
+				};
+		};
+		class hmg_us_box_Abct_scout_platoon_hq_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество ABCT Scout Platoon HQ 2015 (US)";
+				class TransportWeapons {
+						class _xx_rhs_weap_m240b_elcan {
+							weapon = "rhs_weap_m240b_elcan";
+							count = 2;
+						};
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
+						};
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_100Rnd_762x51 {
+							magazine = "rhsusf_100Rnd_762x51";
+							count = 8;
+						};
+			
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
+						class _xx_DemoCharge_remote_mag {
+							magazine = "DemoCharge_remote_mag";
+							count = 3;
+						};
+						class _xx_SatchelCharge_Remote_Mag {
+							magazine = "SatchelCharge_Remote_Mag";
+							count = 3;
+						};
+				};
+				class TransportItems {
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 2;
+						};
+						class _xx_AGM_M26_Clacker {
+							name = "AGM_M26_Clacker";
+							count = 1;
+						};
+						class _xx_MineDetector {
+							name = "MineDetector";
+							count = 2;
+						};
+				};
+				class TransportBackpacks {
+						class _xx_B_rhsusf_B_BACKPACK {
+							backpack = "B_rhsusf_B_BACKPACK";
+							count = 3;
+						};
+				};
+		};
+		
 		class hmg_us_box_Abct_tank_comp_hq : hmg_us_box_big_base {
 				displayName = "Ящик доп.бк ABCT tank Company 2015 (US)";
 				class TransportMagazines {
@@ -834,10 +1033,6 @@
 							magazine = "Trixie_SMAW_HEAA";
 							count = 1;
 						};
-						class _xx_ClaymoreDirectionalMine_remote_mag {
-							magazine = "ClaymoreDirectionalMine_remote_mag";
-							count = 5;
-						};
 						class _xx_DemoCharge_remote_mag {
 							magazine = "DemoCharge_remote_mag";
 							count = 10;
@@ -851,7 +1046,7 @@
 				class TransportItems {
 						class _xx_AGM_M26_Clacker {
 							name = "AGM_M26_Clacker";
-							count = 3;
+							count = 1;
 						};
 				};
 

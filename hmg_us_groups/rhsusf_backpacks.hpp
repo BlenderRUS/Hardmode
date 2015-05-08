@@ -130,6 +130,25 @@ class rhsusf_assault_eagleaiii_ucp_medic: rhsusf_assault_eagleaiii_ucp
 	};
 };
 
+class rhsusf_assault_eagleaiii_ocp_medic: rhsusf_assault_eagleaiii_ocp
+{
+	displayName = "Eagle A-III OCP (Medic)";
+	maximumLoad = 1000;
+	class TransportItems
+	{
+		class _xx_Medikit
+		{
+			name = "MediKit";
+			count = 1;
+		};
+		class _xx_FirstAidKit
+		{
+			name = "FirstAidKit";
+			count = 10;
+		};
+	};
+};
+
 class rhsusf_assault_eagleaiii_ucp_gp: rhsusf_assault_eagleaiii_ucp
 {
 	displayName = "Eagle A-III UCP (grenadier)";
@@ -146,10 +165,20 @@ class rhsusf_assault_eagleaiii_ucp_gp: rhsusf_assault_eagleaiii_ucp
 			magazine = "rhs_mag_M433_HEDP";
 			count = 8;
 		};
-		class _xx_rhs_mag_m714_White
+		class _xx_rhs_mag_m713_Red
 		{
-			magazine = "rhs_mag_m714_White";
-			count = 4;
+			magazine = "rhs_mag_m713_Red";
+			count = 3;
+		};
+		class _xx_rhs_mag_m715_Green
+		{
+			magazine = "rhs_mag_m715_Green";
+			count = 3;
+		};
+		class _xx_rhs_mag_m716_yellow
+		{
+			magazine = "rhs_mag_m716_yellow";
+			count = 3;
 		};
 	};
 };
@@ -162,32 +191,27 @@ class rhsusf_assault_eagleaiii_ucp_scout: rhsusf_assault_eagleaiii_ucp
 		class _xx_rhs_mag_M441_HE
 		{
 			magazine ="rhs_mag_M441_HE";
-			count = 4;
+			count = 8;
 		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 6;
-		};
-		class _xx_rhs_mag_m714_White
-		{
-			magazine = "rhs_mag_m714_White";
-			count = 2;
+			count = 12;
 		};
 		class _xx_rhs_mag_m713_Red
 		{
 			magazine ="rhs_mag_m713_Red";
-			count = 2;
+			count = 4;
 		};
 		class _xx_rhs_mag_m715_Green
 		{
 			magazine = "rhs_mag_m715_Green";
-			count = 2;
+			count = 4;
 		};
 		class _xx_rhs_mag_m716_yellow
 		{
 			magazine = "rhs_mag_m716_yellow";
-			count = 2;
+			count = 4;
 		};
 		class _xx_30Rnd_556x45_Stanag
 		{
@@ -208,19 +232,92 @@ class rhsusf_assault_eagleaiii_ucp_scout: rhsusf_assault_eagleaiii_ucp
 			count = 1;
 		};
 	};
-
 };
+
+class rhsusf_assault_eagleaiii_ocp_scout: rhsusf_assault_eagleaiii_ocp
+{
+	displayName = "Eagle A-III OCP (scout)";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhs_mag_M441_HE
+		{
+			magazine ="rhs_mag_M441_HE";
+			count = 8;
+		};
+		class _xx_rhs_mag_M433_HEDP
+		{
+			magazine = "rhs_mag_M433_HEDP";
+			count = 12;
+		};
+		class _xx_rhs_mag_m713_Red
+		{
+			magazine ="rhs_mag_m713_Red";
+			count = 4;
+		};
+		class _xx_rhs_mag_m715_Green
+		{
+			magazine = "rhs_mag_m715_Green";
+			count = 4;
+		};
+		class _xx_rhs_mag_m716_yellow
+		{
+			magazine = "rhs_mag_m716_yellow";
+			count = 4;
+		};
+		class _xx_30Rnd_556x45_Stanag
+		{
+			magazine = "30Rnd_556x45_Stanag";
+			count = 5;
+		};
+		class _xx_30Rnd_556x45_Stanag_Tracer_Red
+		{
+			magazine = "30Rnd_556x45_Stanag_Tracer_Red";
+			count = 2;
+		};
+	};
+		class TransportItems
+	{
+		class _xx_DemoCharge_Remote_Mag
+		{
+			name = "DemoCharge_Remote_Mag";
+			count = 1;
+		};
+	};
+};
+
 class rhsusf_assault_eagleaiii_ucp_scoutL: rhsusf_assault_eagleaiii_ucp
 {
 	displayName = "Eagle A-III UCP (scout leader)";
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_m576
+		class _xx_30Rnd_556x45_Stanag
 		{
-			magazine ="rhs_mag_m576";
-			count = 20;
+			magazine = "30Rnd_556x45_Stanag";
+			count = 5;
 		};
+		class _xx_30Rnd_556x45_Stanag_Tracer_Red
+		{
+			magazine = "30Rnd_556x45_Stanag_Tracer_Red";
+			count = 2;
+		};
+	};
+		class TransportItems
+	{
+		class _xx_DemoCharge_Remote_Mag
+		{
+			name = "DemoCharge_Remote_Mag";
+			count = 1;
+		};
+	};
+};
+class rhsusf_assault_eagleaiii_ocp_scoutL: rhsusf_assault_eagleaiii_ocp
+{
+	displayName = "Eagle A-III OCP (scout leader)";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
 		class _xx_30Rnd_556x45_Stanag
 		{
 			magazine = "30Rnd_556x45_Stanag";
@@ -247,24 +344,48 @@ class rhsusf_assault_eagleaiii_ocp_gp: rhsusf_assault_eagleaiii_ocp
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE1
+		class _xx_rhs_mag_M441_HE
 		{
 			magazine ="rhs_mag_M441_HE";
 			count = 4;
 		};
-		class _xx_rhs_mag_M433_HEDP1
+		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
 			count = 8;
 		};
-		class _xx_rhs_mag_m714_White1
+		class _xx_rhs_mag_m713_Red
 		{
-			magazine = "rhs_mag_m714_White";
-			count = 4;
+			magazine = "rhs_mag_m713_Red";
+			count = 3;
+		};
+		class _xx_rhs_mag_m715_Green
+		{
+			magazine = "rhs_mag_m715_Green";
+			count = 3;
+		};
+		class _xx_rhs_mag_m716_yellow
+		{
+			magazine = "rhs_mag_m716_yellow";
+			count = 3;
 		};
 	};
 };
 class rhsusf_assault_eagleaiii_ocp_ENG : rhsusf_assault_eagleaiii_ocp
+{
+	displayName = "Рюкзак с рем. комплектом";
+	maximumLoad = 1000;
+	class TransportItems
+	{
+		class _xx_ToolKit
+		{
+			name = "ToolKit";
+			count = 1;
+		};
+	};
+};
+
+class rhsusf_assault_eagleaiii_ucp_ENG : rhsusf_assault_eagleaiii_ucp
 {
 	displayName = "Рюкзак с рем. комплектом";
 	maximumLoad = 1000;
