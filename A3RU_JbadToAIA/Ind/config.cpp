@@ -6,11 +6,6 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"AiA_Buildings_Config", "CAStructures_E_Ind_Ind_Coltan_Mine", "CAStructures_E_Ind_Ind_FuelStation", "CAStructures_E_Ind_Misc_PowerStation", "CAStructures_E_Ind_Ind_Shed", "hangar_2", "Ind_Coltan_Mine", "Ind_FuelStation", "Ind_Garage01", "Ind_PowerStation", "Ind_Shed"};
-		version = "0.5";
-		versionStr = "0.5";
-		versionAr[] = {0, 5};
-		author[] = {"Blender"};
-		authorUrl = "http://www.arma3.ru";
 	};
 };
 /*

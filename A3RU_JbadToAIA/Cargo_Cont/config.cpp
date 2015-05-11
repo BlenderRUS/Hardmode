@@ -6,11 +6,6 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CABuildings2_Misc_Cargo", "Cargo_Cont"};
-		version = "0.5";
-		versionStr = "0.5";
-		versionAr[] = {0, 5};
-		author[] = {"Blender"};
-		authorUrl = "http://www.arma3.ru";
 	};
 };
 /*

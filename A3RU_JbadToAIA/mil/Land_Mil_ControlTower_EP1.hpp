@@ -37,7 +37,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam1";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{
@@ -78,7 +78,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam2";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{
@@ -119,7 +119,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam3";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{
@@ -160,7 +160,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam4";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{
@@ -201,7 +201,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam5";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{
@@ -242,7 +242,7 @@ class Land_Mil_ControlTower_EP1: House_F
 			passThrough = 0.08;
 			convexComponent = "dam6";
 			radius = 0.055;
-			explosionShielding = 50;
+			explosionShielding = 1;
 			minimalHit = 0.01;
 			class DestructionEffects
 			{

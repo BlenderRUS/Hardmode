@@ -6,11 +6,6 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CAStructures_E_HouseA_A_BuildingWIP", "CAStructures_E_HouseA_A_Minaret", "CAStructures_E_HouseA_A_Minaret_Porto", "CAStructures_E_HouseA_A_Mosque_small", "CAStructures_E_HouseA_a_stationhouse", "CAStructures_E_HouseA_A_Villa", "A_BuildingWIP", "A_Minaret", "A_Minaret_Porto", "A_Mosque_small", "A_stationhouse", "A_Villa"};
-		version = "0.5";
-		versionStr = "0.5";
-		versionAr[] = {0, 5};
-		author[] = {"Blender"};
-		authorUrl = "http://www.arma3.ru";
 	};
 };
 /*

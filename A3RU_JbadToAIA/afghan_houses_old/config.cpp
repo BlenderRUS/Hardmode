@@ -6,11 +6,6 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {"CAStructures_E_HouseL", "afghan_houses_old"};
-		version = "0.5";
-		versionStr = "0.5";
-		versionAr[] = {0, 5};
-		author[] = {"Blender"};
-		authorUrl = "http://www.arma3.ru";
 	};
 };
 /*
