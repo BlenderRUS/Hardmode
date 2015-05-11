@@ -33,7 +33,7 @@ class CfgVehicles
 		class DestructionEffects;
 	};
 	class Strategic;
-	#include "Land_Hangar_2.hpp"
+	//#include "Land_Hangar_2.hpp"
 	#include "Land_Ind_Coltan_Conv1_10_EP1.hpp"
 	#include "Land_Ind_Coltan_Conv1_end_EP1.hpp"
 	#include "Land_Ind_Coltan_Conv1_Main_EP1.hpp"

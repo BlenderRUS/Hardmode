@@ -6,9 +6,9 @@ class CfgPatches
 		weapons[] = {};
 		requiredVersion = 0.1;
 		requiredAddons[] = {};
-		version = "0.6";
-		versionStr = "0.6";
-		versionAr[] = {0, 6};
+		version = "0.7";
+		versionStr = "0.7";
+		versionAr[] = {0, 7};
 		author[] = {"Blender", "lolkij"};
 		authorUrl = "http://www.arma3.ru";
 	};
