@@ -35,7 +35,7 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	};
 	class hmg_usmc_w_2005_rifleman : hmg_usmc_w_2005
 	{
-		displayName = "Rifleman/scout (Marpat)";
+		displayName = "Rifleman/pointman (Marpat)";
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "tf_anprc154", "tf_microdagr"};
 	};
@@ -594,7 +594,7 @@ class hmg_usmc_d_2005 : rhsusf_army_ocp_rifleman
 
 	class hmg_usmc_d_2005_rifleman : hmg_usmc_d_2005
 	{
-		displayName = "Rifleman/scout (MarpatDesert)";
+		displayName = "Rifleman/pointman (MarpatDesert)";
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles", "tf_anprc154", "tf_microdagr"};
 	};
@@ -1544,7 +1544,7 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 // отсюда пошли КМПшники в Марпате обр. 2015 года
 	class hmg_usmc_w_2015_rifleman : hmg_usmc_w_2005
 	{
-		displayName = "Rifleman/scout (Marpat)";
+		displayName = "Rifleman/pointman (Marpat)";
 		Items[] = {"AGM_Bandage","AGM_Bandage", "rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A" };
 		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A" };
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
@@ -1785,7 +1785,7 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 //отсюда пошлb КМПшники в Марпате Дезерт обр. 2015 года
 class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	{
-		displayName= "Rifleman/scout (MarpatDesert)";
+		displayName= "Rifleman/pointman (MarpatDesert)";
 		uniformClass = "rhs_uniform_FROG01_d";
 		weapons[] = {"rhs_weap_m16a4","Throw","Put"}; 
 		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put"}; 
@@ -3119,7 +3119,7 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	};
 	class hmg_usmc_s_2005_rifleman : hmg_usmc_s_2005
 	{
-		displayName = "Rifleman/scout (Marpat snow)";
+		displayName = "Rifleman/pointman (Marpat snow)";
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Snow_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Snow_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "tf_anprc154", "tf_microdagr"};
 	};
@@ -3855,7 +3855,7 @@ class hmg_usmc_s_2015_sniperH : hmg_usmc_s_2015_sniper{
 // отсюда пошли КМПшники в Марпате snow обр. 2015 года
 	class hmg_usmc_s_2015_rifleman : hmg_usmc_s_2005
 	{
-		displayName = "Rifleman/scout (Marpat snow)";
+		displayName = "Rifleman/pointman (Marpat snow)";
 		Items[] = {"AGM_Bandage","AGM_Bandage", "rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A" };
 		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A" };
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Snow_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};

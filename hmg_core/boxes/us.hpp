@@ -836,7 +836,6 @@
 							magazine = "rhsusf_100Rnd_762x51";
 							count = 8;
 						};
-			
 						class _xx_rhsusf_5Rnd_00Buck {
 							magazine = "rhsusf_5Rnd_00Buck";
 							count = 14;
@@ -932,22 +931,22 @@
 							weapon = "rhs_weap_m249_pip";
 							count = 9;
 						};
-
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
+						};
 				};
 				class TransportMagazines {
 						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
 							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
 							count = 108;
 						};
-			
-
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
-							count = 20;
-						};
-
 						class _xx_Trixie_ANPASM {
 							name = "Trixie_ANPASM";
 							count = 9;
@@ -1054,12 +1053,17 @@
 //--------------------------------------------------------------------КМП 2005
 		class hmg_us_box_usmc_comp_hq2005 : hmg_us_box_small_base {
 				displayName = "Ящик имущество USMC Company HQ 2005 (US)";
-				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
-							count = 20;
+				class TransportWeapons {
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
 						};
-
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
 				};
 		};
 		class hmg_us_box_usmc_comp_hq2005_adv : hmg_us_box_small_base {
@@ -1181,12 +1185,17 @@
 //--------------------------------------------------------------------КМП 1995
 		class hmg_us_box_usmc_comp_hq1995 : hmg_us_box_small_base {
 				displayName = "Ящик имущество USMC Company HQ 1995 (US)";
-				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
-							count = 20;
+				class TransportWeapons {
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
 						};
-
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
 				};
 		};
 		class hmg_us_box_usmc_comp_hq1995_adv : hmg_us_box_small_base {
@@ -1303,13 +1312,17 @@
 		};
 //--------------------------------------------------------------------КМП 1985
 		class hmg_us_box_usmc_comp_hq1985 : hmg_us_box_small_base {
-				displayName = "Ящик имущество USMC Company HQ 1985 (US)";
-				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
-							count = 20;
+				class TransportWeapons {
+						class _xx_rhs_weap_M590_5RD {
+							weapon = "rhs_weap_M590_5RD";
+							count = 2;
 						};
-
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_5Rnd_00Buck {
+							magazine = "rhsusf_5Rnd_00Buck";
+							count = 14;
+						};
 				};
 		};
 		class hmg_us_box_usmc_comp_hq1985_adv : hmg_us_box_small_base {
