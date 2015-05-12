@@ -45,7 +45,7 @@ class CfgVehicles
 	//#include "Land_Ind_FuelStation_Feed_EP1.hpp"
 	//#include "Land_Ind_FuelStation_Shed_EP1.hpp"
 	#include "Land_Ind_Garage01.hpp"
-	#include "Land_Ind_PowerStation_EP1.hpp"
+	//#include "Land_Ind_PowerStation_EP1.hpp" //*** WRONG HEIGHT POSITION
 	#include "Land_Ind_Shed_01_EP1.hpp"
 	#include "Land_Ind_Shed_02_EP1.hpp"
 };
