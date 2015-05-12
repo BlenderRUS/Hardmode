@@ -1,0 +1,388 @@
+class CfgPatches {
+	class hmg_stryker_fix {
+		units[] = {};
+		weapons[] = {};
+		requiredVersion = 1.32;
+		requiredAddons[] = {
+			"A3_Weapons_F", 
+			"A3_Weapons_F_Ammoboxes", 
+			"A3_Weapons_F_beta", 
+			"A3_Weapons_F_Acc", 
+			"rhsusf_main",
+			"rhs_main",
+			"A3_Data_F",
+			"Blastcore_MainCore",
+			"AGM_Core",
+			"Delta_strykerpack",
+			"rhs_c_btr",
+			"rhs_c_weapons",
+			"rhsusf_c_weapons",
+			"RHS_US_A2Port_Armor",
+			"RHS_US_A2_AirImport",
+			"hmg_core",
+			"Delta_strykerpack"
+			};	
+	};
+};
+class WeaponCloudsMGun;	// External class reference
+class cfgVehicles {	
+	class Land;	// External class reference
+	
+	class LandVehicle : Land {
+		class HitPoints;	// External class reference
+	};
+	
+	class car_F : LandVehicle {
+		class ViewOptics;	// External class reference
+		
+		class HitPoints {
+			class HitHull;
+			class HitBody;	// External class reference
+			class HitEngine;	// External class reference
+			class HitFuel;	// External class reference
+			class HitLFWheel;	// External class reference
+			class HitLBWheel;	// External class reference
+			class HitLMWheel;	// External class reference
+			class HitLF2Wheel;	// External class reference
+			class HitRFWheel;	// External class reference
+			class HitRBWheel;	// External class reference
+			class HitRMWheel;	// External class reference
+			class HitRF2Wheel;	// External class reference
+			class HitGlass1;	// External class reference
+			class HitGlass2;	// External class reference
+			class HitGlass3;	// External class reference
+			class HitGlass4;	// External class reference
+			class HitGlass5;	// External class reference
+			class HitGlass6;	// External class reference
+
+		};
+		class NewTurret;	// External class reference
+		
+		class Turrets {
+			class MainTurret : NewTurret {
+				class HitPoints;	// External class reference
+				class ViewGunner;	// External class reference
+				class ViewOptics;	// External class reference
+			};
+		};
+		class AnimationSources;	// External class reference
+	};
+	
+	class Wheeled_APC : car_F {};
+	class StrykerBase_DG1DES : Wheeled_APC {
+		armor = 100;
+		armorStructural = 50;
+		threat[] = {0.9, 0.9, 0.4};
+		class Turrets : Turrets {
+			class ObsTurret : NewTurret {
+				body = "ObsTurret";
+				gun = "ObsGun";
+				animationSourceBody = "ObsTurret";
+				animationSourceGun = "ObsGun";
+				proxyType = "CPCommander";
+				proxyIndex = 1;
+				gunnerName = "M1126 M2 Gunner";
+				primaryGunner = 1;
+				primaryObserver = 1;
+				gunBeg = "gun_muzzle";
+				gunEnd = "gun_chamber";
+				animationSourceHatch = "hatchCommander";
+				minElev = -15;
+				maxElev = 20;
+				initElev = 0;
+				commanding = 2;
+				outGunnerMayFire = 0;
+				gunnerOpticsModel = "\A3\Weapons_F\Reticle\Optics_Gunner_02_F";
+				gunnerForceOptics = 0;
+				memoryPointGunnerOptics = "gunnerview";
+				memoryPointsGetInGunner = "pos gunner";
+				memoryPointsGetInGunnerDir = "pos gunner dir";
+				gunnerGetInAction = "GetInHigh";
+				gunnerGetOutAction = "GetOutHigh";
+				gunnerAction = "Stryker_CommanderOut_EP1";
+				gunnerInAction = "Stryker_Commander_EP1";
+				gunnerOpticsEffect[] = {};
+				
+				class ViewOptics {
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.3;
+					minFov = 0.015;
+					maxFov = 0.3;
+					visionMode[] = {"Normal", NVG, "Ti"};
+					thermalMode[] = {0, 1};
+				};
+				soundServo[] = {"\StrykerPack\Data\sound\servo3", 0.0177828, 1.0};
+			};
+		};		
+		class HitPoints : HitPoints {
+			class HitHull : HitHull {
+				armor = 0.4;
+				material = -1;
+				name = "telo";
+				visual = "zbytek";
+				passThrough = 0;
+				minimalHit = 0.08;
+				explosionShielding = 0;
+				radius = 0.1;
+			};
+			
+			class HitEngine : HitEngine {
+				armor = 0.6;
+				material = -1;
+				name = "motor";
+				passThrough = 0;
+				minimalHit = 0.139;
+				explosionShielding = 0.009;
+				radius = 0.17;
+			};
+
+			class HitFuel {
+				armor = 0.45;
+				material = -1;
+				name = "palivo";
+				visual = "";
+				passThrough = 0;
+				minimalHit = 0.139;
+				explosionShielding = 0.009;
+				radius = 0.27;
+
+			};
+			
+		};
+	};
+	class M1126_ICV_BASE_DG1DES : StrykerBase_DG1DES {
+		scope = 0;
+		displayName = "M1126 ICV M2 CROWS (SLAT)";
+		armor = 100;
+		transportSoldier = 9;
+	};
+	class M1126_ICV_M2_DG1_SLATDES : M1126_ICV_BASE_DG1DES {
+		scope = 2;
+		displayName = "M1126 ICV M2 CROWS (SLAT)";
+		model = "\StrykerPack\M1126_ICV_m2";
+		Icon = "\StrykerPack\Data\Icon_stryker_cv_CA.paa";
+		
+		class Turrets : Turrets {
+			class ObsTurret : ObsTurret {
+				weapons[] = {HMG_M2, "SmokeLauncher"};
+				turretInfoType = "RscWeaponRangeZeroing";
+				memoryPointGun = "machinegun";
+				gunBeg = "gun_muzzle";
+				gunEnd = "gun_chamber";
+				discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,1100,1200,1300,1400,1500,1600,1700,1800,1900, 2000};
+				discreteDistanceInitIndex = 0;
+				magazines[] = {"100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "SmokeLauncherMag"};
+			};
+		};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+	
+	class M1126_ICV_M2_DG1_NOSLATDES : M1126_ICV_M2_DG1_SLATDES {
+		scope = 2;
+		displayName = "M1126 ICV M2 CROWS";
+		model = "\StrykerPack\extra\M1126_ICV_m2noslat\M1126_ICV_m2noslat";
+		Icon = "\StrykerPack\Data\UI\icomap_strykernoslat_ca.paa";
+		
+		class Turrets : Turrets {
+			class ObsTurret : ObsTurret {
+				weapons[] = {HMG_M2, "SmokeLauncher"};
+				turretInfoType = "RscWeaponRangeZeroing";
+				memoryPointGun = "machinegun";
+				gunBeg = "gun_muzzle";
+				gunEnd = "gun_chamber";
+				discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000,1100,1200,1300,1400,1500,1600,1700,1800,1900, 2000};
+				discreteDistanceInitIndex = 0;
+				magazines[] = {"100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "SmokeLauncherMag"};
+			};
+		};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+	class M1126_ICV_M2NEST_DG1_NOSLATDES : M1126_ICV_M2_DG1_NOSLATDES {
+		scope = 2;
+		displayName = "M1126 ICV M2 GPK";
+		model = "\StrykerPack\extra\M1126_ICV_m2_nestnoslat\M1126_ICV_m2_nestnoslat";
+		Icon = "\StrykerPack\Data\UI\icomap_strykernoslat_ca.paa";
+		
+		class Turrets : Turrets {
+			class ObsTurret : ObsTurret {
+				weapons[] = {HMG_M2};
+				animationSourceHatch = "loaderHatch";
+				startEngine = 0;
+				turretInfoType = "RscWeaponZeroing";
+				memoryPointGun = "machinegun";
+				gunnerOutOpticsShowCursor = 1;
+				gunnerOpticsShowCursor = 0;
+				gunBeg = "gun_muzzle";
+				gunEnd = "gun_chamber";
+				gunnerOpticsModel = "";
+				gunnerOutOpticsModel = "\A3\weapons_f\reticle\optics_empty";
+				memoryPointGunnerOptics = "";
+				memoryPointGunnerOutOptics = "gunnerview";
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				gunnerAction = "HMMWV_Gunner_EP1";
+				gunnerInAction = "Stryker_Commander_EP1";
+				gunnerLeftHandAnimName = "";
+				gunnerRightHandAnimName = "";
+				discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
+				discreteDistanceInitIndex = 0;
+				magazines[] = {"100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "SmokeLauncherMag"};
+				gunnerOpticsEffect[] = {};
+				
+				class ViewOptics {
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.3;
+					minFov = 0.015;
+					maxFov = 0.3;
+					visionMode[] = {"Normal", NVG};
+				};
+			};
+		};
+		
+		class AnimationSources : AnimationSources {
+			class ReloadAnim {
+				source = "reload";
+				weapon = HMG_M2;
+			};
+			
+			class ReloadMagazine {
+				source = "reloadmagazine";
+				weapon = HMG_M2;
+			};
+			
+			class Revolving {
+				source = "revolving";
+				weapon = HMG_M2;
+			};
+		};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+	
+	class M1126_ICV_M2NEST_DG1_SLATDES : M1126_ICV_M2_DG1_NOSLATDES {
+		scope = 2;
+		displayName = "M1126 ICV M2 GPK (SLAT)";
+		model = "\StrykerPack\extra\M1126_ICV_m2_nestnoslat\M1126_ICV_m2_nestslat";
+		Icon = "\StrykerPack\Data\UI\icomap_strykernoslat_ca.paa";
+		armor = 160;
+		
+		class Turrets : Turrets {
+			class ObsTurret : ObsTurret {
+				weapons[] = {HMG_M2};
+				animationSourceHatch = "loaderHatch";
+				startEngine = 0;
+				turretInfoType = "RscWeaponZeroing";
+				memoryPointGun = "machinegun";
+				gunnerOutOpticsShowCursor = 1;
+				gunnerOpticsShowCursor = 0;
+				gunBeg = "gun_muzzle";
+				gunEnd = "gun_chamber";
+				gunnerOpticsModel = "";
+				gunnerOutOpticsModel = "\A3\weapons_f\reticle\optics_empty";
+				memoryPointGunnerOptics = "";
+				memoryPointGunnerOutOptics = "gunnerview";
+				outGunnerMayFire = 1;
+				inGunnerMayFire = 0;
+				gunnerAction = "HMMWV_Gunner_EP1";
+				gunnerInAction = "Stryker_Commander_EP1";
+				gunnerLeftHandAnimName = "";
+				gunnerRightHandAnimName = "";
+				discreteDistance[] = {100, 200, 300, 400, 500, 600, 700, 800, 900, 1000};
+				discreteDistanceInitIndex = 0;
+				magazines[] = {"100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "100Rnd_127x99_mag_Tracer_Red", "SmokeLauncherMag"};
+				gunnerOpticsEffect[] = {};
+				
+				class ViewOptics {
+					initAngleX = 0;
+					minAngleX = -30;
+					maxAngleX = 30;
+					initAngleY = 0;
+					minAngleY = -100;
+					maxAngleY = 100;
+					initFov = 0.3;
+					minFov = 0.015;
+					maxFov = 0.3;
+					visionMode[] = {"Normal", NVG};
+				};
+			};
+		};
+		
+		class AnimationSources : AnimationSources {
+			class ReloadAnim {
+				source = "reload";
+				weapon = HMG_M2;
+			};
+			
+			class ReloadMagazine {
+				source = "reloadmagazine";
+				weapon = HMG_M2;
+			};
+			
+			class Revolving {
+				source = "revolving";
+				weapon = HMG_M2;
+			};
+		};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+	class M1126_ICV_mk19_DG1_SLATDES : M1126_ICV_BASE_DG1DES {
+		scope = 2;
+		model = "\StrykerPack\M1126_ICV_mk19";
+		picture = "\StrykerPack\Data\Picture_stryker_cv_CA.paa";
+		Icon = "\StrykerPack\Data\Icon_stryker_cv_CA.paa";
+		displayName = "M1126 ICV MK19 CROWS (SLAT)";
+		threat[] = {1, 0.5, 0};
+		
+		class Turrets : Turrets {
+			class ObsTurret : ObsTurret {
+				weapons[] = {"RHS_MK19_HMG", "SmokeLauncher"};
+				turretInfoType = "RscWeaponRangeZeroing";
+				gunnerName = "M1126 MK19 Gunner";
+				discreteDistance[] = {100, 200, 300, 400, 500, 600,700,800,900,1000,1100,1200,1300,1400,1500,1600,1700,1800,1900,2100};
+				discreteDistanceInitIndex = 0;
+				magazines[] = {"RHS_48Rnd_40mm_MK19", "RHS_48Rnd_40mm_MK19", "RHS_48Rnd_40mm_MK19", "RHS_48Rnd_40mm_MK19", "RHS_48Rnd_40mm_MK19", "SmokeLauncherMag"};
+				
+				class GunFire : WeaponCloudsMGun {
+					interval = 0.01;
+				};
+			};
+		};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+	class M1126_ICV_mk19_DG1_NOSLATDES : M1126_ICV_mk19_DG1_SLATDES {
+		scope = 2;
+		model = "\StrykerPack\extra\M1126_ICV_mk19noslat\M1126_ICV_mk19noslat";
+		picture = "\StrykerPack\Data\Picture_stryker_cv_CA.paa";
+		Icon = "\StrykerPack\Data\UI\icomap_strykernolsat_mk_ca.paa";
+		displayName = "M1126 ICV MK19 CROWS";
+		threat[] = {1, 0.5, 0};
+		HiddenSelections[] = {"camo", "camo1"};
+		HiddenSelectionsTextures[] = {"StrykerPack\Data\stryker_body1_des_co.paa", "StrykerPack\Data\stryker_body2_des_co.paa"};
+		dammageHalf[] = {};
+		dammageFull[] = {};
+	};
+};
