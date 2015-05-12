@@ -18,7 +18,7 @@ class CfgVehicles
 	{
 		class DestructionEffects;
 	};
-	Land_A_Office01: House_EP1 {
-		#inlcude "Land_a_office01_EP1.hpp";
+	class Land_A_Office01: House_EP1 {
+		#include "Land_a_office01_EP1.hpp"
 	};
 };
