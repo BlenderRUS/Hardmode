@@ -158,7 +158,7 @@
 
 		linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
-		backpack = "hmg_RD";
+		backpack = "hmg_s_RD";
 		hiddenSelections[] = {};
 		hiddenSelectionsTextures[] = {};
 
@@ -179,7 +179,7 @@
 		Author_Macro
 		displayName = "Стрелок-сапер (ЕМР)";
 		engineer = 1;
-		backpack = "hmg_RD_saper";
+		backpack = "hmg_s_RD_saper";
 	};
 	class hmg_vdv_srifleman : hmg_vdv_rifleman
 	{
@@ -190,7 +190,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		linkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
-		backpack = "hmg_RD";
+		backpack = "hmg_s_RD";
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -311,7 +311,7 @@
 			"rhs_mag_nspn_red",
 			"rhs_mag_nspn_yellow"
 		};
-		backpack="hmg_RDMG";
+		backpack="hmg_s_RDMG";
 		secondaryAmmoCoef = 0.5;
 	};
 
@@ -322,7 +322,7 @@
 		displayName= "Помощник пулеметчика (ЕМР)";
         linkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_scarf","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_headset","rhs_scarf","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
-		backpack="hmg_RDMG";
+		backpack="hmg_s_RDMG";
 	};
 
 	class hmg_vdv_rpg : hmg_vdv_rifleman
@@ -445,7 +445,7 @@
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2","cw_item_notepad","AGM_MapTools","AGM_CableTie","ItemSMGR"};
 		magazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1"};
 		respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1"};
-		backpack="hmg_sniper";
+		backpack="hmg_s_sniper";
 	};
 	
 	class hmg_vdv_sniper_n : hmg_vdv_sniper_s
@@ -472,7 +472,7 @@
 		respawnLinkedItems[] = {"rhs_6b23_digi_sniper","rhs_scarf","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat"};
 		weapons[] = {"rhs_weap_svds","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"rhs_weap_svds","Throw","Put","Rangefinder"};
-		backpack="hmg_sniper";
+		backpack="hmg_s_sniper";
 	};
 
 	class hmg_vdv_leader : hmg_vdv_rifleman
@@ -531,7 +531,7 @@
 
         linkedItems[] = {"rhs_fieldcap_helm_digi","rhs_6b23_digi_crewofficer","ItemMap","ItemSMGR","ItemCompass","ItemWatch","G_Combat","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_fieldcap_helm_digi","rhs_6b23_digi_crewofficer","ItemSMGR","ItemGPS","ItemCompass","ItemWatch","G_Combat","ItemRadio"};
-		backpack = "hmg_RD";
+		backpack = "hmg_s_RD";
 	};
 
 	class hmg_vdv_cl : hmg_vdv_leader
@@ -552,7 +552,7 @@
 		linkedItems[] = {"rhs_6b28_bala","rhs_6b23_digi_engineer","ItemCompass","ItemWatch","ItemMap","G_Combat","tf_pnr1000a", "tf_microdagr"};
 		respawnLinkedItems[] = {"rhs_6b28_bala","rhs_6b23_digi_engineer","ItemCompass","ItemWatch","ItemMap","G_Combat","tf_pnr1000a", "tf_microdagr"};
 		engineer = 1;
-		backpack="hmg_RDEng";
+		backpack="hmg_s_RDEng";
 		icon="iconManEngineer";
 		picture="pictureRepair";
 	};
@@ -614,7 +614,7 @@
 			"rhs_mag_nspn_red",
 			"rhs_mag_nspn_yellow"
 		};
-		backpack = "hmg_RD";
+		backpack = "hmg_s_RD";
 		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
         linkedItems[] = {"rhs_6b28_bala","rhs_6b23_digi_6sh92_headset_mapcase","ItemMap","ItemCompass","ItemWatch","G_Combat","ItemRadio"};
@@ -737,7 +737,7 @@
 			"rhs_mag_nspn_yellow"
 		};
 		engineer = 1;
-		backpack = "hmg_RDEng";
+		backpack = "hmg_s_RDEng";
 		icon="iconManEngineer";
 		picture="pictureRepair";
 		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
@@ -783,7 +783,7 @@
 			"rhs_mag_nspn_red",
 			"rhs_mag_nspn_yellow"
 		};
-		backpack = "hmg_RD";
+		backpack = "hmg_s_RD";
 	};
 	
 	class hmg_vdv_medic : hmg_vdv_rifleman
@@ -793,7 +793,7 @@
 		displayName= "Санитар (ЕМР)";
 		attendant =1;
 		icon="iconManMedic";
-		backpack="hmg_medic_rd";
+		backpack="hmg_s_medic_rd";
 		picture="pictureHeal";
 
 		class SpeechVariants
@@ -818,7 +818,7 @@
 		_generalMacro = "hmg_vdv_medic_dr";
 		Author_Macro
 		attendant =1;
-		backpack="hmg_medic_rd";
+		backpack="hmg_s_medic_rd";
 		icon="iconManMedic";
 		displayName= "Санитар-водитель (ЕМР)";
         linkedItems[] = {"rhs_tsh4","rhs_6b23_digi_medic","ItemCompass","ItemWatch","G_Combat","tf_pnr1000a", "tf_microdagr"};
@@ -887,6 +887,7 @@
 		scope = 2;
 		Author_Macro
 		displayName = "Стрелок (ВСР-98)";
+		backpack="hmg_RD";
 	};
 	class hmg_vdv_srifleman_2005 : hmg_vdv_rifleman_2005
 	{

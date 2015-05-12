@@ -4,6 +4,7 @@ class rhs_assault_umbts_engineer;
 class rhs_assault_umbts;
 class rhs_sidor;
 class CUP_B_CivPack_Wdl;
+class HMG_RD54_EMP;
 
 class rhs_rpg2 : B_AssaultPack_Base
 {
@@ -161,7 +162,44 @@ class hmg_rif_sidorEng : rhs_assault_umbts_engineer
 		};
 	};
 };
-	// ВДВшные РД
+
+class hmg_rif_sidorsaper : rhs_assault_umbts_engineer
+{
+	displayName = "Рюкзак с взрывчаткой";
+	maximumLoad = 625;
+		class TransportMagazines
+	{
+		class _xx_rhs_mine_pmn2_mag
+		{
+			magazine = "rhs_mine_pmn2_mag";
+			count = 3;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 2;
+		};
+		class _xx_SatchelCharge_Remote_Mag
+		{
+			magazine = "SatchelCharge_Remote_Mag";
+			count = 1;
+		};
+	};
+};
+class hmg_rif_sidorrazved4ic : rhs_assault_umbts
+{
+	displayName = "Рюкзак старшего разведчика";
+	maximumLoad = 625;
+		class TransportMagazines
+	{
+		class _xx_hlc_30rnd_762x39_s_ak
+		{
+			magazine = "hlc_30rnd_762x39_s_ak";
+			count = 10;
+		};
+	};
+};
+	// ВДВшные РД 2005
 class hmg_RD : CUP_B_CivPack_Wdl
 {
 	displayName = "РД с доп. БК";
@@ -182,6 +220,11 @@ class hmg_RD : CUP_B_CivPack_Wdl
 		{
 			magazine = "rhs_30Rnd_545x39_7n22_AK";
 			count = 2;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 1;
 		};
 	};
 	class TransportWeapons
@@ -243,6 +286,7 @@ class hmg_RD_saper : CUP_B_CivPack_Wdl
 		};
 	};
 };
+
 class hmg_RDMG : CUP_B_CivPack_Wdl
 {
 	displayName = "Рюкзак с доп. БК";
@@ -253,6 +297,11 @@ class hmg_RDMG : CUP_B_CivPack_Wdl
 		{
 			magazine = "rhs_100Rnd_762x54mmR";
 			count = 2;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 1;
 		};
 	};
 	class TransportWeapons
@@ -273,6 +322,7 @@ class hmg_RDMG : CUP_B_CivPack_Wdl
 		};
 	};
 };
+
 class hmg_RDEng : CUP_B_CivPack_Wdl
 {
 	displayName = "Рюкзак с рем. комплектом";
@@ -283,6 +333,11 @@ class hmg_RDEng : CUP_B_CivPack_Wdl
 		{
 			magazine = "rhs_45Rnd_545X39_7N10_AK";
 			count = 7;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 1;
 		};
 	};
 	class TransportItems
@@ -322,6 +377,11 @@ class hmg_RDAR : CUP_B_CivPack_Wdl
 			magazine = "rhs_45Rnd_545X39_7N10_AK";
 			count = 3;
 		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 1;
+		};
 	};
 	class TransportWeapons
 	{
@@ -347,9 +407,9 @@ class hmg_sniper : CUP_B_CivPack_Wdl
 	maximumLoad = 335;
 		class TransportWeapons
 	{
-		class _xx_hlc_rifle_aks74u
+		class _xx_rhs_weap_akms
 		{
-			Weapon = "hlc_rifle_aks74u";
+			Weapon = "rhs_weap_akms";
 			count = 1;
 		};
 		class _xx_rhs_weap_rsp30_white
@@ -369,17 +429,22 @@ class hmg_sniper : CUP_B_CivPack_Wdl
 	};
 	class TransportMagazines
 	{
-		class _xx_rhs_30Rnd_545x39_7n10_AK
+		class _xx_hlc_30rnd_762x39_s_ak
 		{
-			magazine = "rhs_30Rnd_545x39_7n10_AK";
+			magazine = "hlc_30rnd_762x39_s_ak";
 			count = 4;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 1;
 		};
 	};
 	class TransportItems
 	{
-		class _xx_hlc_muzzle_545SUP_AK
+		class _xx_rhs_acc_pbs1
 		{
-			name = "hlc_muzzle_545SUP_AK";
+			name = "rhs_acc_pbs1";
 			count = 1;
 		};
 	};	
@@ -419,7 +484,239 @@ class hmg_medic_rd: CUP_B_CivPack_Wdl
 		};
 	};
 };	
-// рюкзаки морской пехоты с черными беретиками
+
+// ВДВшные РД 2015
+class hmg_s_RD : HMG_RD54_EMP
+{
+	displayName = "РД с доп. БК";
+	maximumLoad = 335;
+		class TransportMagazines
+	{
+		class _xx_rhs_30Rnd_545x39_7n10_AK
+		{
+			magazine = "rhs_30Rnd_545x39_7n10_AK";
+			count = 7;
+		};
+		class _xx_rhs_30Rnd_545x39_AK_green
+		{
+			magazine = "rhs_30Rnd_545x39_AK_green";
+			count = 2;
+		};
+		class _xx_rhs_30Rnd_545x39_7n22_AK
+		{
+			magazine = "rhs_30Rnd_545x39_7n22_AK";
+			count = 2;
+		};
+	};
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+};
+
+class hmg_s_RD_saper : HMG_RD54_EMP
+{
+	displayName = "Вещмешок с взрывчаткой";
+	maximumLoad = 335;
+		class TransportMagazines
+	{
+		class _xx_rhs_mine_pmn2_mag
+		{
+			magazine = "rhs_mine_pmn2_mag";
+			count = 3;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			magazine = "DemoCharge_Remote_Mag";
+			count = 2;
+		};
+		class _xx_SatchelCharge_Remote_Mag
+		{
+			magazine = "SatchelCharge_Remote_Mag";
+			count = 1;
+		};
+	};
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+};
+
+class hmg_s_RDMG : HMG_RD54_EMP
+{
+	displayName = "Рюкзак с доп. БК";
+	maximumLoad = 335;
+		class TransportMagazines
+	{
+		class _xx_rhs_100Rnd_762x54mmR
+		{
+			magazine = "rhs_100Rnd_762x54mmR";
+			count = 2;
+		};
+	};
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+};
+
+class hmg_s_RDEng : HMG_RD54_EMP
+{
+	displayName = "Рюкзак с рем. комплектом";
+	maximumLoad = 335;
+		class TransportMagazines
+	{
+		class _xx_rhs_45Rnd_545X39_7N10_AK
+		{
+			magazine = "rhs_45Rnd_545X39_7N10_AK";
+			count = 7;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_ToolKit
+		{
+			name = "ToolKit";
+			count = 1;
+		};
+	};
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+};
+
+class hmg_s_sniper : HMG_RD54_EMP
+{
+	displayName = "Рюкзак снайпера";
+	maximumLoad = 335;
+		class TransportWeapons
+	{
+		class _xx_rhs_weap_akms
+		{
+			Weapon = "rhs_weap_akms";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+	class TransportMagazines
+	{
+		class _xx_hlc_30rnd_762x39_s_ak
+		{
+			magazine = "hlc_30rnd_762x39_s_ak";
+			count = 4;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_rhs_acc_pbs1
+		{
+			name = "rhs_acc_pbs1";
+			count = 1;
+		};
+	};	
+};
+class hmg_s_medic_rd: HMG_RD54_EMP
+{
+	displayName = "РД с медикаментами";
+	maximumLoad = 335;
+	class TransportItems
+	{
+		class _xx_Medikit
+		{
+			name = "MediKit";
+			count = 1;
+		};
+		class _xx_FirstAidKit
+		{
+			name = "FirstAidKit";
+			count = 10;
+		};
+	};
+	class TransportWeapons
+	{
+		class _xx_rhs_weap_rsp30_white
+		{
+			Weapon = "rhs_weap_rsp30_white";
+			count = 1;
+		};
+		class _xx_rhs_weap_rsp30_red
+		{
+			Weapon = "rhs_weap_rsp30_red";
+			count = 1;
+		};class _xx_rhs_weap_rsp30_green
+		{
+			Weapon = "rhs_weap_rsp30_green";
+			count = 1;
+		};
+	};
+};	
+// рюкзаки морской пехоты
 
 class spg_pg : B_AssaultPack_Base
 {

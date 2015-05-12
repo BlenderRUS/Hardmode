@@ -814,7 +814,7 @@ class CfgVehicles {
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "SmokeShell", "SmokeShellRed", "HandGrenade", "HandGrenade"};
 		linkedItems[] = {"V_TacVest_camo", "G_Balaclava_oli","ItemCompass", "ItemWatch"};
 		respawnLinkedItems[] = {"V_TacVest_camo", "G_Balaclava_oli","ItemCompass", "ItemWatch"};
-		backpack = "LOP_FieldPack_OLV_medic";
+		backpack = "hmg_medic_rd";
 	};
 	
 	class LOP_ChDKZ_Soldier_AR : I_Soldier_AR_F {

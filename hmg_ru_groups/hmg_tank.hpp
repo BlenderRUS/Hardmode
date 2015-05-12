@@ -466,8 +466,8 @@
 			"rhs_mag_rgd5"
 		};
 
-        linkedItems[] = {"rhs_fieldcap_helm","rhs_6b23_crewofficer","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"rhs_fieldcap_helm","rhs_6b23_crewofficer","ItemMap","ItemGPS","ItemCompass","ItemWatch","ItemRadio"};
+        linkedItems[] = {"rhs_fieldcap_helm","rhs_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"rhs_fieldcap_helm","rhs_6b23_crewofficer","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		backpack = "hmg_rif_sidor";
 	};
 
