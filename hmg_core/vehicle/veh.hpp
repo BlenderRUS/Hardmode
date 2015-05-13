@@ -1,11 +1,14 @@
 class LandVehicle;
+
 class Tank : LandVehicle {
+		AGM_Vehicle_Cargo = 8;
 		class TransportMagazines {};
 		class TransportItems {};
 		class TransportWeapons {};
 		radarType = 8;
 };
 class Car : LandVehicle {
+		AGM_Vehicle_Cargo = 10;
 		class TransportMagazines {};
 		class TransportItems {};
 		class TransportWeapons {};

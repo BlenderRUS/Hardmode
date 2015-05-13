@@ -157,7 +157,6 @@ class CfgVehicles {
 		class ViewOptics;	// External class reference
 		
 		class HitPoints {
-			class HitHull;
 			class HitBody;	// External class reference
 			class HitEngine;	// External class reference
 			class HitFuel;	// External class reference
@@ -876,7 +875,7 @@ class CfgVehicles {
 			class HitRF2Wheel : HitRF2Wheel {
 				armor = 0.3;
 			};
-			class HitHull : HitHull {
+			class HitBody : HitBody {
 				armor = 0.4;
 				material = -1;
 				name = "telo";
@@ -941,7 +940,30 @@ class CfgVehicles {
 				initTurn = 0;
 				gunnerFireAlsoInInternalCamera = 1;
 				gunnerOpticsEffect[] = {};
-				
+		
+				class HitPoints {
+					class HitTurret {
+						armor = 0.4;
+						material = -1;
+						name = "vez";
+						visual = "vez";
+						passThrough = 0;
+						minimalHit = 0.14;
+						explosionShielding = 0.001;
+						radius = 0.08;
+					};
+					
+					class HitGun {
+						armor = 1.2;
+						material = -1;
+						name = "zbran";
+						visual = "";
+						passThrough = 0;
+						minimalHit = 0.13;
+						explosionShielding = 0.001;
+						radius = 0.1;
+					};
+				};				
 				class ViewOptics : ViewOptics {
 					visionMode[] = {"Normal", NVG, "Ti"};
 					thermalMode[] = {0, 1};
@@ -1014,7 +1036,29 @@ class CfgVehicles {
 				gunnerAction = "Stryker_CommanderOut_EP1";
 				gunnerInAction = "Stryker_Commander_EP1";
 				gunnerOpticsEffect[] = {};
-				
+				class HitPoints {
+					class HitTurret {
+						armor = 0.4;
+						material = -1;
+						name = "vez";
+						visual = "vez";
+						passThrough = 0;
+						minimalHit = 0.14;
+						explosionShielding = 0.001;
+						radius = 0.08;
+					};
+					
+					class HitGun {
+						armor = 1.2;
+						material = -1;
+						name = "zbran";
+						visual = "";
+						passThrough = 0;
+						minimalHit = 0.13;
+						explosionShielding = 0.001;
+						radius = 0.1;
+					};
+				};					
 				class ViewOptics {
 					initAngleX = 0;
 					minAngleX = -30;
@@ -1107,7 +1151,7 @@ class CfgVehicles {
 		model = "\StrykerPack\M1126_ICV_m2";
 		Icon = "\StrykerPack\Data\Icon_stryker_cv_CA.paa";
 		
-class Turrets : Turrets {
+		class Turrets : Turrets {
 			class ObsTurret : ObsTurret {
 				weapons[] = {HMG_M2, "SmokeLauncher"};
 				turretInfoType = "RscWeaponRangeZeroing";
