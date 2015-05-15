@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"CAStructures_Mil", "CAStructures_E_Mil", "mil"};
+		requiredAddons[] = {"CAStructures_Mil", "CAStructures_E_Mil", "mil", "hanger"};
 	};
 };
 /*
@@ -17,6 +17,7 @@ class CfgPatches
 	* Land_Mil_Guardhouse - Land_Jbad_Mil_Guardhouse
 	Land_Mil_House_EP1 - Land_Jbad_Mil_House
 	* Land_Mil_House - Land_Jbad_Mil_House
+	Land_Mil_hangar_EP1 - Land_jbad_hangar_withdoor
 */
 class CfgVehicles
 {
@@ -48,5 +49,8 @@ class CfgVehicles
 	};
 	class Land_Mil_House: House_F {
 		#include "Land_Jbad_Mil_House.hpp"
+	};
+	class Land_Mil_hangar_EP1: House_F {
+		#include "Land_jbad_hangar_withdoor.hpp"
 	};
 };
