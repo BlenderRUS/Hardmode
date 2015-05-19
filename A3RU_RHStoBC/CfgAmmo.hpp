@@ -25,10 +25,12 @@ class CfgAmmo {
 		explosive=0.1;
 		explosionEffects="RHS_flashbang_10";
 	};
+	/*
 	X_FLARE(rhs_40mm_white,F_40mm_White)
 	X_FLARE(rhs_40mm_red,F_40mm_Red)
 	X_FLARE(rhs_40mm_green,F_40mm_Green)
 	X_FLARE(rhsusf_40mm_white,F_40mm_White)
 	X_FLARE(rhsusf_40mm_red,F_40mm_Red)
 	X_FLARE(rhsusf_40mm_green,F_40mm_Green)
+	*/
 };
