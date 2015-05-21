@@ -1,8 +1,16 @@
 ﻿class CfgFactionClasses
 {
+	class group_ru_msv_1995
+    {
+        displayName = "ОМСП 1995";
+        priority = -12;
+        side = 0;
+		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
+		backpack_tf_faction_radio_api = "tf_mr3000_rhs";
+    };
 	class group_ru_msv
     {
-        displayName = "ОМСП";
+        displayName = "ОМСП 2005";
         priority = -12;
         side = 0;
 		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
@@ -26,7 +34,7 @@
     };
 	class group_ru_msv_bmp
     {
-        displayName = "ОМСП на БМП";
+        displayName = "ОМСП на БМП 2005";
         priority = -8;
         side = 0;
 		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";

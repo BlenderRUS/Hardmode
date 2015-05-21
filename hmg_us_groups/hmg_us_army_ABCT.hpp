@@ -336,15 +336,12 @@ class hmg_us_army_ocp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ocp_2015_ABCT_RIFLEMA
 	class hmg_us_army_ocp_2015_ABCT_AUTO_RIFLEMAN : hmg_us_army_ocp_2015_ABCT_RIFLEMAN
 	{
 		displayName= "Auto rifleman (ocp) ";
-		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cmg"};
+		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","RH_pas13cmg","rhsusf_acc_ELCAN","AGM_SpareBarrel"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
 		magazines[] = 		{
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch"
@@ -353,11 +350,9 @@ class hmg_us_army_ocp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ocp_2015_ABCT_RIFLEMA
 		{
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch"
 		};
+		Backpack = "rhsusf_assault_eagleaiii_ocp_AR";
 	};
 	
 	class hmg_us_army_ocp_2015_ABCT_TEAM_LEADER : hmg_us_army_ocp_2015_ABCT_RIFLEMAN
@@ -1091,15 +1086,12 @@ class hmg_us_army_ucp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ucp_2015_ABCT_RIFLEMA
 	class hmg_us_army_ucp_2015_ABCT_AUTO_RIFLEMAN : hmg_us_army_ucp_2015_ABCT_RIFLEMAN
 	{
 		displayName= "Auto rifleman (ucp) ";
-		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","RH_pas13cmg"};
+		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","RH_pas13cmg","rhsusf_acc_ELCAN","AGM_SpareBarrel"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
 		magazines[] = 		{
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch"
@@ -1108,11 +1100,9 @@ class hmg_us_army_ucp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ucp_2015_ABCT_RIFLEMA
 		{
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
-				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch"
 		};
+		Backpack = "rhsusf_assault_eagleaiii_ucp_AR";
 	};
 	
 	class hmg_us_army_ucp_2015_ABCT_TEAM_LEADER : hmg_us_army_ucp_2015_ABCT_RIFLEMAN

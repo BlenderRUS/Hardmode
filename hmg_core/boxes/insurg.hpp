@@ -268,8 +268,8 @@
 						weapon = "hlc_rifle_rpk";
 						count = 1;
 					};
-					class _xx_rhs_weap_m249_pip {
-						weapon = "rhs_weap_m249_pip";
+					class _xx_hlc_lmg_minimi {
+						weapon = "hlc_lmg_minimi";
 						count = 1;
 					};
 					class _xx_hlc_rifle_aughbar_t {

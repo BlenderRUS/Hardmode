@@ -12,6 +12,76 @@ class CfgPatches
 	{
 		units[]=
 		{
+			// мотострелки 1995
+			// отсюда мотострелки на флоре
+			hmg_infantry_msv_1995_base,
+			hmg_msv_1995_rifleman,
+			hmg_msv_1995_ar,
+			hmg_msv_1995_efreitor,
+			hmg_msv_1995_gp,
+			hmg_msv_1995_machinegunner,
+			hmg_msv_1995_machinegunner_assistant,
+			hmg_msv_1995_at,
+			hmg_msv_1995_aa,
+			hmg_msv_1995_strelok_rpg_assist,
+			hmg_msv_1995_marksman,
+			hmg_msv_1995_officer_armored,
+			hmg_msv_1995_officer,
+			hmg_msv_1995_politruk,
+			hmg_msv_1995_st_tech,
+			hmg_msv_1995_strsh,
+			hmg_msv_1995_ko_r,
+			hmg_msv_1995_ko_gv,
+			hmg_msv_1995_sergeant,
+			hmg_msv_1995_sergeant_zkv,
+			hmg_msv_1995_sergeant_pto,
+			hmg_msv_1995_sergeant_kmb,
+			hmg_msv_1995_sergeant_go,
+			hmg_msv_1995_kmsv,
+			hmg_msv_1995_engineer_st,
+			hmg_msv_1995_engineer,
+			hmg_msv_1995_driver,
+			hmg_msv_1995_driver_st,
+			hmg_msv_1995_gunner,
+			hmg_msv_1995_gunner_zkmb,
+			hmg_msv_1995_st_tech,
+			hmg_msv_1995_rifleman_radist,
+			hmg_msv_1995_rifleman_sbr,		
+			hmg_msv_1995_ags_s,
+			hmg_msv_1995_ags_n,
+			hmg_msv_1995_metis_s,
+			hmg_msv_1995_metis_n,
+			//танковая рота
+			hmg_msv_1995_tank_driver,
+			hmg_msv_1995_tank_gunner,
+			hmg_msv_1995_tank_kommander,
+			hmg_msv_1995_tank_pltkommander,
+			hmg_msv_1995_tank_compkommander,
+			hmg_msv_1995_tank_st_tech,
+			// минометная батарея
+			hmg_msv_1995_voditel,
+			hmg_msv_1995_nomer_rascheta,
+			hmg_msv_1995_master_nomer_rascheta,
+			hmg_msv_1995_starshii_navod4ik,
+			hmg_msv_1995_komandir_minometa,
+			hmg_msv_1995_zkv_komandir_minometa,
+			hmg_msv_1995_voditel_rpg,
+			hmg_msv_1995_komvzvoda_ognevogo,
+			hmg_msv_1995_radist,
+			hmg_msv_1995_st_radist,
+			hmg_msv_1995_dalnomershik,
+			hmg_msv_1995_razved4ik,
+			hmg_msv_1995_komot_art_recon_squad,
+			hmg_msv_1995_komot_podvoza,
+			hmg_msv_1995_starshii_vi4islitel,
+			hmg_msv_1995_komvzvoda_upravlenia,
+			hmg_msv_1995_komandir_minbatr,
+			// медицинский пункт батальона 
+			hmg_msv_1995_medic,
+			hmg_msv_1995_medic_st,
+			hmg_msv_1995_san_instruktor,
+			hmg_msv_1995_voditel_sanitar,
+			hmg_msv_1995_med_leader,
 			// отсюда мотострелки на флоре
 			hmg_infantry_msv_base,
 			hmg_msv_rifleman,
@@ -404,4 +474,6 @@ class CfgVehicles
 	#include "hmg_tank_s.hpp"
 	#include "hmg_vdv_pdr.hpp"
 	#include "hmg_mp.hpp"
+	#include "hmg_msv_1995.hpp"
 };
+

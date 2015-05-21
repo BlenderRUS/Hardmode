@@ -1028,6 +1028,24 @@
 		displayName= "Дальномерщик (ВСР-98)";
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put","Rangefinder"};
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","Rangefinder"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+			
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
 	};	
 	
 	class hmg_msv_razved4ik: hmg_msv_rifleman
@@ -1091,7 +1109,7 @@
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		linkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"rhs_6b26","rhs_6b23_crewofficer","ItemCompass","ItemWatch","ItemMap"};
-		backpack="FARA_PV_RUCK";
+		backpack="rhs_assault_umbts_empty";
 	};	
 	// медицинский пункт батальона 
 	// Командир медицинского пункта
@@ -1195,6 +1213,20 @@
 		_generalMacro = "hmg_msv_razved4ik_strelok";
 		Author_Macro
 		displayName= "Разведчик (ВСР-98)";
+	};
+	
+	class hmg_msv_razved4ik_operator_rls : hmg_msv_efreitor
+	{
+		_generalMacro = "hmg_msv_razved4ik_operator_rls";
+		Author_Macro
+		displayName= "Оператор РЛС (ВСР-98)";
+	};
+	
+	class hmg_msv_razved4ik_stoperator_rls : hmg_msv_efreitor
+	{
+		_generalMacro = "hmg_msv_razved4ik_stoperator_rls";
+		Author_Macro
+		displayName= "Ст. оператор РЛС (ВСР-98)";
 	};
 	
 	class hmg_msv_razved4ik_saper : hmg_msv_rifleman

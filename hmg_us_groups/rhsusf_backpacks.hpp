@@ -84,6 +84,32 @@ class rhsusf_assault_eagleaiii_ocp_mgas: rhsusf_assault_eagleaiii_ocp
 		};
 	};
 };
+class rhsusf_assault_eagleaiii_ocp_AR: rhsusf_assault_eagleaiii_ocp
+{
+	displayName = "Eagle A-III OCP (AR)";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_100Rnd_556x45_soft_pouch
+		{
+			magazine = "rhsusf_100Rnd_556x45_soft_pouch";
+			count = 3;
+		};
+	};
+};
+class rhsusf_assault_eagleaiii_ucp_AR: rhsusf_assault_eagleaiii_ucp
+{
+	displayName = "Eagle A-III UCP (AR)";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_100Rnd_556x45_soft_pouch
+		{
+			magazine = "rhsusf_100Rnd_556x45_soft_pouch";
+			count = 3;
+		};
+	};
+};
 class rhsusf_assault_eagleaiii_ucp_aarspas: rhsusf_assault_eagleaiii_ucp
 {
 	displayName = "Eagle A-III UCP (Anti-Armor assist)";
@@ -547,10 +573,10 @@ class MEF_Wood_Kitbag_AR: B_Kitbag_Base
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_100Rnd_556x45_soft_pouch
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
 		{
-			magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-			count = 6;
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
 		};
 	};
 };	
@@ -722,10 +748,10 @@ class MEF_Des_Tactical_AR: B_Kitbag_Base
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_100Rnd_556x45_soft_pouch
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
 		{
-			magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-			count = 6;
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
 		};
 	};
 };	
@@ -906,10 +932,10 @@ class CUP_B_CivPack_Wdl_AR: B_Carryall_oli
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_100Rnd_556x45_soft_pouch
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
 		{
-			magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-			count = 6;
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
 		};
 	};
 };	
@@ -1007,4 +1033,4 @@ class m252_ammo_woodland: B_Carryall_oli
 			count = 5;
 		};
 	};
-};	
+};

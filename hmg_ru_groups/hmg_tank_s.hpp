@@ -1148,5 +1148,265 @@
 		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_medic","ItemMap","ItemCompass","ItemWatch"};
 		backpack = "tf_mr3000_rhs";
 	};
+	// разведвзвод мсб
+//Командир взвода
+//ЗамКомВзвода - Командир отделения
+//Старший радиотелеграфист - разведчик
+//Радиотелефонист - разведчик
+//Разведчик - оператор
+//Разведчик - гранатометчик
+//Командир отделения
+//Старший разведчик
+//Разведчик - снайпер
+//Разведчик - пулеметчик
+//Разведчик - сапер
+//Разведчик
+//Оператор РЛС
+//Старший оператор РЛС
+
+	class hmg_tank_s_razved4ik_strelok : hmg_tank_s_efreitor
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_strelok";
+		Author_Macro
+		displayName= "Разведчик (ЕМР)";
+	};
 	
+	class hmg_tank_s_razved4ik_operator_rls : hmg_tank_s_efreitor
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_operator_rls";
+		Author_Macro
+		displayName= "Оператор РЛС (ЕМР)";
+	};
+	
+	class hmg_tank_s_razved4ik_stoperator_rls : hmg_tank_s_efreitor
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_stoperator_rls";
+		Author_Macro
+		displayName= "Ст. оператор РЛС (ЕМР)";
+	};
+	
+	class hmg_tank_s_razved4ik_saper : hmg_tank_s_rifleman
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_saper";
+		scope = 2;
+		Author_Macro
+		displayName = "Разведчик-сапер (ЕМР)";
+		engineer = 1;
+		backpack = "hmg_rif_sidorsaper";
+	};
+	
+	class hmg_tank_s_razved4ik_radist : hmg_tank_s_rifleman_radist
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_radist";
+		Author_Macro
+		displayName= "Разведчик-радиотелефонист (ЕМР)";
+		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		backpack = "tf_mr6000l";
+	};
+	
+	class hmg_tank_s_razved4ik_machinegunner : hmg_tank_s_machinegunner
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_machinegunner";
+		Author_Macro
+		displayName= "Разведчик-пулеметчик (ЕМР)";
+	};
+	
+	class hmg_tank_s_razved4ik_marksman : hmg_tank_s_marksman
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_marksman";
+		Author_Macro
+		displayName= "Разведчик-снайпер (ЕМР)";
+		Weapons[] = {"rhs_weap_svd","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_svd","Throw","Put","Binocular"};
+	};
+	
+	class hmg_tank_s_razved4ik_efreitor : hmg_tank_s_efreitor
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_efreitor";
+		Author_Macro
+		displayName= "Старший разведчик (ЕМР)";
+		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //rhs_weap_ak74m_folded_dtk
+		Items[] = {"FirstAidKit","rhs_acc_pbs1"};
+		RespawnItems[] = {"FirstAidKit","rhs_acc_pbs1"};
+		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		backpack = "hmg_rif_sidorrazved4ic";
+		magazines[] = 		{
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+			
+		};
+		respawnMagazines[] =
+		{
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"hlc_30rnd_762x39_s_ak",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+	};
+	
+	class hmg_tank_s_razved4ik_ko : hmg_tank_s_ko_r
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_ko";
+		Author_Macro
+		displayName= "Командир развед. отделения (ЕМР)";
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		linkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		respawnLinkedItems[] = {"rhs_6b28","rhs_6b23_digi_6sh92_radio","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
+		backpack = "hmg_rif_sidor";
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"	
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+	};	
+	
+	class hmg_tank_s_razved4ik_at : hmg_tank_s_at
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_at";
+		Author_Macro
+		displayName= "Разведчик-гранатометчик (ЕМР)";
+
+		class SpeechVariants
+		{
+			class Default
+			{
+				speechSingular[] = {"veh_infantry_AT_s"};
+				speechPlural[] = {"veh_infantry_AT_p"};
+			};
+		};
+		textSingular = "AT soldier";
+		textPlural = "AT soldiers";
+		nameSound = "veh_infantry_AT_s";
+		threat[] = {1,1,0.8};
+		icon="iconManAT";
+		Items[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
+		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
+        linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
+		backpack="rhs_rpg1";
+	};
+	
+	class hmg_tank_s_razved4ik_sbr : hmg_tank_s_rifleman_sbr
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_sbr";
+		Author_Macro
+		displayName= "Разведчик-оператор (ЕМР)";
+		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
+		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		backpack = "FARA_PV_PULT_RUCK";
+	};
+	
+	class hmg_tank_s_razved4ik_stradist : hmg_tank_s_razved4ik_radist
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_stradist";
+		Author_Macro
+		displayName= "Старший разведчик-радиотелефонист (ЕМР)";
+		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		magazines[] = 		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"	
+		};
+		respawnMagazines[] =
+		{
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_7N10_AK",
+			"rhs_30Rnd_545x39_AK_green",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25P",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_VOG25",
+			"rhs_mag_rgd5", 
+			"rhs_mag_rgd5"
+		};
+		backpack = "tf_mr6000l";
+	};
+	
+	class hmg_tank_s_razved4ik_zkvko : hmg_tank_s_razved4ik_ko
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_zkvko";
+		Author_Macro
+		displayName= "ЗКВ Командир развед. отделения (ЕМР)";
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Rangefinder"};
+		backpack="FARA_PV_RUCK";
+	};	
+	
+	class hmg_tank_s_razved4ik_officer : hmg_tank_s_officer
+	{
+		_generalMacro = "hmg_tank_s_razved4ik_officer";
+		Author_Macro
+		displayName= "Командир развед. взвода (ЕМР)";
+		backpack = "tf_mr3000_rhs";
+	};	
+		
 	

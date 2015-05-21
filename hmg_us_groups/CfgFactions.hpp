@@ -24,6 +24,14 @@ class CfgFactionClasses
 		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
 		backpack_tf_faction_radio_api = "tf_rt1523g_rhs";
     };
+	 class rhs_faction_usarmy_2005_hbct
+    {
+        displayName = "HMG US ARMY 2005_Heavy BCT ";
+        priority = -5;
+        side = 1;
+		icon = "\rhsusf\addons\rhsusf_main\data\armylogo.paa";
+		backpack_tf_faction_radio_api = "tf_rt1523g_rhs";
+    };
 	class rhs_faction_usarmy_2015
     {
         displayName = "HMG US ARMY 2015";

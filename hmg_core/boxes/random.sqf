@@ -39,7 +39,7 @@ switch (_hmgtypeofbox) do {
 		_hmgbox addweaponcargoglobal ["hlc_rifle_FAL5061", _hmgcount];
 		_hmgbox addmagazinecargoglobal ["hlc_50rnd_762x51_M_FAL", _hmgcount*12];	
 		_hmgcount = (floor (random 3));
-		_hmgbox addweaponcargoglobal ["rhs_weap_m249_pip",_hmgcount];	
+		_hmgbox addweaponcargoglobal ["hlc_lmg_minimi",_hmgcount];	
 		_hmgbox addmagazinecargoglobal ["rhsusf_100Rnd_556x45_soft_pouch", _hmgcount*12];
 		_hmgcount = (floor (random 3));		
 		_hmgbox addweaponcargoglobal ["hlc_rifle_rpk", _hmgcount];

@@ -213,8 +213,8 @@
 							name = "AGM_CableTie";
 							count = 20;
 						};
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
 							count = 2;
 						};
 
@@ -351,8 +351,8 @@
 							name = "B_UavTerminal";
 							count = 2;
 						};
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
 							count = 2;
 						};
                                                                  
@@ -476,10 +476,7 @@
 							magazine = "CUP_15Rnd_9x19_M9";
 							count = 4;
 						};
-
-			
 				};
-
 			};
 		class hmg_us_box_sbct_mgs : hmg_us_box_small_base {
 				displayName = "Ящик SBCT MSG Stryker (US)";
@@ -495,11 +492,10 @@
 							magazine = "rhsusf_100Rnd_762x51";
 							count = 8;
 						};
-			
 				};
 				class TransportItems {
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
 							count = 1;
 						};
 				};
@@ -511,36 +507,18 @@
 							weapon = "rhs_weap_m240b_elcan";
 							count = 2;
 						};
-
 				};
 				class TransportMagazines {
 						class _xx_rhsusf_100Rnd_762x51 {
 							magazine = "rhsusf_100Rnd_762x51";
 							count = 16;
 						};
-			
 				};
 				class TransportItems {
-						class _xx_AGM_CableTie {
-							name = "AGM_CableTie";
-							count = 20;
-						};
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
 							count = 2;
 						};
-				};
-				class TransportBackpacks {
-						class _xx_RHS_Mk19_Gun_Bag {
-							backpack = "RHS_Mk19_Gun_Bag";
-							count = 1;
-						};
-						class _xx_RHS_Mk19_Tripod_Bag {
-							backpack = "RHS_Mk19_Tripod_Bag";
-							count = 1;
-						};
-
-
 				};
 		};
 		class hmg_us_box_hbct_rif_squad_adv : hmg_us_box_big_base {
@@ -576,18 +554,182 @@
 						};
 						class _xx_rhs_fgm148_magazine_AT {
 							magazine = "rhs_fgm148_magazine_AT";
-							count = 3;
+							count = 1;
 						};
-
 				};
 				class TransportItems {
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 1;
+						};
+				};
+		};
+	
+		class hmg_us_box_HBCT_sniper_section_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество HBCT sniper section 2005 (US)";
+				class TransportWeapons {
+						class _xx_Trixie_M107_Black {
+							weapon = "Trixie_M107_Black";
+							count = 1;
+						};
+						class _xx_Trixie_M24_Black_Clean {
+							weapon = "Trixie_M24_Black_Clean";
+							count = 1;
+						};
+				};
+				class TransportMagazines {
+						class _xx_Trixie_10x127_Mag {
+							magazine = "Trixie_10x127_Mag";
+							count = 3;
+						};
+						class _xx_Trixie_10x127_HE_Mag {
+							magazine = "Trixie_10x127_HE_Mag";
+							count = 3;
+						};
+						class _xx_Trixie_10x127_HEIAP_Mag {
+							magazine = "Trixie_10x127_HEIAP_Mag";
+							count = 3;
+						};
+						class _xx_Trixie_5x762_Mag {
+							magazine = "Trixie_5x762_Mag";
+							count = 20;
+						};
+				};
+				class TransportItems {
+						class _xx_rhsusf_acc_LEUPOLDMK4_2 {
+							name = "rhsusf_acc_LEUPOLDMK4_2";
+							count = 1;
+						};
+						class _xx_rhsusf_acc_LEUPOLDMK4 {
+							name = "rhsusf_acc_LEUPOLDMK4";
+							count = 1;
+						};
+						class _xx_RH_pas13ch {
+							name = "RH_pas13ch";
+							count = 1;
+						};
+						class _xx_RH_anpvs10 {
+							name = "RH_anpvs10";
 							count = 1;
 						};
 				};
 		};
 		
+		class hmg_us_box_HBCT_scout_platoon_section_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество HBCT Scout section 2005 (US)";
+				class TransportWeapons {
+						class _xx_rhs_weap_m240b_elcan {
+							weapon = "rhs_weap_m240b_elcan";
+							count = 1;
+						};
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_100Rnd_762x51 {
+							magazine = "rhsusf_100Rnd_762x51";
+							count = 8;
+						};
+						class _xx_DemoCharge_remote_mag {
+							magazine = "DemoCharge_remote_mag";
+							count = 3;
+						};
+						class _xx_SatchelCharge_Remote_Mag {
+							magazine = "SatchelCharge_Remote_Mag";
+							count = 3;
+						};
+				};
+				class TransportItems {
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 1;
+						};
+						class _xx_AGM_M26_Clacker {
+							name = "AGM_M26_Clacker";
+							count = 1;
+						};
+				};
+		};
+		class hmg_us_box_HBCT_scout_platoon_hq_adv : hmg_us_box_big_base {
+				displayName = "Ящик имущество HBCT Scout Platoon HQ 2005 (US)";
+				class TransportWeapons {
+						class _xx_rhs_weap_m240b_elcan {
+							weapon = "rhs_weap_m240b_elcan";
+							count = 1;
+						};
+				};
+				class TransportMagazines {
+						class _xx_rhsusf_100Rnd_762x51 {
+							magazine = "rhsusf_100Rnd_762x51";
+							count = 8;
+						};
+						class _xx_DemoCharge_remote_mag {
+							magazine = "DemoCharge_remote_mag";
+							count = 3;
+						};
+						class _xx_SatchelCharge_Remote_Mag {
+							magazine = "SatchelCharge_Remote_Mag";
+							count = 3;
+						};
+				};
+				class TransportItems {
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
+							count = 1;
+						};
+						class _xx_AGM_M26_Clacker {
+							name = "AGM_M26_Clacker";
+							count = 1;
+						};
+				};
+		};
+		
+		class hmg_us_box_HBCT_tank_comp_hq : hmg_us_box_big_base {
+				displayName = "Ящик доп.бк HBCT tank Company 2005 (US)";
+				class TransportMagazines {
+						class _xx_CUP_15Rnd_9x19_M9 {
+							magazine = "CUP_15Rnd_9x19_M9";
+							count = 18;
+						};
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
+							count = 40;
+						};
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
+							count = 16;
+						};
+						class _xx_rhs_mag_M441_HE {
+							magazine = "rhs_mag_M441_HE";
+							count = 16;
+						};
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
+							count = 24;
+						};
+						class _xx_rhs_mag_m714_White {
+							magazine = "rhs_mag_m714_White";
+							count = 24;
+						};
+				};
+		};
+		class hmg_us_box_hbct_tank_platoon : hmg_us_box_big_base {
+				displayName = "Ящик  доп. БК HBCT Tank platoon (US)";
+				
+				class TransportMagazines {
+						class _xx_CUP_15Rnd_9x19_M9 {
+							magazine = "CUP_15Rnd_9x19_M9";
+							count = 24;
+						};
+			
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
+							count = 30;
+						};
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
+							count = 16;
+						};
+				};
+		};	
 		class hmg_us_box_Abct_rif_squad : hmg_us_box_big_base {
 				displayName = "Ящик  доп. БК ABCT Rifle Squad (US)";
 				class TransportMagazines {
@@ -673,7 +815,7 @@
 						};
 				};
 		};
-		//недопилено
+
 		class hmg_us_box_Abct_sniper_section_adv : hmg_us_box_big_base {
 				displayName = "Ящик имущество ABCT sniper section 2015 (US)";
 				class TransportWeapons {
@@ -693,7 +835,6 @@
 							weapon = "rhs_weap_M320";
 							count = 1;
 						};
-						
 				};
 				class TransportMagazines {
 						class _xx_Trixie_10x127_Mag {
@@ -904,7 +1045,7 @@
 						};
 				};
 		};
-		class hmg_us_box_hbct_tank_platoon : hmg_us_box_big_base {
+		class hmg_us_box_Abct_tank_platoon : hmg_us_box_big_base {
 				displayName = "Ящик  доп. БК ABCT Tank platoon (US)";
 				
 				class TransportMagazines {
@@ -935,6 +1076,10 @@
 							weapon = "rhs_weap_M590_5RD";
 							count = 2;
 						};
+						class _xx_CUP_glaunch_M32 {
+							weapon = "CUP_glaunch_M32";
+							count = 2;
+						};
 				};
 				class TransportMagazines {
 						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
@@ -945,10 +1090,30 @@
 							magazine = "rhsusf_5Rnd_00Buck";
 							count = 14;
 						};
+						class _xx_CUP_6Rnd_HE_M203 {
+							magazine = "CUP_6Rnd_HE_M203";
+							count = 6;
+						};
+						class _xx_CUP_6Rnd_Smoke_M203 {
+							magazine = "CUP_6Rnd_Smoke_M203";
+							count = 6;
+						};
+						class _xx_CUP_6Rnd_SmokeRed_M203 {
+							magazine = "CUP_6Rnd_SmokeRed_M203";
+							count = 6;
+						};
+						class _xx_CUP_6Rnd_SmokeGreen_M203 {
+							magazine = "CUP_6Rnd_SmokeGreen_M203";
+							count = 6;
+						};
+						class _xx_CUP_6Rnd_FlareRed_M203 {
+							magazine = "CUP_6Rnd_FlareRed_M203";
+							count = 6;
+						};
 				};
 				class TransportItems {
-						class _xx_Trixie_ANPASM {
-							name = "Trixie_ANPASM";
+						class _xx_RH_pas13cmg {
+							name = "RH_pas13cmg";
 							count = 9;
 						};
 				};

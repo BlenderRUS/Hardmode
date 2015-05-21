@@ -14,6 +14,11 @@ class CfgGroups
 			name = "HMG US ARMY 2015_Armoded BCT ";
 			#include "groups\usarmy_ABCT_2015.hpp"
 		};
+		class rhs_faction_usarmy_2005_hbct
+		{
+			name = "HMG US ARMY 2005_Heavy BCT ";
+			#include "groups\usarmy_HBCT_2005.hpp"
+		};
 		class rhs_faction_usarmy_2015
 		{
 			name = "HMG US ARMY 2015 ";

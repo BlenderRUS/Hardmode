@@ -2,6 +2,14 @@
 {
 	class East
 	{
+		class group_ru_msv_1995_omsb_f
+		{
+			name = "HMG ОМСП 1995";
+			#include "groups\omsb_1995.hpp"
+			#include "groups\omsb_1995_bmp.hpp"
+			#include "groups\omsb_1995_minbatr.hpp"
+			#include "groups\omsb_1995_tank.hpp"
+		};
 		class group_ru_msv_omsb_f
 		{
 			name = "HMG ОМСП 2005";

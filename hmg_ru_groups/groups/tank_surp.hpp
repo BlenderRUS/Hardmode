@@ -247,6 +247,171 @@ class group_ru_tank_s_bmp_attach
 						position[] = {7,0,0};
 					};
 				};
+				class group_ru_tank_s_omsb_scout_sq_hq_bmp
+				{
+					name = "Управление разведовательного взвода (ЕМР)";
+					faction = "hmg_faction_msv";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_officer";
+						rank = "LIEUTENANT";
+						position[] = {0,3,0};
+					};
+				};
+				class group_ru_tank_s_omsb_1scout_sq_bmp
+				{
+					name = "1ое Равзедовательное отделение (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_zkvko";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_stoperator_rls";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_sbr";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_radist";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_driver_st";
+						rank = "SERGEANT";
+						position[] = {6,0,0};
+					};
+				};
+				class group_ru_msv_omsb_s_2scout_sq_bmp
+				{
+					name = "2ое Равзедовательное отделение (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_ko";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_efreitor";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_machinegunner";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_strelok";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_driver";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
+				class group_ru_tank_s_omsb_3scout_sq_bmp
+				{
+					name = "3е Равзедовательное отделение (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_ko";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_efreitor";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_azved4ik_at";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_razved4ik_strelok";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_gunner_zkmb";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_tank_s_driver";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+				};
 			};
 class group_ru_tank_bmp_surp
 			{

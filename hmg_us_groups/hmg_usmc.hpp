@@ -94,10 +94,10 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_pas13cmg","AGM_SpareBarrel", "rhsusf_acc_anpeq15A" };
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154" };
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Wood_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154" };
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
-		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
+		weapons[] = {"hlc_m249_pip1","Throw","Put"};
+		respawnWeapons[] = {"hlc_m249_pip1","Throw","Put"};
+		magazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
 	};
 
 	class hmg_usmc_w_2005_TL : hmg_usmc_w_2005_rifleman
@@ -656,10 +656,10 @@ class hmg_usmc_d_2005 : rhsusf_army_ocp_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_pas13cmg","AGM_SpareBarrel", "rhsusf_acc_anpeq15A" };
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Desert_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
-		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
+		weapons[] = {"hlc_m249_pip1","Throw","Put"};
+		respawnWeapons[] = {"hlc_m249_pip1","Throw","Put"};
+		magazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
 	};
 
 	class hmg_usmc_d_2005_TL : hmg_usmc_d_2005_rifleman
@@ -1763,12 +1763,6 @@ class hmg_usmc_d_2015_sniperH : hmg_usmc_d_2015_sniper{
 // Corpsman team Marpat	2015
 	class hmg_usmc_w_2015_scorp : hmg_usmc_w_2015_sl{
 		displayName = "Senior corpsman (Marpat)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		linkedItems[] = {"MEF_Vest_Tan_Medical","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Medical","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
-		weapons[] = {"rhs_weap_m4","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put"};
 		attendant = 1;
 		icon = "iconManMedic";
 		backpack = "MEF_Wood_Kitbag_medic";
@@ -2006,12 +2000,6 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 // Corpsman team MarpatDesert 2015
 	class hmg_usmc_d_2015_scorp : hmg_usmc_d_2015_sl{
 		displayName = "Senior corpsman (MarpatDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		linkedItems[] = {"MEF_Vest_Tan_Medical","H_HelmetB_desert","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
-		respawnLinkedItems[] = {"MEF_Vest_Tan_Medical","H_HelmetB_desert","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
-		weapons[] = {"rhs_weap_m4","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put"};
 		attendant = 1;
 		icon = "iconManMedic";
 		backpack = "MEF_Des_Tactical_medic";
@@ -2075,10 +2063,9 @@ class hmg_usmc_w_1995_rifleman : rhsusf_army_ocp_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_SpareBarrel" };
 		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "NVGoggles_INDEP"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
-		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
+		weapons[] = {"hlc_m249_pip1","Throw","Put"};
+		respawnWeapons[] = {"hlc_m249_pip1","Throw","Put"};
+		backpack="CUP_B_CivPack_Wdl_AR";
 	};
 
 	class hmg_usmc_w_1995_TL : hmg_usmc_w_1995_rifleman
@@ -2608,10 +2595,9 @@ class hmg_usmc_w_1985_rifleman : hmg_usmc_w_1995_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_SpareBarrel" };
 		linkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"};
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","LOP_H_PASGTHelmet_cover_WDL","ItemCompass","ItemWatch" , "AGM_NVG_Gen2"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
-		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
+		weapons[] = {"hlc_lmg_M249E2","Throw","Put"};
+		respawnWeapons[] = {"hlc_lmg_M249E2","Throw","Put"};
+		backpack="CUP_B_CivPack_Wdl_AR";
 	};
 
 	class hmg_usmc_w_1985_TL : hmg_usmc_w_1985_rifleman
@@ -3178,10 +3164,10 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_pas13cmg","AGM_SpareBarrel", "rhsusf_acc_anpeq15A" };
 		linkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Snow_Helmet_LWH","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Infantry","MEF_Snow_Helmet_LWH","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_anprc154", "tf_microdagr"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		magazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
-		respawnMagazines[] = {"rhsusf_100Rnd_556x45_soft_pouch",  "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch","rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch", "rhsusf_100Rnd_556x45_soft_pouch"};
+		weapons[] = {"hlc_m249_pip1","Throw","Put"};
+		respawnWeapons[] = {"hlc_m249_pip1","Throw","Put"};
+		magazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
+		respawnMagazines[] = {"rhsusf_200Rnd_556x45_soft_pouch",  "rhsusf_200Rnd_556x45_soft_pouch", "rhsusf_200Rnd_556x45_soft_pouch"};
 	};
 
 	class hmg_usmc_s_2005_TL : hmg_usmc_s_2005_rifleman

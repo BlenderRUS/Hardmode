@@ -240,6 +240,242 @@
 						position[] = {9,0,0};
 					};
 				};
+				class group_ru_msv_omsb_s_scout_hq
+				{
+					name = "Управление разведовательного взвода на БТР (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_officer";
+						rank = "LIEUTENANT";
+						position[] = {0,3,0};
+					};
+				};
+				class group_ru_msv_omsb_s_scout_sq
+				{
+					name = "Разведовательное отделение на БТР (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_zkvko";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_stradist";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_radist";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_sbr";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_at";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_gunner";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_driver_st";
+						rank = "SERGEANT";
+						position[] = {7,0,0};
+					};
+				};
+				class group_ru_msv_omsb_s_scout_sq2
+				{
+					name = "Разведовательное отделение на БТР (ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_ko";
+						rank = "SERGEANT";
+						position[] = {0,3,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_efreitor";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_marksman";
+						rank = "PRIVATE";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_machinegunner";
+						rank = "PRIVATE";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_radist";
+						rank = "PRIVATE";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_saper";
+						rank = "PRIVATE";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_razved4ik_strelok";
+						rank = "PRIVATE";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_gunner";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_driver";
+						rank = "PRIVATE";
+						position[] = {9,0,0};
+					};
+				};	
+				class group_ru_msv_s_omsb_s_sniper_sq_hq
+				{
+					name = "Управление стрелкового (снайперского) взвода(ЕМР)";
+					faction = "hmg_faction_msv";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_ko_r";
+						rank = "LIEUTENANT";
+						position[] = {0,1,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_zkvmarksman";
+						rank = "SERGEANT";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_voditel_radist";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
+				};
+				class group_ru_msv_omsb_s_sniper
+				{
+					name = "Стрелковое (снайперское) отделение(ЕМР)";
+					faction = "hmg_faction_msv_surp";
+					side = 0;
+					rarityGroup = 0.75;
+
+					class Unit0
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_komarksman";
+						rank = "SERGEANT";
+						position[] = {0,0,0};
+					};
+					class Unit1
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_marksman";
+						rank = "CORPORAL";
+						position[] = {2,0,0};
+					};
+					class Unit2
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_stmarksman";
+						rank = "SERGEANT";
+						position[] = {3,0,0};
+					};
+					class Unit3
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_marksman";
+						rank = "CORPORAL";
+						position[] = {4,0,0};
+					};
+					class Unit4
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_stmarksman";
+						rank = "SERGEANT";
+						position[] = {5,0,0};
+					};
+					class Unit5
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_marksman";
+						rank = "CORPORAL";
+						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_stmarksman";
+						rank = "SERGEANT";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 0;
+						vehicle = "hmg_msv_s_marksman";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+				};
 			};
 class group_ru_msv_surp
 			{
