@@ -1,5 +1,13 @@
 ﻿class CfgFactionClasses
 {
+	class group_ru_msv_1985
+    {
+        displayName = "ОМСП 1985";
+        priority = -12;
+        side = 0;
+		icon = "\rhsafrf\addons\rhs_main\data\icons\msv.paa";
+		backpack_tf_faction_radio_api = "tf_mr3000_rhs";
+    };
 	class group_ru_msv_1995
     {
         displayName = "ОМСП 1995";

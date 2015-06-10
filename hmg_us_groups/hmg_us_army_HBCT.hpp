@@ -46,8 +46,8 @@
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"};
 		linkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp","ItemCompass","ItemWatch"};
-		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put"};
+		weapons[] = {"rhs_weap_m4_grip","CUP_hgun_M9","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_grip","CUP_hgun_M9","Throw","Put"};
 		magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",
@@ -89,8 +89,8 @@
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 		linkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemMicroDAGR"};
-		weapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_m4","CUP_hgun_M9","Throw","Put","Binocular"};
+		weapons[] = {"rhs_weap_m4_grip","CUP_hgun_M9","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_m4_grip","CUP_hgun_M9","Throw","Put","Binocular"};
 	};
 	
 	class hmg_us_army_ucp_2005_HBCT_TPLTSGT  : hmg_us_army_ucp_2005_HBCT_TANKCDR
@@ -225,8 +225,8 @@ class hmg_us_army_ucp_2005_HBCT_RIFLEMAN : rhsusf_army_ucp_rifleman_1stcav
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "rhsusf_ANPVS_14"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "rhsusf_ANPVS_14"};
-		weapons[] = {"rhs_weap_m16a4","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put"};
 		magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",
@@ -252,8 +252,8 @@ class hmg_us_army_ucp_2005_HBCT_RIFLEMAN : rhsusf_army_ucp_rifleman_1stcav
 class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMAN
 	{
 		displayName= "Antiarmor SP (ucp) ";
-		weapons[] = {"rhs_weap_m16a4","Throw","Put","rhs_weap_fgm148"};
-		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put","rhs_weap_fgm148"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","rhs_weap_fgm148"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","rhs_weap_fgm148"};
 		magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",
@@ -316,8 +316,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap"};
-		weapons[] = {"rhs_weap_m16a4","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put","Binocular"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","Binocular"};
 	};
 	
 	class hmg_us_army_ucp_2005_HBCT_SQUAD_LEADER : hmg_us_army_ucp_2005_HBCT_TEAM_LEADER
@@ -333,8 +333,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		displayName= "Platoon sergeant (ucp) ";
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap", "itemradio","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap", "itemradio","ItemMicroDAGR"};
-		weapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_grip","Throw","Put","Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put","Laserdesignator"};
 	};
 	
 	class hmg_us_army_ucp_2005_HBCT_PLT_LDR : hmg_us_army_ucp_2005_HBCT_PLT_SGT
@@ -345,8 +345,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 	class hmg_us_army_ucp_2005_HBCT_SECTION_LEADER : hmg_us_army_ucp_2005_HBCT_TEAM_LEADER
 	{
 		displayName= "Section leader (ucp) ";
-		weapons[] = {"rhs_weap_m16a4","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put"};
 		linkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap"};
 	};
@@ -372,8 +372,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		displayName= "Ratelo(ucp) ";
 		linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
-		weapons[] = {"rhs_weap_m4","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4","Throw","Put"};
+		weapons[] = {"rhs_weap_m4_grip","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put"};
 		Backpack = "tf_rt1523g_black";
 	};
 	
@@ -443,8 +443,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Squadleader","ItemCompass","ItemWatch", "NVGoggles_INDEP","ItemMap","ItemcTab"};
-		weapons[] = {"rhs_weap_m16a4","Throw","Put","Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m16a4","Throw","Put","Laserdesignator"};
+		weapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_grip","Throw","Put","Laserdesignator"};
 	};
 	
 	class hmg_us_army_ucp_2005_HBCT_Commander : hmg_us_army_ucp_2005_HBCT_EXEC_OFF
@@ -517,8 +517,8 @@ class hmg_us_army_ucp_2005_HBCT_sniper_SQD_LDR : hmg_us_army_ucp_2005_HBCT_RIFLE
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMicroDAGR"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMicroDAGR"};
-		weapons[] = {"CUP_hgun_M9","rhs_weap_m16a4","Throw","Put","lerca_1200_black"};
-		respawnWeapons[] = {"CUP_hgun_M9","rhs_weap_m16a4","Throw","Put","lerca_1200_black"};
+		weapons[] = {"CUP_hgun_M9","rhs_weap_m16a4_carryhandle_grip","Throw","Put","lerca_1200_black"};
+		respawnWeapons[] = {"CUP_hgun_M9","rhs_weap_m16a4_carryhandle_grip","Throw","Put","lerca_1200_black"};
 		magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",
@@ -603,8 +603,8 @@ class us_army_ucp_2005_HBCT_sscout_driver : us_army_ucp_2005_HBCT_sscout {
 			items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "rhsusf_acc_anpeq15A","rhsusf_acc_compm4","RH_pas13cl"};
         	linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles"};
 			respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles"};
-			weapons[] = {"rhs_weap_m4","Throw","Put","AGM_Vector"};
-			respawnWeapons[] = {"rhs_weap_m4","Throw","Put","AGM_Vector"};
+			weapons[] = {"rhs_weap_m4_grip","Throw","Put","AGM_Vector"};
+			respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put","AGM_Vector"};
 			Backpack = "rhsusf_assault_eagleaiii_ucp_scoutL";
 };
 
@@ -613,8 +613,8 @@ class us_army_ucp_2005_HBCT_scout : us_army_ucp_2005_HBCT_sscout{
 			displayName = "Scout Javelin (ucp)";
 	        linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles" };
 			respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Rifleman","ItemCompass","ItemWatch", "NVGoggles" };
-			weapons[] = {"rhs_weap_m4","Throw","Put","rhs_weap_fgm148","AGM_Vector"};
-			respawnWeapons[] = {"rhs_weap_m4","Throw","Put","rhs_weap_fgm148","AGM_Vector"};
+			weapons[] = {"rhs_weap_m4_grip","Throw","Put","rhs_weap_fgm148","AGM_Vector"};
+			respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put","rhs_weap_fgm148","AGM_Vector"};
 			magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",
@@ -645,8 +645,8 @@ class us_army_ucp_2005_HBCT_TLscout : us_army_ucp_2005_HBCT_sscout_driver{
 			items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","rhsusf_acc_compm4","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 			linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap" };
 			respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_Teamleader","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","ItemMap" };
-			weapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};
-			respawnWeapons[] = {"rhs_weap_m4","Throw","Put","Laserdesignator"};
+			weapons[] = {"rhs_weap_m4_grip","Throw","Put","Laserdesignator"};
+			respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put","Laserdesignator"};
 };
 
 class us_army_ucp_2005_HBCT_Lscout : us_army_ucp_2005_HBCT_TLscout {

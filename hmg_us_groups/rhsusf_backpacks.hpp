@@ -4,9 +4,12 @@ class rhsusf_assault_eagleaiii_ucp;
 class rhsusf_assault_eagleaiii_ocp;
 class MEF_Des_Tactical;
 class B_Kitbag_Base;
-class B_Carryall_oli;
+class US_1981_Woodland_Carryall;
 class MEF_Wood_Carryall;
 class MEF_Des_Carryall;
+class SP_Carryall_White;
+class US_1990_TricolorDesert_Carryall;
+class US_1981_DesertChocolateChip_Carryall;
 
 class MEF_Wood_Kitbag_empty: B_Kitbag_Base
 {
@@ -181,15 +184,10 @@ class rhsusf_assault_eagleaiii_ucp_gp: rhsusf_assault_eagleaiii_ucp
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
-		{
-			magazine ="rhs_mag_M441_HE";
-			count = 4;
-		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 8;
+			count = 12;
 		};
 		class _xx_rhs_mag_m713_Red
 		{
@@ -214,15 +212,10 @@ class rhsusf_assault_eagleaiii_ucp_scout: rhsusf_assault_eagleaiii_ucp
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
-		{
-			magazine ="rhs_mag_M441_HE";
-			count = 8;
-		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 12;
+			count = 24;
 		};
 		class _xx_rhs_mag_m713_Red
 		{
@@ -266,15 +259,10 @@ class rhsusf_assault_eagleaiii_ocp_scout: rhsusf_assault_eagleaiii_ocp
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
-		{
-			magazine ="rhs_mag_M441_HE";
-			count = 8;
-		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 12;
+			count = 24;
 		};
 		class _xx_rhs_mag_m713_Red
 		{
@@ -370,15 +358,10 @@ class rhsusf_assault_eagleaiii_ocp_gp: rhsusf_assault_eagleaiii_ocp
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
-		{
-			magazine ="rhs_mag_M441_HE";
-			count = 4;
-		};
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 8;
+			count = 12;
 		};
 		class _xx_rhs_mag_m713_Red
 		{
@@ -640,14 +623,14 @@ class MEF_Wood_Kitbag_TL: B_Kitbag_Base
 		class _xx_rhs_mag_M433_HEDP
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 6;
+			count = 8;
 		};
 		class _xx_rhs_mag_m714_White
 		{
 			magazine = "rhs_mag_m714_White";
 			count = 2;
 		};
-		class _xx_rhs_mag_m576
+		class _xx_rhs_mag_m576//тут должен лежать зеленый дым
 		{
 			magazine = "rhs_mag_m576";
 			count = 2;
@@ -797,24 +780,7 @@ class MEF_Des_Tactical_MG: B_Kitbag_Base
 		};
 	};
 };
-class CUP_B_CivPack_Wdl_MGM60: B_Kitbag_Base
-{
-	scope = 1;
-	hiddenSelections[] = {"camo"};
-	picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_civ_ca.paa";
-	hiddenSelectionsTextures[] = {"\CUP\Weapons\CUP_Weapons_Backpacks\data\backpack_civil_assault_co.paa"};
-	Author_Macro
-	displayName = "MG backpack M60";
-	maximumLoad = 1000;
-	class TransportMagazines
-	{
-		class _xx_hlc_100Rnd_762x51_B_M60E4
-		{
-			magazine = "hlc_100Rnd_762x51_B_M60E4";
-			count = 4;
-		};
-	};
-};
+
 class MEF_Des_Tactical_TL: B_Kitbag_Base
 {
 	scope = 1;
@@ -907,8 +873,21 @@ class m252_ammo_marpatDesert: MEF_Des_Carryall
 		};
 	};
 };	
-//тут пойдут КМП до 2000ого
-class CUP_B_CivPack_Wdl_medic: B_Carryall_oli
+//тут пойдут КМП до 2000ого в вудланде
+class CUP_B_CivPack_Wdl_MGM60: US_1981_Woodland_Carryall
+{
+	displayName = "MG backpack M60";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_hlc_100Rnd_762x51_B_M60E4
+		{
+			magazine = "hlc_100Rnd_762x51_B_M60E4";
+			count = 4;
+		};
+	};
+};
+class CUP_B_CivPack_Wdl_medic: US_1981_Woodland_Carryall
 {
 	displayName = "Coprsman backpack";
 	maximumLoad = 1000;
@@ -926,7 +905,7 @@ class CUP_B_CivPack_Wdl_medic: B_Carryall_oli
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_AR: B_Carryall_oli
+class CUP_B_CivPack_Wdl_AR: US_1981_Woodland_Carryall
 {
 	displayName = "AR backpack ";
 	maximumLoad = 1000;
@@ -939,7 +918,7 @@ class CUP_B_CivPack_Wdl_AR: B_Carryall_oli
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_MG: B_Carryall_oli
+class CUP_B_CivPack_Wdl_MG: US_1981_Woodland_Carryall
 {
 	displayName = "MG backpack";
 	maximumLoad = 1000;
@@ -952,7 +931,7 @@ class CUP_B_CivPack_Wdl_MG: B_Carryall_oli
 		};
 	};
 };
-class CUP_B_CivPack_Wdl_TL: B_Carryall_oli
+class CUP_B_CivPack_Wdl_TL: US_1981_Woodland_Carryall
 {
 	displayName = "TL backpack ";
 	maximumLoad = 1000;
@@ -980,7 +959,7 @@ class CUP_B_CivPack_Wdl_TL: B_Carryall_oli
 		};
 	};
 };	
-class CUP_B_CivPack_Wdl_SMAW: B_Carryall_oli
+class CUP_B_CivPack_Wdl_SMAW: US_1981_Woodland_Carryall
 {
 	displayName = "SMAW backpack";
 	maximumLoad = 1000;
@@ -1021,7 +1000,437 @@ class CUP_B_CivPack_Wdl_SMAW: B_Carryall_oli
 		};
 	};
 };	
-class m252_ammo_woodland: B_Carryall_oli
+class m252_ammo_woodland: US_1981_Woodland_Carryall
+{
+	displayName = "m252_ammo";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_HMG_Mine_81_out
+		{
+			magazine ="HMG_Mine_81_out";
+			count = 5;
+		};
+	};
+};
+//тут пойдут КМП 1995ого в дезерте
+class CUP_B_CivPack_d_medic: US_1990_TricolorDesert_Carryall
+{
+	displayName = "Coprsman backpack";
+	maximumLoad = 1000;
+	class TransportItems
+	{
+		class _xx_Medikit
+		{
+			name = "MediKit";
+			count = 1;
+		};
+		class _xx_FirstAidKit
+		{
+			name = "FirstAidKit";
+			count = 10;
+		};
+	};
+};	
+class CUP_B_CivPack_d_AR: US_1990_TricolorDesert_Carryall
+{
+	displayName = "AR backpack ";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		{
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
+		};
+	};
+};	
+class CUP_B_CivPack_d_MG: US_1990_TricolorDesert_Carryall
+{
+	displayName = "MG backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_100Rnd_762x51
+		{
+			magazine = "rhsusf_100Rnd_762x51";
+			count = 4;
+		};
+	};
+};
+class CUP_B_CivPack_d_TL: US_1990_TricolorDesert_Carryall
+{
+	displayName = "TL backpack ";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhs_mag_M441_HE1
+		{
+			magazine ="rhs_mag_M441_HE";
+			count = 2;
+		};
+		class _xx_rhs_mag_M433_HEDP1
+		{
+			magazine = "rhs_mag_M433_HEDP";
+			count = 6;
+		};
+		class _xx_rhs_mag_M585_white
+		{
+			magazine = "rhs_mag_M585_white";
+			count = 2;
+		};
+		class _xx_rhs_mag_m715_Green
+		{
+			magazine = "rhs_mag_m715_Green";
+			count = 2;
+		};
+	};
+};	
+class CUP_B_CivPack_d_SMAW: US_1990_TricolorDesert_Carryall
+{
+	displayName = "SMAW backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_Trixie_SMAW_HEAA
+		{
+			magazine ="Trixie_SMAW_HEAA";
+			count = 1;
+		};
+		class _xx_Trixie_SMAW_HEDP
+		{
+			magazine = "Trixie_SMAW_HEDP";
+			count = 1;
+		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_SatchelCharge_Remote_Mag
+		{
+			name = "SatchelCharge_Remote_Mag";
+			count = 1;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			name = "DemoCharge_Remote_Mag";
+			count = 3;
+		};
+		class _xx_AGM_Clacker
+		{
+			name = "AGM_Clacker";
+			count = 1;
+		};
+	};
+};	
+class m252_ammo_desert3: US_1990_TricolorDesert_Carryall
+{
+	displayName = "m252_ammo";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_HMG_Mine_81_out
+		{
+			magazine ="HMG_Mine_81_out";
+			count = 5;
+		};
+	};
+};
+
+// USMC backpacks snow
+class MEF_snow_Kitbag_medic: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "Corpsman backpack";
+	maximumLoad = 1000;
+	class TransportItems
+	{
+		class _xx_Medikit
+		{
+			name = "MediKit";
+			count = 1;
+		};
+		class _xx_FirstAidKit
+		{
+			name = "FirstAidKit";
+			count = 10;
+		};
+	};
+};	
+class MEF_snow_Kitbag_AR: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "AR backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		{
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
+		};
+	};
+};	
+class MEF_snow_Kitbag_AAR: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "AAR backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
+		{
+			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
+			count = 16;
+		};
+		class _xx_30Rnd_556x45_Stanag_Tracer_Red
+		{
+			magazine = "30Rnd_556x45_Stanag_Tracer_Red";
+			count = 5;
+		};
+	};
+};	
+class MEF_snow_Kitbag_MG: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "MG backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_100Rnd_762x51
+		{
+			magazine = "rhsusf_100Rnd_762x51";
+			count = 4;
+		};
+	};
+};
+class MEF_snow_Kitbag_TL: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "TL backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhs_mag_M441_HE
+		{
+			magazine ="rhs_mag_M441_HE";
+			count = 2;
+		};
+		class _xx_rhs_mag_M433_HEDP
+		{
+			magazine = "rhs_mag_M433_HEDP";
+			count = 6;
+		};
+		class _xx_rhs_mag_m714_White
+		{
+			magazine = "rhs_mag_m714_White";
+			count = 2;
+		};
+		class _xx_rhs_mag_m576
+		{
+			magazine = "rhs_mag_m576";
+			count = 2;
+		};
+	};
+};	
+class MEF_snow_Kitbag_SMAW: SP_Carryall_White
+{
+	scope = 1;
+	hiddenSelections[] = {"camo"};
+	picture = "\SP_Pack\BackPacks\Carryall\ui\White.jpg";
+	hiddenSelectionsTextures[] = {"\SP_Pack\BackPacks\Carryall\White.paa"};
+	Author_Macro
+	displayName = "SMAW backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_Trixie_SMAW_HEAA
+		{
+			magazine ="Trixie_SMAW_HEAA";
+			count = 1;
+		};
+		class _xx_Trixie_SMAW_HEDP
+		{
+			magazine = "Trixie_SMAW_HEDP";
+			count = 1;
+		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_SatchelCharge_Remote_Mag
+		{
+			name = "SatchelCharge_Remote_Mag";
+			count = 1;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			name = "DemoCharge_Remote_Mag";
+			count = 3;
+		};
+		class _xx_AGM_Clacker
+		{
+			name = "AGM_Clacker";
+			count = 1;
+		};
+	};
+};	
+class m252_ammo_snow: SP_Carryall_White
+{
+	displayName = "m252_ammo";
+	maximumLoad = 1500;
+	class TransportMagazines
+	{
+		class _xx_HMG_Mine_81_out
+		{
+			magazine ="HMG_Mine_81_out";
+			count = 5;
+		};
+	};
+};	
+//тут пойдут КМП 1985ого в дезерте
+class CUP_B_CivPack_d6_medic: US_1981_DesertChocolateChip_Carryall
+{
+	displayName = "Coprsman backpack";
+	maximumLoad = 1000;
+	class TransportItems
+	{
+		class _xx_Medikit
+		{
+			name = "MediKit";
+			count = 1;
+		};
+		class _xx_FirstAidKit
+		{
+			name = "FirstAidKit";
+			count = 10;
+		};
+	};
+};	
+class CUP_B_CivPack_d6_AR: US_1981_DesertChocolateChip_Carryall
+{
+	displayName = "AR backpack ";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		{
+			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			count = 3;
+		};
+	};
+};	
+class CUP_B_CivPack_d6_MGM60: US_1981_DesertChocolateChip_Carryall
+{
+	displayName = "MG backpack M60";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_hlc_100Rnd_762x51_B_M60E4
+		{
+			magazine = "hlc_100Rnd_762x51_B_M60E4";
+			count = 4;
+		};
+	};
+};
+class CUP_B_CivPack_d6_TL: US_1981_DesertChocolateChip_Carryall
+{
+	displayName = "TL backpack ";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_rhs_mag_M441_HE1
+		{
+			magazine ="rhs_mag_M441_HE";
+			count = 2;
+		};
+		class _xx_rhs_mag_M433_HEDP1
+		{
+			magazine = "rhs_mag_M433_HEDP";
+			count = 6;
+		};
+		class _xx_rhs_mag_M585_white
+		{
+			magazine = "rhs_mag_M585_white";
+			count = 2;
+		};
+		class _xx_rhs_mag_m715_Green
+		{
+			magazine = "rhs_mag_m715_Green";
+			count = 2;
+		};
+	};
+};	
+class CUP_B_CivPack_d6_SMAW: US_1981_DesertChocolateChip_Carryall
+{
+	displayName = "SMAW backpack";
+	maximumLoad = 1000;
+	class TransportMagazines
+	{
+		class _xx_Trixie_SMAW_HEAA
+		{
+			magazine ="Trixie_SMAW_HEAA";
+			count = 1;
+		};
+		class _xx_Trixie_SMAW_HEDP
+		{
+			magazine = "Trixie_SMAW_HEDP";
+			count = 1;
+		};
+		class _xx_rhs_mag_an_m14_th3
+		{
+			magazine = "rhs_mag_an_m14_th3";
+			count = 3;
+		};
+	};
+	class TransportItems
+	{
+		class _xx_SatchelCharge_Remote_Mag
+		{
+			name = "SatchelCharge_Remote_Mag";
+			count = 1;
+		};
+		class _xx_DemoCharge_Remote_Mag
+		{
+			name = "DemoCharge_Remote_Mag";
+			count = 3;
+		};
+		class _xx_AGM_Clacker
+		{
+			name = "AGM_Clacker";
+			count = 1;
+		};
+	};
+};	
+class m252_ammo_desert6: US_1981_DesertChocolateChip_Carryall
 {
 	displayName = "m252_ammo";
 	maximumLoad = 1000;

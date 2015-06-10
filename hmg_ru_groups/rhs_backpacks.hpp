@@ -120,11 +120,6 @@ class hmg_rf_sidor : rhs_sidor
 			magazine = "rhs_30Rnd_545x39_AK_green";
 			count = 2;
 		};
-		class _xx_rhs_30Rnd_545x39_7n22_AK
-		{
-			magazine = "rhs_30Rnd_545x39_7n22_AK";
-			count = 2;
-		};
 	};
 };
 

@@ -2652,7 +2652,7 @@ class CfgWeapons {
 	
 	class V_CDF_A3_6b23 : rhs_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF";
+		displayName = "6B2";
 		scope = 2;
 		picture = "\cdf_a3\cdf_a3_main\data\UI\icon_vest.paa";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
@@ -2663,81 +2663,81 @@ class CfgWeapons {
 			hiddenSelections[] = {"Camo1", "Camo2"};
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23";
 			containerClass = "Supply80";
-			mass = 60;
-			armor = 12;
+			mass = 115; //4,6 кг
+			armor = 6;	// должна быть защито от осколков в 700 дж, не знаю как описать
 			passThrough = 0.4;
 		};
 	};
 	
 	class V_CDF_A3_6b23_rifleman_01 : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Rifleman 1)";
+		displayName = "6B2 (Rifleman 1)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_sniper";
 			containerClass = "Supply120";
-			mass = 60;
+			mass = 120; //плюс вес фляги
 		};
 	};
 	
 	class V_CDF_A3_6b23_rifleman_02 : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Rifleman 2)";
+		displayName = "6B2 (Rifleman 2)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_rifleman";
 			containerClass = "Supply120";
-			mass = 60;
+			mass = 132; //плюс вес фляги и лопатки
 		};
 	};
 	
 	class V_CDF_A3_6b23_crewofficer : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Officer)";
+		displayName = "6B2(Officer)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_crewofficer";
 			containerClass = "Supply80";
-			mass = 60;
+			mass = 150;
 		};
 	};
 	
 	class V_CDF_A3_6b23_crew : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Crew)";
+		displayName = "6B2 (Crew)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_6sh46";
 			containerClass = "Supply120";
-			mass = 60;
+			mass = 125;
 		};
 	};
 	
 	class V_CDF_A3_6b23_engineer : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Engineer)";
+		displayName = "6B2 (Engineer)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_engineer";
 			containerClass = "Supply120";
-			mass = 60;
+			mass = 120;
 		};
 	};
 	
 	class V_CDF_A3_6b23_medic : V_CDF_A3_6b23 {
 		author = CDF_A3;
-		displayName = "6B23 CDF (Medic)";
+		displayName = "6B2 (Medic)";
 		model = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
 		
 		class ItemInfo : ItemInfo {
 			uniformModel = "rhsafrf\addons\rhs_infantry\gear\vests\rhs_6b23_medic";
 			containerClass = "Supply140";
-			mass = 60;
+			mass = 115;
 		};
 	};
 	class H_HelmetB;	// External class reference
