@@ -192,12 +192,12 @@ class CfgVehicles {
 	class StrykerBase_DG1DES : Wheeled_APC {
 		expansion = 1;
 		class AnimationSources;	// External class reference
-		htMin = 60;
-		htMax = 1800;
-		afMax = 200;
-		mfMax = 100;
-		mFact = 1;
-		tBody = 250;
+//		htMin = 60;
+//		htMax = 1800;
+//		afMax = 200;
+//		mfMax = 100;
+//		mFact = 1;
+//		tBody = 250;
 		scope = 0;
 		displayName = "Stryker Pack";
 		faction = BLU_F;
@@ -820,7 +820,7 @@ class CfgVehicles {
 		crew = "B_crew_F";
 		fuelCapacity = 246;
 		armor = 100;
-		armorStructural = 50;
+		armorStructural = 2;
 		damageResistance = 0.00719;
 		crewVulnerable = 0;
 		maxSpeed = 100;
@@ -844,68 +844,85 @@ class CfgVehicles {
 		LODTurnedOut = 1100;
 		
 		class HitPoints : HitPoints {
-			class HitLFWheel : HitLFWheel {
-				armor = 0.3;
+				class HitLFWheel : HitLFWheel {
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitLBWheel : HitLBWheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitLMWheel : HitLMWheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitLF2Wheel : HitLF2Wheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitRFWheel : HitRFWheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitRBWheel : HitRBWheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitRMWheel : HitRMWheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
 			
 			class HitRF2Wheel : HitRF2Wheel {
-				armor = 0.3;
+				armor = 0.7;
+				minimalHit = 0.02;
+				explosionShielding = 4;
+				radius = 0.25;
 			};
+
 			class HitBody : HitBody {
-				armor = 0.4;
+				armor = 1;
 				material = -1;
-				name = "telo";
+				name = "zbytek";
 				visual = "zbytek";
-				passThrough = 0;
-				minimalHit = 0.08;
-				explosionShielding = 0;
-				radius = 0.1;
-			};
+				passThrough = 1;
+				minimalHit = 0.4;
+			};			
 			
 			class HitEngine : HitEngine {
-				armor = 0.6;
+				armor = 2;
 				material = -1;
 				name = "motor";
-				passThrough = 0;
-				minimalHit = 0.139;
-				explosionShielding = 0.009;
-				radius = 0.17;
+				passThrough = 0.5;
 			};
 
 			class HitFuel {
-				armor = 0.45;
+				armor = 1;
 				material = -1;
 				name = "palivo";
-				visual = "";
+				visual = "zbytek";
 				passThrough = 0;
-				minimalHit = 0.139;
-				explosionShielding = 0.009;
-				radius = 0.27;
-
+				
 			};
 		};
 		
@@ -943,26 +960,13 @@ class CfgVehicles {
 		
 				class HitPoints {
 					class HitTurret {
-						armor = 0.4;
+						armor = 0.8;
 						material = -1;
 						name = "vez";
 						visual = "vez";
-						passThrough = 0;
-						minimalHit = 0.14;
-						explosionShielding = 0.001;
-						radius = 0.08;
+						passThrough = 1;
 					};
 					
-					class HitGun {
-						armor = 1.2;
-						material = -1;
-						name = "zbran";
-						visual = "";
-						passThrough = 0;
-						minimalHit = 0.13;
-						explosionShielding = 0.001;
-						radius = 0.1;
-					};
 				};				
 				class ViewOptics : ViewOptics {
 					visionMode[] = {"Normal", NVG, "Ti"};
@@ -1003,7 +1007,7 @@ class CfgVehicles {
 	class M1126_ICV_BASE_DG1DES : StrykerBase_DG1DES {
 		scope = 0;
 		displayName = "M1126 ICV M2 CROWS (SLAT)";
-		armor = 100;
+		armor = 130;
 		damageResistance = 0.0082;
 		transportSoldier = 9;
 		
@@ -1266,7 +1270,7 @@ class CfgVehicles {
 		displayName = "M1126 ICV M2 GPK (SLAT)";
 		model = "\StrykerPack\extra\M1126_ICV_m2_nestnoslat\M1126_ICV_m2_nestslat";
 		Icon = "\StrykerPack\Data\UI\icomap_strykernoslat_ca.paa";
-		armor = 160;
+		armor = 120;
 		
 		class Turrets : Turrets {
 			class ObsTurret : ObsTurret {
@@ -1575,7 +1579,7 @@ class CfgVehicles {
 		transportSoldier = 0;
 		memoryPointMissile[] = {"rocket_begin", ""};
 		memoryPointMissileDir[] = {"rocket_end", ""};
-		armor = 160;
+		armor = 120;
 		damageResistance = 0.0082;
 		threat[] = {0, 1, 0};
 		
@@ -1690,7 +1694,7 @@ class CfgVehicles {
 		picture = "\StrykerPack\Data\Picture_stryker_mgs_CA.paa";
 		Icon = "\StrykerPack\Data\Icon_stryker_mgs_CA.paa";
 		mapSize = 8;
-		armor = 160;
+		armor = 120;
 		displayName = "M1128 MGS (SLAT)";
 		threat[] = {1, 1, 0.3};
 		
@@ -1893,7 +1897,7 @@ class CfgVehicles {
 		mapSize = 8;
 		displayName = "M1133 MEV (SLAT)";
 		vehicleClass = "Delta_StrykerPackDES";
-		armor = 160;
+		armor = 120;
 		damageResistance = 0.0082;
 		threat[] = {0, 0, 0};
 		attendant = 1;
@@ -1941,7 +1945,7 @@ class CfgVehicles {
 	class M1126_ICV_BASE_DG1WOOD : StrykerBase_DG1DES {
 		scope = 0;
 		displayName = "M1126 ICV M2 CROWS (SLAT)";
-		armor = 160;
+		armor = 120;
 		damageResistance = 0.0082;
 		transportSoldier = 9;
 		vehicleClass = "Delta_StrykerPackWOOD";
@@ -2187,7 +2191,7 @@ class CfgVehicles {
 		displayName = "M1126 ICV M2 GPK (SLAT)";
 		model = "\StrykerPack\extra\woodland\model\M1126_ICV_m2_nestnoslat\M1126_ICV_m2_nestslat";
 		Icon = "\StrykerPack\Data\UI\icomap_strykernoslat_ca.paa";
-		armor = 160;
+		armor = 120;
 		vehicleClass = "Delta_StrykerPackWOOD";
 		
 		class Turrets : Turrets {
@@ -2505,7 +2509,7 @@ class CfgVehicles {
 		transportSoldier = 0;
 		memoryPointMissile[] = {"rocket_begin", ""};
 		memoryPointMissileDir[] = {"rocket_end", ""};
-		armor = 160;
+		armor = 120;
 		damageResistance = 0.0082;
 		vehicleClass = "Delta_StrykerPackWOOD";
 		threat[] = {0, 1, 0};
@@ -2622,7 +2626,7 @@ class CfgVehicles {
 		picture = "\StrykerPack\Data\Picture_stryker_mgs_CA.paa";
 		Icon = "\StrykerPack\Data\Icon_stryker_mgs_CA.paa";
 		mapSize = 8;
-		armor = 160;
+		armor = 120;
 		displayName = "M1128 MGS (SLAT)";
 		vehicleClass = "Delta_StrykerPackWOOD";
 		threat[] = {1, 1, 0.3};
@@ -2827,7 +2831,7 @@ class CfgVehicles {
 		mapSize = 8;
 		displayName = "M1133 MEV (SLAT)";
 		vehicleClass = "Delta_StrykerPackWOOD";
-		armor = 160;
+		armor = 120;
 		damageResistance = 0.0082;
 		threat[] = {0, 0, 0};
 		attendant = 1;
