@@ -23,8 +23,8 @@ class CfgPatches {
 	
 		};
 		version = "";
-		versionStr = "0.700.0";
-		versionAr[] = {0, 700, 0};
+		versionStr = "0.700.1";
+		versionAr[] = {0, 700, 1};
 	};
 };
 class cfgFunctions {
@@ -53,6 +53,7 @@ class cfgAmmo {
 	#include "blastcore\blastcore_a.hpp"
 	#include "javelin\javelin_a.hpp"
 	#include "blastfrag\ammo.hpp"
+	#include "ammo\rhs_762.hpp"
 };
 class cfgMagazines {
 	#include "blastcore\blastcore_m.hpp"
@@ -136,5 +137,17 @@ class Extended_InitPost_EventHandlers
 //		class Man {
 			//HMG_VIS_init = "[_this] call HMG_Core_fnc_visRange";
 		//};
+class rhs_russian_svd_scopes_slot : SlotInfo {
+	linkProxy = "\A3\data_f\proxies\weapon_slots\TOP";
+	displayName = "$STR_A3_CowsSlot0";
+	
+	class compatibleItems {
+		rhs_acc_pso1m2 = 1;
+		rhs_acc_1pn93_1 = 1;
+		CUP_optic_PSO_3 = 1;
+		
+	};
+};
+
 };
 
