@@ -450,6 +450,7 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 	class hmg_us_army_ucp_2005_HBCT_Commander : hmg_us_army_ucp_2005_HBCT_EXEC_OFF
 	{
 		displayName= "Rifle company Commander (ucp) ";
+		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","ItemcTab","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put","Laserdesignator"};
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put","Laserdesignator"};
 		magazines[] = 		{

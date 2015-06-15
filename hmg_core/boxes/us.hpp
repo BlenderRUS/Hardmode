@@ -1076,8 +1076,8 @@
 							weapon = "rhs_weap_M590_5RD";
 							count = 2;
 						};
-						class _xx_CUP_glaunch_M32 {
-							weapon = "CUP_glaunch_M32";
+						class _xx_STI_M32 {
+							weapon = "STI_M32";
 							count = 2;
 						};
 				};
@@ -1090,24 +1090,16 @@
 							magazine = "rhsusf_5Rnd_00Buck";
 							count = 14;
 						};
-						class _xx_CUP_6Rnd_HE_M203 {
-							magazine = "CUP_6Rnd_HE_M203";
+						class _xx_6Rnd_HE_Grenade_M32_pack {
+							magazine = "6Rnd_HE_Grenade_M32_pack";
+							count = 9;
+						};
+						class _xx_6Rnd_SmokeGreen_M32_pack {
+							magazine = "6Rnd_SmokeGreen_M32_pack";
 							count = 6;
 						};
-						class _xx_CUP_6Rnd_Smoke_M203 {
-							magazine = "CUP_6Rnd_Smoke_M203";
-							count = 6;
-						};
-						class _xx_CUP_6Rnd_SmokeRed_M203 {
-							magazine = "CUP_6Rnd_SmokeRed_M203";
-							count = 6;
-						};
-						class _xx_CUP_6Rnd_SmokeGreen_M203 {
-							magazine = "CUP_6Rnd_SmokeGreen_M203";
-							count = 6;
-						};
-						class _xx_CUP_6Rnd_FlareRed_M203 {
-							magazine = "CUP_6Rnd_FlareRed_M203";
+						class _xx_6Rnd_Smoke_Grenade_M32_pack {
+							magazine = "6Rnd_Smoke_Grenade_M32_pack";
 							count = 6;
 						};
 				};

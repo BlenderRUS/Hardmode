@@ -1099,8 +1099,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_strelok";
 		Author_Macro
 		displayName= "Разведчик (ВСР-93)";
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 	};
 	
 	class hmg_msv_1995_razved4ik_operator_rls : hmg_msv_1995_razved4ik_strelok
@@ -1132,8 +1132,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_radist";
 		Author_Macro
 		displayName= "Разведчик-радиотелефонист (ВСР-93)";
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 		backpack = "tf_mr3000_rhs";
 	};
 	
@@ -1141,8 +1141,8 @@
 	{
 		_generalMacro = "hmg_msv_1995_razved4ik_machinegunner";
 		Author_Macro
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 		displayName= "Разведчик-пулеметчик (ВСР-93)";
 	};
 	
@@ -1155,8 +1155,8 @@
 		respawnWeapons[] = {"rhs_weap_svd","Throw","Put","Binocular"};
 		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2"};
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 	};
 	
 	class hmg_msv_1995_razved4ik_efreitor : hmg_msv_1995_efreitor
@@ -1166,8 +1166,8 @@
 		displayName= "Старший разведчик (ВСР-93)";
 		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //hlc_rifle_aks74
 		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //hlc_rifle_aks74
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 		Items[] = {"FirstAidKit","rhs_acc_pbs1"};
 		backpack = "hmg_razved4ic_sidor";
 		magazines[] = 		{
@@ -1197,8 +1197,8 @@
 		displayName= "Командир развед. отделения (ВСР-93)";
 		weapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
 		respawnWeapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
 		backpack = "hmg_gp_sidor";
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -1240,8 +1240,8 @@
 		icon="iconManAT";
 		Items[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
 		respawnItems[] = {"FirstAidKit", "rhs_acc_1pn93_2"};
-        linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
+        linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_rpg7_pgo"};
 		backpack="rhs_rpgold";
@@ -1254,8 +1254,8 @@
 		displayName= "Разведчик-оператор (ВСР-93)";
 		Items[] = {"FirstAidKit","VTN_FARA_CABLE"};
 		RespawnItems[] = {"FirstAidKit","VTN_FARA_CABLE"};
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
 		backpack = "FARA_PV_PULT_RUCK";
 	};
 	
@@ -1264,8 +1264,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_stradist";
 		Author_Macro
 		displayName= "Старший разведчик-радиотелефонист (ВСР-93)";
-		linkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
-		respawnLinkedItems[] = {"LOP_V_Chestrig_vsr","SP_SSh68Helmet_Green1","ItemCompass"};
+		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
+		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
 		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
 		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
 		magazines[] = 		{
