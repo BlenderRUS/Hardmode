@@ -336,8 +336,8 @@
 
 				};
 				class TransportMagazines {
-						class _xx_rhsusf_100Rnd_762x51 {
-							magazine = "rhsusf_100Rnd_762x51";
+						class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+							magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 							count = 16;
 						};
 			
@@ -536,20 +536,20 @@
 							count = 8;
 						};
 			
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 35;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 15;
 						};
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-							count = 12;
+						class _xx_rhs_200rnd_556x45_M_SAW {
+							magazine = "rhs_200rnd_556x45_M_SAW";
+							count = 6;
 						};
-						class _xx_rhs_mag_M441_HE {
-							magazine = "rhs_mag_M441_HE";
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
 							count = 42;
 						};
 						class _xx_rhs_fgm148_magazine_AT {
@@ -741,12 +741,12 @@
 							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 							count = 15;
 						};
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
+						class _xx_rhsusf_200Rnd_556x45_soft_pouch {
+							magazine = "rhsusf_200Rnd_556x45_soft_pouch";
 							count = 12;
 						};
-						class _xx_rhs_mag_M441_HE {
-							magazine = "rhs_mag_M441_HE";
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
 							count = 42;
 						};
 						class _xx_rhs_fgm148_magazine_AT {
@@ -770,8 +770,8 @@
 						};
 				};
 				class TransportMagazines {
-						class _xx_rhsusf_100Rnd_762x51 {
-							magazine = "rhsusf_100Rnd_762x51";
+						class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+							magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 							count = 8;
 						};
 			
@@ -927,8 +927,8 @@
 						};
 				};
 				class TransportMagazines {
-						class _xx_rhsusf_100Rnd_762x51 {
-							magazine = "rhsusf_100Rnd_762x51";
+						class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+							magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 							count = 8;
 						};
 			
@@ -973,8 +973,8 @@
 						};
 				};
 				class TransportMagazines {
-						class _xx_rhsusf_100Rnd_762x51 {
-							magazine = "rhsusf_100Rnd_762x51";
+						class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+							magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 							count = 8;
 						};
 						class _xx_rhsusf_5Rnd_00Buck {
@@ -1069,7 +1069,7 @@
 				displayName = "Ящик имущество USMC Company HQ 2015 (US)";
 				class TransportWeapons {
 						class _xx_rhs_weap_m249_pip {
-							weapon = "rhs_weap_m249_pip";
+							weapon = "rhs_weap_m249_pip_L";
 							count = 9;
 						};
 						class _xx_rhs_weap_M590_5RD {
@@ -1082,9 +1082,9 @@
 						};
 				};
 				class TransportMagazines {
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-							count = 108;
+						class _xx_rhsusf_200Rnd_556x45_soft_pouch {
+							magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+							count = 54;
 						};
 						class _xx_rhsusf_5Rnd_00Buck {
 							magazine = "rhsusf_5Rnd_00Buck";
@@ -1153,8 +1153,8 @@
 							magazine = "Trixie_20x762_Mag";
 							count = 10;
 						};
-						class _xx_rhs_mag_M441_HE {
-							magazine = "rhs_mag_M441_HE";
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
 							count = 12;
 						};
 
@@ -1171,8 +1171,8 @@
 							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 							count = 10;
 						};
-						class _xx_rhsusf_100Rnd_762x51 {
-							magazine = "rhsusf_100Rnd_762x51";
+						class _xx_rhsusf_100Rnd_762x51_m80a1epr {
+							magazine = "rhsusf_100Rnd_762x51_m80a1epr";
 							count = 16;
 						};
 						class _xx_CUP_15Rnd_9x19_M9 {
@@ -1226,12 +1226,12 @@
 		class hmg_us_box_usmc_comp_hq2005_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Company HQ 2005 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 5;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 2;
 						};
 
@@ -1245,12 +1245,12 @@
 		class hmg_us_box_usmc_rif_pl2005_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Platoon HQ 2005 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 20;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 8;
 						};
 
@@ -1259,25 +1259,25 @@
 		class hmg_us_box_usmc_rif_sq2005_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC Rifle Squad 2005 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 50;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 30;
 						};
 						class _xx_Trixie_20x762_Mag {
 							magazine = "Trixie_20x762_Mag";
 							count = 10;
 						};
-						class _xx_rhs_mag_M441_HE {
-							magazine = "rhs_mag_M441_HE";
+						class _xx_rhs_mag_M433_HEDP {
+							magazine = "rhs_mag_M433_HEDP";
 							count = 12;
 						};
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-							count = 36;
+						class _xx_rhs_200rnd_556x45_M_SAW {
+							magazine = "rhs_200rnd_556x45_M_SAW";
+							count = 18;
 						};
 
 
@@ -1286,12 +1286,12 @@
 		class hmg_us_box_usmc_mg_sq2005_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC MG Squad 2005 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 25;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 10;
 						};
 						class _xx_rhsusf_100Rnd_762x51 {
@@ -1358,12 +1358,12 @@
 		class hmg_us_box_usmc_comp_hq1995_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Company HQ 1995 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 5;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 2;
 						};
 
@@ -1377,12 +1377,12 @@
 		class hmg_us_box_usmc_rif_pl1995_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Platoon HQ 1995 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 20;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 8;
 						};
 
@@ -1391,20 +1391,20 @@
 		class hmg_us_box_usmc_rif_sq1995_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC Rifle Squad 1995 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 55;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 22;
 						};
 						class _xx_rhs_mag_M441_HE {
 							magazine = "rhs_mag_M441_HE";
 							count = 12;
 						};
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
+						class _xx_rhs_200rnd_556x45_M_SAW {
+							magazine = "rhs_200rnd_556x45_M_SAW";
 							count = 36;
 						};
 
@@ -1414,12 +1414,12 @@
 		class hmg_us_box_usmc_mg_sq1995_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC MG Squad 1995 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 25;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 10;
 						};
 						class _xx_rhsusf_100Rnd_762x51 {
@@ -1485,55 +1485,52 @@
 		class hmg_us_box_usmc_comp_hq1985_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Company HQ 1985 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 5;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 2;
 						};
-
-/*						class _xx_CUP_15Rnd_9x19_M9 {
-							magazine = "CUP_15Rnd_9x19_M9";
-							count = 8;
+						class _xx_rhsusf_mag_7x45acp_MHP {
+							magazine = "rhsusf_mag_7x45acp_MHP";
+							count = 12;
 						};
-*/
-
 				};
 		};
 		class hmg_us_box_usmc_rif_pl1985_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Platoon HQ 1985 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 20;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 8;
 						};
-
 				};
 		};
+		
 		class hmg_us_box_usmc_rif_sq1985_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC Rifle Squad 1985 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 55;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 22;
 						};
 						class _xx_rhs_mag_M441_HE {
 							magazine = "rhs_mag_M441_HE";
 							count = 12;
 						};
-						class _xx_rhsusf_100Rnd_556x45_soft_pouch {
-							magazine = "rhsusf_100Rnd_556x45_soft_pouch";
-							count = 36;
+						class _xx_rhs_200rnd_556x45_M_SAW {
+							magazine = "rhs_200rnd_556x45_M_SAW";
+							count = 18;
 						};
 
 
@@ -1542,23 +1539,23 @@
 		class hmg_us_box_usmc_mg_sq1985_adv : hmg_us_box_big_base {
 				displayName = "Ящик доп. БК USMC MG Squad 1985 (US)";
 				class TransportMagazines {
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag";
+						class _xx_30Rnd_556x45_Stanag {
+							magazine = "30Rnd_556x45_Stanag";
 							count = 25;
 						};
-						class _xx_rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red {
-							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
+						class _xx_30Rnd_556x45_Stanag_Tracer_Red {
+							magazine = "30Rnd_556x45_Stanag_Tracer_Red";
 							count = 10;
 						};
 						class _xx_rhsusf_100Rnd_762x51 {
 							magazine = "rhsusf_100Rnd_762x51";
 							count = 16;
 						};
-/*						class _xx_CUP_15Rnd_9x19_M9 {
-							magazine = "CUP_15Rnd_9x19_M9";
-							count = 4;
+						class _xx_rhsusf_mag_7x45acp_MHP {
+							magazine = "rhsusf_mag_7x45acp_MHP";
+							count = 8;
 						};
-*/
+
 				};
 		};
 		class hmg_us_box_usmc_ass_sq1985_adv : hmg_us_box_big_base {
@@ -1580,12 +1577,10 @@
 							magazine = "Trixie_SMAW_HEDP";
 							count = 1;
 						};
-/*
-						class _xx_CUP_15Rnd_9x19_M9 {
-							magazine = "CUP_15Rnd_9x19_M9";
-							count = 4;
+						class _xx_rhsusf_mag_7x45acp_MHP {
+							magazine = "rhsusf_mag_7x45acp_MHP";
+							count = 8;
 						};
-*/
 				};
 				class TransportItems {
 						class _xx_AGM_M26_Clacker {

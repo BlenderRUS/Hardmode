@@ -295,18 +295,18 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","AGM_SpareBarrel","RH_pas13cmg","rhsusf_acc_ELCAN"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14"};
-		weapons[] = {"hlc_m249_pip1","Throw","Put"};
-		respawnWeapons[] = {"hlc_m249_pip1","Throw","Put"};
+		weapons[] = {"rhs_weap_m249_pip_L","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip_L","Throw","Put"};
 		magazines[] = 		{
-				"rhsusf_200Rnd_556x45_soft_pouch",
-				"rhsusf_200Rnd_556x45_soft_pouch",
-				"rhsusf_200Rnd_556x45_soft_pouch"
+				"rhs_200rnd_556x45_M_SAW",
+				"rhs_200rnd_556x45_M_SAW",
+				"rhs_200rnd_556x45_T_SAW"
 		};
 		respawnMagazines[] = 
 		{
-				"rhsusf_200Rnd_556x45_soft_pouch",
-				"rhsusf_200Rnd_556x45_soft_pouch",
-				"rhsusf_200Rnd_556x45_soft_pouch"
+				"rhs_200rnd_556x45_M_SAW",
+				"rhs_200rnd_556x45_M_SAW",
+				"rhs_200rnd_556x45_T_SAW"
 		};
 	};
 	
@@ -382,6 +382,8 @@ class hmg_us_army_ucp_2005_HBCT_ANTIARMOR_SP : hmg_us_army_ucp_2005_HBCT_RIFLEMA
 		displayName= "Carrier driver (ucp)";
 		weapons[] = {"rhs_weap_m16a4_carryhandle_M203","Throw","Put"};
 		respawnWeapons[] = {"rhs_weap_m16a4_carryhandle_M203","Throw","Put"};
+		linkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
+		respawnLinkedItems[] = {"G_Combat","rhsusf_cvc_green_helmet","rhsusf_iotv_ucp_Grenadier","ItemCompass","ItemWatch", "NVGoggles_INDEP"};
 		magazines[] = 		{
 				"30Rnd_556x45_Stanag",
 				"30Rnd_556x45_Stanag",

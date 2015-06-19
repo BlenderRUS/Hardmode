@@ -943,8 +943,8 @@
 		displayName= "Разведчик (ВСР-93)";
 		linkedItems[] = {"V_CDF_A3_6b23_rifleman_02","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
 		respawnLinkedItems[] = {"V_CDF_A3_6b23_rifleman_02","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
-		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //hlc_rifle_aks74
-		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //hlc_rifle_aks74
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_tr8"}; //hlc_rifle_aks74
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_tr8"}; //hlc_rifle_aks74
 	};	
 	
 	class hmg_msv_1995_komot_art_recon_squad : hmg_msv_1995_sergeant
@@ -1164,8 +1164,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_efreitor";
 		Author_Macro
 		displayName= "Старший разведчик (ВСР-93)";
-		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //hlc_rifle_aks74
-		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //hlc_rifle_aks74
+		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular","rhs_weap_tr8"}; //hlc_rifle_aks74
+		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular","rhs_weap_tr8"}; //hlc_rifle_aks74
 		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch"};
 		Items[] = {"FirstAidKit","rhs_acc_pbs1"};
@@ -1266,8 +1266,8 @@
 		displayName= "Старший разведчик-радиотелефонист (ВСР-93)";
 		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
 		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular"};
+		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","rhs_weap_tr8"};
+		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","rhs_weap_tr8"};
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
 			"rhs_30Rnd_545x39_7N10_AK",

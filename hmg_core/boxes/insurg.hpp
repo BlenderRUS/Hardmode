@@ -420,3 +420,32 @@
 					};
 				};
 			};
+			class hmg_box_ins_stuff_gil : hmg_box_ins_stuff {
+				displayName = "Независимые: гилли";
+				class transportItems {
+					class _xx_TRYK_H_ghillie_over_green		{
+						name = "TRYK_H_ghillie_over_green";
+						count = 1;
+					};
+					class _xx_TRYK_H_ghillie_top_green		{
+						name = "TRYK_H_ghillie_top_green";
+						count = 1;
+					};
+					class _xx_TRYK_H_ghillie_top_headless_green		{
+						name = "TRYK_H_ghillie_top_headless_green";
+						count = 1;
+					};
+					class _xx_TRYK_H_ghillie_over		{
+						name = "TRYK_H_ghillie_over";
+						count = 1;
+					};
+					class _xx_TRYK_H_ghillie_top		{
+						name = "TRYK_H_ghillie_top";
+						count = 1;
+					};
+					class _xx_TRYK_H_ghillie_top_headless		{
+						name = "TRYK_H_ghillie_top_headless";
+						count = 1;
+					};
+				};
+			};

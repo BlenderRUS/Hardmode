@@ -339,8 +339,8 @@ class hmg_us_army_ocp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ocp_2015_ABCT_RIFLEMA
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","RH_pas13cmg","rhsusf_acc_ELCAN","AGM_SpareBarrel"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ocp","rhsusf_iotv_ocp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
+		weapons[] = {"rhs_weap_m249_pip_S","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip_S","Throw","Put"};
 		magazines[] = 		{
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",
@@ -1090,8 +1090,8 @@ class hmg_us_army_ucp_2015_ABCT_ANTIARMOR_SP : hmg_us_army_ucp_2015_ABCT_RIFLEMA
 		items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_anpeq15side","RH_pas13cmg","rhsusf_acc_ELCAN","AGM_SpareBarrel"};
         linkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
 		respawnLinkedItems[] = {"G_Combat","rhsusf_ach_helmet_ucp","rhsusf_iotv_ucp_SAW","ItemCompass","ItemWatch", "rhsusf_ANPVS_14","tf_anprc154","tf_microdagr"};
-		weapons[] = {"rhs_weap_m249_pip","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m249_pip","Throw","Put"};
+		weapons[] = {"rhs_weap_m249_pip_S","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m249_pip_S","Throw","Put"};
 		magazines[] = 		{
 				"rhsusf_100Rnd_556x45_soft_pouch",
 				"rhsusf_100Rnd_556x45_soft_pouch",

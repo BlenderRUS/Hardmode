@@ -954,8 +954,8 @@
 		_generalMacro = "hmg_msv_s_razved4ik_dalnomershik";
 		Author_Macro
 		displayName= "Разведчик-дальномерщик (ЕМР)";
-		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder"};
-		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder","rhs_weap_tr8"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder","rhs_weap_tr8"};
 		linkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","AGM_NVG_Gen2"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","AGM_NVG_Gen2"};
 	};	
@@ -1108,8 +1108,8 @@
 		displayName= "Разведчик (ЕМР)";
 		linkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_vog_headset","rhs_6b28","ItemCompass","ItemWatch","AGM_NVG_Gen2"};
-		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
-		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
+		weapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_tr8"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put","rhs_weap_tr8"}; //rhs_weap_ak74m_folded_dtk
 	};	
 	
 	class hmg_msv_s_komot_art_recon_squad : hmg_msv_s_sergeant
@@ -1351,8 +1351,8 @@
 		_generalMacro = "hmg_msv_s_razved4ik_efreitor";
 		Author_Macro
 		displayName= "Старший разведчик (ЕМР)";
-		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //rhs_weap_ak74m_folded_dtk
-		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular"}; //rhs_weap_ak74m_folded_dtk
+		weapons[] = {"rhs_weap_akms","Throw","Put","Binocular","rhs_weap_tr8"}; //rhs_weap_ak74m_folded_dtk
+		respawnWeapons[] = {"rhs_weap_akms","Throw","Put","Binocular","rhs_weap_tr8"}; //rhs_weap_ak74m_folded_dtk
 		Items[] = {"FirstAidKit","rhs_acc_pbs1"};
 		RespawnItems[] = {"FirstAidKit","rhs_acc_pbs1"};
 		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
@@ -1474,8 +1474,8 @@
 		displayName= "Старший разведчик-радиотелефонист (ЕМР)";
 		linkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
 		respawnLinkedItems[] = {"rhs_6b23_digi_6sh92_radio","rhs_6b28","ItemCompass","tf_pnr1000a", "tf_microdagr"};
-		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
-		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular","rhs_weap_tr8"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular","rhs_weap_tr8"};
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
 			"rhs_30Rnd_545x39_7N10_AK",

@@ -10,6 +10,8 @@ class MEF_Des_Carryall;
 class SP_Carryall_White;
 class US_1990_TricolorDesert_Carryall;
 class US_1981_DesertChocolateChip_Carryall;
+class TRYK_B_Medbag_ucp;
+class TRYK_B_Medbag;
 
 class MEF_Wood_Kitbag_empty: B_Kitbag_Base
 {
@@ -140,7 +142,7 @@ class rhsusf_assault_eagleaiii_ocp_aarspas: rhsusf_assault_eagleaiii_ocp
 	};
 };
 
-class rhsusf_assault_eagleaiii_ucp_medic: rhsusf_assault_eagleaiii_ucp
+class rhsusf_assault_eagleaiii_ucp_medic: TRYK_B_Medbag_ucp
 {
 	displayName = "Eagle A-III UCP (Medic)";
 	maximumLoad = 1000;
@@ -159,7 +161,7 @@ class rhsusf_assault_eagleaiii_ucp_medic: rhsusf_assault_eagleaiii_ucp
 	};
 };
 
-class rhsusf_assault_eagleaiii_ocp_medic: rhsusf_assault_eagleaiii_ocp
+class rhsusf_assault_eagleaiii_ocp_medic: TRYK_B_Medbag
 {
 	displayName = "Eagle A-III OCP (Medic)";
 	maximumLoad = 1000;
@@ -556,9 +558,9 @@ class MEF_Wood_Kitbag_AR: B_Kitbag_Base
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};
@@ -731,9 +733,9 @@ class MEF_Des_Tactical_AR: B_Kitbag_Base
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};
@@ -911,9 +913,9 @@ class CUP_B_CivPack_Wdl_AR: US_1981_Woodland_Carryall
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};
@@ -1038,9 +1040,9 @@ class CUP_B_CivPack_d_AR: US_1990_TricolorDesert_Carryall
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};
@@ -1176,9 +1178,9 @@ class MEF_snow_Kitbag_AR: SP_Carryall_White
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};
@@ -1341,9 +1343,9 @@ class CUP_B_CivPack_d6_AR: US_1981_DesertChocolateChip_Carryall
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhsusf_200Rnd_556x45_soft_pouch
+		class _xx_rhs_200rnd_556x45_M_SAW
 		{
-			magazine = "rhsusf_200Rnd_556x45_soft_pouch";
+			magazine = "rhs_200rnd_556x45_M_SAW";
 			count = 3;
 		};
 	};

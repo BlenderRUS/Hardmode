@@ -207,6 +207,13 @@
 						rank = "SERGEANT";
 						position[] = {2,0,0 };
 					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_messenger";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
+					};
 				};
 				class group_nato_usmc_w_mg_sec
 				{
@@ -832,7 +839,14 @@ class group_nato_usmc_d_2015
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_pltsrg";
 						rank = "SERGEANT";
-						position[] = {0,1,0 };
+						position[] = {2,0,0 };
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_messenger";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
 					};
 				};
 				class group_nato_usmc_d_mg_sec
@@ -1408,7 +1422,14 @@ class group_nato_usmc_d_2015_att
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_pltsrg";
 						rank = "SERGEANT";
-						position[] = {1,0,0 };
+						position[] = {2,0,0 };
+					};
+					class Unit2
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_messenger";
+						rank = "CORPORAL";
+						position[] = {3,0,0};
 					};
 				};
 				class group_nato_usmc_d_mg_sec
