@@ -831,8 +831,8 @@ class CfgVehicles {
 		author = "Pomigit";
 		displayName = "Security Contractor (M4)";
 		nakedUniform = "U_PMC_blk_BasicBody";
-		Items[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L", "CUP_acc_Glock17_Flashlight","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit", "optic_Arco", "RH_peq15b_top", "RH_saker", "muzzle_snds_L","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 		weapons[] = {"RH_M4sbr", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		respawnWeapons[] = {"RH_M4sbr", "rhsusf_weap_m1911a1", "Throw", "Put", "Binocular"};
 		magazines[] = {"rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhs_mag_30Rnd_556x45_Mk318_Stanag", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "rhsusf_mag_7x45acp_MHP", "SmokeShell"};

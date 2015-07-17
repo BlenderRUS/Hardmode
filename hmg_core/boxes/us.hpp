@@ -1149,8 +1149,8 @@
 							magazine = "rhs_mag_30Rnd_556x45_M855A1_Stanag_Tracer_Red";
 							count = 33;
 						};
-						class _xx_Trixie_20x762_Mag {
-							magazine = "Trixie_20x762_Mag";
+						class _xx_rhsusf_20Rnd_762x51_m118_special_Mag {
+							magazine = "rhsusf_20Rnd_762x51_m118_special_Mag";
 							count = 10;
 						};
 						class _xx_rhs_mag_M433_HEDP {

@@ -239,8 +239,35 @@
 							magazine = "rhs_rpg7_PG7VL_mag";
 							count = 3;
 						};
-
-
+				};
+			};  
+						class hmg_ru_box_mso_squad_ussr: hmg_ru_box_small_base {
+				displayName = "Доп. БК МСО (СССР)";
+				class TransportMagazines {
+						class _xx_rhs_30Rnd_545x39_7N10_AK {
+							magazine = "rhs_30Rnd_545x39_7N10_AK";
+							count = 80;
+						};
+						class _xx_rhs_30Rnd_545x39_AK_green {
+							magazine = "rhs_30Rnd_545x39_AK_green";
+							count = 20;
+						};
+						class _xx_rhs_100Rnd_762x54mmR {
+							magazine = "rhs_100Rnd_762x54mmR";
+							count = 10;
+						};
+						class _xx_rhs_10Rnd_762x54mmR_7N1 {
+							magazine = "rhs_10Rnd_762x54mmR_7N1";
+							count = 6;
+						};
+						class _xx_rhs_VOG25 {
+							magazine = "rhs_VOG25";
+							count = 20;
+						};
+						class _xx_rhs_rpg7_PG7VL_mag {
+							magazine = "rhs_rpg7_PG7VL_mag";
+							count = 6;
+						};
 				};
 			};  
 			class hmg_ru_box_pdr_vzv: hmg_ru_box_big_base {

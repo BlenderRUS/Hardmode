@@ -12,6 +12,13 @@ class CfgPatches
 	{
 		units[]=
 		{
+			// чдкзшники от дэни
+			CHDKZ_AssistantPKM_DB,
+			CHDKZ_AssistantAT_DB,
+			CHDKZ_Medic_DB,
+			CHDKZ_Rifleman_DB,
+			CHDKZ_RiflemanGP25_DB,
+			
 			// мотострелки 1995
 			// отсюда мотострелки на флоре
 			hmg_infantry_msv_1995_base,
@@ -467,7 +474,6 @@ class CfgVehicles
  class CAManBase: Man {};
 
  class SoldierEB;
- class PMC_IndUniformLS_BSBPBB_Base;
 	
 	#include "hmg_msv.hpp"
 	#include "hmg_msv_s.hpp"
@@ -476,6 +482,7 @@ class CfgVehicles
 	#include "hmg_vdv_pdr.hpp"
 	#include "hmg_mp.hpp"
 	#include "hmg_msv_1995.hpp"
-	#include "hmg_msv_1985.hpp"
+	#include "hmg_msv_1985.hpp" 
+	#include "hmg_chdkz.hpp"
 };
 

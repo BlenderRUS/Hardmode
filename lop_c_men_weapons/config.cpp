@@ -1154,6 +1154,7 @@ class CfgVehicles {
 	};
 	
 	class LOP_AFR_Soldier_AR : I_Soldier_AR_F {
+		displayName= "Automatic rifleman ";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"hlc_rifle_aughbar_t", "Throw", "Put"};
@@ -1178,6 +1179,7 @@ class CfgVehicles {
 	};
 	
 	class LOP_AFR_Soldier_Marksman : I_Soldier_F {
+		displayName= "Marksman";
 		Items[] = {"FirstAidKit","rhsusf_acc_ACOG_USMC"};
 		RespawnItems[] = {"FirstAidKit","rhsusf_acc_ACOG_USMC"};
 		weapons[] = {"rhs_weap_ak74m_camo_npz", "Throw", "Put"};
@@ -1274,6 +1276,7 @@ class CfgVehicles {
 	};
 	
 	class LOP_AFRCiv_Soldier_AR : LOP_AFR_CIV_03_S {
+		displayName= "Automatic rifleman";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"hlc_rifle_auga2lsw_b", "Throw", "Put"};
@@ -1298,6 +1301,7 @@ class CfgVehicles {
 	};
 	
 	class LOP_AFRCiv_Soldier_Marksman : LOP_AFR_CIV_06 {
+		displayName= "Marksman";
 		Items[] = {"FirstAidKit"};
 		RespawnItems[] = {"FirstAidKit"};
 		weapons[] = {"hlc_rifle_psg1", "Throw", "Put"};

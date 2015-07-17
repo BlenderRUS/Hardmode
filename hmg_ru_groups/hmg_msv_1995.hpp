@@ -116,8 +116,8 @@
 		};
 
 
-		weapons[] = {"hlc_rifle_aks74","Throw","Put"}; //hlc_rifle_aks74
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put"}; //hlc_rifle_aks74
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put"}; //hlc_rifle_aks74
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put"}; //hlc_rifle_aks74
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -306,8 +306,8 @@
 		Author_Macro
 		displayName= "Стрелок ПЗРК (ВСР-93)";
 
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","rhs_weap_igla"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","rhs_weap_igla"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","rhs_weap_igla"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","rhs_weap_igla"};
 
 		magazines[] = { "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK","rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_mag_9k38_rocket"};
 		respawnMagazines[] = { "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_30Rnd_545x39_7N10_AK", "rhs_mag_9k38_rocket"};
@@ -375,8 +375,8 @@
 		
 		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
 		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		magazines[] =
 		{
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -424,8 +424,8 @@
 		_generalMacro = "hmg_msv_1995_st_tech";
 		Author_Macro
 		displayName= "Старший техник роты (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		engineer = 1;
 		backpack="hmg_Eng_sidor";
 		icon="iconManEngineer";
@@ -437,8 +437,8 @@
 		_generalMacro = "hmg_msv_1995_strsh";
 		Author_Macro
 		displayName= "Старшина роты (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		backpack="FARA_PV_RUCK";
 	};	
 	
@@ -447,8 +447,8 @@
 		_generalMacro = "hmg_msv_1995_ko_r";
 		Author_Macro
 		displayName= "Командир МС взвода (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","CUP_hgun_Makarov"};
 		linkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
 		respawnLinkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","ItemRadio","AGM_NVG_Gen2","ItemMap"};
 	};	
@@ -473,8 +473,8 @@
 		cost = 450000;
 		sensitivity = 3.2;
 
-		weapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
-		respawnWeapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
 		magazines[] =
 		{
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -599,8 +599,8 @@
 		Author_Macro
 		displayName= "Наводчик оператор БТР (ВСР-93)";
 		
-		weapons[] = {"hlc_rifle_aks74","Throw","Put"}; //hlc_rifle_aks74
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put"}; //hlc_rifle_aks74
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put"}; //hlc_rifle_aks74
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put"}; //hlc_rifle_aks74
 		
         linkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_rifleman_02","ItemCompass","ItemWatch"};
 		respawnLinkedItems[] = {"rhs_tsh4","V_CDF_A3_6b23_rifleman_02","ItemCompass","ItemWatch"};
@@ -784,8 +784,8 @@
 		_generalMacro = "hmg_msv_1995_tank_st_tech";
 		Author_Macro
 		displayName= "Старший техник танковой роты (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		linkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch","ItemMap","tf_pnr1000a"};
 		respawnLinkedItems[] = {"rhs_tsh4","ItemCompass","ItemWatch","ItemMap","tf_pnr1000a"};
 		engineer = 1;
@@ -993,8 +993,8 @@
 		_generalMacro = "hmg_msv_1995_strsh_batr";
 		Author_Macro
 		displayName= "Старшина батареи (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","CUP_hgun_Makarov"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov"};
 		backpack="hmg_sidor_empty";
 	};	
 	// медицинский пункт батальона 
@@ -1195,8 +1195,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_ko";
 		Author_Macro
 		displayName= "Командир развед. отделения (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
-		respawnWeapons[] = {"hlc_rifle_aks74_GL","Throw","Put","Binocular"};
+		weapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
+		respawnWeapons[] = {"rhs_weap_ak74m_gp25_dtk","Throw","Put","Binocular"};
 		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass","ItemWatch","ItemMap"};
 		backpack = "hmg_gp_sidor";
@@ -1266,8 +1266,8 @@
 		displayName= "Старший разведчик-радиотелефонист (ВСР-93)";
 		linkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
 		respawnLinkedItems[] = {"TRYK_LOC_AK_chestrig_OD","SP_SSh68Helmet_Green1","ItemCompass"};
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","rhs_weap_tr8"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Binocular","rhs_weap_tr8"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_tr8"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Binocular","rhs_weap_tr8"};
 		magazines[] = 		{
 			"rhs_30Rnd_545x39_7N10_AK",
 			"rhs_30Rnd_545x39_7N10_AK",
@@ -1293,8 +1293,8 @@
 		_generalMacro = "hmg_msv_1995_razved4ik_zkvko";
 		Author_Macro
 		displayName= "ЗКВ Командир развед. отделения (ВСР-93)";
-		weapons[] = {"hlc_rifle_aks74","Throw","Put","Rangefinder"};
-		respawnWeapons[] = {"hlc_rifle_aks74","Throw","Put","Rangefinder"};
+		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder"};
+		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","Rangefinder"};
 		backpack="FARA_PV_RUCK";
 	};	
 	

@@ -144,8 +144,6 @@ class rhs_russian_svd_scopes_slot : SlotInfo {
 	class compatibleItems {
 		rhs_acc_pso1m2 = 1;
 		rhs_acc_1pn93_1 = 1;
-		CUP_optic_PSO_3 = 1;
-		
 	};
 };
 

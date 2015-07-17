@@ -40,16 +40,58 @@
 					class Unit4
 					{
 						side = 1;
-						vehicle = "hmg_usmc_w_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_w_2015_opChief";
+						rank = "SERGEANT";
 						position[] = {5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "hmg_usmc_w_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_w_2015_asOpChief";
+						rank = "SERGEANT";
 						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_OpClerk";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_IntelSpec";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_AdminClerk";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_LogNCO";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_PropNCO";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_w_2015_messenger";
+						rank = "PRIVATE";
+						position[] = {12,0,0};
 					};
 				};
 				class group_nato_usmc_w_2015_rifle_PL_HQ
@@ -72,20 +114,6 @@
 						vehicle = "hmg_usmc_w_2015_pltsrg";
 						rank = "SERGEANT";
 						position[] = {2,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "hmg_usmc_w_2015_guide";
-						rank = "SERGEANT";
-						position[] = {3,0,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "hmg_usmc_w_2015_messenger";
-						rank = "CORPORAL";
-						position[] = {4,0,0};
 					};
 				};
 				class group_nato_usmc_w_2015_RIF_SQ
@@ -213,20 +241,6 @@
 						vehicle = "hmg_usmc_w_2015_messenger";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
-					};
-				};
-				class group_nato_usmc_w_mg_sec
-				{
-					name = "MACHINE GUN SECTION";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "hmg_usmc_w_2015_MGSL";
-						rank = "SERGEANT";
-						position[] = {0,1,0};
 					};
 				};
 				class group_nato_usmc_w_2015_MG_squad
@@ -465,8 +479,8 @@
 						position[] = {12,0,0};
 					};
 				};
-			};
-class group_nato_usmc_w_2015_att
+				};
+			class group_nato_usmc_w_2015_att
 			{
 				name = "USMC attachments Marpat 2015";
 				aliveCategory="USMC atta Marpat 2015";
@@ -631,8 +645,8 @@ class group_nato_usmc_w_2015_att
 					};
 				};
 			};
-
-class group_nato_usmc_d_2015
+			
+			class group_nato_usmc_d_2015
 			{
 				name = "USMC Rifle company Marpat Desert 2015";
 				aliveCategory="USMC  Marpat Desert 2015";
@@ -674,16 +688,58 @@ class group_nato_usmc_d_2015
 					class Unit4
 					{
 						side = 1;
-						vehicle = "hmg_usmc_d_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_d_2015_opChief";
+						rank = "SERGEANT";
 						position[] = {5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "hmg_usmc_d_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_d_2015_asOpChief";
+						rank = "SERGEANT";
 						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_OpClerk";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_IntelSpec";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_AdminClerk";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_LogNCO";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_PropNCO";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_messenger";
+						rank = "PRIVATE";
+						position[] = {12,0,0};
 					};
 				};
 				class group_nato_usmc_d_2015_rifle_PL_HQ
@@ -706,20 +762,6 @@ class group_nato_usmc_d_2015
 						vehicle = "hmg_usmc_d_2015_pltsrg";
 						rank = "SERGEANT";
 						position[] = {2,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "hmg_usmc_d_2015_guide";
-						rank = "SERGEANT";
-						position[] = {3,0,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "hmg_usmc_d_2015_messenger";
-						rank = "CORPORAL";
-						position[] = {4,0,0};
 					};
 				};
 				class group_nato_usmc_d_2015_RIF_SQ
@@ -847,20 +889,6 @@ class group_nato_usmc_d_2015
 						vehicle = "hmg_usmc_d_2015_messenger";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
-					};
-				};
-				class group_nato_usmc_d_mg_sec
-				{
-					name = "MACHINE GUN SECTION";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "hmg_usmc_d_2015_MGSL";
-						rank = "SERGEANT";
-						position[] = {1,0,0};
 					};
 				};
 				class group_nato_usmc_d_2015_MG_squad
@@ -1009,47 +1037,95 @@ class group_nato_usmc_d_2015
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_assSL";
 						rank = "SERGEANT";
-						position[] = {1,0,0};
+						position[] = {0,1,0};
 					};
-				};
-				class group_nato_usmc_d_2015_as_squad
-				{
-					name = "ASSAULT SQUAD";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
+					class Unit1
 					{
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_assGun";
 						rank = "CORPORAL";
-						position[] = {0,1,0 };
+						position[] = {1,0,0};
 					};
-					class Unit1
+					class Unit2
 					{
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_assassGun";
 						rank = "CORPORAL";
 						position[] = {2,0,0 };
 					};
-
-					class Unit2
+					class Unit3
 					{
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_assGun";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
-					class Unit3
+					class Unit4
 					{
 						side = 1;
 						vehicle = "hmg_usmc_d_2015_assassGun";
 						rank = "CORPORAL";
 						position[] = {4,0,0};
 					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {6,0,0 };
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit12
+					{
+						side = 1;
+						vehicle = "hmg_usmc_d_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {12,0,0};
+					};
 				};
 			};
-class group_nato_usmc_d_2015_att
+			class group_nato_usmc_d_2015_att
 			{
 				name = "USMC attachments Marpat Desert 2015";
 				aliveCategory="USMC atta Marpat Desert 2015";
@@ -1214,11 +1290,10 @@ class group_nato_usmc_d_2015_att
 				};
 			};			
 			
-			
 			class group_nato_usmc_s_2015
 			{
 				name = "USMC Rifle company Marpat snow 2015";
-				aliveCategory="USMC  Marpat snow 2015";
+				aliveCategory="USMC Marpat snow 2015";
 				class group_nato_usmc_s_2015_rifle_companie
 				{
 					name = "Rifle Company HQ";
@@ -1257,16 +1332,58 @@ class group_nato_usmc_d_2015_att
 					class Unit4
 					{
 						side = 1;
-						vehicle = "hmg_usmc_s_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_s_2015_opChief";
+						rank = "SERGEANT";
 						position[] = {5,0,0};
 					};
 					class Unit5
 					{
 						side = 1;
-						vehicle = "hmg_usmc_s_2015_messenger";
-						rank = "CORPORAL";
+						vehicle = "hmg_usmc_s_2015_asOpChief";
+						rank = "SERGEANT";
 						position[] = {6,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_OpClerk";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_IntelSpec";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_AdminClerk";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_LogNCO";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_PropNCO";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_messenger";
+						rank = "PRIVATE";
+						position[] = {12,0,0};
 					};
 				};
 				class group_nato_usmc_s_2015_rifle_PL_HQ
@@ -1289,20 +1406,6 @@ class group_nato_usmc_d_2015_att
 						vehicle = "hmg_usmc_s_2015_pltsrg";
 						rank = "SERGEANT";
 						position[] = {2,0,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "hmg_usmc_s_2015_guide";
-						rank = "SERGEANT";
-						position[] = {3,0,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "hmg_usmc_s_2015_messenger";
-						rank = "CORPORAL";
-						position[] = {4,0,0};
 					};
 				};
 				class group_nato_usmc_s_2015_RIF_SQ
@@ -1430,20 +1533,6 @@ class group_nato_usmc_d_2015_att
 						vehicle = "hmg_usmc_s_2015_messenger";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
-					};
-				};
-				class group_nato_usmc_d_mg_sec
-				{
-					name = "MACHINE GUN SECTION";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "hmg_usmc_s_2015_MGSL";
-						rank = "SERGEANT";
-						position[] = {1,0,0};
 					};
 				};
 				class group_nato_usmc_s_2015_MG_squad
@@ -1592,47 +1681,95 @@ class group_nato_usmc_d_2015_att
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_assSL";
 						rank = "SERGEANT";
-						position[] = {1,0,0};
+						position[] = {0,1,0};
 					};
-				};
-				class group_nato_usmc_s_2015_as_squad
-				{
-					name = "ASSAULT SQUAD";
-					faction = "rhs_faction_group_usmc_2015";
-					side = 1;
-					rarityGroup = 0.75;
-					class Unit0
+					class Unit1
 					{
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_assGun";
 						rank = "CORPORAL";
-						position[] = {0,1,0 };
+						position[] = {1,0,0};
 					};
-					class Unit1
+					class Unit2
 					{
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_assassGun";
 						rank = "CORPORAL";
 						position[] = {2,0,0 };
 					};
-
-					class Unit2
+					class Unit3
 					{
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_assGun";
 						rank = "CORPORAL";
 						position[] = {3,0,0};
 					};
-					class Unit3
+					class Unit4
 					{
 						side = 1;
 						vehicle = "hmg_usmc_s_2015_assassGun";
 						rank = "CORPORAL";
 						position[] = {4,0,0};
 					};
+					class Unit5
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {5,0,0};
+					};
+					class Unit6
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {6,0,0 };
+					};
+					class Unit7
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {7,0,0};
+					};
+					class Unit8
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {8,0,0};
+					};
+					class Unit9
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {9,0,0};
+					};
+					class Unit10
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {10,0,0};
+					};
+					class Unit11
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assGun";
+						rank = "CORPORAL";
+						position[] = {11,0,0};
+					};
+					class Unit12
+					{
+						side = 1;
+						vehicle = "hmg_usmc_s_2015_assassGun";
+						rank = "CORPORAL";
+						position[] = {12,0,0};
+					};
 				};
 			};
-class group_nato_usmc_s_2015_att
+			class group_nato_usmc_s_2015_att
 			{
 				name = "USMC attachments Marpat snow 2015";
 				aliveCategory="USMC atta Marpat snow 2015";

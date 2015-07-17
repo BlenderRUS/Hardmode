@@ -7,7 +7,7 @@ class CfgPatches
 		units[]={};
 		weapons[]={};
 		requiredVersion=0.1;
-		requiredAddons[] = { rhs_c_weapons, rhsusf_c_weapons, Blastcore_VEP, Blastcore_MainCore };
+		requiredAddons[] = { rhs_c_weapons, rhsusf_c_weapons, Blastcore_VEP };
 		author[] = {"Blender", "Lolkij"};
 		authorUrl = "http://www.arma3.ru";
 		version = "0.2";
