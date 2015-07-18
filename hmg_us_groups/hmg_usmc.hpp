@@ -380,8 +380,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2005_scout : hmg_usmc_w_2005
 {
 		displayName = "Scout (Marpat)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
@@ -920,8 +920,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2005_scout : hmg_usmc_d_2005
 	{
 		displayName = "Scout (MarpatDesert)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"30Rnd_556x45_Stanag",
@@ -1462,8 +1462,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_s_2005_scout : hmg_usmc_s_2005
 	{
 		displayName = "Scout (Marpat snow)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"rhs_mag_30Rnd_556x45_M855A1_Stanag",
@@ -1629,8 +1629,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2015_scout : hmg_usmc_w_2005
 	{
 		displayName = "Scout (Marpat)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"rhs_mag_30Rnd_556x45_Mk318_Stanag",
@@ -1847,8 +1847,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2015_scout : hmg_usmc_d_2005
 	{
 		displayName = "Scout (MarpatDesert)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"rhs_mag_30Rnd_556x45_Mk318_Stanag",
@@ -2107,8 +2107,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 		displayName= "Team leader (Marpat)";
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put"};
 		backpack="MEF_Wood_Kitbag_TL";
 	};
 	class hmg_usmc_w_2015_SL : hmg_usmc_w_2015_rifleman
@@ -2346,8 +2346,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		displayName= "Team leader (MarpatDesert)";
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put"};
 		backpack="MEF_Des_Tactical_TL";
 	};
 	class hmg_usmc_d_2015_SL : hmg_usmc_d_2015_rifleman
@@ -2544,8 +2544,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_s_2015_scout : hmg_usmc_s_2005
 	{
 		displayName = "Scout (Marpat snow)";
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put", "CUP_hgun_M9", "Laserdesignator"};
 		magazines[] = 
 			{
 				"rhs_mag_30Rnd_556x45_Mk318_Stanag",
@@ -2805,8 +2805,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		displayName= "Team leader (Marpat snow)";
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "tf_anprc154", "tf_microdagr"};
-		weapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
-		respawnWeapons[] = {"rhs_weap_m4_m203S","Throw","Put"};
+		weapons[] = {"rhs_weap_m4_m203","Throw","Put"};
+		respawnWeapons[] = {"rhs_weap_m4_m203","Throw","Put"};
 		backpack="MEF_snow_Kitbag_TL";
 	};
 	class hmg_usmc_s_2015_SL : hmg_usmc_s_2015_rifleman

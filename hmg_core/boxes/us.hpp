@@ -1109,6 +1109,12 @@
 							count = 9;
 						};
 				};
+				class TransportBackpacks {
+						class _xx_B_rhsusf_B_BACKPACK {
+							backpack = "B_rhsusf_B_BACKPACK";
+							count = 2;
+						};
+				};
 		};
 		class hmg_us_box_usmc_comp_hq2015_adv : hmg_us_box_small_base {
 				displayName = "Ящик доп. БК USMC Company HQ 2015 (US)";
