@@ -24,7 +24,7 @@ class MEF_Wood_Kitbag_empty: B_Kitbag_Base
 	maximumLoad = 1000;
 };	
 
-class MEF_Des_Tactical_empty: MEF_Des_Tactical
+class MEF_Des_Tactical_empty: B_Kitbag_Base
 {
 	scope = 1;
 	picture = "\mef_mod\icons\ico_k_dm_ca.paa";
@@ -617,24 +617,24 @@ class MEF_Wood_Kitbag_TL: B_Kitbag_Base
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
+		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
-		class _xx_rhs_mag_M433_HEDP
+		class _xx_rhs_mag_M433_HEDP1
 		{
 			magazine = "rhs_mag_M433_HEDP";
-			count = 8;
+			count = 6;
 		};
-		class _xx_rhs_mag_m714_White
+		class _xx_rhs_mag_M585_white
 		{
-			magazine = "rhs_mag_m714_White";
+			magazine = "rhs_mag_M585_white";
 			count = 2;
 		};
-		class _xx_rhs_mag_m576//тут должен лежать зеленый дым
+		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m576";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
@@ -796,7 +796,7 @@ class MEF_Des_Tactical_TL: B_Kitbag_Base
 	{
 		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
 		class _xx_rhs_mag_M433_HEDP1
@@ -811,7 +811,7 @@ class MEF_Des_Tactical_TL: B_Kitbag_Base
 		};
 		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m715_Green";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
@@ -935,13 +935,13 @@ class CUP_B_CivPack_Wdl_MG: US_1981_Woodland_Carryall
 };
 class CUP_B_CivPack_Wdl_TL: US_1981_Woodland_Carryall
 {
-	displayName = "TL backpack ";
+	displayName = "TL backpack";
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
 		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
 		class _xx_rhs_mag_M433_HEDP1
@@ -956,7 +956,7 @@ class CUP_B_CivPack_Wdl_TL: US_1981_Woodland_Carryall
 		};
 		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m715_Green";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
@@ -1068,7 +1068,7 @@ class CUP_B_CivPack_d_TL: US_1990_TricolorDesert_Carryall
 	{
 		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
 		class _xx_rhs_mag_M433_HEDP1
@@ -1083,7 +1083,7 @@ class CUP_B_CivPack_d_TL: US_1990_TricolorDesert_Carryall
 		};
 		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m715_Green";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
@@ -1237,24 +1237,24 @@ class MEF_snow_Kitbag_TL: SP_Carryall_White
 	maximumLoad = 1000;
 	class TransportMagazines
 	{
-		class _xx_rhs_mag_M441_HE
+		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
-		class _xx_rhs_mag_M433_HEDP
+		class _xx_rhs_mag_M433_HEDP1
 		{
 			magazine = "rhs_mag_M433_HEDP";
 			count = 6;
 		};
-		class _xx_rhs_mag_m714_White
+		class _xx_rhs_mag_M585_white
 		{
-			magazine = "rhs_mag_m714_White";
+			magazine = "rhs_mag_M585_white";
 			count = 2;
 		};
-		class _xx_rhs_mag_m576
+		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m576";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
@@ -1371,7 +1371,7 @@ class CUP_B_CivPack_d6_TL: US_1981_DesertChocolateChip_Carryall
 	{
 		class _xx_rhs_mag_M441_HE1
 		{
-			magazine ="rhs_mag_M441_HE";
+			magazine ="rhs_mag_m576";
 			count = 2;
 		};
 		class _xx_rhs_mag_M433_HEDP1
@@ -1386,7 +1386,7 @@ class CUP_B_CivPack_d6_TL: US_1981_DesertChocolateChip_Carryall
 		};
 		class _xx_rhs_mag_m715_Green
 		{
-			magazine = "rhs_mag_m715_Green";
+			magazine = "rhs_mag_m661_green";
 			count = 2;
 		};
 	};
