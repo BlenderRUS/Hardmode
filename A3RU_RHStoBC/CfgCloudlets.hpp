@@ -2,10 +2,12 @@ class CfgCloudlets
 {
 	class Default;
 	class ExploAmmoFlash;
+	/* FIXED IN LATEST BLASTCORE
 	class SmokeShellWhite: Default
 	{
 		particleShape="WarFXPE\ParticleEffects\Universal\smoke_02";
 	};
+	*/
 	class RHS_flashbang_10: Default
 	{
 		particleShape="WarFXPE\ParticleEffects\Universal\Explosion_09";
