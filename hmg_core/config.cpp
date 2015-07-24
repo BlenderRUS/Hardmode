@@ -6,9 +6,14 @@ class CfgPatches {
 		};
 		weapons[] = {};
 		requiredVersion = 1.32;
-		requiredAddons[] = {"A3_Weapons_F", "A3_Weapons_F_Ammoboxes", "A3_Weapons_F_beta", "A3_Weapons_F_Acc", "rhsusf_main","rhs_main",
+		requiredAddons[] = {
+			"A3_Weapons_F",
+			"A3_Weapons_F_Ammoboxes",
+			"A3_Weapons_F_beta",
+			"A3_Weapons_F_Acc",
+			"rhsusf_main",
+			"rhs_main",
 			"A3_Data_F",
-			"Blastcore_MainCore",
 			"AGM_Core",
 			"Delta_strykerpack",
 			"rhs_c_btr",
