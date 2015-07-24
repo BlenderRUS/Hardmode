@@ -10,11 +10,12 @@ class CfgPatches
 		requiredAddons[] = { rhs_c_weapons, rhsusf_c_weapons, Blastcore_VEP };
 		author[] = {"Blender", "Lolkij"};
 		authorUrl = "http://www.arma3.ru";
-		version = "0.3";
-		versionAr[] = {0, 3};
-		versionStr = "0.3";
+		version = "0.5";
+		versionAr[] = {0, 5};
+		versionStr = "0.5";
 	};
 };
 
 #include "CfgAmmo.hpp"
 #include "CfgCloudlets.hpp"
+#include "Effects.hpp"

@@ -1,13 +1,178 @@
 class CfgCloudlets
 {
 	class Default;
-	class ExploAmmoFlash;
-	/* FIXED IN LATEST BLASTCORE
 	class SmokeShellWhite: Default
 	{
+		animationSpeedCoef=1;
+		colorCoef[]=
+		{
+			"colorR",
+			"colorG",
+			"colorB",
+			"colorA"
+		};
+		sizeCoef=1;
+		position[]={0,0,0};
+		interval=0.07;
+		circleRadius=0;
+		circleVelocity[]={0,0,0};
 		particleShape="WarFXPE\ParticleEffects\Universal\smoke_02";
+		particleFSNtieth=1;
+		particleFSIndex=0;
+		particleFSFrameCount=1;
+		particleFSLoop=0;
+		angleVar=360;
+		animationName="";
+		particleType="Billboard";
+		timerPeriod=1;
+		lifeTime=4;
+		moveVelocity[]={0,0,0};
+		rotationVelocity=0;
+		weight=10.1;
+		volume=7.9000001;
+		rubbing=0.3;
+		size[]={0.30000001,3};
+		color[]=
+		{
+			{1,1,1,1},
+			{1,1,1,0}
+		};
+		animationSpeed[]={1};
+		randomDirectionPeriod=0;
+		randomDirectionIntensity=0;
+		onTimerScript="";
+		beforeDestroyScript="";
+		lifeTimeVar=0.5;
+		positionVar[]={0,0,0};
+		MoveVelocityVar[]={0.2,0.2,0.2};
+		rotationVelocityVar=20;
+		sizeVar=0.5;
+		colorVar[]={0,0,0,0.34999999};
+		randomDirectionPeriodVar=0;
+		randomDirectionIntensityVar=0;
+		blockAIVisibility=1;
 	};
-	*/
+	class SmokeShellWhiteSmall: Default
+	{
+		animationSpeedCoef=1;
+		colorCoef[]=
+		{
+			"colorR",
+			"colorG",
+			"colorB",
+			1.8
+		};
+		sizeCoef=1;
+		position[]={0,0,0};
+		interval=0.2;
+		circleRadius=0;
+		circleVelocity[]={0,0,0};
+		particleShape="WarFXPE\ParticleEffects\Universal\smoke_02";
+		particleFSNtieth=1;
+		particleFSIndex=0;
+		particleFSFrameCount=1;
+		particleFSLoop=0;
+		angleVar=360;
+		animationName="";
+		particleType="Billboard";
+		timerPeriod=1;
+		lifeTime=14;
+		moveVelocity[]={0,0.30000001,0};
+		rotationVelocity=1;
+		weight=10.05;
+		volume=7.9000001;
+		rubbing=1;
+		size[]={0.2,6,10};
+		color[]=
+		{
+			{0.69999999,0.69999999,0.69999999,0.23999999},
+			{0.69999999,0.69999999,0.69999999,0.25999999},
+			{0.69999999,0.69999999,0.69999999,0.25},
+			{0.69999999,0.69999999,0.69999999,0.22},
+			{0.69999999,0.69999999,0.69999999,0.18000001},
+			{0.69999999,0.69999999,0.69999999,0.1},
+			{0.69999999,0.69999999,0.69999999,0.0099999998}
+		};
+		animationSpeed[]={1000};
+		randomDirectionPeriod=0.30000001;
+		randomDirectionIntensity=0.15000001;
+		onTimerScript="";
+		beforeDestroyScript="";
+		lifeTimeVar=2;
+		positionVar[]={0,0,0};
+		MoveVelocityVar[]={1.2,0.34999999,1.2};
+		rotationVelocityVar=25;
+		sizeVar=0.5;
+		colorVar[]={0,0,0,0.050000001};
+		randomDirectionPeriodVar=0;
+		randomDirectionIntensityVar=0;
+		blockAIVisibility=1;
+	};
+	class SmokeShellWhiteLong: Default
+	{
+		animationSpeedCoef=1;
+		colorCoef[]=
+		{
+			"colorR",
+			"colorG",
+			"colorB",
+			"colorA"
+		};
+		sizeCoef=1;
+		position[]={0,0,0};
+		interval=0.2;
+		circleRadius=0;
+		circleVelocity[]={0,0,0};
+		particleShape="WarFXPE\ParticleEffects\Universal\smoke_02";
+		particleFSNtieth=1;
+		particleFSIndex=0;
+		particleFSFrameCount=1;
+		particleFSLoop=0;
+		angleVar=360;
+		animationName="";
+		particleType="Billboard";
+		timerPeriod=1;
+		lifeTime=30;
+		moveVelocity[]={0,0.25,0};
+		rotationVelocity=0;
+		weight=10.08;
+		volume=7.9;
+		rubbing=0.3;
+		size[]={2,12};
+		color[]=
+		{
+			{1,1,1,0},
+			{1,1,1,0.7},
+			{1,1,1,0}
+		};
+		animationSpeed[]={1};
+		randomDirectionPeriod=0;
+		randomDirectionIntensity=0;
+		onTimerScript="";
+		beforeDestroyScript="";
+		lifeTimeVar=0.5;
+		positionVar[]={0,0,0};
+		MoveVelocityVar[]={1,0.5,1};
+		rotationVelocityVar=25;
+		sizeVar=0.5;
+		colorVar[]={0,0,0,0};
+		randomDirectionPeriodVar=0;
+		randomDirectionIntensityVar=0;
+		blockAIVisibility=1;
+	};
+	class SmokeShellWhite2: SmokeShellWhite
+	{
+		particleFSNtieth=1;
+		particleFSIndex=0;
+		particleFSFrameCount=1;
+		particleFSLoop=0;
+		color[]=
+		{
+			{1,1,1,1},
+			{1,1,1,0}
+		};
+	};
+	class ExploAmmoFlash;
 	class RHS_flashbang_10: Default
 	{
 		particleShape="WarFXPE\ParticleEffects\Universal\Explosion_09";
@@ -15,77 +180,5 @@ class CfgCloudlets
 	class RHSUSF_flashbang_10: Default // Not used yet
 	{
 		particleShape="WarFXPE\ParticleEffects\Universal\Explosion_09";
-	};
-};
-
-class RHS_flashbang_10
-{
-	class Smoke1
-	{
-		position[] = {0,0,0};
-		simulation = "particles";
-		type = "RHS_flashbang_10";
-		intensity = 0.5;
-		interval = 1;
-		lifeTime = 1;
-	};
-	class Smoke2: Smoke1
-	{
-		position[] = {0,0,0};
-		simulation = "particles";
-		type = "25mm_Smoke_01";
-		intensity = 0.5;
-		interval = 1;
-		lifeTime = 1;
-	};
-	class Light
-	{
-		position[] = {0,0,0};
-		simulation = "light";
-		type = "RHS_flashbang_light";
-		intensity = 1;
-		interval = 1;
-		lifeTime = 1;
-	};
-};
-
-class RHS_Thermobaric_Explosion
-{
-	class Cloud
-	{
-		intensity = 8;
-		interval = 0.4;
-		lifetime = 0.4;
-		position[] = {0,0,0};
-		simulation = "particles";
-		type = "CloudMedLight";
-	};
-	class Explosion
-	{
-		intensity = 12;
-		interval = 0.4;
-		lifetime = 0.4;
-		position[] = {0,0,0};
-		simulation = "particles";
-		type = "ExplosionParticles";
-	};
-	class Explosion2: Explosion{};
-	class Smoke
-	{
-		intensity = 14;
-		interval = 0.96;
-		lifetime = 0.96;
-		position[] = {0,0,0};
-		simulation = "particles";
-		type = "SmallSmokeSlow1";
-	};
-	class Light
-	{
-		intensity = 0.001;
-		interval = 1;
-		lifetime = 0.2;
-		position[] = {0,0,0};
-		simulation = "light";
-		type = "ExploLight";
 	};
 };

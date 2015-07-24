@@ -25,6 +25,35 @@ class CfgAmmo {
 		explosive=0.1;
 		explosionEffects="RHS_flashbang_10";
 	};
+	class GrenadeHand;
+	class SmokeShell: GrenadeHand
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellRed: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellGreen: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellYellow: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellPurple: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellBlue: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
+	class SmokeShellOrange: SmokeShell
+	{
+		effectsSmoke = "SmokeShellWhite";
+	};
 	/*
 	X_FLARE(rhs_40mm_white,F_40mm_White)
 	X_FLARE(rhs_40mm_red,F_40mm_Red)
