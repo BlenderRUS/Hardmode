@@ -18,7 +18,7 @@
 		timetolive = 0.5;
 		typicalspeed = 3000;
 	};
-	class rhs_B_762x54_7N1_Ball;	
+	// class rhs_B_762x54_7N1_Ball;	// ALREADY DEFINED IN rhs_762.hpp
 	class TMR_MedFrag : rhs_B_762x54_7N1_Ball {
 		model = "";
 		tracerstarttime = 0;

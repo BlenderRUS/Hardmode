@@ -52,8 +52,8 @@ class Mode_FullAuto;
 class cfgAmmo {
 	#include "blastcore\blastcore_a.hpp"
 	#include "javelin\javelin_a.hpp"
-	#include "blastfrag\ammo.hpp"
 	#include "ammo\rhs_762.hpp"
+	#include "blastfrag\ammo.hpp"
 };
 class cfgMagazines {
 	#include "blastcore\blastcore_m.hpp"
