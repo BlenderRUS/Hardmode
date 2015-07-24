@@ -483,6 +483,5 @@ class CfgVehicles
 	#include "hmg_mp.hpp"
 	#include "hmg_msv_1995.hpp"
 	#include "hmg_msv_1985.hpp" 
-	#include "hmg_chdkz.hpp"
 };
 
