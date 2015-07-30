@@ -27,7 +27,7 @@ class CfgMagazines {
 		icon = "HMG_Weapons_St\m119_ca.paa";
 		picture = "\HMG_Weapons_St\m119_ca";
 		model = "HMG_Weapons_St\m119_m1.p3d";
-		displayName = "Кумулятивный снаряд Д-30";
+		displayName = "РљСѓРјСѓР»СЏС‚РёРІРЅС‹Р№ СЃРЅР°СЂСЏРґ Р”-30";
 		mass = 502;
 	};
 	class D30_he_out: CA_Magazine
@@ -36,7 +36,7 @@ class CfgMagazines {
 		icon = "HMG_Weapons_St\m119_ca.paa";
 		picture = "\HMG_Weapons_St\m119_ca";
 		model = "HMG_Weapons_St\m119_m1.p3d";
-		displayName = "ОФ снаряд Д-30";
+		displayName = "РћР¤ СЃРЅР°СЂСЏРґ Р”-30";
 		mass = 502;
 	};
 	class M119_at_out: CA_Magazine
@@ -88,14 +88,14 @@ class CfgMagazines {
 		scope = 2;
 		count = 1;
 		displayName = "$STR_HMG_Static_Missile_9K115";
-		displayNameShort = "9М131";
+		displayNameShort = "9Рњ131";
 		model = "\HMG_Weapons_St\metis_tpk.p3d";
 		ammo = "metis_9M115_PTUR";
 		type = 6 * 		256;
 		picture = "\metis\data\pic\9m115_ca";
 		initSpeed = 40;
 		maxLeadSpeed = 830;
-		descriptionShort = "Выстрел 9М131 тандемный";
+		descriptionShort = "Р’С‹СЃС‚СЂРµР» 9Рњ131 С‚Р°РЅРґРµРјРЅС‹Р№";
 		mass = 306;
 	};
 
@@ -189,6 +189,15 @@ class CfgMagazines {
 		picture = "\HMG_Weapons_St\mortar_m251_ca";
 		model = "HMG_Weapons_St\mort82mm_shell.p3d";
 		displayName = "M252 HE";
+		mass = 100;
+	};
+	class Igla_out: CA_Magazine
+	{
+		scope = 2;
+		icon = "HMG_Weapons_St\tow_static_ca.paa";
+		picture = "\HMG_Weapons_St\tow_static_ca";
+		model = "HMG_Weapons_St\tow.p3d";
+		displayName = "Igla AA Rocket";
 		mass = 100;
 	};
 };

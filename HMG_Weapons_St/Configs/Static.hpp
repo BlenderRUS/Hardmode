@@ -24,7 +24,7 @@ class RDS_D30_base: StaticCannon {
 		class AGM_LoadStMagHE {
 			displayName = "$STR_HMG_Static_Load_D30_HE";
 			condition = "[_this select 0, 'D30_he_out', 1] call HMG_Static_fnc_CheckConditions";
-			statement = "[_this select 0, 'D30_he_out', 'RDS_30Rnd_122mmHE_D30', 20, 'STR_HMG_Static_Loading_D30_HE'] call HMG_Static_fnc_LoadStatic";
+			statement = "[_this select 0, 'D30_he_out', 'RDS_1Rnd_122mmHE_D30', 20, 'STR_HMG_Static_Loading_D30_HE'] call HMG_Static_fnc_LoadStatic";
 			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
@@ -33,7 +33,7 @@ class RDS_D30_base: StaticCannon {
 		class AGM_LoadStMagAT {
 			displayName = "$STR_HMG_Static_Load_D30_AT";
 			condition = "[_this select 0, 'D30_at_out', 1] call HMG_Static_fnc_CheckConditions";
-			statement = "[_this select 0, 'D30_at_out', 'RDS_30Rnd_122mmAT_D30', 20, 'STR_HMG_Static_Loading_D30_AT'] call HMG_Static_fnc_LoadStatic";
+			statement = "[_this select 0, 'D30_at_out', 'RDS_1Rnd_122mmAT_D30', 20, 'STR_HMG_Static_Loading_D30_AT'] call HMG_Static_fnc_LoadStatic";
 			showDisabled = 0;
 			priority = 2.5;
 			icon = "";  // @todo
@@ -182,7 +182,6 @@ class rhs_nsv_tripod_base : StaticMGWeapon {
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[]={rhs_weap_nsvt_HMG};
 				magazines[]={};
 			};
 		};
@@ -245,7 +244,6 @@ class RDS_TOW_TriPod_base: StaticATWeapon {
 		{
 			class MainTurret: MainTurret
 			{
-				weapons[] = {"Rhs_weap_TOW_Launcher_static"};
 				magazines[]={};
 			};
 		};
@@ -286,7 +284,6 @@ class rhs_m2staticmg_base : StaticMGWeapon {
 	{
 		class MainTurret: MainTurret
 		{
-			weapons[] = {RHS_M2_HMG};
 			magazines[]={};
 		};
 	};
@@ -343,7 +340,6 @@ class RDS_SPG9_base: StaticATWeapon {
 	};
 };
 class RHS_MK19_TriPod_base: StaticGrenadeLauncher {
-	magazinereloadtime = 0;
 	class AGM_Actions: AGM_Actions {
 		class AGM_LoadMK19 {
 			displayName = "$STR_HMG_Static_LoadMk19";
@@ -359,7 +355,28 @@ class RHS_MK19_TriPod_base: StaticGrenadeLauncher {
 	{
 		class MainTurret: MainTurret
 		{
-			weapons[] = { RHS_MK19_HMG };
+			magazines[] = {};
+		};
+	};
+};
+
+class RDS_Igla_AA_pod_Base : StaticAAWeapon
+{
+	class AGM_Actions: AGM_Actions {
+		class AGM_LoadMK19 {
+			displayName = "$STR_HMG_Static_LoadIgla";
+			condition = "[_this select 0, 'Igla_out', 2] call HMG_Static_fnc_CheckConditions";
+			statement = "[_this select 0, 'Igla_out', 'rhs_mag_9k38_rocket', 15, 'STR_HMG_Static_LoadingIgla'] call HMG_Static_fnc_LoadStatic";
+			showDisabled = 0;
+			priority = 2.5;
+			icon = "";  // @todo
+			enableInside = 1;
+		};
+	};
+	class Turrets: Turrets
+	{
+		class MainTurret: MainTurret
+		{
 			magazines[] = {};
 		};
 	};
@@ -395,6 +412,10 @@ class hmg_ru_box_static: hmg_ru_box_gren_base {
 		};
 		class _xx_TOW_out {
 			magazine = "TOW_out";
+			count = 10;
+		};
+		class _xx_Igla_out {
+			magazine = "Igla_out";
 			count = 10;
 		};
 		class _xx_pg9_out {
@@ -448,4 +469,4 @@ class hmg_metis_ruck2 : B_AssaultPack_Base
 			count = 1;
 		};
 	};
-};	
+};

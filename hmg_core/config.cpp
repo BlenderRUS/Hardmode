@@ -28,8 +28,8 @@ class CfgPatches {
 	
 		};
 		version = "";
-		versionStr = "0.700.1";
-		versionAr[] = {0, 700, 1};
+		versionStr = "0.700.2";
+		versionAr[] = {0, 700, 2};
 	};
 };
 class cfgFunctions {
@@ -102,45 +102,44 @@ class cfgVehicles {
 
 class Extended_InitPost_EventHandlers
 {
-       class hmg_box_ins_rifles {
+	class hmg_box_ins_rifles {
 		HMG_box_init_ins_rifles = "[_this,'rifles'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-		};
-    	class hmg_box_ins_lmg
-    	{
+	};
+	class hmg_box_ins_lmg
+	{
 		HMG_box_init_ins_lmg = "[_this,'lmg'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-    	};
-    	class hmg_box_ins_hmg
-		{
+	};
+	class hmg_box_ins_hmg
+	{
 		HMG_box_init_ins_hmg = "[_this,'hmg'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-    	};
-    	class hmg_box_ins_radio
-    	{
+	};
+	class hmg_box_ins_radio
+	{
 		HMG_box_init_ins_radio = "[_this,'radio'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-    	};
-		class hmg_box_ins_stuff
-		{
+	};
+	class hmg_box_ins_stuff
+	{
 		HMG_box_init_ins_stuff = "[_this,'stuff'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-		};
-		class hmg_box_ins_snip
-		{
+	};
+	class hmg_box_ins_snip
+	{
 		HMG_box_init_ins_snip = "[_this,'snip'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-		};
-		class LandVehicle {
-		HMG_veh_init = "[_this] call compile preprocessFileLineNumbers 'hmg_core\vehicle\clear.sqf'";
-		};
-		class hmg_box_ins_maps
-		{
+	};
+	class LandVehicle {
+		HMG_veh_init = "_this call compile preprocessFileLineNumbers 'hmg_core\vehicle\clear.sqf'";
+	};
+	class hmg_box_ins_maps
+	{
 		HMG_box_init_ins_maps = "[_this,'maps'] call compile preprocessFileLineNumbers 'hmg_core\boxes\random.sqf'";
-		};
-//		class StaticMortar {
+	};
+//	class StaticMortar {
 //		HMG_veh_init_mort = "[_this] call compile preprocessFileLineNumbers 'hmg_core\vehicle\mortars.sqf'";
-//		};
-//		class RDS_AGS_base {
+//	};
+//	class RDS_AGS_base {
 //		HMG_veh_init_ags = "[_this] call compile preprocessFileLineNumbers 'hmg_core\vehicle\ags.sqf'";
-//		};
-
-//		class Man {
-			//HMG_VIS_init = "[_this] call HMG_Core_fnc_visRange";
-		//};
+//	};
+//	class Man {
+//		HMG_VIS_init = "[_this] call HMG_Core_fnc_visRange";
+//	};
 };
 

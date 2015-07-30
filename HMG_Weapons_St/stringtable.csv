@@ -40,3 +40,5 @@ STR_HMG_Static_Load_D30_HE,Load HE Shell,Зарядить ОФ снаряд
 STR_HMG_Static_Loading_D30_HE,Loading HE Shell,Заряжаем ОФ снаряд 
 STR_HMG_Static_Load_D30_AT,Load AT Shell,Зарядить кумулятивный снаряд 
 STR_HMG_Static_Loading_D30_AT,Loading AT Shell,Заряжаем кумулятивный снаряд 
+STR_HMG_Static_LoadIgla,Load Igla Rocket,Зарядить Иглу
+STR_HMG_Static_LoadingIgla,Loading Igla Rocket,Заряжаем ракету Игла

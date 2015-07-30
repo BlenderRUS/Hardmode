@@ -16,7 +16,7 @@ class CAManBase : Man {
 			class AGM_Equipment {
 				class AGM_Para {
 					displayName = "Подготовить парашют";
-					condition = "(_player getVariable ['HMG_Para_is_on',HMG_Para_is_on]) == 1 and (backpack _player) isKindOf 'B_Parachute'";
+					condition = "(_player getVariable ['HMG_Para_is_on', 0]) == 1 and (backpack _player) isKindOf 'B_Parachute'";
 					statement = "[] call compile preprocessFileLineNumbers 'hmg_core\para\para.sqf';";
 					icon = "\hmg_core\pic\agm_para_m.paa";
 					showDisabled = 0;

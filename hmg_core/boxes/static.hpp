@@ -250,6 +250,22 @@
         		}; 
 
 		};
+		
+		class hmg_ru_igla_aa : hmg_ru_static {
+			displayName = "Игла для ОПУ Джигит";		
+			class TransportMagazines {			
+				class _xx_D30_at_out {
+					magazine = "Igla_out";
+					count = 6;
+				};
+			};
+			 class TransportBackpacks {  
+			        class _xx_HMG_VeryBigBP {  
+                			backpack = "HMG_VeryBigBP";  
+                			count = 1;  
+	               		};  
+        		}; 
+		};
 
 		class hmg_us_d30_he : hmg_ru_static {
 			displayName = "ОФ снаряды для Д-30";		
