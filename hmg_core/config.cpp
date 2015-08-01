@@ -37,7 +37,6 @@ class cfgFunctions {
 		class HMG_Core {
 			file = "hmg_core\functions";
 			class Schi;	// External class reference
-			class HMGPara;
 			class HMGVehDrop;
 			class HMGVehPara;
 			//class visRange;
@@ -82,7 +81,6 @@ class cfgVehicles {
 	};
 	#include "backpacks\backpacks.hpp"
 	#include "c130\c130j.hpp"
-	#include "modules\para.hpp"
 	#include "modules\lockBox.hpp"
 	#include "modules\canShoot.hpp"
 	#include "modules\vehpara.hpp"

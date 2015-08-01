@@ -16,19 +16,19 @@ class CAManBase : Man {
 			class AGM_Equipment {
 				class AGM_Para {
 					displayName = "Подготовить парашют";
-					condition = "(_player getVariable ['HMG_Para_is_on', 0]) == 1 and (backpack _player) isKindOf 'B_Parachute'";
+					condition = "(backpack _player) isKindOf 'B_Parachute'";
 					statement = "[] call compile preprocessFileLineNumbers 'hmg_core\para\para.sqf';";
-					icon = "\hmg_core\pic\agm_para_m.paa";
+					icon = "\hmg_core\pic\para_m.paa";
 					showDisabled = 0;
 					enableInside = 1;
 					priority = 1;
-					};
+				};
 			};
 			class AGM_Veh_Paradrop {
 				displayName = "Вызвать сброс техники";
 				condition = "(_player getVariable 'HMG_Paradrop') == 1";
 				statement = "[_player] call HMG_Core_fnc_HMGVehDrop;";
-				icon = "\hmg_core\pic\agm_para_v.paa";
+				icon = "\hmg_core\pic\para_v.paa";
 				showDisabled = 0;
 				enableInside = 1;
 				priority = 1;
