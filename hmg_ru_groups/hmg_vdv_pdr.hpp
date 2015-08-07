@@ -441,8 +441,8 @@
 		respawnLinkedItems[] = {"rhs_6b23_digi_sniper","rhs_scarf","rhs_6b28_bala","ItemCompass","ItemWatch","tf_pnr1000a", "tf_microdagr","G_Combat","ItemMap"};
 		weapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
 		respawnWeapons[] = {"rhs_weap_svds","Throw","Put","Binocular"};
-		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2","cw_item_notepad","AGM_MapTools","AGM_CableTie","ItemSMGR"};
-		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2","cw_item_notepad","AGM_MapTools","AGM_CableTie","ItemSMGR"};
+		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2" ,"AGM_MapTools","AGM_CableTie","ItemSMGR"};
+		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_pso1m2" ,"AGM_MapTools","AGM_CableTie","ItemSMGR"};
 		magazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1"};
 		respawnMagazines[] = {"rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1","rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1", "rhs_10Rnd_762x54mmR_7N1"};
 		backpack="hmg_s_sniper";
@@ -494,8 +494,8 @@
 		icon = "iconManOfficer";
 		camouflage = 1.6;
 		sensitivity = 3;
-		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","cw_item_notepad","AGM_MapTools","AGM_CableTie","ItemSMGR"};
-		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","cw_item_notepad","AGM_MapTools","AGM_CableTie","ItemSMGR"};
+		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29" ,"AGM_MapTools","AGM_CableTie","ItemSMGR"};
+		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29" ,"AGM_MapTools","AGM_CableTie","ItemSMGR"};
 		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","rhs_weap_pya","Binocular"};
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","rhs_weap_pya","Binocular"};
 		magazines[] =
@@ -615,8 +615,8 @@
 			"rhs_mag_nspn_yellow"
 		};
 		backpack = "hmg_s_RD";
-		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR" ,"AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","rhs_acc_1pn93_1","rhs_acc_1p29","ItemSMGR" ,"AGM_MapTools","AGM_CableTie"};
         linkedItems[] = {"rhs_6b28_bala","rhs_6b23_digi_6sh92_headset_mapcase","ItemMap","ItemCompass","ItemWatch","G_Combat","ItemRadio"};
 		respawnLinkedItems[] = {"rhs_6b28_bala","rhs_6b23_digi_6sh92_headset_mapcase","ItemMap","ItemCompass","ItemWatch","G_Combat","ItemRadio"};
 		fsmDanger = "rhsafrf\addons\rhs_c_troops\scripts\dangerCrew.fsm";
@@ -865,8 +865,8 @@
 		_generalMacro = "hmg_vdv_ags_s";
 		Author_Macro
 		displayName= "Наводчик АГС-30 (ЕМР)";
-		Items[] = {"FirstAidKit","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_tableags"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_ags"};
 		backpack="RDS_AGS30_Gun_Bag_CSAT";
 	};
 	class hmg_vdv_ags_n : hmg_vdv_rifleman
@@ -1104,8 +1104,8 @@
 		camouflage = 1.6;
 		sensitivity = 3;
 		
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit" ,"AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_MapTools","AGM_CableTie"};
 		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		magazines[] =

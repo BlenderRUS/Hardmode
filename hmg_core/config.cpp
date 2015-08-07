@@ -24,8 +24,8 @@ class CfgPatches {
 			"RHS_US_A2_AirImport",
 			"CUP_Weapons_WeaponsCore",
 			"tmr_core",
-			"tmr_blastfrag"
-	
+			"tmr_blastfrag",
+			"GR_Medium_Utility_Helicopters"
 		};
 		version = "";
 		versionStr = "0.700.2";

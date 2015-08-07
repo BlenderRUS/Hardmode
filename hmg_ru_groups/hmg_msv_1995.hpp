@@ -373,8 +373,8 @@
 		camouflage = 1.6;
 		sensitivity = 3;
 		
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
 		weapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		respawnWeapons[] = {"rhs_weap_ak74m_dtk","Throw","Put","CUP_hgun_Makarov","Binocular"};
 		magazines[] =
@@ -457,8 +457,8 @@
 		_generalMacro = "hmg_msv_1995_ko_gv";
 		Author_Macro
 		displayName= "Командир гранатометного взвода (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
 		linkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
 		respawnLinkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
 	};	
@@ -523,8 +523,8 @@
 		_generalMacro = "hmg_msv_1995_sergeant_go";
 		Author_Macro
 		displayName= "Командир гранатометного отделения (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
 	};
 
 	class hmg_msv_1995_driver : hmg_msv_1995_rifleman
@@ -563,8 +563,8 @@
 		_generalMacro = "hmg_msv_1995_driver_st";
 		Author_Macro
 		displayName= "Ст. механик водитель (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //hlc_rifle_aks74
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //hlc_rifle_aks74
 
@@ -650,8 +650,8 @@
 		_generalMacro = "hmg_msv_1995_ags_s";
 		Author_Macro
 		displayName= "Старший наводчик АГС-30 (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_tableags"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_ags"};
 		weapons[] = {"CUP_hgun_Makarov","Throw","Put"}; //hlc_rifle_aks74
 		respawnWeapons[] = {"CUP_hgun_Makarov","Throw","Put"}; //hlc_rifle_aks74
 		magazines[] = 		{
@@ -738,8 +738,8 @@
 		_generalMacro = "hmg_msv_1995_tank_kommander";
 		Author_Macro
 		displayName= "Командир танка (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
 		weapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //hlc_rifle_aks74
 		respawnWeapons[] = {"hlc_rifle_aks74u","CUP_hgun_Makarov","Throw","Put"}; //hlc_rifle_aks74
 
@@ -859,8 +859,8 @@
 		Author_Macro
 		displayName= "Командир миномета (ВСР-93)";
 		
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools","AGM_CableTie"};
 		weapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		backpack="RDS_Podnos_Gun_Bag_CSAT";
@@ -888,8 +888,8 @@
 		_generalMacro = "hmg_msv_1995_komvzvoda_ognevogo";
 		Author_Macro
 		displayName= "Командир огневого взвода (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools","AGM_CableTie"};
 	};
 	//отсюда должности отделения связи
 	class hmg_msv_1995_radist : hmg_msv_1995_rifleman_radist
@@ -970,8 +970,8 @@
 		_generalMacro = "hmg_msv_1995_starshii_vi4islitel";
 		Author_Macro
 		displayName= "Старший вычислитель (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14" ,"AGM_MapTools"};
 	};
 	
 	class hmg_msv_1995_komvzvoda_upravlenia : hmg_msv_1995_officer_armored
@@ -1039,8 +1039,8 @@
 		attendant =1;
 		icon="iconManMedic";
 		displayName= "Старший водитель-санитар (ВСР-93)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools"};
+		Items[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit" ,"AGM_CableTie","AGM_MapTools"};
 		linkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
 		respawnLinkedItems[] = {"SP_SSh68Helmet_Green1","V_CDF_A3_6b23_medic","ItemCompass","ItemWatch","ItemMap"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //hlc_rifle_aks74

@@ -1354,8 +1354,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_ko_gv";
 		displayName= "Командир гранатометного взвода (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
 		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
 		respawnLinkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_crewofficer","ItemCompass","ItemWatch","AGM_NVG_Gen2","ItemMap"};
 		backpack = "tf_mr3000_rhs";
@@ -1419,8 +1419,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_sergeant_go";
 		displayName= "Командир гранатометного отделения (бутан)";
-		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","cw_item_tableags"};
+		Items[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit","cw_item_notepad","AGM_CableTie","AGM_MapTools","a3ru_rangetable_ags"};
 	};
 	
 	class hmg_cdf_kmsv : hmg_cdf_officer_armored
@@ -1576,8 +1576,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_ags_s";
 		displayName= "Старший наводчик АГС-30 (бутан)";
-		Items[] = {"FirstAidKit","cw_item_tableags"};
-		RespawnItems[] = {"FirstAidKit","cw_item_tableags"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_ags"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_ags"};
 		weapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		respawnWeapons[] = {"hlc_rifle_aks74u","Throw","Put"}; //rhs_weap_ak74m_folded_dtk
 		linkedItems[] = {"H_CDF_A3_HelmetIA","V_CDF_A3_6b23_engineer","ItemCompass","ItemWatch"};
@@ -1752,8 +1752,8 @@ class CfgVehicles {
 		_generalMacro = "hmg_cdf_komandir_minometa";
 		displayName= "Командир миномета (бутан)";
 		
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
 		weapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		respawnWeapons[] = {"hlc_rifle_aks74u","Binocular","Throw","Put"};
 		backpack="RDS_Podnos_Gun_Bag_CSAT";
@@ -1778,8 +1778,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_komvzvoda_ognevogo";
 		displayName= "Командир огневого взвода (бутан)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools","AGM_CableTie"};
 	};
 	//отсюда должности отделения связи
 	class hmg_cdf_radist : hmg_cdf_rifleman_radist
@@ -1835,8 +1835,8 @@ class CfgVehicles {
 	{
 		_generalMacro = "hmg_cdf_starshii_vi4islitel";
 		displayName= "Старший вычислитель (бутан)";
-		Items[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
-		RespawnItems[] = {"FirstAidKit","cw_item_table82mm","cw_item_notepad","AGM_MapTools"};
+		Items[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools"};
+		RespawnItems[] = {"FirstAidKit","a3ru_rangetable_2b14","cw_item_notepad","AGM_MapTools"};
 	};
 	
 	class hmg_cdf_komvzvoda_upravlenia : hmg_cdf_officer_armored
