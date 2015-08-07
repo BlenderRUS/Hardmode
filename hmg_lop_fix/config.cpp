@@ -51,8 +51,8 @@ class SoldierGB;
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 	
-		linkedItems[] = {"LOP_6sh46", "LOP_H_Pakol", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Pakol", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"LOP_6sh46", "LOP_H_Pakol", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Pakol", "ItemMap", "ItemCompass", "ItemWatch"};
 		
 		backpack = "";
 	};	
@@ -68,8 +68,8 @@ class SoldierGB;
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 	
-		linkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Bandanna_blk", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Bandanna_blk", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Bandanna_blk", "ItemMap", "ItemCompass", "ItemWatch"};
 		
 		backpack = "";
 	};	
@@ -169,6 +169,10 @@ class SoldierGB;
 		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Turban", "ItemCompass"};
 		
 		backpack = "";
+	};
+	class LOP_AM_Infantry_ratelo :  LOP_AM_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_anprc155";
 	};
 	class LOP_AM_Infantry_GL : I_Soldier_GL_F {
 
@@ -290,6 +294,10 @@ class SoldierGB;
 		linkedItems[] = {"LOP_V_CarrierLite_ANA", "LOP_H_6B27M_ANA", "ItemCompass", "ItemWatch", "ItemRadio"};
 		respawnLinkedItems[] = {"LOP_V_CarrierLite_ANA", "LOP_H_6B27M_ANA", "ItemCompass", "ItemWatch", "ItemRadio"};
 		backpack = "";
+	};
+	class LOP_AA_Infantry_ratelo : LOP_AA_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_anprc155";
 	};
 	
 	class LOP_AA_Infantry_AT : I_Soldier_AT_F {
@@ -618,8 +626,8 @@ class SoldierGB;
 		respawnWeapons[] = {"rhs_weap_akm", "Throw", "Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
-		linkedItems[] = {"V_BandollierB_rgr", "H_Bandanna_sgg", "G_Aviator", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"V_BandollierB_rgr", "H_Bandanna_sgg", "G_Aviator", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"V_BandollierB_rgr", "H_Bandanna_sgg", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"V_BandollierB_rgr", "H_Bandanna_sgg", "G_Aviator", "ItemMap", "ItemCompass", "ItemWatch"};
 		backpack = "";
 	};
 	
@@ -644,8 +652,8 @@ class SoldierGB;
 		respawnWeapons[] = {"rhs_weap_akms", "Throw", "Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
-		linkedItems[] = {"V_Rangemaster_belt", "rhs_Booniehat_m81", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"V_Rangemaster_belt", "rhs_Booniehat_m81", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"V_Rangemaster_belt", "rhs_Booniehat_m81", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"V_Rangemaster_belt", "rhs_Booniehat_m81", "ItemMap", "ItemCompass", "ItemWatch"};
 		backpack = "";
 	};
 	
@@ -788,6 +796,10 @@ class SoldierGB;
 		linkedItems[] = {"LOP_6sh46", "ItemCompass"};
 		respawnLinkedItems[] = {"LOP_6sh46", "ItemCompass"};
 		backpack = "";
+	};
+	class LOP_AFR_Infantry_ratolo : LOP_AFR_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_anprc155";
 	};
 	
 	class LOP_AFR_Driver : I_Soldier_F {
@@ -1722,6 +1734,10 @@ class SoldierGB;
 		
 		backpack = "";
 	};	
+	class LOP_ChDKZ_Infantry_ratelo : LOP_ChDKZ_Infantry_Rifleman {
+	displayName = "Ratelo";
+	backpack = "tf_mr3000";
+	};	
 	class LOP_ChDKZ_Infantry_GL : I_Soldier_GL_F {
 		_generalMacro = "LOP_ChDKZ_Infantry_GL";
 		author = $STR_LOP_FULL_NAME;
@@ -2108,7 +2124,10 @@ class SoldierGB;
 		respawnLinkedItems[] = {"LOP_V_CarrierLite_TRI", "LOP_H_6B27M_TRI", "ItemCompass", "ItemWatch", "ItemRadio"};
 		backpack = "";
 	};
-	
+	class LOP_IA_Infantry_ratelo : LOP_IA_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_rt1523g";
+	};
 	class LOP_IA_Infantry_AT : I_Soldier_AT_F {
 		_generalMacro = "LOP_IA_Infantry_AT";
 		author = $STR_LOP_FULL_NAME;
@@ -2306,8 +2325,8 @@ class SoldierGB;
 		respawnWeapons[] = {"rhs_weap_akm", "Throw", "Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
-		linkedItems[] = {"LOP_6sh46", "LOP_H_Shemag_BLK", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Shemag_BLK", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"LOP_6sh46", "LOP_H_Shemag_BLK", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Shemag_BLK", "ItemMap", "ItemCompass", "ItemWatch"};
 		backpack = "";
 	};
 	
@@ -2332,8 +2351,8 @@ class SoldierGB;
 		respawnWeapons[] = {"rhs_weap_akm", "Throw", "Put"};
 		magazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
 		respawnMagazines[] = {"rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_30Rnd_762x39mm_tracer", "rhs_mag_rdg2_white", "rhs_mag_rdg2_black", "rhs_mag_rgd5", "rhs_mag_rgd5"};
-		linkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Balaclava_blk", "ItemMap", "ItemCompass"};
-		respawnLinkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Balaclava_blk", "ItemMap", "ItemCompass"};
+		linkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch"};
+		respawnLinkedItems[] = {"LOP_6sh46", "H_Cap_blk", "G_Balaclava_blk", "ItemMap", "ItemCompass", "ItemWatch"};
 		backpack = "";
 	};
 	
@@ -2480,7 +2499,10 @@ class SoldierGB;
 		respawnLinkedItems[] = {"LOP_6sh46", "LOP_H_Shemag_BLK", "ItemCompass"};
 		backpack = "";
 	};
-	
+	class LOP_ISTS_Infantry_ratelo : LOP_ISTS_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_anprc155";
+	};
 	class LOP_ISTS_Infantry_GL : I_Soldier_GL_F {
 		_generalMacro = "LOP_ISTS_Infantry_GL";
 		author = $STR_LOP_FULL_NAME;
@@ -3056,6 +3078,10 @@ class SoldierGB;
 		
 		backpack = "";
 	};	
+	class LOP_RACS_Infantry_Ratelo : LOP_RACS_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_mr3000";
+	};
 	class LOP_RACS_Infantry_AT : I_Soldier_AT_F {
 		_generalMacro = "LOP_RACS_Infantry_AT";
 		author = $STR_LOP_FULL_NAME;
@@ -3430,7 +3456,10 @@ class SoldierGB;
 		respawnLinkedItems[] = {"LOP_V_6Sh92_OLV", "LOP_H_SSh68Helmet_OLV", "ItemCompass", "ItemWatch", "ItemRadio"};
 		backpack = "";
 	};
-	
+	class LOP_SLA_Infantry_ratelo : LOP_SLA_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_rt1523g";
+	};
 	class LOP_SLA_Infantry_Pilot : rhs_msv_rifleman {
 		_generalMacro = "LOP_SLA_Infantry_Pilot";
 		author = $STR_LOP_FULL_NAME;
@@ -4205,6 +4234,10 @@ class SoldierGB;
 		
 		backpack = "";
 	};	
+	class LOP_UA_Infantry_ratelo : LOP_UA_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_anprc155";
+	};	
 	class LOP_UA_Infantry_GL : I_Soldier_GL_F {
 		_generalMacro = "LOP_UA_Infantry_GL";
 		author = $STR_LOP_FULL_NAME;
@@ -4361,6 +4394,10 @@ class SoldierGB;
 		
 		backpack = "";
 	};	
+	class LOP_US_Infantry_ratelo : LOP_US_Infantry_Rifleman {
+		displayName = "Ratelo";
+		backpack = "tf_mr3000";
+		};	
 	class LOP_US_Infantry_TL : rhs_msv_sergeant {
 		_generalMacro = "LOP_US_Infantry_TL";
 		author = $STR_LOP_FULL_NAME;
