@@ -204,8 +204,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2005_mortSL : hmg_usmc_w_2005_SL
 	{
 		displayName= "Mortar Section leader (Marpat)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds"};
 		linkedItems[] = {"TRYK_V_ArmorVest_khk","rhsusf_lwh_helmet_marpatwd","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk","rhsusf_lwh_helmet_marpatwd","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP", "ItemMap"};
 	};
@@ -337,8 +337,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2005_scorp : hmg_usmc_w_2005_sl
 	{
 		displayName = "Senior corpsman (Marpat)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		linkedItems[] = {"rhsusf_spc","rhsusf_lwh_helmet_marpatwd","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_spc","rhsusf_lwh_helmet_marpatwd","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
@@ -750,8 +750,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2005_mortSL : hmg_usmc_d_2005_SL
 	{
 		displayName= "Mortar Section leader (MarpatDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
 		linkedItems[] = {"TRYK_V_ArmorVest_khk","rhsusf_lwh_helmet_marpatd","ItemCompass","ItemWatch","G_Combat", "NVGoggles","ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk","rhsusf_lwh_helmet_marpatd","ItemCompass","ItemWatch","G_Combat", "NVGoggles", "ItemMap"};
 	};
@@ -877,8 +877,8 @@ class hmg_usmc_w_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2005_scorp : hmg_usmc_d_2005_sl
 	{
 		displayName = "Senior corpsman (MarpatDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		linkedItems[] = {"rhsusf_spc","rhsusf_lwh_helmet_marpatd","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_spc","rhsusf_lwh_helmet_marpatd","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
@@ -1286,8 +1286,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_s_2005_mortSL : hmg_usmc_s_2005_SL
 	{
 		displayName= "Mortar Section leader (Marpat snow)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "ItemMap", "itemradio", "AGM_EarBuds" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "ItemMap", "itemradio", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "ItemMap", "itemradio", "AGM_EarBuds" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "ItemMap", "itemradio", "AGM_EarBuds" };
 		linkedItems[] = {"TRYK_V_ArmorVest_khk","MEF_Snow_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk","MEF_Snow_Helmet_LWH","ItemCompass","ItemWatch","G_Combat", "NVGoggles_INDEP"};
 	};
@@ -1419,8 +1419,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_s_2005_scorp : hmg_usmc_s_2005_sl
 	{
 		displayName = "Senior corpsman (Marpat snow)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		linkedItems[] = {"rhsusf_spc","MEF_Snow_Helmet_LWH","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		respawnLinkedItems[] = {"rhsusf_spc","MEF_Snow_Helmet_LWH","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemGPS", "ItemMap"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
@@ -1680,8 +1680,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker", "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker", "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -1725,8 +1725,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_wdl", "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_wdl", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_wdl", "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_wdl", "AGM_EarBuds"};
 		backpack = "tf_rt1523g_black";
 }
 	class hmg_usmc_w_2015_sniper : hmg_usmc_w_2005
@@ -1775,8 +1775,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -1784,8 +1784,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2015_sniperS : hmg_usmc_w_2015_sniper
 	{
 		displayName = "Sniper (silent) (Marpat)";
-		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9", "AGM_EarBuds" };
 		weapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		respawnWeapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","ClaymoreDirectionalMine_Remote_Mag","HandGrenade","HandGrenade","rhsusf_20Rnd_762x51_m118_special_Mag",  "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag","rhsusf_20Rnd_762x51_m993_Mag", "RH_20Rnd_762x51_LFMJSB", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag"};
@@ -1837,8 +1837,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10","Kestrel4500","ATragMX","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10","Kestrel4500","ATragMX","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10" ,"ATragMX","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10" ,"ATragMX","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_grass","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -1898,8 +1898,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam" , "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam" , "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam" , "AGM_EarBuds"};
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		backpack = "tf_rt1523g_rhs";
@@ -1942,8 +1942,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_des","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_des","ItemcTabHCam", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_des","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_des","ItemcTabHCam", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_des","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_des","ItemcTabHCam", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_des","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_des","ItemcTabHCam", "AGM_EarBuds" };
 		backpack = "tf_rt1523g_black";
 };
 	class hmg_usmc_d_2015_sniper : hmg_usmc_d_2005
@@ -1992,8 +1992,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -2001,8 +2001,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_2015_sniperS : hmg_usmc_d_2015_sniper
 	{
 		displayName = "Sniper (silent) (MarpatDesert)";
-		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9", "AGM_EarBuds" };
 		weapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		respawnWeapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","ClaymoreDirectionalMine_Remote_Mag","HandGrenade","HandGrenade","rhsusf_20Rnd_762x51_m118_special_Mag",  "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag","rhsusf_20Rnd_762x51_m993_Mag", "RH_20Rnd_762x51_LFMJSB", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag"};
@@ -2054,8 +2054,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2", "RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2", "RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2", "RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2", "RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","H_HelmetB_desert","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -2099,8 +2099,7 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A", "RH_HBLM", "AGM_EarBuds" };
 		weapons[] = {"RH_M27IAR","Throw","Put"};
 		respawnWeapons[] = {"RH_M27IAR","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
+		backpack="MEF_Wood_Kitbag_AAR";
 	};
 	class hmg_usmc_w_2015_TL : hmg_usmc_w_2015_rifleman
 	{
@@ -2209,8 +2208,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2015_mortSL : hmg_usmc_w_2015_SL
 	{
 		displayName= "Mortar Section leader (Marpat)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds"};
 	};
 	class hmg_usmc_w_2015_mg_tl : hmg_usmc_w_2015_rifleman
 	{
@@ -2253,8 +2252,8 @@ class hmg_usmc_s_2005 : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_2015_mortL : hmg_usmc_w_2015_rifleman
 	{
 	displayName= "Mortar Squad leader/Gunner (Marpat)";
-	Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
-	respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
+	Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
+	respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
 	weapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};
 	respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};		
 	backpack = "RDS_M252_Gun_Bag_FIA";
@@ -2338,8 +2337,7 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A", "RH_HBLM", "AGM_EarBuds"};
 		weapons[] = {"RH_M27IAR","Throw","Put"};
 		respawnWeapons[] = {"RH_M27IAR","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
+		backpack="MEF_Des_Tactical_AAR";
 	};
 	class hmg_usmc_d_2015_TL : hmg_usmc_d_2015_rifleman
 	{
@@ -2367,7 +2365,7 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put"};
 		backpack = "tf_rt1523g_big_rhs";
 	};
-	class hmg_usmc_d_2015_pltsrg : hmg_usmc_w_2015_SL
+	class hmg_usmc_d_2015_pltsrg : hmg_usmc_d_2015_SL
 	{
 		displayName= "Platoon sergeant (MarpatDesert)";
 		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","AGM_MapTools", "rhsusf_acc_anpeq15A", "itemradio", "AGM_EarBuds"};
@@ -2448,8 +2446,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_d_2015_mortSL : hmg_usmc_d_2015_SL
 	{
 		displayName= "Mortar Section leader (MarpatDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
 	};
 	class hmg_usmc_d_2015_mg_tl : hmg_usmc_d_2015_rifleman
 	{
@@ -2491,8 +2489,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_d_2015_mortL : hmg_usmc_d_2015_rifleman
 	{
 		displayName= "Mortar Squad leader/Gunner (MarpatDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
 		weapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};
 		respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};
 		backpack = "RDS_M252_Gun_Bag_FIA";
@@ -2595,8 +2593,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4","Kestrel4500","CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC","rhsusf_acc_anpeq15A","RH_qdss_nt4" ,"CUP_muzzle_snds_M9","AGM_M26_Clacker","ItemcTabHCam", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -2640,8 +2638,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_wdl","ItemcTabHCam", "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker","Kestrel4500","RH_HBLM_wdl","ItemcTabHCam", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_wdl","ItemcTabHCam", "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","RH_m3lr","rhsusf_acc_anpeq15A","RH_spr_mbs_wdl","CUP_muzzle_snds_M9","AGM_M26_Clacker" ,"RH_HBLM_wdl","ItemcTabHCam", "AGM_EarBuds"};
 		backpack = "tf_rt1523g_black";
 }
 	class hmg_usmc_s_2015_sniper : hmg_usmc_s_2005
@@ -2690,8 +2688,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10","Kestrel4500","CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4","RH_anpvs10" ,"CUP_muzzle_snds_M9","AGM_Clacker", "AGM_EarBuds" };
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -2699,8 +2697,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_s_2015_sniperS : hmg_usmc_s_2015_sniper
 	{
 		displayName = "Sniper (silent) (Marpat snow)";
-		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9" , "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker","Kestrel4500","CUP_muzzle_snds_M9" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9" , "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage","AGM_Bandage", "RH_m110sd_t", "RH_anpvs10", "rhsusf_acc_LEUPOLDMK4", "rhsusf_acc_anpeq15A", "RH_TD_ACB","AGM_Clacker" ,"CUP_muzzle_snds_M9" , "AGM_EarBuds"};
 		weapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		respawnWeapons[] = {"RH_m110","Throw","Put", "CUP_hgun_M9", "AGM_Vector"};
 		magazines[] = {"CUP_15Rnd_9x19_M9","ClaymoreDirectionalMine_Remote_Mag","HandGrenade","HandGrenade","rhsusf_20Rnd_762x51_m118_special_Mag",  "rhsusf_20Rnd_762x51_m118_special_Mag", "rhsusf_20Rnd_762x51_m993_Mag","rhsusf_20Rnd_762x51_m993_Mag", "RH_20Rnd_762x51_LFMJSB", "rhsusf_20Rnd_762x51_m993_Mag", "rhsusf_20Rnd_762x51_m118_special_Mag"};
@@ -2752,8 +2750,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 				"CUP_15Rnd_9x19_M9"				
 			};
 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10","Kestrel4500","ATragMX","CUP_muzzle_snds_M9","AGM_Clacker" , "AGM_EarBuds"};
-		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10","Kestrel4500","ATragMX","CUP_muzzle_snds_M9","AGM_Clacker" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10" ,"ATragMX","CUP_muzzle_snds_M9","AGM_Clacker" , "AGM_EarBuds"};
+		RespawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_LEUPOLDMK4_2","RH_anpvs10" ,"ATragMX","CUP_muzzle_snds_M9","AGM_Clacker" , "AGM_EarBuds"};
 
 		linkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
 		respawnLinkedItems[] = {"TRYK_V_ArmorVest_khk2","SP_ECHHelmet_White1","ItemCompass","ItemWatch","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "itemradio", "ItemMap"};
@@ -2797,8 +2795,7 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","rhsusf_acc_ACOG3_USMC", "rhsusf_acc_anpeq15A", "RH_HBLM", "AGM_EarBuds" };
 		weapons[] = {"RH_M27IAR","Throw","Put"};
 		respawnWeapons[] = {"RH_M27IAR","Throw","Put"};
-		magazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
-		respawnMagazines[] = {"RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red","RH_30Rnd_556x45_Mk318",  "RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318","RH_30Rnd_556x45_Mk318", "RH_30Rnd_556x45_Mk318", "30Rnd_556x45_Stanag_Tracer_Red", "30Rnd_556x45_Stanag_Tracer_Red"};
+		backpack="MEF_snow_Kitbag_AAR";
 	};
 	class hmg_usmc_s_2015_TL : hmg_usmc_s_2015_rifleman
 	{
@@ -2907,8 +2904,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_s_2015_mortSL : hmg_usmc_s_2015_SL
 	{
 		displayName= "Mortar Section leader (Marpat snow)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" , "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" , "AGM_EarBuds"};
 	};
 	class hmg_usmc_s_2015_mg_tl : hmg_usmc_s_2015_rifleman
 	{
@@ -2950,8 +2947,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_s_2015_mortL : hmg_usmc_s_2015_rifleman
 	{
 	displayName= "Mortar Squad leader/Gunner (Marpat snow)";
-	Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
-	respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "cw_item_table82mm_252", "AGM_EarBuds"};
+	Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
+	respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage", "a3ru_rangetable_m252", "AGM_EarBuds"};
 	weapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};
 	respawnWeapons[] = {"rhs_weap_m4_grip","Throw","Put", "Rangefinder"};		
 	backpack = "RDS_M252_Gun_Bag_FIA";
@@ -2986,8 +2983,8 @@ class hmg_usmc_d_2015_rifleman : hmg_usmc_w_2015_rifleman
 	class hmg_usmc_s_2015_scorp : hmg_usmc_s_2015_sl
 	{
 		displayName = "Senior corpsman (Marpat snow)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		linkedItems[] = {"MEF_Vest_Tan_Medical","SP_ECHHelmet_White1","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "ItemMap"};
 		respawnLinkedItems[] = {"MEF_Vest_Tan_Medical","SP_ECHHelmet_White1","ItemCompass","G_Combat", "rhsusf_ANPVS_14", "ItemMicroDAGR", "ItemMap"};
 		weapons[] = {"rhs_weap_m4_grip","Throw","Put"};
@@ -3174,8 +3171,8 @@ class hmg_usmc_w_1995_rifleman : rhsusf_army_ocp_rifleman
 	class hmg_usmc_w_1995_mortSL : hmg_usmc_w_1995_MGSL
 	{
 		displayName= "Mortar Section leader (Woodland)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds" };
 		linkedItems[] = {"V_I_G_resistanceLeader_F","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "NVGoggles_INDEP", "ItemMap"};
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "NVGoggles_INDEP", "ItemMap"};
 	};
@@ -3305,8 +3302,8 @@ class hmg_usmc_w_1995_rifleman : rhsusf_army_ocp_rifleman
 // Corpsman team Woodland	1995
 	class hmg_usmc_w_1995_scorp : hmg_usmc_w_1995_sl{
 		displayName = "Senior corpsman (Woodland)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put"};
 		magazines[] = 
@@ -3710,8 +3707,8 @@ class hmg_usmc_d_1995_rifleman : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_1995_mortSL : hmg_usmc_d_1995_MGSL
 	{
 		displayName= "Mortar Section leader (desert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio", "AGM_EarBuds" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio", "AGM_EarBuds" };
 		linkedItems[] = {"V_I_G_resistanceLeader_F","US_1990_TricolorDesert_PASGTHelmet1","ItemCompass","ItemWatch" , "NVGoggles_INDEP", "ItemMap"};
 		respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","US_1990_TricolorDesert_PASGTHelmet1","ItemCompass","ItemWatch" , "NVGoggles_INDEP", "ItemMap"};
 	};
@@ -3841,8 +3838,8 @@ class hmg_usmc_d_1995_rifleman : rhsusf_army_ocp_rifleman
 // Corpsman team Woodland	1995
 	class hmg_usmc_d_1995_scorp : hmg_usmc_d_1995_sl{
 		displayName = "Senior corpsman (desert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad", "AGM_EarBuds"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" , "AGM_EarBuds"};
 		weapons[] = {"CUP_hgun_M9","Throw","Put"};
 		respawnWeapons[] = {"CUP_hgun_M9","Throw","Put"};
 		magazines[] = 
@@ -4153,8 +4150,8 @@ class hmg_usmc_d_1985_rifleman : rhsusf_army_ocp_rifleman
 		displayName= "Squad leader (desert)";
 		weapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
 		respawnWeapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap", "itemradio", "tf_microdagr"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2" , "ItemMap", "itemradio", "tf_microdagr"};
 	};
@@ -4254,8 +4251,8 @@ class hmg_usmc_d_1985_rifleman : rhsusf_army_ocp_rifleman
 	class hmg_usmc_d_1985_mortSL : hmg_usmc_d_1985_MGSL
 	{
 		displayName= "Mortar Section leader (desert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 	};
@@ -4401,8 +4398,8 @@ class hmg_usmc_d_1985_rifleman : rhsusf_army_ocp_rifleman
 // Corpsman team desert	1985
 	class hmg_usmc_d_1985_scorp : hmg_usmc_d_1985_sl{
 		displayName = "Senior corpsman (desert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
 		weapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		respawnWeapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		magazines[] = 
@@ -4677,8 +4674,8 @@ class hmg_usmc_w_1985_rifleman : hmg_usmc_w_1995_rifleman
 		displayName= "Squad leader (Woodland)";
 		weapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
 		respawnWeapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap", "itemradio", "tf_microdagr"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2" , "ItemMap", "itemradio", "tf_microdagr"};
 	};
@@ -4778,8 +4775,8 @@ class hmg_usmc_w_1985_rifleman : hmg_usmc_w_1995_rifleman
 	class hmg_usmc_w_1985_mortSL : hmg_usmc_w_1985_MGSL
 	{
 		displayName= "Mortar Section leader (Woodland)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_Woodland_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 	};
@@ -4925,8 +4922,8 @@ class hmg_usmc_w_1985_rifleman : hmg_usmc_w_1995_rifleman
 // Corpsman team Woodland	1985
 	class hmg_usmc_w_1985_scorp : hmg_usmc_w_1985_sl{
 		displayName = "Senior corpsman (Woodland)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
 		weapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		respawnWeapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		magazines[] = 
@@ -5205,8 +5202,8 @@ class hmg_usmc_dn_1985_rifleman : rhsusf_army_ocp_rifleman
 		displayName= "Squad leader (NightDesert)";
 		weapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
 		respawnWeapons[] = {"RH_M16A2","Throw","Put" , "Binocular"}; 
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage" ,"cw_item_notepad","AGM_CableTie","AGM_MapTools"   };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage"  ,"AGM_CableTie","AGM_MapTools"   };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap", "itemradio", "tf_microdagr"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2" , "ItemMap", "itemradio", "tf_microdagr"};
 	};
@@ -5306,8 +5303,8 @@ class hmg_usmc_dn_1985_rifleman : rhsusf_army_ocp_rifleman
 	class hmg_usmc_dn_1985_mortSL : hmg_usmc_dn_1985_MGSL
 	{
 		displayName= "Mortar Section leader (NightDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "cw_item_table82mm_252","cw_item_notepad", "itemradio" };
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools", "a3ru_rangetable_m252" , "itemradio" };
 		linkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 		respawnLinkedItems[] = {"V_HarnessO_brn","US_1981_DesertChocolateChip_PASGTHelmet1","ItemCompass","ItemWatch" , "AGM_NVG_Gen2", "ItemMap"};
 	};
@@ -5453,8 +5450,8 @@ class hmg_usmc_dn_1985_rifleman : rhsusf_army_ocp_rifleman
 // Corpsman team desert	1985
 	class hmg_usmc_dn_1985_scorp : hmg_usmc_dn_1985_sl{
 		displayName = "Senior corpsman (NightDesert)";
-		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
-		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools","cw_item_notepad"};
+		Items[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
+		respawnItems[] = {"AGM_Bandage", "AGM_Bandage", "AGM_Bandage","AGM_CableTie", "AGM_MapTools" };
 		weapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		respawnWeapons[] = {"rhsusf_weap_m1911a1","Throw","Put"};
 		magazines[] = 

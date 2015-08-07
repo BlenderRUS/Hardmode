@@ -579,7 +579,7 @@ class MEF_Wood_Kitbag_AAR: B_Kitbag_Base
 		class _xx_rhs_mag_30Rnd_556x45_Mk318_Stanag
 		{
 			magazine = "rhs_mag_30Rnd_556x45_Mk318_Stanag";
-			count = 16;
+			count = 15;
 		};
 		class _xx_30Rnd_556x45_Stanag_Tracer_Red
 		{
