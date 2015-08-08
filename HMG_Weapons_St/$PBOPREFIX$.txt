@@ -1,5 +1,0 @@
-///////<HEADER>///////
-prefix=hmg_weapons_st
-Pbo Type is: Arma Addon
-Sha: '06C3A8BCEBACE3CFA86CE4C73CE3DE31845410E1'
-//////</HEADER>//////
