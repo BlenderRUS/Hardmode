@@ -41,22 +41,25 @@ class StrykerBase_DG1DES: wheeled_APC
 	};
 class RHS_UH60_Base;
 class RHS_UH60M_base : RHS_UH60_Base {
-radartype = 8;
+	radartype = 8;
 };
 class Heli_Transport_02_base_F;
 class RHS_CH_47F_base: Heli_Transport_02_base_F {
-radartype = 8;
+	radartype = 8;
 };
 class GR_Bell412_base;
 class GR_Bell412_1_base : GR_Bell412_base {
-radarType = 8;
+	radarType = 8;
 };
 class GR_UH1N_base;
 class GR_UH1N_1_base : GR_UH1N_base {
-radarType = 8;
+	radarType = 8;
 };
 class GR_UH1H_base;
 class GR_UH1H_1_base : GR_UH1H_base {
-radarType = 8;
+	radarType = 8;
 };
-	
+class Plane;
+class sab_an2_BASE: Plane {
+	radarType = 8;
+};
