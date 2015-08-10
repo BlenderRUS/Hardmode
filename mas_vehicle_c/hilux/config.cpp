@@ -1015,7 +1015,7 @@ class CfgVehicles {
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
 				gunnerForceOptics = 0;
-				weapons[] = {"RHS_M2_HMG"};
+				weapons[] = {"RHS_M2"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {};
 				gunnerAction = "mas_Hilux_Gunner";
@@ -1040,17 +1040,17 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = RHS_M2_HMG;
+				weapon = RHS_M2;
 			};
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = RHS_M2_HMG;
+				weapon = RHS_M2;
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = RHS_M2_HMG;
+				weapon = RHS_M2;
 			};
 		};
 		hiddenSelectionsTextures[] = {"\mas_cars\hilux\data\coyota_trup3_co.paa"};

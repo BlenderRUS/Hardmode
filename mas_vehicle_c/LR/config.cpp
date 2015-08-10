@@ -286,7 +286,7 @@ class CfgVehicles {
 				castGunnerShadow = 1;
 				viewGunnerInExternal = 1;
 				gunnerForceOptics = 0;
-				weapons[] = {RHS_M2_HMG};
+				weapons[] = {RHS_M2};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {"100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow", "100Rnd_127x99_mag_Tracer_Yellow"};
 				gunnerAction = "mas_LR_Gunner_EP1";
@@ -1151,7 +1151,7 @@ class CfgVehicles {
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
 				gunnerForceOptics = 0;
-				weapons[] = {"RHS_M2_HMG"};
+				weapons[] = {"RHS_M2"};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				magazines[] = {};
 				gunnerAction = "mas_HMMWV_Gunner03lr";
@@ -1211,12 +1211,12 @@ class CfgVehicles {
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = "RHS_M2_HMG";
+				weapon = "RHS_M2";
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = "RHS_M2_HMG";
+				weapon = "RHS_M2";
 			};
 		};
 		hiddenSelections[] = {"Camo1"};
@@ -1352,7 +1352,7 @@ class CfgVehicles {
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
 				gunnerForceOptics = 0;
-				weapons[] = {"Rhs_weap_TOW_Launcher_static"};
+				weapons[] = {"A3ru_weap_TOW_launcher"};
 				magazines[] = {};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				gunnerAction = "mas_HMMWV_Gunner03lr";
