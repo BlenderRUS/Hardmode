@@ -1206,7 +1206,7 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = "RHS_M2_HMG";
+				weapon = "RHS_M2";
 			};
 			
 			class ReloadMagazine {
@@ -1251,7 +1251,7 @@ class CfgVehicles {
 				discreteDistance[] = {100, 200, 300, 400, 500, 600, 800, 1000, 1200, 1500};
 				discreteDistanceInitIndex = 2;
 				gunnerForceOptics = 0;
-				weapons[] = {"RHS_MK19_HMG"};
+				weapons[] = {"RHS_MK19"};
 				magazines[] = {};
 				soundServo[] = {"A3\sounds_f\dummysound", "db-40", 1.0, 10};
 				gunnerAction = "mas_HMMWV_Gunner03lr";
@@ -1306,17 +1306,17 @@ class CfgVehicles {
 		class AnimationSources : AnimationSources {
 			class ReloadAnim {
 				source = "reload";
-				weapon = "RHS_MK19_HMG";
+				weapon = "RHS_MK19";
 			};
 			
 			class ReloadMagazine {
 				source = "reloadmagazine";
-				weapon = "RHS_MK19_HMG";
+				weapon = "RHS_MK19";
 			};
 			
 			class Revolving {
 				source = "revolving";
-				weapon = "RHS_MK19_HMG";
+				weapon = "RHS_MK19";
 			};
 		};
 		hiddenSelections[] = {"Camo1"};
