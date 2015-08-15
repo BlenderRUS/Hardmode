@@ -5,7 +5,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = { "lop_main", "lop_faction_afr", "lop_faction_aa", "lop_faction_cdf","lop_faction_am", "lop_faction_chdkz", "lop_faction_ia","lop_faction_pmc","lop_faction_racs","lop_faction_sla", "lop_faction_ua", "lop_faction_us"}; // Требуемые нашим патчем аддоны для предзагрузки
+		requiredAddons[] = { "lop_main", "lop_faction_afr", "lop_faction_aa", "lop_faction_cdf","lop_faction_am", "lop_faction_chdkz", "lop_faction_ia","lop_faction_pmc","lop_faction_racs","lop_faction_sla", "lop_faction_ua", "lop_faction_us", "rhs_c_troops"}; // Требуемые нашим патчем аддоны для предзагрузки
 		version = "0.1"; // Версия
 		versionStr = "0.1"; // Версия в строковом варианте (необязательно, используется CBA)
 		versionAr[] = {0, 1}; // Версия в виде массива (необязательно, используется CBA)
@@ -14,6 +14,159 @@ class CfgPatches
 		description = "Модифицируем ЛОП"; // Описание (необязательно, используется CBA)
 	};
 }; 
+
+class cfgWeapons {
+		class Vest_Camo_Base;	// External class reference
+	class rhs_6b23;
+	class rhs_6b23_6sh92;
+	class rhs_6sh92_radio;
+	class rhs_6sh92_vog;
+	class rhs_6sh92;
+	class rhs_6b23_crewofficer;
+	class rhs_6b23_rifleman;
+	class rhs_6b23_medic;
+	class LOP_V_6B23_CDF : rhs_6b23 {
+		_generalMacro = "LOP_V_6B23_CDF";
+		author = $STR_LOP_FULL_NAME;
+	
+		scope = 2;
+		displayName = "6B23 CDF";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};
+	class LOP_V_6B23_OLV : LOP_V_6B23_CDF {
+		_generalMacro = "LOP_V_6B23_OLV";
+		author = $STR_LOP_FULL_NAME;
+	
+		scope = 2;
+		displayName = "6B23 Olive";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};
+	class LOP_V_6B23_6Sh92_CDF : rhs_6b23_6sh92 {
+		_generalMacro = "LOP_V_6B23_6SH92_CDF";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 CDF (6Sh92)";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};	
+	class LOP_V_6B23_6Sh92_OLV : LOP_V_6B23_6Sh92_CDF {
+		_generalMacro = "LOP_V_6B23_6Sh92_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 Olive (6Sh92)";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};
+	class LOP_V_6B23_CrewOfficer_CDF : rhs_6b23_crewofficer {
+		_generalMacro = "LOP_V_6B23_CrewOfficer_CDF";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 CDF (Crew Officer)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};	
+	class LOP_V_6B23_CrewOfficer_OLV : LOP_V_6B23_CrewOfficer_CDF {
+		_generalMacro = "LOP_V_6B23_CrewOfficer_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 Olive (Crew Officer)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};	
+	class LOP_V_6B23_Rifleman_CDF : rhs_6b23_rifleman {
+		_generalMacro = "LOP_V_6B23_Rifleman_CDF";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 CDF (Rifleman)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};	
+	class LOP_V_6B23_Rifleman_OLV : LOP_V_6B23_Rifleman_CDF {
+		_generalMacro = "LOP_V_6B23_Rifleman_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 Olive (Rifleman)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};	
+	class LOP_V_6B23_Medic_CDF : rhs_6b23_medic {
+		_generalMacro = "LOP_V_6B23_Medic_CDF";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 CDF (Medic)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};	
+	class LOP_V_6B23_Medic_OLV : LOP_V_6B23_Medic_CDF {
+		_generalMacro = "LOP_V_6B23_Rifleman_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6B23 Olive (Medic)";
+
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};	
+	class LOP_V_6Sh92_Vog_OLV : rhs_6sh92_vog {
+		_generalMacro = "LOP_V_6Sh92_Vog_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6Sh92 (VOG) Olive";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};	
+	class LOP_V_6Sh92_Radio_OLV : rhs_6sh92_radio {
+		_generalMacro = "LOP_V_6Sh92_Radio_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6Sh92 (Radio) Olive";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};	
+	class LOP_V_6Sh92_CDF : rhs_6sh92 {
+		_generalMacro = "LOP_V_6B23_6Sh92_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6Sh92 CDF";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_cdf_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_cdf_co.paa"};
+	};	
+	class LOP_V_6Sh92_OLV : LOP_V_6Sh92_CDF {
+		_generalMacro = "LOP_V_6Sh92_OLV";
+		author = $STR_LOP_FULL_NAME;
+		
+		scope = 2;
+		displayName = "6Sh92 Olive";
+		
+		hiddenSelections[] = {"Camo1", "Camo2"};
+		hiddenSelectionsTextures[] = {"lop_faction_cdf\data\6b23_olv_co.paa", "lop_faction_cdf\data\gearpack1_6sh92_olv_co.paa"};
+	};
+};
+
 
 class CfgVehicles {
 class SoldierGB;
