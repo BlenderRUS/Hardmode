@@ -10,12 +10,9 @@ class RHS_M2_HMG: RHS_M2  {
 };
 */
 
-class B_mas_cars_LR_BASE :Car_F {
-	class AGM_Actions;
-};
-
+class B_mas_cars_LR_BASE: Car_F {};
 class B_mas_cars_LR_M2 : B_mas_cars_LR_BASE {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -29,7 +26,7 @@ class B_mas_cars_LR_M2 : B_mas_cars_LR_BASE {
 };
 
 class B_mas_cars_LR_Mk19 : B_mas_cars_LR_M2 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadMk19";
 			condition = "[_this select 0, 'Mk19_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -43,7 +40,7 @@ class B_mas_cars_LR_Mk19 : B_mas_cars_LR_M2 {
 };
 
 class B_mas_cars_LR_TOW : B_mas_cars_LR_M2 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadTOW";
 			condition = "[_this select 0, 'TOW_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -57,7 +54,7 @@ class B_mas_cars_LR_TOW : B_mas_cars_LR_M2 {
 };
 
 class B_mas_cars_LR_SPG9 : B_mas_cars_LR_TOW {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadPG9";
 			condition = "[_this select 0, 'PG9_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -80,7 +77,7 @@ class B_mas_cars_LR_SPG9 : B_mas_cars_LR_TOW {
 };
 
 class I_mas_cars_LR_soft_M2 : B_mas_cars_LR_M2 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -93,7 +90,7 @@ class I_mas_cars_LR_soft_M2 : B_mas_cars_LR_M2 {
 	};
 };
 class I_mas_cars_LR_soft_Mk19 : B_mas_cars_LR_Mk19 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadMk19";
 			condition = "[_this select 0, 'Mk19_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -107,7 +104,7 @@ class I_mas_cars_LR_soft_Mk19 : B_mas_cars_LR_Mk19 {
 };
 
 class I_mas_cars_LR_soft_TOW : B_mas_cars_LR_TOW {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadTOW";
 			condition = "[_this select 0, 'TOW_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -120,7 +117,7 @@ class I_mas_cars_LR_soft_TOW : B_mas_cars_LR_TOW {
 	};
 };
 class I_mas_cars_LR_soft_SPG9 : B_mas_cars_LR_SPG9 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadPG9";
 			condition = "[_this select 0, 'PG9_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -142,12 +139,9 @@ class I_mas_cars_LR_soft_SPG9 : B_mas_cars_LR_SPG9 {
 	};
 };
 
-class B_mas_cars_Hilux_Base :Car_F {
-	class AGM_Actions;
-};
-
+class B_mas_cars_Hilux_Base: Car_F {};
 class B_mas_cars_Hilux_MG : B_mas_cars_Hilux_Base {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_Load50x127";
 			condition = "[_this select 0, 'RDS_KORD_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -160,7 +154,7 @@ class B_mas_cars_Hilux_MG : B_mas_cars_Hilux_Base {
 	};
 };
 class B_mas_cars_Hilux_M2 : B_mas_cars_Hilux_MG {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -173,7 +167,7 @@ class B_mas_cars_Hilux_M2 : B_mas_cars_Hilux_MG {
 	};
 };
 class B_mas_cars_Hilux_AGS30 : B_mas_cars_Hilux_Base {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_Load";
 			condition = "[_this select 0, 'RDS_29Rnd_30mm_AGS30_out', 1, 'RDS_AGS30'] call HMG_Static_fnc_CheckConditionsGunner";
@@ -187,7 +181,7 @@ class B_mas_cars_Hilux_AGS30 : B_mas_cars_Hilux_Base {
 };
 
 class B_mas_cars_Hilux_SPG9 : B_mas_cars_Hilux_Base {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadPG9";
 			condition = "[_this select 0, 'PG9_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -208,15 +202,14 @@ class B_mas_cars_Hilux_SPG9 : B_mas_cars_Hilux_Base {
 		};
 	};
 };
-class Tank_F;
-class APC_Tracked_02_base_F : Tank_F {
+
+class APC_Tracked_02_base_F: Tank_F {
 		class Turrets;
 		class MainTurret;
-		class AGM_Actions;
-	};
+};
 	
 class rhsusf_m113tank_base : APC_Tracked_02_base_F {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_Load";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsCommander";
@@ -235,14 +228,21 @@ class rhsusf_m113tank_base : APC_Tracked_02_base_F {
 	};
 
 };
+
+//class MRAP_01_base_F: Car_F {};
+//class rhsusf_hmmwe_base: MRAP_01_base_F {};
+//class rhsusf_m998_w_2dr: rhsusf_hmmwe_base {};
+//class rhsusf_m998_w_4dr: rhsusf_m998_w_2dr {};
+//class rhsusf_m998_w_4dr_halftop: rhsusf_m998_w_4dr {};
+//class rhsusf_m998_w_4dr_fulltop: rhsusf_m998_w_4dr_halftop {};
 class rhsusf_m998_w_4dr_fulltop;
 class rhsusf_m1025_w: rhsusf_m998_w_4dr_fulltop {
-	class AGM_Actions; 
+	class ACE_SelfActions;
 	class Turrets;
 	class MainTurret;
-	};
+};
 class rhsusf_m1025_w_m2: rhsusf_m1025_w {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadM2";
 			condition = "[_this select 0, 'M2_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";
@@ -261,7 +261,7 @@ class rhsusf_m1025_w_m2: rhsusf_m1025_w {
 	};
 };
 class rhsusf_m1025_w_mk19: rhsusf_m1025_w_m2 {
-	class AGM_Actions : AGM_Actions {
+	class ACE_SelfActions: ACE_SelfActions {
 		class HMG_LoadAmmo1 {
 			displayName = "$STR_HMG_Static_LoadMk19";
 			condition = "[_this select 0, 'Mk19_cass_out', 1] call HMG_Static_fnc_CheckConditionsGunner";

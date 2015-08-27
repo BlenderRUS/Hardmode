@@ -17,8 +17,8 @@ if ((count _this) == 2) then {
 	(count magazines (_this select 0)) < (_this select 1)
 } else {
 	if ((count _this) == 4) then {
-		((_this select 1) in (magazines AGM_Player)) && ((_this select 0) ammo (_this select 3) < (_this select 2)) && (!isNull ((_this select 0) turretUnit [0]))
+		((_this select 1) in (magazines ACE_Player)) && ((_this select 0) ammo (_this select 3) < (_this select 2)) && (!isNull ((_this select 0) turretUnit [0]))
 	} else {
-		((_this select 1) in (magazines AGM_Player)) && ((count magazines (_this select 0)) < (_this select 2)) && (!isNull ((_this select 0) turretUnit [0]))
+		((_this select 1) in (magazines ACE_Player)) && ((count magazines (_this select 0)) < (_this select 2)) && (!isNull ((_this select 0) turretUnit [0]))
 	}
 }

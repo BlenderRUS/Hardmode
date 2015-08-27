@@ -1,7 +1,7 @@
 //@todo Брать имена оружия и БК из классов для упрощения stringable.csv
 //
 class CfgPatches {
-	class HMG_Weapons_St {
+	class A3RU_StaticLoad {
 		requiredaddons[] = {
 			"A3_Data_F",
 			"hlcweapons_aks",
@@ -14,9 +14,8 @@ class CfgPatches {
 			"asdg_jointrails",
 			"hlcweapons_core",
 			"RDS_StaticWeapons_Core",
-			"AGM_Core",
-			"hmg_core",
-			"a3ru_RDSPatch"
+			"ACE_Common",
+			"a3ru_RDS_Patch"
 		};
 		weapons[] = {""};
 		units[] = {};

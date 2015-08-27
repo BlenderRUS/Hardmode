@@ -1,0 +1,1 @@
+ACE_Player addbackpack "B_Parachute";

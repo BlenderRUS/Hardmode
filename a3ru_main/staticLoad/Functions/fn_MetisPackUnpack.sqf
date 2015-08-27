@@ -14,38 +14,38 @@
 private "_message";
 HMG_Static_fnc_Load_Cancel = {
 	if (animationState player == "Acts_carFixingWheel") then {
-		[AGM_Player, "", 2] call AGM_Core_fnc_doAnimation;
+		[ACE_Player, "", 2] call ACE_Common_fnc_doAnimation;
 	};
 };
 
 if (_this select 0) then {
 	HMG_Static_fnc_Load_Start = {
-		if ("MetisM1" in (weapons AGM_Player)) then {
-			AGM_Player removeWeapon "MetisM1";
-			AGM_Player addBackpack "RDS_Metis_Gun_Bag";
+		if ("MetisM1" in (weapons ACE_Player)) then {
+			ACE_Player removeWeapon "MetisM1";
+			ACE_Player addBackpack "RDS_Metis_Gun_Bag";
 		}
 	};
 	_message = "STR_HMG_Static_PackingMetis"
 } else {
 	HMG_Static_fnc_Load_Start = {
-		if ((backpack AGM_Player) == "RDS_Metis_Gun_Bag") then {
-			removeBackpack AGM_Player;
-			AGM_Player addWeapon "MetisM1";
+		if ((backpack ACE_Player) == "RDS_Metis_Gun_Bag") then {
+			removeBackpack ACE_Player;
+			ACE_Player addWeapon "MetisM1";
 		};
 	};
 	_message = "STR_HMG_Static_UnpackingMetis"
 };
 
 // Do animation
-[AGM_Player, "Acts_carFixingWheel", 1] call AGM_Core_fnc_doAnimation;
+[ACE_Player, "Acts_carFixingWheel", 1] call ACE_Common_fnc_doAnimation;
 
 // Display progress bar
-[10, true, "HMG_Static_fnc_Load_Start", localize _message, "HMG_Static_fnc_Load_Cancel"] call AGM_Core_fnc_progressBar;
+[10, true, {(_this select 0) call HMG_Static_fnc_Load_Start}, {(_this select 0) call HMG_Static_fnc_Load_Cancel}, localize _message] call ACE_Common_fnc_progressBar;
 
 // Reset animation
 10 spawn {
 	sleep _this;
 	if (animationState player == "Acts_carFixingWheel") then {
-		[AGM_Player, "", 2] call AGM_Core_fnc_doAnimation;
+		[ACE_Player, "", 2] call ACE_Common_fnc_doAnimation;
 	};
 };

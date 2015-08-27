@@ -1,14 +1,30 @@
 class CfgVehicles {
 	// BASE CLASSES REFERENCE //
 	class Man;
-	class Car_F;
 	class LandVehicle;
+	class Car: LandVehicle {
+		class ACE_Actions {
+			class ACE_MainActions;
+		};
+		class ACE_SelfActions;
+	};
+	class Car_F: Car {};
 	class StaticWeapon: LandVehicle
 	{
 		class Turrets;
 		class MainTurret;
-		class AGM_Actions;
+		class ACE_Actions {
+			class ACE_MainActions;
+		};
+		class ACE_SelfActions;
 	};
+	class Tank: LandVehicle {
+		class ACE_Actions {
+			class ACE_MainActions;
+		};
+		class ACE_SelfActions;
+	};
+	class Tank_F: Tank {};
 	class StaticGrenadeLauncher:StaticWeapon {};
 	class StaticMGWeapon: StaticWeapon {};
 	class StaticAAWeapon: StaticWeapon {};

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="A3RU_cupToRHS">
+	<Package name="Weapons">
+		<Container name="RPG18">
+			<Key ID="STR_A3RU_CUPtoRHS_rpg18_used">
+				  <Original>RPG18 (used)</Original>
+				  <Russian>РПГ-18 'Муха' (исп.)</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

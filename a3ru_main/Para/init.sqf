@@ -1,0 +1,2 @@
+#include "\a3\editor_f\Data\Scripts\dikCodes.h"
+["HMG Controls","a3ru_open_chute", localize "str_a3ru_para_open_chute", {[] call A3RU_Para_fnc_openChute}, {}, [DIK_SPACE, [false, false, false]]] call CBA_fnc_addKeybind;

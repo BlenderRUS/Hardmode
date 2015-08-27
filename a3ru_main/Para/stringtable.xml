@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+	<Package name="a3ru_main_para">
+		<Container name="Para">
+			<Key ID="str_a3ru_para_chute">
+				<Original>Steerable Parachute (Ready)</Original>
+				<English>Steerable Parachute (Ready)</English>
+				<Russian>Управляемый парашют (Подгот.)</Russian>
+			</Key>
+			<Key ID="str_a3ru_para_ready">
+				<Original>Prepare Parachute</Original>
+				<English>Prepare Parachute</English>
+				<Russian>Подготовить парашют</Russian>
+			</Key>
+			<Key ID="str_a3ru_para_process">
+				<Original>Preparing Parachute</Original>
+				<English>Preparing Parachute</English>
+				<Russian>Подготовка парашюта</Russian>
+			</Key>
+			<Key ID="str_a3ru_para_cancelled">
+				<Original>Chute Prepare Canceled</Original>
+				<English>Chute Prepare Canceled</English>
+				<Russian>Подготовка отменена</Russian>
+			</Key>
+			<Key ID="str_a3ru_para_prepared">
+				<Original>Chute Prepared</Original>
+				<English>Chute Prepared</English>
+				<Russian>Парашют подготовлен</Russian>
+			</Key>
+			<Key ID="str_a3ru_para_open_chute">
+				<Original>Open Parachute</Original>
+				<English>Open Parachute</English>
+				<Russian>Раскрыть парашют</Russian>
+			</Key>
+			<Key ID="STR_A3RU_Para_Title">
+				<Original>Parachute</Original>
+				<English>Parachute</English>
+				<Russian>Парашют</Russian>
+			</Key>
+		</Container>
+	</Package>
+</Project>

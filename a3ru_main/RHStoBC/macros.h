@@ -1,1 +1,0 @@
-#define X_PATH \x\a3ru\addons\a3ru_main\RHStoBC\

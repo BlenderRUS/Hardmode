@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="Arma3">
+	<Package name="Language_EPC">
+		<Container name="FM">
+			<Key ID="str_a3ru_mag_10Rnd_105mm_APFSDS_T">
+			<Original>105mm APFSDS-T</Original>
+			<English>105mm APFSDS-T</English>
+			<Czech>105 mm APFSDS-T</Czech>
+			<French>APFSDS-T 105†mm</French>
+			<German>105†mm APFSDS-T</German>
+			<Italian>APFSDS-T 105 mm</Italian>
+			<Polish>105 mm APFSDS-T</Polish>
+			<Portuguese>105mm APFSDS-T</Portuguese>
+			<Russian>105-ÏÏ ¡Œœ— Ú.</Russian>
+			<Spanish>APFSDS-T 105 mm</Spanish>
+			</Key>
+		</Container>
+	</Package>
+</Project>

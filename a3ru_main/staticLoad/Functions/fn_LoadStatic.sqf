@@ -15,8 +15,8 @@
  */
  
 HMG_Static_fnc_Load_Start = {
-	if ((_this select 1) in (magazines AGM_Player)) then { // Check if player still have required magazine
-		AGM_Player removeMagazine (_this select 1);
+	if ((_this select 1) in (magazines ACE_Player)) then { // Check if player still have required magazine
+		ACE_Player removeMagazine (_this select 1);
 		(_this select 0) addMagazineGlobal (_this select 2);
 	};
 };
@@ -24,30 +24,30 @@ HMG_Static_fnc_Load_Start = {
 HMG_Static_fnc_Load_Cancel = {
 	hint "Action canceled!";
 	if (animationState player == "Acts_carFixingWheel") then {
-		[AGM_Player, "", 2] call AGM_Core_fnc_doAnimation;
+		[ACE_Player, "", 2] call ACE_Common_fnc_doAnimation;
 	};
 };
 
-if (!isMultiplayer) then {
-	[_this select 0, _this select 1, _this select 2] call HMG_Static_fnc_Load_Start;
-} else {
+//if (!isMultiplayer) then {
+//	[_this select 0, _this select 1, _this select 2] call HMG_Static_fnc_Load_Start;
+//} else {
 	// Do animation
-	[AGM_Player, "Acts_carFixingWheel", 1] call AGM_Core_fnc_doAnimation;
+	[ACE_Player, "Acts_carFixingWheel", 1] call ACE_Common_fnc_doAnimation;
 
 	// Display progress bar
 	[
 		_this select 3,
 		[_this select 0, _this select 1, _this select 2],
-		"HMG_Static_fnc_Load_Start",
-		localize (_this select 4),
-		"HMG_Static_fnc_Load_Cancel"
-	] call AGM_Core_fnc_progressBar;
+		{ (_this select 0) call HMG_Static_fnc_Load_Start },
+		{ (_this select 0) call HMG_Static_fnc_Load_Cancel },
+		localize (_this select 4)
+	] call ACE_Common_fnc_progressBar;
 
 	// Reset animation
 	(_this select 3) spawn {
 		sleep _this;
 		if (animationState player == "Acts_carFixingWheel") then {
-			[AGM_Player, "", 2] call AGM_Core_fnc_doAnimation;
+			[ACE_Player, "", 2] call ACE_Common_fnc_doAnimation;
 		};
 	};
-};
+//};
