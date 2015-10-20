@@ -1,0 +1,11 @@
+class mas_f35c_DESELECT_W: RocketPods { X_SCOPE(0) };
+class mas_f35c_CANNON_W: CannonCore { X_SCOPE(0) };
+class mas_f35c_AIM9X_W: MissileLauncher { X_SCOPE(0) };
+class mas_f35c_AIM120D_W: MissileLauncher { X_SCOPE(0) };
+class mas_f35c_AIM120D_int_W: mas_f35c_AIM120D_W {};
+class mas_f35c_4Rnd_AIM120D_W: mas_f35c_AIM120D_W {};
+class mas_f35c_4Rnd_AIM120D_int_W: mas_f35c_AIM120D_int_W {};
+class mas_f35c_GBU32_W: RocketPods { X_SCOPE(0) };
+class mas_f35c_4Rnd_GBU32_W: mas_f35c_GBU32_W {};
+class mas_f35c_GBU32_int_W: mas_f35c_GBU32_W {};
+class mas_f35c_GBU53_int_W: RocketPods { X_SCOPE(0) };

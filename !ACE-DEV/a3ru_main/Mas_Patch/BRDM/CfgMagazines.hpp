@@ -1,0 +1,10 @@
+class mas_brdm_500Rnd_145x114_mag: VehicleMagazine { X_SCOPE(0) };
+class mas_brdm_100Rnd_762x54_PKT: VehicleMagazine { X_SCOPE(0) };
+class mas_brdm_200Rnd_762x54_PKT: VehicleMagazine { X_SCOPE(0) };
+class mas_brdm_500Rnd_762x54_PKT: VehicleMagazine { X_SCOPE(0) };
+class mas_1470Rnd_127x108_Ball: VehicleMagazine { X_SCOPE(0) };
+class mas_1470Rnd_127x108_Ball_Tracer_Red: mas_1470Rnd_127x108_Ball { X_SCOPE(0) };
+class mas_8Rnd_9M114_missiles: VehicleMagazine { X_SCOPE(0) };
+//class mas_40Rnd_S8_Rockets: VehicleMagazine { X_SCOPE(0) };
+//class mas_80Rnd_S8_Rockets: VehicleMagazine { X_SCOPE(0) };
+//class mas_128Rnd_57mm: mas_80Rnd_S8_Rockets {};

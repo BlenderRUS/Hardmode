@@ -1,0 +1,12 @@
+class mas_f35c_CANNON_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_GUNPOD_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_EMPTY_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_2Rnd_AIM9X_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_2Rnd_AIM120D_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_4Rnd_AIM120D_M: mas_f35c_2Rnd_AIM120D_M {};
+class mas_f35c_2Rnd_AIM120D_int_M: mas_f35c_2Rnd_AIM120D_M {};
+class mas_f35c_4Rnd_AIM120D_int_M: mas_f35c_2Rnd_AIM120D_int_M {};
+class mas_f35c_2Rnd_GBU32_M: VehicleMagazine { X_SCOPE(0) };
+class mas_f35c_4Rnd_GBU32_M: mas_f35c_2Rnd_GBU32_M {};
+class mas_f35c_2Rnd_GBU32_int_M: mas_f35c_2Rnd_GBU32_M {};
+class mas_f35c_8Rnd_GBU53_M: VehicleMagazine { X_SCOPE(0) };

@@ -1,0 +1,36 @@
+#define X_NOSCOPE scope = 0; \
+scopeCurator = 0;
+
+class RDS_T72_AAF_04;
+class RDS_BMP2_AAF_01;
+class RDS_BMP2_HQ_AAF_01;
+class RDS_BMP2_Ambul_01;
+class RDS_ZSU_AAF_04;
+class CDF_A3_BRDM2_Base;
+class CDF_A3_BRDM2_ATGM_Base;
+class CDF_A3_BRDM2_HQ_Base;
+
+class CDF_A3_T72: RDS_T72_AAF_04 { X_NOSCOPE };
+class CDF_A3_BMP2: RDS_BMP2_AAF_01 { X_NOSCOPE };
+class CDF_A3_BMP2_HQ: RDS_BMP2_HQ_AAF_01 { X_NOSCOPE };
+class CDF_A3_BMP2_Ambul: RDS_BMP2_Ambul_01 { X_NOSCOPE };
+class CDF_A3_ZSU: RDS_ZSU_AAF_04 { X_NOSCOPE };
+class CDF_A3_BRDM2: CDF_A3_BRDM2_Base { X_NOSCOPE };
+class CDF_A3_BRDM2_ATGM: CDF_A3_BRDM2_ATGM_Base { X_NOSCOPE };
+class CDF_A3_BRDM2_HQ: CDF_A3_BRDM2_HQ_Base { X_NOSCOPE };
+
+class RDS_ZU23_AAF;
+class RDS_DSHKM_AAF;
+class RDS_DSHkM_Mini_TriPod;
+class RDS_AGS_AAF;
+class RDS_SPG9_AAF;
+class RDS_2b14_82mm_AAF;
+class RDS_D30_AAF;
+
+class CDF_A3_ZU23: RDS_ZU23_AAF { X_NOSCOPE };
+class CDF_A3_DSHKM: RDS_DSHKM_AAF { X_NOSCOPE };
+class CDF_A3_DSHkM_Mini_TriPod: RDS_DSHkM_Mini_TriPod { X_NOSCOPE };
+class CDF_A3_AGS: RDS_AGS_AAF { X_NOSCOPE };
+class CDF_A3_SPG9: RDS_SPG9_AAF { X_NOSCOPE };
+class CDF_A3_2b14_82mm: RDS_2b14_82mm_AAF { X_NOSCOPE };
+class CDF_A3_D30: RDS_D30_AAF { X_NOSCOPE };
