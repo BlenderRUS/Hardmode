@@ -7,9 +7,10 @@ class AGM_Artillery_81mm: mortar_82mm_base {
 
 	magazineReloadTime = 0; //default: 5
 	reloadTime = 2; //default: 1.8
+	a3ru_reloadTime = 1;
 
 	magazines[] = {		
-				"AGM_8Rnd_81mmShell_HE",
+				"AGM_1Rnd_81mmShell_HE",
 				"8Rnd_82mm_Mo_Flare_white",
 				"8Rnd_82mm_Mo_Smoke_white"
 				
@@ -43,9 +44,10 @@ class AGM_Artillery_81mm_252: mortar_82mm_base {
 
 	magazineReloadTime =0; //default: 5
 	reloadTime = 0; //default: 1.8
+	a3ru_reloadTime = 1;
 
 	magazines[] = {		
-				"AGM_8Rnd_81mmShell_252_HE",
+				"AGM_1Rnd_81mmShell_252_HE",
 				"8Rnd_82mm_Mo_Flare_white",
 				"8Rnd_82mm_Mo_Smoke_white"
 	};

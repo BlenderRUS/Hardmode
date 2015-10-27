@@ -18,7 +18,8 @@ class CfgPatches
 			"mas_MI24",
 			"mas_tanks",
 			"mas_UH1Y",
-			"mas_UH60M"
+			"mas_UH60M",
+			"A3RU_RHS_Patch"
 		};
 		author[] = {"Blender"};
 		authorUrl = "http://www.arma3.ru";
@@ -40,6 +41,7 @@ class RscInGameUI {
 class CfgMagazines {
 	class Default;
 	class VehicleMagazine;
+	class CA_LauncherMagazine;
 	class 60Rnd_30mm_APFSDS_shells_Tracer_Green;
 	class 140Rnd_30mm_MP_shells_Tracer_Green;
 	#include "APC\CfgMagazines.hpp"
@@ -69,6 +71,7 @@ class CfgWeapons {
 	#include "F35\CfgWeapons.hpp"
 	
 	class mortar_155mm_AMOS;
+	class GMG_20mm;
 	#include "CfgWeapons.hpp"
 	#include "CfgWeapons_AGM.hpp"
 };
@@ -91,11 +94,27 @@ class CfgVehicles {
 	#include "UH60M\CfgVehicles.hpp"
 	
 	class LandVehicle;
+	class Car: LandVehicle {
+		class NewTurret;
+	};
+	class Car_F: Car {
+		class AnimationSources;
+		class Turrets
+		{
+			class MainTurret: NewTurret
+			{
+				class ViewOptics;
+			};
+		};
+	};
+	
 	class StaticWeapon: LandVehicle
 	{
 		class Turrets;
 		class MainTurret;
-		class AGM_Actions;
+		class ACE_Actions {
+            class ACE_MainActions;
+		};
 	};
 	class StaticMGWeapon: StaticWeapon {};
 	class StaticATWeapon:StaticWeapon {};

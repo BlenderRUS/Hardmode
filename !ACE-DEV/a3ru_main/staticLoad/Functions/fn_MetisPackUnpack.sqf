@@ -11,6 +11,9 @@
  * Nothing
  */
 
+#include <macros.h>
+#include <defines.h>
+
 private "_message";
 HMG_Static_fnc_Load_Cancel = {
 	if (animationState player == "Acts_carFixingWheel") then {

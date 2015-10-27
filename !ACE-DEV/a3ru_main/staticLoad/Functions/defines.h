@@ -1,0 +1,4 @@
+#define X_DISTANCE 5
+#define X_RELOADTIME 5
+#define X_SEARCHRADIUS 4
+#define X_MAXMAGAZINES 1

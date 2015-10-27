@@ -1,43 +1,48 @@
-class mas_DSHKM: MGun
-{
-	magazines[] =
-	{
-		"mas_50Rnd_127x107_DSHKM",
-		"mas_150Rnd_127x107_DSHKM",
-		"rhs_mag_127x108mm_50",
-		"rhs_mag_127x108mm_150"
-	};
-};
-class mas_KORD: MGun
-{
-	magazines[] = {
-		"mas_150Rnd_127x108_KORD",
-		"mas_50Rnd_127x108_KORD",
-		"rhs_mag_127x108mm_50",
-		"rhs_mag_127x108mm_150"
-	};
-};
+#define X_RELOAD(VAR1)	magazineReloadTime = VAR1; \
+	autoReload = true; \
+	backgroundReload = true
 class Rhs_weap_TOW_Launcher;
-class A3ru_weap_TOW_launcher: Rhs_weap_TOW_Launcher {
+class a3ru_weap_TOW_launcher: Rhs_weap_TOW_Launcher {
 	displayName = "BGM-71 TOW2A Static";
 	magazines[] = { "rhs_mag_1Rnd_TOW" };
+	X_RELOAD(1);
+};
+class Rhs_weap_stinger_Launcher: Rhs_weap_TOW_Launcher {
+	magazines[] += { Rhs_mag_1Rnd_stinger };
+	a3ru_maxMagazines = 2;
+	X_RELOAD(1);
 };
 class rhs_weap_igla;
-class A3ru_weap_igla: rhs_weap_igla
+class a3ru_weap_igla: rhs_weap_igla
 {
 	magazines[] = {"rhs_mag_9k38_rocket"};
-	reloadTime = 1;
-	autoReload = 1;
-	magazineReloadTime = 1;
-	backgroundReload = 1;
+	X_RELOAD(1);
+	a3ru_maxMagazines = 2;
 };
 class mas_AT13LauncherSingle: missiles_titan
 {
 	magazines[]={ "metis_9m131" };
+	X_RELOAD(0);
 };
-class mas_D30: mortar_155mm_AMOS
+class mas_AGS30: GMG_20mm
 {
-	modes[] = {"Charge0", "Charge1", "Charge2", "Charge3", "Charge4", "Burst1", "Burst2", "Burst3"};		
+	X_RELOAD(0);
+};
+class mas_SPG9: RocketPods
+{
+	X_RELOAD(0);
+};
+class rockets_230mm_GAT;
+class A3RU_weap_RKTS: rockets_230mm_GAT {
+	X_RELOAD(1);
+	a3ru_maxMagazines = 12;
+	magazines[] = {"A3RU_mag_1Rnd_230mm_Rocket"};
+};
+class a3ru_weap_D30: mortar_155mm_AMOS
+{
+	X_RELOAD(0);
+	a3ru_reloadTime = 7;
+	modes[] = {"Charge0", "Charge1", "Charge2", "Charge3", "Charge4", "Burst1", "Burst2", "Burst3"};
 	class Charge0: Mode_SemiAuto {
 		sounds[] = {"StandardSound"};
 		class StandardSound
@@ -72,7 +77,8 @@ class mas_D30: mortar_155mm_AMOS
 	};
 	magazines[] = {"mas_1Rnd_122mmHE_D30", "mas_1Rnd_122mmAT_D30"};
 };
-class mas_M119: mas_D30 {
+class a3ru_weap_M119: a3ru_weap_D30 {
+	X_RELOAD(0);
 	scope = 1;
 	displayName = "M119";
 	class Charge0;
@@ -87,4 +93,10 @@ class mas_M119: mas_D30 {
 		"mas_1Rnd_105mmSMOKE_M119",
 		"mas_1Rnd_105mmILLUM_M119"
 	};
+};
+
+class rhs_weap_m240veh;
+class A3RU_weap_M240_veh: rhs_weap_m240veh {
+	magazines[] = {"rhs_mag_762x51_M240", "rhs_mag_762x51_M240_200"};
+	X_RELOAD(0);
 };

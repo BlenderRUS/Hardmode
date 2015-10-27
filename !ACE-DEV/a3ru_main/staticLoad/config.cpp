@@ -26,19 +26,24 @@ class CfgPatches {
 };
 
 class CfgFunctions {
-	class HMG_Static {
-		class HMG_Static {
+	class A3RU_StaticLoad {
+		class StaticLoad {
 			file = "x\a3ru\addons\a3ru_main\staticLoad\Functions";
-			class CheckConditions;
-			class CheckConditionsGunner;
-			class CheckConditionsCommander;
-			class LoadStatic;
-			class LoadVehicle;
+			class EndAnim;
+			class FindMagazineAround;
+			class GetMagazineName;
+			class GetMagazinesAround;
+			class IsTurretEmpty;
+			class LoadMethod;
+			class LoadMethodStatic;
 			class MetisPackUnpack;
+			class StartAnim;
+			class StartLoad;
+			class StartLoadStatic;
+			class StaticReload;
+			class TurretsReload;
 		};
 	};
 };
 
-#include "Configs\CfgMagazines.hpp"
-#include "Configs\CfgWeapons.hpp"
-#include "Configs\CfgVehicles.hpp"
+#include "CfgVehicles.hpp"

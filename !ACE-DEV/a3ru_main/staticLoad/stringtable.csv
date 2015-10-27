@@ -1,44 +1,7 @@
 Language,English,Russian
-STR_HMG_Static_Load,Load,Зарядить
-STR_HMG_Static_Load50x127,Load magazine B-30,Зарядить короб Б-30
-STR_HMG_Static_LoadingAGS,Loading AGS magazine,Заряжаем кассету АГС
-STR_HMG_Static_LoadingKORD,Loading magazine B-30,Заряжаем короб Б-30
-STR_HMG_Static_LoadingDSHKM,Loading magazine B-30,Заряжаем короб Б-30
-STR_HMG_Static_LoadHECharge,Load HE charge,Зарядить ОФ мину
-STR_HMG_Static_LoadingHECharge,Loading HE charge,Заряжаем ОФ мину
-STR_HMG_Static_LoadTOW,Load TOW missile,Зарядить TOW снаряд
-STR_HMG_Static_LoadingTOW,Loading BGM-71D missile,Заряжаем BGM-71D для TOW
-STR_HMG_Static_LoadMetis,Load 9K115 missile,Зарядить ракету 9K115
-STR_HMG_Static_LoadingMetis,Loading 9K115 missile,Заряжаем ракету 9K115 в ТПК
-STR_HMG_Static_LoadM2,Load M2 cassete,Зарядить M2
-STR_HMG_Static_LoadingM2,Loading M2 Cassete,Заряжаем кассету M2
-STR_HMG_Static_LoadPG9,Load PG-9 grenade,Зарядить выстрел ПГ-9
-STR_HMG_Static_LoadingPG9,Loading PG-9 Grenade,Заряжаем выстрел ПГ-9
-STR_HMG_Static_LoadOG9,Load OG-9 grenade,Зарядить выстрел ОГ-9
-STR_HMG_Static_LoadingOG9,Loading OG-9 Grenade,Заряжаем выстрел ОГ-9
-STR_HMG_Static_LoadMk19,Load Mk19 Cassete,Зарядить Mk19
-STR_HMG_Static_LoadingMk19,Loading Mk19 Cassete,Заряжаем кассету Mk19
 STR_HMG_Static_PackMetis,Pack Metis-M1,Запаковать Метис-М1
 STR_HMG_Static_UnpackMetis,Unpack Metis-M1,Распаковать Метис-М1
 STR_HMG_Static_PackingMetis,Packing Metis-M1,Упаковка Метис-М1,
 STR_HMG_Static_UnpackingMetis,Unpacking Metis-M1,Распаковка Метис-М1
-STR_HMG_Static_Missile_9K115,Missile for 9K115-2,Выстрел для 9К115-2
-STR_HMG_Static_Ammobox,Ammobox for Static,Ящик для стационаров
 STR_HMG_Static_MetisBP_2rnd,Metis-M1 (2 missiles),ТПК Метис-М1 (2 выстрела)
 STR_HMG_Static_MetisBP_1rnd,Metis-M1 (1 missile),ТПК Метис-М1 (1 выстрел)
-STR_HMG_Static_Load_M119_HE,Load M1 AT Shell,Зарядить ОФ снаряд М1
-STR_HMG_Static_Loading_M119_HE,Loading M1 HE Shell,Заряжаем ОФ снаряд М1
-STR_HMG_Static_Load_M119_WP,Load WP Shell,Зарядить БФ снаряд
-STR_HMG_Static_Loading_M119_WP,Loading M1 HE Shell,Заряжаем БФ снаряд
-STR_HMG_Static_Load_M119_LG,Load Laser Guided Shell,Зарядить управляемый снаряд
-STR_HMG_Static_Loading_M119_LG,Loading Laser Guided Shell,Заряжаем управляемый снаряд
-STR_HMG_Static_Load_M119_SM,Load Smoke Shell,Зарядить дымовой снаряд
-STR_HMG_Static_Loading_M119_SM,Loading Smoke Shell,Заряжаем дымовой снаряд 
-STR_HMG_Static_Load_M119_IL,Load Illuminate Shell,Зарядить осветительный снаряд 
-STR_HMG_Static_Loading_M119_IL,Loading Illuminate Shell,Заряжаем осветительный снаряд 
-STR_HMG_Static_Load_D30_HE,Load HE Shell,Зарядить ОФ снаряд 
-STR_HMG_Static_Loading_D30_HE,Loading HE Shell,Заряжаем ОФ снаряд 
-STR_HMG_Static_Load_D30_AT,Load AT Shell,Зарядить кумулятивный снаряд 
-STR_HMG_Static_Loading_D30_AT,Loading AT Shell,Заряжаем кумулятивный снаряд 
-STR_HMG_Static_LoadIgla,Load Igla Rocket,Зарядить Иглу
-STR_HMG_Static_LoadingIgla,Loading Igla Rocket,Заряжаем ракету Игла

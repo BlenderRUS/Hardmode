@@ -1,12 +1,3 @@
-class I_mas_ZU23_AAF;
-class I_mas_DSHKM_AAF;
-class I_mas_DSHkM_Mini_TriPod;
-class I_mas_AGS_AAF;
-class I_mas_Metis_AAF;
-class I_mas_SPG9_AAF;
-class I_mas_Stinger_AA_pod_AAF;
-class I_mas_2b14_82mm_AAF;
-
 class B_mas_ZU23_FIA: I_mas_ZU23_AAF { X_SCOPE(0) };
 class B_mas_DSHKM_FIA: I_mas_DSHKM_AAF { X_SCOPE(0) };
 class B_mas_DSHkM_Mini_TriPod_FIA: I_mas_DSHkM_Mini_TriPod { X_SCOPE(0) };
